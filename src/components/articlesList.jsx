@@ -3,6 +3,10 @@ import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { BsArrowLeftCircle, BsArrowRightCircleFill, BsArrowUpRightCircle, BsArrowUpRightCircleFill } from "react-icons/bs";
 import { MdOpenInNew } from "react-icons/md";
+import Link from 'next/link';
+// import articles from "@/pages/articles";
+// import articles from "@/app/articles";
+// import articles from "../app/articles";
 
 const ArticlesList = () => {
   const article = [
@@ -51,6 +55,10 @@ const ArticlesList = () => {
               <BsArrowLeftCircle className="inline-block text-3xl mr-2 text-primary2 cursor-pointer" />
               <BsArrowRightCircleFill className="inline-block text-3xl text-primary2 cursor-pointer" />
             </div> */}
+
+<Link href="/article">
+<button class="flex-shrink-0 text-white bg-black hover:bg-slate-500 border-0 py-2 px-8 focus:outline-none  rounded text-lg mt-10 sm:mt-0">Show more</button>
+</Link>      
           </div>
           <p className="w-full md:w-[70%] pb-5 opacity-60 text-sm md:text-xl">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni

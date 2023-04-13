@@ -11,6 +11,7 @@ import ContactUs from "./contactUs";
 import Faq from "./faq";
 import TeamSlide from "./team";
 
+
 export default function HomePage() {
   return (
     <div className="bg-slate-100 gil-reg">
@@ -24,6 +25,7 @@ export default function HomePage() {
       {/* <ContactUs /> */}
       <Faq />
       <ContactUs />
+      
       <FooterBar />
       {/* <Works /> */}
     </div>
