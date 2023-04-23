@@ -1,4 +1,7 @@
 import "./globals.css";
+import config from "react-reveal/globals";
+
+config({ ssrFadeout: true });
 
 export const metadata = {
   title: "Spotmies",
@@ -8,7 +11,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      
       <body>{children}</body>
     </html>
   );

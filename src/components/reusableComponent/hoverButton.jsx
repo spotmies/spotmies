@@ -11,8 +11,8 @@ export default function HoverButton({ text, className, icon, type, onClick }) {
       }}
       type={type ?? "button"}
       className={cx(
-        className,
-        `gil-reg text-sm flex flex-row items-center justify-center hover:bg-primary2 hover:text-white rounded-sm min-w-[120px]  min-h-[40px] mt-4 bg-transparent text-primary2 border border-primary2`
+        `gil-reg text-sm flex flex-row items-center justify-center hover:bg-primary2 hover:text-white rounded-sm min-w-[120px]  min-h-[40px] mt-4 bg-transparent text-primary2 border border-primary2`,
+        className
       )}
     >
       {text}

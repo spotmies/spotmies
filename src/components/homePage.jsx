@@ -2,14 +2,20 @@ import React from "react";
 import LandingSlide from "./landing_slide";
 import AboutUs from "./aboutUs";
 import Services from "./services";
-import Works from "./Work/works";
-import IndustriesSection from "./Work/work2";
+
 import FooterBar from "./footer";
-import AboutCompany from "./aboutCompany";
+
 import ArticlesList from "./articlesList";
 import ContactUs from "./contactUs";
 import Faq from "./faq";
 import TeamSlide from "./team";
+import TeamSlide2 from "./team2";
+import PortfolioSection from "./Work/work2";
+import Mentors from "./mentors";
+import Testimonials from "./testimonials";
+import DesignSlide from "./designSlide";
+import TechSlide from "./technologies";
+import HowWeStart from "./how_we_start_project";
 
 
 export default function HomePage() {
@@ -17,17 +23,23 @@ export default function HomePage() {
     <div className="bg-slate-100 gil-reg">
       <LandingSlide />
       <Services />
-      <IndustriesSection />
+
       <AboutUs />
+      <PortfolioSection />
+      <HowWeStart />
+      <DesignSlide />
+      <TechSlide />
+      <Testimonials />
       <TeamSlide />
+      <TeamSlide2 />
+      {/* <Mentors /> */}
 
       <ArticlesList />
-      {/* <ContactUs /> */}
+
       <Faq />
       <ContactUs />
       
       <FooterBar />
-      {/* <Works /> */}
     </div>
   );
 }

@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
+import { Fade } from "react-reveal";
 
 const faqs = [
   {
@@ -79,37 +80,42 @@ function Faq() {
   return (
     <div className="w-[100vw] bg-white" id="faq">
       <div className="w-[90%] container mx-auto py-12  rounded-sm m-auto ">
-        <h2 className="text-3xl md:text-5xl gil-bold mb-8 text-center text-primary2">
-          Frequently Asked Questions
-        </h2>
-        <div className="flex flex-col md:flex-row justify-between w-full items-center m-auto h-full ">
+        <Fade>
+          <h2 className="text-3xl md:text-5xl gil-bold mb-8 text-center text-primary2">
+            Frequently Asked Questions
+          </h2>
+        </Fade>
+
+        <div className="flex flex-col md:flex-row justify-between w-full items-start m-auto h-full ">
           <div className="max-w-xl pt-4 md:pt-0">
             {faqs.slice(0, 4).map((faq, key) => (
               <div
                 key={key}
                 className="bg-white border border-slate-300 rounded-xl overflow-hidden mb-4"
               >
-                <button
-                  onMouseOver={() => toggleQuestion(faq.id)}
-                  onClick={() => toggleQuestion(faq.id)}
-                  onMouseLeave={() => toggleQuestion(null)}
-                  className="w-full p-4 flex flex-row items-center justify-between text-left font-semibold text-primary2"
-                >
-                  {faq.question}
-                  {selectedId === faq.id ? (
-                    <AiOutlineMinus className="text-2xl" />
-                  ) : (
-                    <AiOutlinePlus className="text-2xl" />
-                  )}
-                </button>
+                <Fade bottom>
+                  <button
+                    onMouseOver={() => toggleQuestion(faq.id)}
+                    onClick={() => toggleQuestion(faq.id)}
+                    onMouseLeave={() => toggleQuestion(null)}
+                    className="w-full p-4 flex flex-row items-center justify-between text-left font-semibold text-primary2"
+                  >
+                    {faq.question}
+                    {selectedId === faq.id ? (
+                      <AiOutlineMinus className="text-2xl" />
+                    ) : (
+                      <AiOutlinePlus className="text-2xl" />
+                    )}
+                  </button>
 
-                <motion.div
-                  variants={variants}
-                  animate={selectedId === faq.id ? "open" : "closed"}
-                  className="px-4"
-                >
-                  <p className="text-gray-600 pb-4">{faq.answer}</p>
-                </motion.div>
+                  <motion.div
+                    variants={variants}
+                    animate={selectedId === faq.id ? "open" : "closed"}
+                    className="px-4"
+                  >
+                    <p className="text-gray-600 pb-4">{faq.answer}</p>
+                  </motion.div>
+                </Fade>
               </div>
             ))}
           </div>
@@ -120,27 +126,29 @@ function Faq() {
                 key={key}
                 className="bg-white border border-slate-300 rounded-xl overflow-hidden mb-4"
               >
-                <button
-                  onMouseOver={() => toggleQuestion(faq.id)}
-                  onClick={() => toggleQuestion(faq.id)}
-                  onMouseLeave={() => toggleQuestion(null)}
-                  className="w-full p-4 flex flex-row items-center justify-between text-left font-semibold text-primary2"
-                >
-                  {faq.question}
-                  {selectedId === faq.id ? (
-                    <AiOutlineMinus className="text-2xl" />
-                  ) : (
-                    <AiOutlinePlus className="text-2xl" />
-                  )}
-                </button>
+                <Fade bottom>
+                  <button
+                    onMouseOver={() => toggleQuestion(faq.id)}
+                    onClick={() => toggleQuestion(faq.id)}
+                    onMouseLeave={() => toggleQuestion(null)}
+                    className="w-full p-4 flex flex-row items-center justify-between text-left font-semibold text-primary2"
+                  >
+                    {faq.question}
+                    {selectedId === faq.id ? (
+                      <AiOutlineMinus className="text-2xl" />
+                    ) : (
+                      <AiOutlinePlus className="text-2xl" />
+                    )}
+                  </button>
 
-                <motion.div
-                  variants={variants}
-                  animate={selectedId === faq.id ? "open" : "closed"}
-                  className="px-4"
-                >
-                  <p className="text-gray-600 pb-4">{faq.answer}</p>
-                </motion.div>
+                  <motion.div
+                    variants={variants}
+                    animate={selectedId === faq.id ? "open" : "closed"}
+                    className="px-4"
+                  >
+                    <p className="text-gray-600 pb-4">{faq.answer}</p>
+                  </motion.div>
+                </Fade>
               </div>
             ))}
           </div>

@@ -4,8 +4,9 @@ import HoverButton from "../reusableComponent/hoverButton";
 import { AiOutlineEye, AiOutlineGithub } from "react-icons/ai";
 import { MdOpenInNew } from "react-icons/md";
 import worksJson from "../../json_files/work.json";
+import Fade from "react-reveal/Fade";
 
-const IndustriesSection = () => {
+const PortfolioSection = () => {
   const [filterWork, setFilterWork] = useState([]);
 
   useEffect(() => {
@@ -17,70 +18,83 @@ const IndustriesSection = () => {
   };
 
   return (
-    <div className="w-[100vw] bg-white" id="industries">
+    <div className="w-[100vw] bg-white" id="portfolio">
       <section className="bg-white py-12 m-auto w-[90%] md:block hidden">
         <div className="container mx-auto w-full">
-          <h2 className="text-5xl gil-bold text-text_color2 mb-8 ml-4">
-            Our portfolio works
-          </h2>
-          <p className="text-sm md:text-lg text-text_color2 opacity-60 text-justify ml-4 w-[60%]">
-            Our expertise across various industries will help you to bridge the
-            gaps with our innovative solutions
-          </p>
+          <Fade bottom>
+            <h2 className="text-5xl gil-bold text-text_color2 mb-8 ml-4">
+              Our portfolio works
+            </h2>
+          </Fade>
+          <Fade bottom>
+            <p className="text-sm md:text-lg text-text_color2 opacity-60 text-justify ml-4 w-[60%]">
+              Our expertise across various industries will help you to bridge
+              the gaps with our innovative solutions
+            </p>
+          </Fade>
           <div className="flex flex-wrap">
             {filterWork.map((industry, index) => (
               <div
                 key={index}
                 className="w-full sm:w-1/2 lg:w-1/2 p-6 flex flex-col"
               >
-                <div className="flex-2 bg-white overflow-hidden shadow-sm rounded-lg hover:shadow-md relative industry-card">
-                  <div className="absolute inset-0 bg-bg1 opacity-20 hover:opacity-90 opacity-layer"></div>
-                  <div className="absolute inset-0 w-full h-full p-6 flex flex-col">
-                    <p className="text-white gil-med text-4xl onHoverShow">
-                      {industry?.title}
-                    </p>
-                    <p className="opacity-70 text-white text-sm onHoverShow text-justify pt-4">
-                      {industry.description}
-                    </p>
-                    <div className="flex flex-row items-center justify-between w-[30%] absolute bottom-[20px] right-[30px] onHoverShow">
-                      <AiOutlineEye
-                        size="2.5rem"
-                        color="white"
-                        className="cursor-pointer"
-                      />
-                      <AiOutlineGithub
-                        size="2.1rem"
-                        color="white"
-                        className="cursor-pointer"
-                      />
-                      <MdOpenInNew
-                        size="2rem"
-                        color="white"
-                        className="cursor-pointer"
-                        onClick={() => {
-                          if (industry?.completed) {
-                            return window.open(industry?.projectLink, "_blank");
-                          }
-                          alert("Project is not completed yet");
-                        }}
-                      />
+                <Fade bottom>
+                  <div className="flex-2 bg-white overflow-hidden shadow-sm rounded-2xl hover:shadow-md relative industry-card">
+                    <div className="absolute inset-0 bg-bg1 opacity-20 hover:opacity-90 opacity-layer2"></div>
+                    <div className="absolute inset-0 w-full h-full p-6 flex flex-col">
+                      <p className="text-white gil-med text-4xl onHoverShow">
+                        {industry?.title}
+                      </p>
+                      <p className="opacity-70 text-white text-sm onHoverShow text-justify pt-4">
+                        {industry.description}
+                      </p>
+                      <div className="flex flex-row items-center justify-between w-[30%] absolute bottom-[20px] right-[30px] onHoverShow">
+                        <AiOutlineEye
+                          size="2.5rem"
+                          color="white"
+                          className="cursor-pointer"
+                        />
+                        <AiOutlineGithub
+                          size="2.1rem"
+                          color="white"
+                          className="cursor-pointer"
+                        />
+                        <MdOpenInNew
+                          size="2rem"
+                          color="white"
+                          className="cursor-pointer"
+                          onClick={() => {
+                            if (industry?.completed) {
+                              return window.open(
+                                industry?.projectLink,
+                                "_blank"
+                              );
+                            }
+                            alert("Project is not completed yet");
+                          }}
+                        />
+                      </div>
                     </div>
-                  </div>
 
-                  <a href="#">
-                    <img
-                      src={industry.image}
-                      alt={industry.title}
-                      className="w-full h-[350px] object-cover mypic "
-                    />
-                  </a>
-                </div>
+                    <a href="#">
+                      <img
+                        src={industry.image}
+                        alt={industry.title}
+                        className="w-full h-[350px] object-cover mypic "
+                      />
+                    </a>
+                  </div>
+                </Fade>
               </div>
             ))}
           </div>
           {filterWork.length !== worksJson.length && (
             <div className="w-full flex flex-row items-center justify-center">
-              <HoverButton text={"Show More"} onClick={showMore} />
+              <HoverButton
+                text={"Show More"}
+                onClick={showMore}
+                className="rounded-xl"
+              />
             </div>
           )}
         </div>
@@ -153,4 +167,4 @@ const IndustriesSection = () => {
   );
 };
 
-export default IndustriesSection;
+export default PortfolioSection;
