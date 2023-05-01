@@ -10,7 +10,7 @@ const Header = ({title,stylesimg}) => {
           
           <div class="flex flex-col  items-center text-center  max-w-7xl   my-8 py-4 px-10 justify-center">
            
-            <div class="flex flex-col text-gray-700mt-5">
+            <div class="flex flex-col text-gray-700 mt-5">
               <h1 class="text-4xl md:text-[50px] font-semibold text-white lg:mt-[200px] ">
                {title}
               </h1>
