@@ -2,6 +2,7 @@ import React from "react";
 import LandingSlide from "./landing_slide";
 import AboutUs from "./aboutUs";
 import Services from "./services";
+import IndvPage from "./IndividualBlogPage/IndvPage";
 
 import FooterBar from "./footer";
 
@@ -36,9 +37,10 @@ export default function HomePage() {
 
       <ArticlesList />
 
+
       <Faq />
       <ContactUs />
-      
+      <IndvPage/>
       <FooterBar />
     </div>
   );
