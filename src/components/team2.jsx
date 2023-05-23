@@ -14,7 +14,7 @@ export default function TeamSlide2() {
     {
       image:
         "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fsatish-min.jpeg?alt=media&token=f65f20e9-992d-4cd0-a0fe-7b9624fe3553",
-      name: "Satis Kumar Saride",
+      name: "Satish Kumar Saride",
       designation: "Founder & CEO",
       social: {
         // twitter: "https://twitter.com/satish_saride",

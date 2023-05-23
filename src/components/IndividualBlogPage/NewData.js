@@ -1,7 +1,6 @@
   export const DynamicData=[
-{
 // stepsBasedGuide
-ArticleHeading:"How to build & launch a DAPP from Scratch?",
+{ArticleHeading:"How to build & launch a DAPP from Scratch?",
 BannerImage:"flex justify-center w-full  bg-no-repeat  bg-cover h-full md:bg-center bg-[url(https://th.bing.com/th/id/OIP.7wYf0Mkgb6fRJSEeld1AzAHaEo?w=283&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7)] ",
 hasContent:true,
 ArtSections:[{
@@ -119,8 +118,223 @@ hasContent:true,
 
      },
 ]
-}
+},
+// stepsBasedGuide
 
+{ArticleHeading:"How to build & launch a DAPP from Scratch?",
+   BannerImage:"flex justify-center w-full  bg-no-repeat  bg-cover h-full md:bg-center bg-[url(https://th.bing.com/th/id/OIP.7wYf0Mkgb6fRJSEeld1AzAHaEo?w=283&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7)] ",
+   hasContent:true,
+   ArtSections:[{
+       sectionHeader:"",
+       paras:["Have you ever wondered, how cryptocurrency works and how the underline technology i.e. Blockchain works in a seemingly harmonious way so that we as users can use them without much difficulty? Well then you’re at the right place, here we’re going to cover the step-by-step process to make a DAPP or Decentralised application. If you’re wondering what DAPP is, it is a software application that runs on a blockchain network rather than a central server. This means it is not controlled by any single entity or organization, but instead operates on a distributed network of computers that work together to process and verify data. Due to this DAPPs are often more secure, transparent, and resistant to censorship or tampering than traditional applications. This includes your crypto wallets as well as online marketplaces and even social media.All done with basics, let’s start with development then:-"],
+       hasPoints:false,
+       hasImage:false,
+      //  sectionImage:"https://www.investopedia.com/thmb/wuuss_5lSKqGckNngtP1__7qEk4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Blockchain_final-086b5b7b9ef74ecf9f20fe627dba1e34.png",
+   
+    },],
+   
+   hasSteps:true,
+   Steps:[
+    {stepNumber:"Step-1",
+    hasStepImage:false,
+    StepImageUrl:"https://th.bing.com/th/id/OIP.1NnjTkFahxS512F7Bz3S0QHaEn?w=249&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+    stepSubHeading:"Choose a Blockchain platform",
+    stepDescription:"The first step is to choose a blockchain platform on which to build your DAPP. The platform you choose will impact the compatibility, community, scalability, security, and cost of developing and deploying your DAPP. Ethereum, EOS, Tron, and Binance Smart Chain are popular options for dapp development, each with its own strengths and weaknesses. To choose the right platform, you should consider your project requirements and goals, as well as the technical expertise of your development team. It's important to choose a platform that is the best fit for your specific needs to ensure the success of your dapp",
+    hasCode:false,
+    hasSubPoints:false,
+   },
+   {stepNumber:"Step-2",
+    hasStepImage:false,
+    stepSubHeading:"Define the purpose and features of your dapp ",
+    stepDescription:"Defining the purpose and features of your dapp is a critical step in the development process. Before you start building, you need to have a clear understanding of what problem your dapp solves and what sets it apart from other applications. Here are some tips on how to define the purpose and features of your dapp:",
+    hasCode:false,
+    hasSubPoints:true,
+    subPoints:{
+       subPoinStyle:"dot",
+       points:[
+           {title:"Identify the problem",
+           description:"Start by identifying the problem that your dapp is going to solve. This could be anything from streamlining a business process to improving the user experience of an existing application."},
+           {title:"Define your target audience",
+           description:" Understanding your target audience will help you create a dapp that meets their specific needs and preferences."},
+           {title:"Determine your unique selling points",
+           description:"Understanding your unique selling points will help you differentiate your dapp in a crowded market."},
+           {title:"Prioritize features",
+           description:"Once you have a better understanding of your target audience, unique selling points, and user experience, you can start prioritizing features. Focus on the features that are most important to your users and that align with your dapp's core purpose."},
+
+
+       ],
+    },
+   endNote:"Defining the purpose and features of your dapp is an ongoing process that requires continuous iteration and refinement. By taking the time to understand your users and their needs, you can create a dapp that delivers real value and stands out in a crowded market.",
+   },
+   {stepNumber:"Step-3",
+    hasStepImage:false,
+    stepSubHeading:"Choose a programming language",
+    stepDescription:"Choosing the right programming language is crucial when developing a dapp, as it directly impacts the functionality and compatibility of your application. Different blockchain platforms support different programming languages, and it's important to choose one that is compatible with your chosen platform. Here are some tips on how to choose a programming language",
+    hasCode:false,
+    codeUrl:"https://gitcodeembedder.blogspot.com/?gh=spotmies/spotmies/main/src/components/reusableComponent/hoverButton.jsx",
+    hasSubPoints:true,
+    subPoints:{
+       subPoinStyle:"dot",
+       points:[
+           {title:"Consider platform compatibility",
+           description:"As mentioned, different blockchain platforms support different programming languages. For example, Ethereum uses Solidity, EOS uses C++, and Binance Smart Chain supports Solidity and Vyper. "},
+           {title:"Assess your team's expertise",
+           description:"Consider the technical expertise of your development team when choosing a programming language. If your team is already familiar with a particular language, it may be more efficient to stick with that language rather than learn a new one."},
+           {title:"Evaluate language features",
+           description:"Evaluate the features of different programming languages to determine which one is the best fit for your dapp. For example, Solidity is a popular choice for Ethereum dapps because it supports smart contract development and offers built-in security features."},
+           {title:"Check community support",
+           description:" A strong community of developers and users can provide valuable support and resources when building a dapp. Check the level of community support for different programming languages to ensure that you have access to the resources and help you need."},
+       ],
+    },
+   endNote:"Ultimately, It's important to choose a language that is compatible with your chosen blockchain platform and offers the features and capabilities you need to create a successful dapp.",
+   },
+   {stepNumber:"Step-4",
+    hasStepImage:false,
+    stepSubHeading:"Setup your development environment",
+    stepDescription:"A development environment is a set of tools and software that you use to write, compile, and test your code. Here's a more detailed breakdown of the steps involved in setting up your development environment:",
+    hasCode:false,
+    hasSubPoints:true,
+    subPoints:{
+       subPoinStyle:"dot",
+       points:[
+           {title:"Choose a code editor",
+           description:"A code editor is a software application that you use to write and edit code. There are many code editors to choose from, such as Visual Studio Code, Atom, Sublime Text, and more. "},
+           {title:"Install a compiler",
+           description:"A compiler is a program that translates your code into machine-readable code that can be executed by the blockchain platform. Different programming languages have different compilers, and you'll need to install the appropriate compiler for your chosen language. For example, Solidity has its own compiler, solc, that you'll need to install."},
+           {title:"Install a testing framework",
+           description:"A testing framework is a set of tools and libraries that you use to test your dapp and ensure that it works as intended. Popular testing frameworks for Ethereum dapps include Truffle, Hardhat, and Brownie. "},
+           {title:"Set up a local blockchain",
+           description:"o test your dapp, you'll need to deploy it on a blockchain platform. You can set up a local blockchain environment using tools like Ganache or Geth. A local blockchain allows you to test your dapp's functionality and smart contracts in a safe, sandboxed environment."},
+           {title:"Connect to the blockchain",
+           description:"Once you have set up your development environment, you'll need to connect to the blockchain platform you have chosen. "},
+       ],
+    },
+   endNote:"Setting up your development environment can be a complex process, but it's essential for creating a successful dapp. By installing the necessary tools and software and setting up a local blockchain environment, you can save time, reduce costs, and ensure that your dapp works as intended.",
+  },
+
+  {stepNumber:"Step-5",
+  hasStepImage:false,
+  stepSubHeading:"Write and test your smart contract",
+  stepDescription:"Writing and testing your smart contract is a critical step in developing your dapp. A smart contract is a self-executing code that runs on the blockchain and automates the process of executing the rules and regulations of your dapp. Here's a more detailed breakdown of the steps involved in writing and testing your smart contract:",
+  hasCode:false,
+  hasSubPoints:true,
+  subPoints:{
+     subPoinStyle:"dot",
+     points:[
+         {title:"Write the code",
+         description:"If you're using Solidity, you can use a code editor to write your smart contract code. Be sure to follow best practices and security guidelines when writing your code to minimize the risk of bugs and vulnerabilities."},
+         {title:"Compile the code",
+         description:"You'll need to compile it using a compiler. The compiler will convert your Solidity code into a bytecode that can be executed on the blockchain. This bytecode will be stored on the blockchain as a smart contract."},
+         {title:"Test the smart contract",
+         description:"You can use a testing framework, such as Truffle or Hardhat, to test your smart contract. These frameworks provide a suite of testing tools that allow you to test the functionality of your smart contract and ensure that it works as expected."},
+         {title:"Deploy the smart contract",
+         description:"Once you are done with the above tasks and made any necessary changes, you can deploy it to the blockchain. This typically involves using a client application, such as Ethereum's Geth or Parity, to deploy your smart contract to the appropriate network."},
+        
+     ],
+  },
+ endNote:"Writing and testing your smart contract can be a time-consuming and complex process, but it's essential for ensuring that your dapp works as intended. ",
+},
+
+{stepNumber:"Step-6",
+  hasStepImage:false,
+  stepSubHeading:"Design and build the user interface",
+  stepDescription:"The UI is part of your dapp that users will interact with, so it's important to make it intuitive, user-friendly, and visually appealing. Here are the steps involved in designing and building your dapp's UI:",
+  hasCode:false,
+  hasSubPoints:true,
+  subPoints:{
+     subPoinStyle:"dot",
+     points:[
+         {title:"Define the user flow",
+         description:"You need to define the user flow. This involves mapping out the steps that a user will take when using your dapp. For example, if your dapp is a decentralized exchange, the user flow might involve selecting a token to trade, entering the desired amount, and confirming the transaction"},
+         {title:"Create wireframes",
+         description:" Before building your UI, it's a good idea to create wireframes. Wireframes help you to iterate quickly on your design and ensure that it meets the needs of your users"},
+         {title:"Build the UI",
+         description:"Once you have created your wireframes, you can start building the UI. This typically involves using HTML, CSS, and JavaScript to create web pages or mobile app screens that interact with your smart contract. You can use any fron-end framework, to simplify the development process and ensure that your UI is responsive and scalable."},
+         {title:"Test the UI",
+         description:" You’ll need to test it to ensure that it works as intended. This involves testing the functionality of each screen or page, as well as testing the user flow to ensure that it's intuitive and easy to use. You can use testing tools, such as Selenium or Cypress, to automate your UI testing and ensure that your dapp is reliable and bug-free."},
+        
+     ],
+  },
+ endNote:"By following these steps, you can design and build a user-friendly, intuitive UI for your dapp. This will help to ensure that your users have a positive experience and are more likely to use your dapp in the future.",
+},
+
+
+{stepNumber:"Step-7",
+  hasStepImage:false,
+  stepSubHeading:"Connect your user interface to your smart contract",
+  stepDescription:"Connecting your user interface (UI) to your smart contract is a critical step in the development process, as it allows users to interact with your dapp via a web browser or mobile app. To do this, you will need to use a web3 library, which is a JavaScript library that provides a convenient interface for interacting with the Ethereum blockchain. \n \n Here are the steps involved in connecting your UI to your smart contract:",
+  hasCode:false,
+  hasSubPoints:true,
+  subPoints:{
+     subPoinStyle:"dot",
+     points:[
+         {title:"Choose a web3 library",
+         description:"There are several web3 libraries available, including Web3.js, ethers.js, and web3py. Choose a library that is compatible with your blockchain platform and programming language."},
+         {title:"Initialize the web3 provider",
+         description:" The web3 library needs to be initialized with a provider that allows it to interact with the Ethereum blockchain. You can use a local provider, such as Ganache or Hardhat, for testing and development, or a remote provider, such as Infura or Alchemy, for deployment to the mainnet."},
+         {title:"Connect to your smart contract",
+         description:" Once you have initialized the web3 provider, you can connect to your smart contract using its address and ABI (Application Binary Interface). The ABI is a JSON file that describes the interface of your smart contract, including its methods and events."},
+         {title:"Interact with your smart contract",
+         description:"Once you have connected to your smart contract, you can use the web3 library to interact with its methods and events. This typically involves calling methods to read or write data to the blockchain and listening for events that are emitted by the smart contract."},
+        
+     ],
+  },
+ endNote:"By following these steps, you can connect your user interface to your smart contract and create a fully functional dapp that can be accessed via a web browser or mobile app",
+},
+{stepNumber:"Step-8",
+  hasStepImage:false,
+  stepSubHeading:"Deploy your DAPP",
+  stepDescription:"Deploying your dapp to the blockchain network is the final step in the development process. This step involves uploading your smart contract and user interface to the blockchain, making it publicly available for anyone to use. Here are the steps involved in deploying your dapp: ",
+  hasCode:false,
+  hasSubPoints:true,
+  subPoints:{
+     subPoinStyle:"dot",
+     points:[
+         {title:"Choose a blockchain network",
+         description:"You will need to choose a blockchain network to deploy your dapp. This can be a test network, such as Goerli or Polygon Mumbai test, for testing and development, or the mainnet for production deployment."},
+         {title:"Set up your deployment environment:",
+         description:"You will need to set up your deployment environment by installing the necessary tools and configuring your deployment settings. "},
+         {title:"Compile and migrate your smart contract",
+         description:"Compile your smart contract code using a compiler, such as Solidity Compiler, and then migrate it to the blockchain using a deployment tool, such as Truffle or Remix. This step will create a new instance of your smart contract on the blockchain, with a unique address."},
+         {title:"Deploy your user interface",
+         description:"Once your smart contract is deployed, you will need to deploy your user interface to a web server or content delivery network (CDN). This will make it publicly accessible via a URL."},
+         {title:"Connect your user interface to your smart contract",
+         description:"Once you have completed these steps, your dapp will be deployed and publicly accessible on the blockchain network. Users will be able to interact with your dapp via a web browser or mobile app, and you will be able to monitor its usage and performance on the blockchain."},
+        
+     ],
+  },
+ endNote:"This concludes our list of steps in creating a DAPP from scratch. This might seem like a daunting task at first but  starting is your first step in this regard. If you follow our steps and guide correctly you’ll absolutely have no problem deploying your DAPP successfully.",
+},
+
+
+
+
+
+
+   
+
+
+
+],
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   ArticleConclusion:"This concludes our list of steps in creating a DAPP from scratch. This might seem like a daunting task at first but  starting is your first step in this regard. If you follow our steps and guide correctly you’ll absolutely have no problem deploying your DAPP successfully."
+   
+   
+   
+   },
+   
 
 
 

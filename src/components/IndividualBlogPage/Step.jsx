@@ -3,12 +3,12 @@ import Point from './Point'
 
 const Step = ({hasStepImage,StepImageUrl,stepSubHeading,stepDescription,hasCode,hasSubPoints,subPoints,codeUrl,endNote ,stepNumber }) => {
   return (
-    <div className="md:w-[50%]  w-[80%] bg-white mt-2">
+    <div className="md:w-[50%]  w-[80%] bg-white mt-6">
       <div className='w-full flex flex-col justify-center items-center'>
 
-        <h3 className='md:text-left  font-semibold' >{stepNumber}</h3>
+        <h3 className='text-left  font-semibold' >{stepNumber}</h3>
 
-        <h1 className='font-bold text-black md:text-left  lg:text-[30px] text-[20px] mt-2 mb-3'>{stepSubHeading}</h1>
+        <h1 className='font-bold text-black text-left  lg:text-[30px] text-[20px] mt-2 mb-3'>{stepSubHeading}</h1>
 
         { hasStepImage && 
 

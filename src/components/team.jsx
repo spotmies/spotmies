@@ -1,11 +1,20 @@
 "use client";
-import React from "react";
+import { ourTeam } from "@/constants";
+import React, { useState } from "react";
 import { BsArrowRight, BsArrowUpRightCircle } from "react-icons/bs";
 import { Fade } from "react-reveal";
+import { PopUp } from "./services";
 
 export default function TeamSlide() {
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
   return (
     <div className="w-[100vw] h-fit md:h-[100vh] bg-bg3" id="services">
+      <PopUp
+        show={isPopupOpen}
+        setShow={setIsPopupOpen}
+        title={"Team"}
+        body={ourTeam}
+      />
       <div className="flex flex-col justify-center w-[90%] h-full py-[8%] m-auto">
         <Fade bottom>
           <p className="gil-bold text-3xl md:text-6xl text-left pb-12 text-text_color2">
@@ -56,7 +65,7 @@ export default function TeamSlide() {
               {/* add content here
                */}
               <Fade bottom>
-                <p className="text-5xl gil-bold ">
+                <p className="md:text-5xl gil-bold text-3xl">
                   {" "}
                   We Are <span className="text-primary">Result</span> Driven
                   Team
@@ -76,7 +85,12 @@ export default function TeamSlide() {
                 </Fade>
               </div>
               <Fade bottom>
-                <p className="gil-med text-sm md:text-md text-primary flex items-center cursor-pointer pt-2">
+                <p
+                  className="gil-med text-sm md:text-md text-primary flex items-center cursor-pointer"
+                  onClick={() => {
+                    setIsPopupOpen(true);
+                  }}
+                >
                   Learn More&nbsp; <BsArrowUpRightCircle />{" "}
                 </p>
               </Fade>

@@ -2,7 +2,7 @@
 import React from "react";
 import Wrapper from "./reusableComponent/wrapper";
 import Carousel from "react-multi-carousel";
-import { testimonials } from "@/constants";
+import { clients, testimonials } from "@/constants";
 
 export default function Testimonials() {
   const responsive = {
@@ -30,13 +30,38 @@ export default function Testimonials() {
   };
 
   return (
-    <Wrapper title={"What our client say's about us"} className="bg-bg2 min-h-fit">
+    <Wrapper
+      title={"What our client say's about us"}
+      className="bg-bg2 min-h-fit"
+    >
       <div className="flex flex-wrap w-[100%] items-center justify-center"></div>
       <Carousel responsive={responsive} partialVisible={true}>
         {testimonials.map((testimonial, index) =>
           testimonialCard({ ...testimonial, key: index })
         )}
       </Carousel>
+
+      <p className="text-4xl md:text-5xl text-left text-text_color2 gil-bold mt-10">
+        Our Clients
+      </p>
+
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mt-8">
+        {clients.map((client, index) => (
+          <div
+            className="relative flex justify-around items-center px-4 py-4 bg-bg2 rounded-md hover:scale-110 transition-all duration-700 ease-in-out cursor-pointer"
+            key={index}
+          >
+            <img
+              src={client.image}
+              alt="ethereum"
+              className="cursor-pointer h-[40px] w-[90px] md:h-[60px] md:w-[160px] grayscale hover:grayscale-0 object-contain m-auto hover:scale-110 transition-all duration-700 ease-in-out "
+            />
+            {/* <h3 className="text-2xl gil-med text-gray-900">
+                    {client.name}
+                  </h3> */}
+          </div>
+        ))}
+      </div>
     </Wrapper>
   );
   function testimonialCard({ text, image, name, position, when, key }) {

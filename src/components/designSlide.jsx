@@ -29,7 +29,8 @@ export default function DesignSlide() {
       <div className="absolute bottom-3 flex flex-row w-full items-center justify-center">
         <button
           onClick={() => {
-            window.open("https://www.behance.net/naveenkatava", "_blank");
+            // window.open("https://www.behance.net/naveenkatava", "_blank");
+            window.open("https://www.behance.net/spotmiesllp", "_blank");
           }}
           type={"button"}
           className={`gil-reg text-sm flex flex-row items-center justify-center hover:bg-white hover:text-bg1 rounded-md min-w-[120px]  min-h-[40px] mt-4 bg-transparent text-white border border-white`}

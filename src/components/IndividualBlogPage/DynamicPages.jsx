@@ -8,7 +8,7 @@ import Step from './Step';
 
 
 const DynamicPages = () => {
-  const data = DynamicData[0];
+  const data = DynamicData[2];
   const artTitle= data.ArticleHeading
   const Banner = data.BannerImage
   const writtenSections= data.ArtSections

@@ -1,25 +1,16 @@
 "use client";
 import React, { useEffect, useState, Suspense } from "react";
-import HoverButton from "./reusableComponent/hoverButton";
-import {
-  AiOutlineArrowRight,
-  AiOutlineFileDone,
-  AiOutlineSearch,
-  AiOutlineSwap,
-  AiOutlineUsergroupAdd,
-} from "react-icons/ai";
-
-const video =
-  "https://nftstorage.link/ipfs/bafybeifueea4vkn7eojj4ja7bupwyjca7nrutdqxscj6h3tq7jw7rizgbq";
-// "https://nftstorage.link/ipfs/bafybeifueea4vkn7eojj4ja7bupwyjca7nrutdqxscj6h3tq7jw7rizgbq";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 const image =
-  "https://images.unsplash.com/photo-1543269664-56d93c1b41a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80";
+  // "https://images.unsplash.com/photo-1543269664-56d93c1b41a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80";
+  // "https://nftstorage.link/ipfs/bafybeifur6x6mg6u6465nojbgtuckodzghkeovjoltga7cysdzmuyvj7ku";
+  "https://user-images.githubusercontent.com/63062130/235426000-7fe76fdf-a3d4-4f5c-8068-6388ffebac2f.jpeg";
 
 const LandingSlide = () => {
   return (
     <section
-      className="h-screen w-full flex flex-col justify-center items-center relative"
+      className="h-screen w-full flex flex-col justify-center items-center relative bg-bg1"
       id="home"
     >
       <div
@@ -29,38 +20,26 @@ const LandingSlide = () => {
       <div className="fixed top-0 left-0 h-fit w-full z-50 ">
         <Navbarr />
       </div>
-      <Suspense
-        fallback={
-          <img
-            src={image}
-            // src="/favicon.ico"
-            className="absolute top-0 left-0 h-full w-full object-cover z-0"
-            alt="fallback image"
-          />
-        }
-      >
-        <video
-          src={video}
-          autoPlay
-          loop
-          muted
-          className="absolute top-0 left-0 h-full w-full object-cover z-0"
-          style={{
-            // background image
-            backgroundImage: `url(${image})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-          }}
-        />
-      </Suspense>
+
+      <div
+        className="absolute inset-0 w-full h-full rounded-none "
+        style={{
+          // background image
+          backgroundImage: `url(${image})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundAttachment: "fixed",
+        }}
+      />
+
       <div className="absolute h-[50vh] md:h-[60vh] bg-bg1 opacity-40 w-[10vw] md:w-[7vw] left-0 rounded-sm animated-x">
         <div className="h-full w-full flex flex-col items-center justify-center">
           {Array(7)
             .fill(0)
             .map((_, i) => (
               <div
-                className="w-full h-10 flex  items-center justify-between p-4 opacity-60"
+                className="w-full h-10 flex  items-center justify-between p-4"
                 key={i}
               >
                 <div className="relative z-10 bg-white rounded-full w-1 h-1 m-2" />
@@ -98,7 +77,7 @@ const LandingSlide = () => {
                 .scrollIntoView({ behavior: "smooth" });
             }}
             type={"button"}
-            className={`gil-reg text-sm flex flex-row items-center justify-center hover:bg-white hover:text-bg1 rounded-sm min-w-[120px]  min-h-[40px] mt-4 bg-transparent text-white border border-white animated`}
+            className={`gil-reg text-xs md:text-sm flex flex-row items-center justify-center hover:bg-white hover:text-bg1 rounded-sm md:min-w-[120px] min-w-[100px]  md:min-h-[40px] min-h-[30px] mt-4 bg-transparent text-white border border-white animated`}
           >
             Read More
             <AiOutlineArrowRight className="ml-2" />

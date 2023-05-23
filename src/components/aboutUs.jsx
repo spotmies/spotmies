@@ -1,16 +1,25 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import ClientCarouselLogos from "./reusableComponent/horizontal_scrolling/client_carousel";
 import { BsArrowUpRightCircle } from "react-icons/bs";
 import { Fade } from "react-reveal";
 import CountUp from "react-countup";
+import { PopUp } from "./services";
+import { ourMission } from "@/constants";
 
 export default function AboutUs() {
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
   return (
     <div
       className="w-[100vw] h-fit min-h-[50vh] md:min-h-[100vh] bg-neutral-900"
       id="about"
     >
+      <PopUp
+        show={isPopupOpen}
+        setShow={setIsPopupOpen}
+        title={"Our Mission"}
+        body={ourMission}
+      />
       <div className="w-[90%] h-[90vh] m-auto py-12">
         <div className="flex flex-col md:flex-row w-full items-start justify-between h-fit md:h-[30%]">
           <div className="flex flex-col items-start justify-center w-fit h-full text-text_color1">
@@ -130,7 +139,12 @@ export default function AboutUs() {
               </Fade>
             </div>
             <Fade bottom>
-              <p className="gil-med text-sm md:text-xl text-primary flex items-center">
+              <p
+                className="gil-med text-sm md:text-xl text-primary flex items-center cursor-pointer"
+                onClick={() => {
+                  setIsPopupOpen(true);
+                }}
+              >
                 Learn More&nbsp; <BsArrowUpRightCircle />{" "}
               </p>
             </Fade>

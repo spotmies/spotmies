@@ -10,6 +10,7 @@ import {
 import { MdOpenInNew } from "react-icons/md";
 import { Fade } from "react-reveal";
 import Link from 'next/link';
+// import FooterBar from "./footer";
 // import articles from "@/pages/articles";
 // import articles from "@/app/articles";
 // import articles from "../app/articles";
@@ -64,7 +65,7 @@ const ArticlesList = () => {
               <BsArrowRightCircleFill className="inline-block text-3xl text-primary2 cursor-pointer" />
             </div> */}
 
-<Link href="/blog">
+<Link href="/article">
 <button class="flex-shrink-0 text-white bg-black hover:bg-slate-500 border-0 py-2 px-8 focus:outline-none  rounded text-lg mt-10 sm:mt-0">Show more</button>
 </Link>      
           </div>
@@ -132,7 +133,9 @@ const ArticlesList = () => {
             </div>
           </Fade>
         </div>
-      </div>
+</div>
+
+
     </div>
   );
 };
