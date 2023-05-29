@@ -7,8 +7,9 @@ import FooterBar from '../footer';
 
 
 
-const DynamicPages = () => {
-  const data = DynamicData[2];
+
+const DynaPage03 = () => {
+  const data = DynamicData[4];
   const artTitle= data.ArticleHeading
   const Banner = data.BannerImage
   const writtenSections= data.ArtSections
@@ -31,4 +32,4 @@ const DynamicPages = () => {
   )
 }
 
-export default DynamicPages
+export default DynaPage03

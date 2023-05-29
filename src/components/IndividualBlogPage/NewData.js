@@ -334,7 +334,478 @@ hasContent:true,
    
    
    },
+
+   {ArticleHeading:"Building a Business from Scratch: A Tale of Grit and Determination" ,
+   BannerImage:"flex justify-center w-full  bg-no-repeat  bg-cover h-full md:bg-center bg-[url(https://th.bing.com/th/id/OIP.7wYf0Mkgb6fRJSEeld1AzAHaEo?w=283&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7)] ",
+   hasContent:true,
+         ArtSections:[{
+            sectionHeader:"Introduction:",
+            paras:["Starting a startup from scratch is never easy, but it’s a journey that teaches you more than you could have ever imagined. In this blog post, I want to share my personal experience of starting a startup with my friends, how we faced and overcame countless challenges, and how we’re currently on our way to success. It’s been a long and challenging journey, but the lessons we’ve learned and the experiences we’ve gained have been invaluable. So, if you’re someone who’s considering starting a startup, or if you’re simply interested in hearing about our journey, then keep reading!"],
+            hasPoints:false,
+            hasImage:false,
+            sectionImage:"https://www.investopedia.com/thmb/wuuss_5lSKqGckNngtP1__7qEk4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Blockchain_final-086b5b7b9ef74ecf9f20fe627dba1e34.png",
    
+         },
+   
+         {
+           sectionHeader:"The Journey:",
+           paras:["It was a momentous decision when I, Satish, along with my friends, Sekhar, and Naveen, chose to become entrepreneurs. We decided to embark on the road less travelled and carve out our own destiny. It was a journey of sweat, tears, and determination.","In 2016, I was struck with an idea to provide a platform for skilled individuals to use their skills and earn money. I discussed it with Sekhar, and we started developing the concept. With no team, no funding, and no concrete idea, we had to start from scratch. We learned and researched everything we could to build the platform ourselves. Being electronics background students, we had other projects to work on, which delayed the start of our venture.","In 2018, I joined TCS, but the idea never left my mind. In 2019, we picked it up again after experimenting with IoT projects. However, finding the right team member was a challenge. We tried reaching out to contacts from our previous workshops but to no avail. We had to learn web technologies and work on side projects to gain some experience.","In September 2020, we met Hemanth, a friend of a friend, who had the skills we needed and was interested in becoming an entrepreneur. We collaborated and started doing small projects for money. We rented office space, registered our firm officially and worked hard to earn enough to cover expenses. We quickly realized the importance of marketing and networking to get more projects. With our diverse set of skills, each one of us worked on multiple tasks, ranging from frontend and backend development, UI designing, content writing, marketing, strategy planning, user acquisition planning, and learning new technologies for improvements.","It was not easy. There were times when we doubted ourselves and our abilities. We poured our hearts and souls into our work, often staying up late and working weekends. But we never gave up. We recruited interns and remote employees to work on various projects. Our hard work paid off, and we landed a project worth INR 2 Lakhs in 2020. Even though the amount is not big enough for an entire team, this gave us the motivation to keep going.","With enough skills required to develop our app, we continued with our idea of a platform that aimed to connect skilled people with those in need of their services. This platform was designed to bring together students and freelancers with exceptional skills in areas like PC repairs, AC repairs, tutoring, web development, carpentry, and more, with customers in need of these services. However, we faced a major setback in early 2021, as we failed to keep up with the times and enter the market at the right time.","After this event, we decided to shift our focus towards providing mobile and web applications for clients, as we realized that having technical skills alone wasn’t enough to establish a startup. We also recognized the importance of developing soft skills such as networking, managing people, and leadership skills. As a team, we knew we had to evolve to stay relevant and successful.","We continued to learn and grow, improving our skills and expanding our network. We developed relationships with people who believed in our vision and worked tirelessly to deliver the best results. In 2021, we earned INR 2.5 lakhs from our projects, which was a significant milestone. It gave us the confidence to keep moving forward.","We were thinking of a unique approach to approach our clients. To cope up with advanced technologies, Hemanth began learning web3 to add a more advanced tech stack to our team. Hemanth, who was already a cybersecurity enthusiast and bug bounty hunter, conducted an experiment to find new clients. He performed ethical hacking on an application and informed the company about the bug. We then proposed our services to the company, and it worked! We secured three crucial projects in 2022 from this single company, including our first web3 project. The combined worth of these 3 projects is INR 6 lakhs.","It is during one of these projects, we got an abundance of positive responses from users praising our UI designs. Naveen’s creative work helped in attracting more clients.","While these projects were ongoing, we stumbled upon a new idea based on web3. Sekhar remembered an event from his college days where a student manipulated his academic credentials to land a job. That sparked the idea for a blockchain-based academic verification system. We worked hard on this idea, and with our advanced technology and soft skills, we shifted our office to a startup accelerator, Au-hub incubation center — Vizag, where we were exposed to an abundance of opportunities.","We developed prototypes of our new idea and pitched them to mentors and supporters to get feedback. Based on the feedback, we redeveloped the system with extra features, and the result was Cypher-b — a pre-verification and pre-interview-based blockchain platform. With Cypher-b, we aim to verify and interview job seekers and connect them with recruiters to make the recruitment process easy for companies and job seekers alike.","urrently, we are managing two distinct but equally promising firms. The first is Cypher-b, a cutting-edge HR tech solutions platform that offers businesses and organizations an array of innovative tools to streamline their human resource management processes. The second firm we manage is Spotmies, a web and mobile application development company with a special focus on Web3 technologies. Spotmies offers customized solutions that leverage blockchain and decentralized applications to create unparalleled user experiences. Together, these two firms represent our commitment to harnessing the power of technology to drive innovation and transformation in a rapidly evolving business landscape.","The journey to where we are today has been a rollercoaster ride, filled with highs and lows, successes, and failures. But, as a team, we have persevered and evolved to become the best versions of ourselves. We know that the road ahead won’t be easy, but we are ready to face any challenges that come our way."],
+           hasImage:false,
+           hasPoints:false,
+           sectionImage:"",
+           
+   
+        },
+
+        {
+         sectionHeader:"Conclusion:",
+         paras:["starting a startup from scratch is an incredibly challenging and daunting task that requires a tremendous amount of willpower and determination. The process of building a successful startup involves overcoming a range of obstacles, including finding the right team, securing funding, and developing a unique product or service. However, with the right mindset and a great team, it is possible to overcome these obstacles and build a successful business from the ground up. The key is to stay focused on the goal, stay committed to the process, and never give up. With persistence and hard work, entrepreneurs can turn their startup dreams into a reality and achieve success beyond their wildest imaginations.","Thank you for taking the time to read my blog post. Remember to never give up on your dreams, no matter how difficult the journey may be. I hope you find inspiration in my story and that you achieve your own dreams, too.","Special thanks to our mentor Ravi Eswarapu sir, CEO of Au-hub incubation center, for providing amazing insights to cypher-b and motivating us to think out of the box.","Special thanks to Venkat Pasupureddi, for his invaluable guidance and encouragement that helped Cypher-B & Spotmies grow and innovate in the tech industry.",""],
+         hasPoints:false,
+         hasImage:false,
+         sectionImage:"https://www.investopedia.com/thmb/wuuss_5lSKqGckNngtP1__7qEk4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Blockchain_final-086b5b7b9ef74ecf9f20fe627dba1e34.png",
+
+      },
+
+      {
+         sectionHeader:"The team:",
+         paras:["Satish, our managing director, is the backbone of our company. With his extensive experience in the industry, he brings a wealth of knowledge to our team. His expertise in Android and iOS development is unparalleled, and he has a talent for maintaining strong relationships with our clients. He is the driving force behind our success.","Sekhar, our co-founder, is a master of the MERN stack. He has a remarkable ability to architect and develop complex applications with ease. His negotiating skills are legendary, and he manages our development team with great finesse. He has a keen eye for detail and always ensures that our projects are delivered on time and on budget.","Hemanth, our co-founder, is a true analyzer. He has a natural talent for analyzing the situations and operations in our company, and his insights are invaluable. His passion for web3 development and ethical hacking is inspiring, and he is always on the cutting edge of new technologies. He is an asset to our team, and we are fortunate to have him on board.","Naveen, our co-founder and designer, is the creative soul of our company. With his exceptional design skills, he maintains all the creative work of our company. He has an incredible ability to turn our ideas into visual masterpieces. His attention to detail is second to none, and his designs always exceed our expectations. He brings a unique perspective to our team, and we are grateful for his contributions."],
+         hasPoints:false,
+         hasImage:false,
+         sectionImage:"https://www.investopedia.com/thmb/wuuss_5lSKqGckNngtP1__7qEk4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Blockchain_final-086b5b7b9ef74ecf9f20fe627dba1e34.png",
+
+      },
+   ]
+   },
+
+   // normalArticle
+
+{ArticleHeading:"How Cryptography works on BlockChain?," ,
+BannerImage:"flex justify-center w-full  bg-no-repeat  bg-cover h-full md:bg-center bg-[url(https://th.bing.com/th/id/OIP.7wYf0Mkgb6fRJSEeld1AzAHaEo?w=283&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7)] ",
+hasContent:true,
+      ArtSections:[{
+         sectionHeader:"",
+         paras:["As privacy gets more and more critical in this digital era, we make sure that your data is safe and sound, away from the treacherous eyes of hackers and cyber criminals who are on the lookout for your data.","Before we deep dive into how we ensure that your data is kept safe, it is better that we know what information is, why your data matters, and why you should ensure that your data is always safe."],
+         hasPoints:false,
+         hasImage:false,
+         sectionImage:"https://www.investopedia.com/thmb/wuuss_5lSKqGckNngtP1__7qEk4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Blockchain_final-086b5b7b9ef74ecf9f20fe627dba1e34.png",
+
+      },
+
+      {
+        sectionHeader:"So, what exactly is data?",
+        paras:["Imagine that data is like a puzzle. Each piece of data is like one small piece of the puzzle, and when all of the pieces are put together, they form a complete picture. This picture can help us understand something about the world, or it can help us make a decision.","For example, let’s say a company is trying to decide whether to launch a new product. They might collect data on the sales of similar products, the demographics of potential customers, and the costs of producing the new product. By analyzing this data, the company can get a better understanding of whether the new product is likely to be successful, and they can make a more informed decision about whether to launch it.","So, data is simply information that has been collected and organized in a specific way. It can be used to answer questions or make decisions, and it is an important tool in many different fields."],
+        hasPoints:false,
+        hasImage:false,
+        sectionImage:"",
+        
+
+     },
+
+     {
+      sectionHeader:"Why does your data matter and why should you keep it safe?",
+      paras:["Just like a treasure map can lead us to valuable things, data can be very useful in understanding ourselves and making decisions about our lives. It shows us important information about ourselves, such as our preferences, behaviors, and characteristics.","But just like a treasure map can also lead other people to valuable things, data can also be useful to other people, such as hackers. Hackers are people who try to access information without permission, and they can use data to try and steal valuable things, such as money or personal information.","To protect ourselves from hackers, it is important to be careful with our data. We can do this by making sure we only share our data with trustworthy people, and by using strong passwords to protect our information."],
+      hasPoints:false,
+      hasImage:false,
+      sectionImage:"",
+   },
+
+   {
+      sectionHeader:"Web3 is the hot topic of the moment and it has been making headlines all over the world. Then how does Spotmies use Web3?",
+      paras:["At Spotmies, we use Blockchain technology and the Web3 ecosystem to make sure every data and transaction recorded on the network is immutable and secure. Storing your content on our system means that it can't be changed or accessed by anyone other than you."],
+      hasPoints:false,
+      hasImage:false,
+      sectionImage:"",
+   },
+
+   {
+      sectionHeader:"So what is Blockchain?",
+      paras:["Well, a blockchain is like a special kind of computer program that helps people keep track of things that are important to them. For example, imagine that you have a special notebook where you keep track of all the things you earn and spend money on. You might write down things like 'I earned Rs.5 by helping my grandmother' or 'I spent Rs.10 on a new toffee.'","Now, imagine that instead of just having one notebook, you had many copies of the notebook, and you gave one copy to each of your friends. And every time you earned or spent some money, you would tell your friends about it and ask them to write it down in their notebooks too. That way, everyone would have a record of all the money they earned and spent, and it would be very hard for anyone to cheat or lie about it.","That's kind of how a blockchain works. It's like a special kind of computer program that helps keep track of important information, and it has many copies that are spread out among lots of different computers. This makes it very hard for anyone to cheat or lie about the information because everyone can see what's happening and check to make sure it's all true.",],
+      hasPoints:false,
+      hasImage:false,
+      sectionImage:"",
+   },
+     {
+      sectionHeader:"Ok, then what about Web3?",
+      paras:["Web3 is like a special kind of internet where lots of different people and computers all work together to share information and do things online. It's different from the regular internet because it uses special computer programs and technologies, like blockchain, to make sure that everything is fair and honest, and that no one person or group can control everything.","For example, imagine that you have a special club where you and your friends all get together to play games and have fun. On the regular internet, the club might be run by one person who makes all the rules and decides what everyone can do. But on web3, the club might be run by a computer program that follows a set of rules that everyone agreed to, and that lets everyone have a say in what happens. That way, everyone can feel like they have a fair and equal chance to play and have fun."],
+      hasPoints:false,
+      hasImage:false,
+      sectionImage:"",
+   },
+
+
+   {
+      sectionHeader:"How does Blockchain store your data?",
+      paras:["Blockchain technology uses cryptography to store data in a secure and decentralized manner. Cryptography is a technique used to secure communication by encoding messages in such a way that they can only be decrypted by the intended recipient.","In a blockchain, cryptography is used to secure the data stored in each block. Each block in a blockchain contains a cryptographic hash of the former block, a timestamp, and sale data. The cryptographic hash function takes the data in the former block and creates a unique, fixed-size string of characters( the hash) that represents that data. This hash is also added to the coming block along with the new sale data, creating a chain of blocks that's secured through the use of cryptography","The use of cryptographic hash functions ensures that the data in a blockchain cannot be altered without detection. If someone tries to modify the data in a block, the hash of that block will change, causing the hashes of all subsequent blocks to also change. This will alert other users on the network that something has changed and the modified block will be rejected.","Overall, the use of cryptography in blockchain technology allows for secure, decentralized storage of data that is resistant to tampering and modification.",],
+      hasPoints:false,
+      hasImage:false,
+      sectionImage:"",
+   },
+
+   {
+      sectionHeader:"Blockchain uses something called Merkle Tree to store the data in a tree-like structure, then what is a Merkle Tree?",
+      paras:["A Merkle tree (also known as a binary hash tree) is a data structure that is used in blockchain technology to efficiently verify the integrity of data.","In a Merkle tree, each leaf node represents a data block and each non-leaf node represents the cryptographic hash of its children. The top node of the tree is called the root hash, and it represents the hash of all the data in the tree.","The use of a Merkle tree allows a blockchain to efficiently verify the integrity of the data stored in it without having to store the entire tree. For example, if someone tries to modify the data in a leaf node, the root hash will change and this change will be detected by other users on the network.","Merkle trees are used in many blockchain systems, including Bitcoin and Ethereum, to efficiently verify the integrity of the data stored in the blockchain. They are also used in other distributed systems to ensure the integrity of data that is stored or transmitted."],
+      hasPoints:false,
+      hasImage:false,
+      sectionImage:"",
+   },
+ 
+   {
+      sectionHeader:"Here is a block diagram explaining it:",
+      paras:["In this diagram, each block represents a piece of data (e.g. Data1, Data2, etc.), and each non-leaf node represents the cryptographic hash of its children. The root hash is the hash of all the data in the tree.","When a new block of data is added to the tree, it is hashed and the resulting hash is added to the appropriate leaf node. The hashes of the child nodes are then recalculated and the process continues up the tree until the root hash is updated to reflect the new data.","This process ensures that any change to the data in the tree will be detected, as the root hash will change as a result of the modification. Other users on the network can verify the integrity of the data by comparing the root hash to the expected value."],
+      hasPoints:false,
+      hasImage:true,
+      sectionImage:"https://media.licdn.com/dms/image/D5612AQFWD9WHejQRZQ/article-inline_image-shrink_1000_1488/0/1672999701688?e=1690416000&v=beta&t=NV7bvtfLnY7hf-K93m_nf2TaCsUpZGphDqkstau4Ykg",
+   },
+
+   {
+      sectionHeader:"Here you see something called Hash, so what is it? and how is it generated from the data we input?",
+      paras:["A hash is a fixed-size string of characters that is generated from a given input using a cryptographic hash function.","Hashes are used in blockchain technology to secure the data stored in each block. Each block in a blockchain contains a cryptographic hash of the previous block, a timestamp, and transaction data. The cryptographic hash function takes the data in the previous block and creates a unique, fixed-size string of characters (the hash) that represents that data. This hash is then added to the next block along with the new transaction data, creating a chain of blocks that is secured through the use of cryptography.","In a blockchain, SHA-256 is often used to create a cryptographic hash of each block of data. This hash is then added to the next block along with the new transaction data, creating a chain of blocks that is secured through the use of cryptography.","The use of SHA-256 in a blockchain ensures that the data stored in the blockchain cannot be altered without detection. If someone tries to modify the data in a block, the hash of that block will change, causing the hashes of all subsequent blocks to also change. This will alert other users on the network that something has changed and the modified block will be rejected."],
+      hasPoints:false,
+      hasImage:true,
+      sectionImage:"https://media.licdn.com/dms/image/D5612AQFWD9WHejQRZQ/article-inline_image-shrink_1000_1488/0/1672999701688?e=1690416000&v=beta&t=NV7bvtfLnY7hf-K93m_nf2TaCsUpZGphDqkstau4Ykg",
+   },
+
+   {
+      sectionHeader:"How does Blockchain keep your data transparent and secure?",
+      paras:["Blockchain works by creating a chain of blocks, where each block contains some data and a link to the previous block. This chain is stored on multiple computers in a network, so there are many copies of it.","When someone wants to add new data to the blockchain, they have to follow certain rules and get permission from the network. If everything is okay, the new data is added to a new block and linked to the previous blocks, creating a permanent record.","Because there are many copies of the blockchain and it is very difficult to change the data once it's been added, people can trust that the information stored on the blockchain is accurate and up-to-date. This makes it a good way to keep track of important information that needs to be transparent, like financial transactions or medical records."],
+      hasPoints:false,
+      hasImage:true,
+      sectionImage:"https://media.licdn.com/dms/image/D5612AQFFU3ktFMz8qQ/article-inline_image-shrink_1000_1488/0/1672998167531?e=1690416000&v=beta&t=Okn-e3ojodx1QnKIJmr0T6wWMK21gQsWZNjB3cKxRMA",
+   },
+
+   {
+      sectionHeader:"What are Blocks?",
+      paras:["Blocks in a blockchain are like links in a chain. Blocks are records that store valid transactions on a blockchain network. Each block contains transaction data and is linked to the block before it, forming a chain of data blocks. Blocks are added to the chain one by one, and once added, they cannot be changed. This ensures that the information stored in the blocks is secure and immutable."],
+      hasPoints:false,
+      hasImage:false,
+      sectionImage:"https://media.licdn.com/dms/image/D5612AQFFU3ktFMz8qQ/article-inline_image-shrink_1000_1488/0/1672998167531?e=1690416000&v=beta&t=Okn-e3ojodx1QnKIJmr0T6wWMK21gQsWZNjB3cKxRMA",
+   },
+
+   {
+      sectionHeader:"Then what is a Block number?",
+      paras:["Block number (or block height) is the number of blocks mined between the current block and the genesis block. The genesis block is the first block in a blockchain, and the block number is used to keep track of how many blocks have been added to the chain. It is important to note that the block number increases with every new block."],
+      hasPoints:false,
+      hasImage:false,
+      sectionImage:"https://media.licdn.com/dms/image/D5612AQFFU3ktFMz8qQ/article-inline_image-shrink_1000_1488/0/1672998167531?e=1690416000&v=beta&t=Okn-e3ojodx1QnKIJmr0T6wWMK21gQsWZNjB3cKxRMA",
+   },
+   
+   {
+      sectionHeader:"Then what is a Block number?",
+      paras:["Block number (or block height) is the number of blocks mined between the current block and the genesis block. The genesis block is the first block in a blockchain, and the block number is used to keep track of how many blocks have been added to the chain. It is important to note that the block number increases with every new block."],
+      hasPoints:false,
+      hasImage:false,
+      sectionImage:"https://media.licdn.com/dms/image/D5612AQFFU3ktFMz8qQ/article-inline_image-shrink_1000_1488/0/1672998167531?e=1690416000&v=beta&t=Okn-e3ojodx1QnKIJmr0T6wWMK21gQsWZNjB3cKxRMA",
+   },
+  
+   {
+      sectionHeader:"We also claim that we don’t own any of your data and that everything is decentralized, then what is decentralization, and why is it necessary?",
+      paras:["Decentralization refers to the distribution of power or controls away from a central authority or entity. In a decentralized blockchain network, the ledger is distributed among all the nodes in the network, rather than being stored in a single location or controlled by a central authority. This means that no single entity has control over the network or the data that is stored on it.","The use of decentralization in blockchain technology helps to ensure the integrity and security of the data, as it is not subject to the risks of a central point of failure or the possibility of being controlled or manipulated by a single entity. It also allows for more transparency and fairness in the network, as all users have an equal say in how the network is run and how decisions are made.","Overall, decentralization is an important aspect of blockchain technology and helps to make it a secure and transparent way of storing and sharing data.","Now that we have covered all the basics, let’s dive a little deep into cryptography and how Spotmies uses it in its application."],
+      hasPoints:false,
+      hasImage:false,
+      sectionImage:"https://media.licdn.com/dms/image/D5612AQFFU3ktFMz8qQ/article-inline_image-shrink_1000_1488/0/1672998167531?e=1690416000&v=beta&t=Okn-e3ojodx1QnKIJmr0T6wWMK21gQsWZNjB3cKxRMA",
+   },
+   
+   {
+      sectionHeader:"Private Key",
+      paras:["The private key is a secret piece of information that is used to decrypt data that has been encrypted with the corresponding public key. It is used to access and manage the user's cryptocurrency assets, as well as to sign transactions on the blockchain."],
+      hasPoints:false,
+      hasImage:false,
+      sectionImage:"https://media.licdn.com/dms/image/D5612AQFFU3ktFMz8qQ/article-inline_image-shrink_1000_1488/0/1672998167531?e=1690416000&v=beta&t=Okn-e3ojodx1QnKIJmr0T6wWMK21gQsWZNjB3cKxRMA",
+   },
+
+
+   {
+   sectionHeader:"Public Key",
+   paras:["The public key is a piece of information that is used to encrypt data and can be shared publicly. It is used to receive cryptocurrency assets and to verify the authenticity of a digital signature.","The public key is a piece of information that is used to encrypt data and can be shared publicly. It is used to receive cryptocurrency assets and to verify the authenticity of a digital signature."],
+   hasPoints:false,
+   hasImage:false,
+   sectionImage:"https://media.licdn.com/dms/image/D5612AQFFU3ktFMz8qQ/article-inline_image-shrink_1000_1488/0/1672998167531?e=1690416000&v=beta&t=Okn-e3ojodx1QnKIJmr0T6wWMK21gQsWZNjB3cKxRMA",
+  },
+
+
+  {
+   sectionHeader:"Wallet",
+   paras:["A wallet is a software program that stores the private keys and public keys of a user. These keys are used to access and manage the user's cryptocurrency assets, such as Bitcoin or Ethereum.","It is an important tool for managing and securing a user's cryptocurrency assets. It allows the user to store, send, and receive cryptocurrency, as well as to track their transactions on the blockchain","A Wallet also consists of a Seed phrase and Wallet address.","A seed phrase (also known as a recovery phrase or backup phrase) is a series of words that is used to restore access to a wallet in case you forget your password or lose access to the wallet for any other reason. It is important to keep your seed phrase secret and store it in a safe place.","A wallet address is a unique string of characters that is used to identify a specific wallet on a blockchain network. You can think of it as a bank account number. It is used to send and receive transactions on the blockchain. You can have multiple wallet addresses associated with a single wallet."],
+   hasPoints:false,
+   hasImage:true,
+   sectionImage:"https://media.licdn.com/dms/image/D5612AQFEGbISFuRPbw/article-inline_image-shrink_1000_1488/0/1672998236511?e=1690416000&v=beta&t=AdXtWHB_SmHkXvXGUaqtvAdkcksRW2vTb_TE87VYZ9U",
+},
+
+{
+   sectionHeader:"Let’s know more about Symmetric Encryption and Decryption \n \n \n Symmetric Encryption:",
+   paras:["Symmetric encryption is a method of encrypting data in which the same secret key is used to both encrypt and decrypt the data. This is in contrast to asymmetric encryption, in which a pair of keys are used: a public key to encrypt the data, and a private key to decrypt it.","One of the main benefits of symmetric encryption is that it is generally faster and more efficient than asymmetric encryption, particularly for large amounts of data. However, it requires that the secret key be shared between the sender and recipient of the data, which can be a challenge in situations where the sender and recipient are not in close physical proximity or do not have a secure way to exchange the key.",],
+   hasPoints:false,
+   hasImage:true,
+   sectionImage:"https://media.licdn.com/dms/image/D5612AQGOsUO6D_dKVA/article-inline_image-shrink_1000_1488/0/1672998695056?e=1690416000&v=beta&t=AjnUihH08feE3lhDLAsOeLMxkrTupgI-SJlBBiB5UFA",
+},
+
+{
+   sectionHeader:"In the above diagram",
+   paras:["",],
+   hasPoints:true,
+   Points:["Encode the data using base64 encoding (or some other encoding scheme).","Generate a random secret key, which will be used for symmetric encryption.","Use the secret key and a symmetric encryption algorithm to encrypt the base64-encoded data.","The encrypted data can then be transmitted to the intended recipient."],
+   hasImage:false,
+   sectionImage:"https://media.licdn.com/dms/image/D5612AQGOsUO6D_dKVA/article-inline_image-shrink_1000_1488/0/1672998695056?e=1690416000&v=beta&t=AjnUihH08feE3lhDLAsOeLMxkrTupgI-SJlBBiB5UFA",
+},
+
+{
+   sectionHeader:"Symmetric Decryption :",
+   paras:["Symmetric decryption is the process of decrypting data that has been encrypted using a symmetric encryption algorithm and a secret key. In symmetric encryption, the same secret key is used to both encrypt and decrypt the data.","To decrypt the data, the recipient needs to have the secret key and the symmetric encryption algorithm used to encrypt the data. They can then use these to decrypt the data and obtain the original data."],
+   hasPoints:false,
+   Points:["Encode the data using base64 encoding (or some other encoding scheme).","Generate a random secret key, which will be used for symmetric encryption.","Use the secret key and a symmetric encryption algorithm to encrypt the base64-encoded data.","The encrypted data can then be transmitted to the intended recipient."],
+   hasImage:true,
+   sectionImage:"https://media.licdn.com/dms/image/D5612AQFSeez8XeAYbA/article-inline_image-shrink_1000_1488/0/1672998753809?e=1690416000&v=beta&t=ebGB1MAmAWJDkiNt5vRIcd6AzDffQXTSHeUjWKBjO-E+",
+},
+
+{
+   sectionHeader:"In the above diagram :",
+   paras:[""],
+   hasPoints:false,
+   Points:["Encrypted data is created by applying an encryption algorithm and a secret key or password to the original data.","The encrypted data is then transformed into a string of ASCII characters using base64 encoding.","The base64 encoded data is transmitted over the internet or stored in a file.","To decrypt the data, the recipient first base64 decodes the data to get the encrypted version.","The recipient then uses the appropriate decryption key or password to decrypt the encrypted data, resulting in the original data.","The decryption process reverses the encryption process, allowing the recipient to access the original data."],
+   hasImage:false,
+   sectionImage:"https://media.licdn.com/dms/image/D5612AQFSeez8XeAYbA/article-inline_image-shrink_1000_1488/0/1672998753809?e=1690416000&v=beta&t=ebGB1MAmAWJDkiNt5vRIcd6AzDffQXTSHeUjWKBjO-E+",
+},
+
+{
+   sectionHeader:"Now let’s know more about Asymmetric Encryption and Decryption \n \n \n Asymmetric encryption",
+   paras:["Asymmetric encryption, also known as public-key encryption, is a method of encrypting data that uses two different keys: a public key and a private key. The public key is used to encrypt the data, while the private key is used to decrypt it.","The main advantage of asymmetric encryption is that it allows for secure communication between parties without the need for them to share a secret key beforehand. Instead, each party generates a pair of keys and publishes the public key, while keeping the private key secret. This allows anyone to send a message to the owner of the public key, but only the owner of the the private key can decrypt and read the message."],
+   hasPoints:false,
+   Points:["Encrypted data is created by applying an encryption algorithm and a secret key or password to the original data.","The encrypted data is then transformed into a string of ASCII characters using base64 encoding.","The base64 encoded data is transmitted over the internet or stored in a file.","To decrypt the data, the recipient first base64 decodes the data to get the encrypted version.","The recipient then uses the appropriate decryption key or password to decrypt the encrypted data, resulting in the original data.","The decryption process reverses the encryption process, allowing the recipient to access the original data."],
+   hasImage:false,
+   sectionImage:"https://media.licdn.com/dms/image/D5612AQFSeez8XeAYbA/article-inline_image-shrink_1000_1488/0/1672998753809?e=1690416000&v=beta&t=ebGB1MAmAWJDkiNt5vRIcd6AzDffQXTSHeUjWKBjO-E+",
+},
+
+
+{
+   sectionHeader:"Here in the above diagram:",
+   paras:[""],
+   hasPoints:true,
+   Points:["The data that needs to be encrypted is first converted into a base64-encoded string. This is a representation of the data in which it is encoded using only printable ASCII characters, which makes it easier to transmit and store.","The base64-encoded data is then encrypted using an asymmetric encryption algorithm, such as RSA or ECC. This requires the use of a public key, which is provided by the party that will be receiving the encrypted data.","The encrypted data is then transmitted to the intended recipient.","The recipient uses their private key to decrypt the encrypted data. Since only the owner of the private key can decrypt the data, this ensures that only the intended recipient can read the original message.",],
+   hasImage:false,
+   sectionImage:"https://media.licdn.com/dms/image/D5612AQFSeez8XeAYbA/article-inline_image-shrink_1000_1488/0/1672998753809?e=1690416000&v=beta&t=ebGB1MAmAWJDkiNt5vRIcd6AzDffQXTSHeUjWKBjO-E+",
+},
+
+{
+   sectionHeader:"What’s base64?",
+   paras:["Base64 is a way of representing binary data (such as an image or a file) in ASCII format. It allows you to represent the same data in a more compact and convenient way, by encoding it into a string of printable characters that can be easily transmitted and stored.","Base64 encoding works by dividing the binary data into blocks of 6 bits and then representing each block as a printable character from a set of 64 characters. The set of characters used for base64 encoding includes uppercase and lowercase letters, numbers, and some special characters."],
+   hasPoints:false,
+   Points:["The data that needs to be encrypted is first converted into a base64-encoded string. This is a representation of the data in which it is encoded using only printable ASCII characters, which makes it easier to transmit and store.","The base64-encoded data is then encrypted using an asymmetric encryption algorithm, such as RSA or ECC. This requires the use of a public key, which is provided by the party that will be receiving the encrypted data.","The encrypted data is then transmitted to the intended recipient.","The recipient uses their private key to decrypt the encrypted data. Since only the owner of the private key can decrypt the data, this ensures that only the intended recipient can read the original message.",],
+   hasImage:false,
+   sectionImage:"https://media.licdn.com/dms/image/D5612AQFSeez8XeAYbA/article-inline_image-shrink_1000_1488/0/1672998753809?e=1690416000&v=beta&t=ebGB1MAmAWJDkiNt5vRIcd6AzDffQXTSHeUjWKBjO-E+",
+},
+
+{
+   sectionHeader:"Asymmetric Decryption:",
+   paras:["Asymmetric encryption is a method of encrypting data in which a pair of keys are used: a public key and a private key. The public key is used to encrypt the data, and the private key is used to decrypt it. This is called asymmetric encryption because the keys used for encryption and decryption are not the same.","One of the key benefits of asymmetric encryption is that it allows users to exchange messages without having to share a secret key beforehand. For example, if Thor wants to send a message to Ironman, he can use Ironman's public key to encrypt the message. Ironman can then use his private key to decrypt the message. This means that Thor and Ironman can communicate securely without having to meet in person or exchange a secret key through a secure channel."],
+   hasPoints:true,
+   Points:["The data that needs to be encrypted is first converted into a base64-encoded string. This is a representation of the data in which it is encoded using only printable ASCII characters, which makes it easier to transmit and store.","The base64-encoded data is then encrypted using an asymmetric encryption algorithm, such as RSA or ECC. This requires the use of a public key, which is provided by the party that will be receiving the encrypted data.","The encrypted data is then transmitted to the intended recipient.","The recipient uses their private key to decrypt the encrypted data. Since only the owner of the private key can decrypt the data, this ensures that only the intended recipient can read the original message.",],
+   hasImage:false,
+   sectionImage:"https://media.licdn.com/dms/image/D5612AQFSeez8XeAYbA/article-inline_image-shrink_1000_1488/0/1672998753809?e=1690416000&v=beta&t=ebGB1MAmAWJDkiNt5vRIcd6AzDffQXTSHeUjWKBjO-E+",
+},
+
+{
+   sectionHeader:"In the above diagram:",
+   paras:[""],
+   hasPoints:true,
+   Points:["Encrypt the data using the public key of the intended recipient.","Use the private key of the recipient to decrypt the encrypted data.","The decrypted data may be encoded in a variety of ways, such as base64","Decode the data (if necessary) to obtain the original data."],
+   hasImage:false,
+   sectionImage:"https://media.licdn.com/dms/image/D5612AQFSeez8XeAYbA/article-inline_image-shrink_1000_1488/0/1672998753809?e=1690416000&v=beta&t=ebGB1MAmAWJDkiNt5vRIcd6AzDffQXTSHeUjWKBjO-E+",
+},
+
+{
+   sectionHeader:"Now let’s see how IPFS ( Interplanetary File system ) is used to store data securely in a decentralized manner \n \n \nWhat is IPFS?",
+   paras:["IPFS (InterPlanetary File System) is a peer-to-peer network for sharing and storing files. It is designed to make it easy to share large files quickly and efficiently, without the need for a central server or storage location.","In IPFS, files are identified using unique hashes, rather than traditional file names or paths. When a file is added to the IPFS network, it is given a unique hash that represents the contents of the file. This hash is used to identify and retrieve the file from the network.","One of the key features of IPFS is that it allows users to retrieve files from multiple sources, rather than just one central server. This means that if one source is unavailable or slow, the file can be retrieved from another source. This makes IPFS more resilient and reliable than traditional file-sharing systems that rely on a single central server."],
+   hasPoints:false,
+   Points:["The data that needs to be encrypted is first converted into a base64-encoded string. This is a representation of the data in which it is encoded using only printable ASCII characters, which makes it easier to transmit and store.","The base64-encoded data is then encrypted using an asymmetric encryption algorithm, such as RSA or ECC. This requires the use of a public key, which is provided by the party that will be receiving the encrypted data.","The encrypted data is then transmitted to the intended recipient.","The recipient uses their private key to decrypt the encrypted data. Since only the owner of the private key can decrypt the data, this ensures that only the intended recipient can read the original message.",],
+   hasImage:false,
+   sectionImage:"https://media.licdn.com/dms/image/D5612AQFSeez8XeAYbA/article-inline_image-shrink_1000_1488/0/1672998753809?e=1690416000&v=beta&t=ebGB1MAmAWJDkiNt5vRIcd6AzDffQXTSHeUjWKBjO-E+",
+},
+
+{
+sectionHeader:"Ways to store data in IPFS",
+paras:[""],
+hasPoints:true,
+Points:["Data is transformed into a base64 encoded string, which is a representation of the data in ASCII characters.","The base64 encoded string is converted into a JSON string, which is a lightweight data-interchange format that is easy for machines to parse and generate.","The JSON string is added to the IPFS network, which is a peer-to-peer network for sharing and storing files.","The JSON string is assigned a unique identifier called a CID, which is a hash of the contents of the file and is used to identify and retrieve the file from the IPFS network."],
+hasImage:true,
+sectionImage:"https://media.licdn.com/dms/image/D5612AQFbzXp6TwVUJQ/article-inline_image-shrink_1000_1488/0/1672998910216?e=1690416000&v=beta&t=WaD8yl-CIDFm7Jox-vFwO_6HHXlzU0Btv6jwerUmnA0",
+hasSummary:true,
+summary:"So, in summary, this process involves converting data into a base64 encoded string, converting the base64 encoded data into a JSON string, adding the JSON string to the IPFS network, and obtaining the CID for the added file."
+},
+
+{
+   sectionHeader:"In the above process",
+   paras:[""],
+   hasPoints:true,
+   Points:["Data is added to the IPFS network using the ipfs.add() method. IPFS is a peer-to-peer network for sharing and storing files.","The data is assigned a unique identifier called a CID, which is a hash of the contents of the file and is used to identify and retrieve the file from the IPFS network."],
+   hasImage:true,
+   sectionImage:"https://media.licdn.com/dms/image/D5612AQEJdVHtPDdCJg/article-inline_image-shrink_1500_2232/0/1672998885691?e=1690416000&v=beta&t=Hab7-Yzq_6Hm3C5HlHDcQO-xpXXSYU5JGMbpjtzSh0w",
+   hasSummary:true,
+   summary:"So, in summary, this process involves adding data to the IPFS network and obtaining the CID for the added file. The CID can be used to retrieve the data from the IPFS network at a later time."
+   },
+   
+   {
+      sectionHeader:"Now let’s take everything we have learned to see how Spotmies safely handles your data in Blockchain using cryptography and IPFS",
+      paras:[""],
+      hasPoints:false,
+      Points:["Data is added to the IPFS network using the ipfs.add() method. IPFS is a peer-to-peer network for sharing and storing files.","The data is assigned a unique identifier called a CID, which is a hash of the contents of the file and is used to identify and retrieve the file from the IPFS network."],
+      hasImage:true,
+      sectionImage:"https://media.licdn.com/dms/image/D5612AQEJdVHtPDdCJg/article-inline_image-shrink_1500_2232/0/1672998885691?e=1690416000&v=beta&t=Hab7-Yzq_6Hm3C5HlHDcQO-xpXXSYU5JGMbpjtzSh0w",
+      hasSummary:true,
+      summary:"So, in summary, this process involves adding data to the IPFS network and obtaining the CID for the added file. The CID can be used to retrieve the data from the IPFS network at a later time."
+      },
+      
+
+
+
+   
+
+],
+hasSteps:true,
+Steps:[
+   {stepNumber:"Step-1",
+ hasStepImage:true,
+ StepImageUrl:"https://media.licdn.com/dms/image/D5612AQG-LIcNUYtN2w/article-inline_image-shrink_1000_1488/0/1672998964700?e=1690416000&v=beta&t=F80IhOuKP4n7kpUUJRU5Cs1Q9Dbk93cpd2szAYqowRY",
+ stepSubHeading:"In the given process:",
+ stepDescription:"",
+ hasCode:false,
+ hasSubPoints:true,
+ subPoints:{
+   subPoinStyle:"dot",
+   points:[
+       {title:"",
+       description:"User Data is first Hashed and then added to the Blockchain"},
+       {title:"",
+       description:"The data is also symmetrically encrypted using a random encryption key. Symmetric encryption is a type of encryption that uses the same key for both encryption and decryption. In other words, the same key is used to encrypt the data and then later decrypt it."},
+       {title:"",
+       description:"The encrypted data is then added to IPFS (InterPlanetary File System), which is a peer-to-peer network for sharing and storing files."},
+       {title:"",
+       description:"The random encryption key is itself encrypted using symmetric encryption."},
+      {title:"",
+       description:"The encrypted random encryption key is added to IPFS."},
+       {title:"",
+       description:"The public user key is used to encrypt the data using asymmetric encryption."},
+      
+   ],
+},
+endNote:"So, in summary, this process involves generating a hash of the data, adding the hash to the blockchain, symmetrically encrypting the data and adding it to IPFS, symmetrically encrypting the random encryption key, asymmetrically encrypting the random encryption key and adding it to IPFS, and asymmetrically encrypting the data using the public user key.",
+
+},
+
+{stepNumber:"Step-2",
+ hasStepImage:true,
+ StepImageUrl:"https://media.licdn.com/dms/image/D5612AQHakQrNguWM3w/article-inline_image-shrink_1000_1488/0/1672999016195?e=1690416000&v=beta&t=_2GPzfsysFsRvxEphvwkYRwASkMWpQOGHaafK088tuQ",
+ stepSubHeading:"In the given process:",
+ stepDescription:"",
+ hasCode:false,
+ hasSubPoints:true,
+ subPoints:{
+    subPoinStyle:"dot",
+    points:[
+        {title:"",
+        description:"the blockchain is used to retrieve the encrypted CID (Content Identifier) and the hash of the file. The CID is a unique identifier that is assigned to the file when it is added to the IPFS (InterPlanetary File System) network. It is a hash of the contents of the file, and it is used to identify and retrieve the file from the IPFS network."},
+        {title:"",
+        description:"The encrypted CID is then sent to the user, who uses their private key to decrypt it using asymmetric decryption. Asymmetric decryption is a type of decryption that uses a private key to decrypt data that has been encrypted using a corresponding public key."},
+        {title:"",
+        description:"The encrypted data is retrieved from IPFS and decrypted using symmetric decryption and the key that was obtained by decrypting the encrypted random encryption key. Symmetric decryption is a process of decrypting the encrypted data using a decryption key or password that is the same as the key or password that was used to encrypt the data."},
+        {title:"",
+        description:"The resulting decrypted data should be the original file."},
+        {title:"",
+        description:"So, in summary, this process involves retrieving the encrypted CID and the hash of the file from the blockchain,"},
+    ],
+ },
+endNote:"",
+},
+
+{stepNumber:"",
+ hasStepImage:false,
+ StepImageUrl:"https://media.licdn.com/dms/image/D5612AQHakQrNguWM3w/article-inline_image-shrink_1000_1488/0/1672999016195?e=1690416000&v=beta&t=_2GPzfsysFsRvxEphvwkYRwASkMWpQOGHaafK088tuQ",
+ stepSubHeading:"Summary",
+ stepDescription:"The process of generating a hash of the data, adding the hash to the blockchain, symmetrically encrypting the data and adding it to IPFS, symmetrically encrypting the random encryption key, asymmetrically encrypting the random encryption key and adding it to IPFS, and asymmetrically encrypting the data using the public user key ensures that the data is secure in the blockchain in several ways:",
+ hasCode:false,
+ hasSubPoints:true,
+ subPoints:{
+    subPoinStyle:"dot",
+    points:[
+        {title:"",
+        description:"The hash of the data is added to the blockchain, which is a secure and transparent database that records transactions or other data in a way that is resistant to tampering and revision."},
+        {title:"",
+        description:"The data is symmetrically encrypted using a random encryption key, which makes it unreadable to anyone who does not have the necessary decryption key or password."},
+        {title:"",
+        description:"The random encryption key is itself encrypted using symmetric encryption, which adds an additional layer of security to the data."},
+        {title:"",
+        description:"The random encryption key is also encrypted using asymmetric encryption, which uses a public key and a private key. The public key is used to encrypt the data, and the private key is used to decrypt it. This means that only the user with the private key can decrypt the data."},
+        {title:"",
+        description:"The data is also encrypted using asymmetric encryption, which ensures that only the user with the private key can decrypt it."},
+    ],
+ },
+endNote:"Overall, these measures ensure that the data is secure and can only be accessed by the user with the private key. This makes it very difficult for anyone else to access the data, even if they are able to obtain the encrypted data or the encrypted random encryption key.",
+},
+
+
+{stepNumber:"",
+ hasStepImage:false,
+ StepImageUrl:"https://media.licdn.com/dms/image/D5612AQHakQrNguWM3w/article-inline_image-shrink_1000_1488/0/1672999016195?e=1690416000&v=beta&t=_2GPzfsysFsRvxEphvwkYRwASkMWpQOGHaafK088tuQ",
+ stepSubHeading:"Conclusion",
+ stepDescription:"The various processes that have been mentioned, such as hashing, symmetric and asymmetric encryption, and storing the encrypted data in a secure database like the blockchain, can help to ensure that your data is always safe and secure. \n \n Hashing the data creates a unique representation of the data that is resistant to tampering and revision. Encrypting the data using a secret key or password makes it unreadable to anyone who does not have the necessary decryption key or password. Storing the encrypted data in a secure database like the blockchain ensures that it is protected against unauthorized access or tampering. \n \n By using these techniques, you can be confident that your data is secure and can only be accessed by authorized individuals with the necessary decryption keys or passwords. This makes it very difficult for anyone else to access the data, even if they are able to obtain the encrypted data or the encrypted random encryption key.",
+ hasCode:false,
+ hasSubPoints:true,
+ subPoints:{
+    subPoinStyle:"dot",
+    points:[
+        {title:"",
+        description:"The hash of the data is added to the blockchain, which is a secure and transparent database that records transactions or other data in a way that is resistant to tampering and revision."},
+        {title:"",
+        description:"The data is symmetrically encrypted using a random encryption key, which makes it unreadable to anyone who does not have the necessary decryption key or password."},
+        {title:"",
+        description:"The random encryption key is itself encrypted using symmetric encryption, which adds an additional layer of security to the data."},
+        {title:"",
+        description:"The random encryption key is also encrypted using asymmetric encryption, which uses a public key and a private key. The public key is used to encrypt the data, and the private key is used to decrypt it. This means that only the user with the private key can decrypt the data."},
+        {title:"",
+        description:"The data is also encrypted using asymmetric encryption, which ensures that only the user with the private key can decrypt it."},
+    ],
+ },
+endNote:"",
+},
+{stepNumber:"",
+ hasStepImage:false,
+ StepImageUrl:"https://media.licdn.com/dms/image/D5612AQHakQrNguWM3w/article-inline_image-shrink_1000_1488/0/1672999016195?e=1690416000&v=beta&t=_2GPzfsysFsRvxEphvwkYRwASkMWpQOGHaafK088tuQ",
+ stepSubHeading:"In Short",
+ stepDescription:"Your data is always safe and secure. ",
+ hasCode:false,
+ hasSubPoints:false,
+ subPoints:{
+    subPoinStyle:"dot",
+    points:[
+        {title:"",
+        description:"The hash of the data is added to the blockchain, which is a secure and transparent database that records transactions or other data in a way that is resistant to tampering and revision."},
+        {title:"",
+        description:"The data is symmetrically encrypted using a random encryption key, which makes it unreadable to anyone who does not have the necessary decryption key or password."},
+        {title:"",
+        description:"The random encryption key is itself encrypted using symmetric encryption, which adds an additional layer of security to the data."},
+        {title:"",
+        description:"The random encryption key is also encrypted using asymmetric encryption, which uses a public key and a private key. The public key is used to encrypt the data, and the private key is used to decrypt it. This means that only the user with the private key can decrypt the data."},
+        {title:"",
+        description:"The data is also encrypted using asymmetric encryption, which ensures that only the user with the private key can decrypt it."},
+    ],
+ },
+endNote:"",
+},
+
+
+
+
+
+
+
+
+
+
+],
+
+
+
+},
+
 
 
 

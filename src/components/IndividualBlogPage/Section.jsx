@@ -10,7 +10,7 @@ const Section = ({ sectionHeader,paras,hasImage,sectionImage }) => {
             {sectionHeader}
           </h1>
 
-          { paras.map((para)=>(<p className="md:text-left text-center text-slate-700  lg:text-[20px]  text-[10px] p-1 my-4">
+          { paras.map((para)=>(<p className="text-left  text-slate-700  lg:text-[20px]  text-[10px] p-1 my-4">
             {para}
           </p>))
           }
