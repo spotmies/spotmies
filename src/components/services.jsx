@@ -44,7 +44,7 @@ export default function Services() {
                   description:
                     "Transform your ideas into reality with our expert product design services",
                   image:
-                    "https://images.unsplash.com/photo-1606161290889-77950cfb67d3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+                    "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/02_.png",
                 })}
               </div>
             </Fade>
@@ -62,7 +62,7 @@ export default function Services() {
                     description:
                       "From ideation to launch, our web development services deliver excellence at every step",
                     image:
-                      "https://images.unsplash.com/photo-1508921340878-ba53e1f016ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+                      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/03_.png",
                   })}
                 </div>
               </Fade>
@@ -78,7 +78,7 @@ export default function Services() {
                     description:
                       "Empower your business with the transformative potential of blockchain technology",
                     image:
-                      "https://images.unsplash.com/photo-1639152446002-ffd04bd3d529?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2232&q=80",
+                      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/04_ethereum.png",
                   })}
                 </div>
               </Fade>
@@ -98,7 +98,7 @@ export default function Services() {
                   description:
                     "Maximize your device's potential with our expert Windows & Mac services.",
                   image:
-                    "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1812&q=80",
+                    "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/04_.png",
                 })}
               </div>
             </Fade>
@@ -114,7 +114,7 @@ export default function Services() {
                   description:
                     "Building Mobile apps that not only look great but perform flawlessly across all devices",
                   image:
-                    "https://images.unsplash.com/photo-1628233345409-349459e6f79a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+                    "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/05_.png",
                 })}
               </div>
             </Fade>
@@ -128,11 +128,13 @@ export default function Services() {
     return (
       <>
         <div className="absolute inset-0 bg-black opacity-20 hover:opacity-40 opacity-layer rounded-md md:rounded-xl" />
-        <div className="absolute inset-0 w-full h-full p-3 md:p-6 flex flex-col">
+        <div className="absolute inset-0 w-full h-full p-3 md:p-6 lg:p-10 flex flex-col">
           <Fade bottom>
-            <p className="text-white gil-bold text-xl md:text-3xl">{title}</p>
+            <p className="text-white gil-bold text-md md:text-3xl lg:text-4xl">
+              {title}
+            </p>
           </Fade>
-          <p className="opacity-70 text-white text-md md:text-xl onHoverShow text-justify pt-4">
+          <p className="text-white text-xs md:text-lg lg:text-2xl onHoverShow text-justify pt-0 lg:pt-6 md:pt-4">
             {description}
           </p>
           <BsArrowRight

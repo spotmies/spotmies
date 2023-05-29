@@ -41,7 +41,7 @@ export default function ClientCarouselLogos() {
             <img
               src={testimonial.image}
               alt=""
-              className="cursor-pointer h-[40px] w-[90px] md:h-[60px] md:w-[160px] grayscale hover:grayscale-0 object-contain m-auto hover:scale-110 transition-all duration-700 ease-in-out "
+              className="cursor-pointer h-[50px] w-[100px] md:h-[60px] md:w-[160px] grayscale hover:grayscale-0 object-contain m-auto hover:scale-110 transition-all duration-700 ease-in-out "
             />
           </div>
         ))}

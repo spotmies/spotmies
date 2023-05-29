@@ -152,28 +152,63 @@ export const socials = [
 export const testimonials = [
   {
     name: "Vamsi Gummadi",
-    position: "CEO at Sweken",
+    position: "Founder & CEO at Sweken",
     when: "8 months ago",
+    timeStamp: "1657612842000",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2F289647986_7627729177302421_965938227967618398_n.jpeg?alt=media&token=6572dc5b-d900-4060-88f7-e3feff77d479",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/19_vamsi.jpeg",
     text: "Spotmies team provided top-notch customer service. Our project was completed in a timely manner, and the quality of the work was outstanding.",
   },
   {
     name: "Ravi Unukuru",
     position: "Web3 Entrepreneur & YouTuber",
     when: "1 months ago",
+    timeStamp: "1673510442000",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FWhatsApp%20Image%202022-12-23%20at%206.40.13%20PM.jpeg?alt=media&token=af2e1828-0d53-4f9a-8ffa-37ae7e6e7afa",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/20_Ravi.jpeg",
     text: "UI Designer in this team is very good at suggesting ideas to get more attention for the clients businesses while frontend & the blockchain devs are exceptionally experienced & excellent in their respective fields. Really impressed by their work, 10/10 would recommend.",
   },
 
   {
     name: "Anand Boddeti",
-    position: "A Square Gokarting",
+    position: "Founder At A-Square Entertainments",
+    timeStamp: "1676188842000",
     when: "2 months ago",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FScreenshot%202022-12-27%20at%2012.42.06%20PM.png?alt=media&token=a7431523-3c17-4361-b12f-731720f6e35c",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/21_.png",
     text: "We chose spotmies because of responsive and trust work on delivery on time. They implemented cleared designs and latest strategies for outlining and reporting for every stage of the development process.",
+  },
+  {
+    name: "Swaroop",
+    position: "Founder at Advait Labs & Decentrialz",
+    timeStamp: "1683706279000",
+    image:
+      "https://user-images.githubusercontent.com/63062130/237905955-c9e67527-64a7-4b83-bc0b-d6541d1a28f4.jpeg",
+    text: "The team at Spotmies is highly dedicated & efficient in their work. Their responsiveness & commitment towards implementing tech ideas is commendable. I feel fortunate to have learned about them through a referral, and I am eagerly looking forward to continue working with them in the future.",
+  },
+  {
+    name: "Mahidhar",
+    position: "Founder & CEO at Edumoon",
+    timeStamp: "1683706279000",
+    image:
+      "https://user-images.githubusercontent.com/63062130/237905972-e60a7053-78e9-4a19-a093-de2342bac05d.jpg",
+    text: "Spotmies is a dynamic company with an impressive portfolio of completed projects. Their commitment to excellence and top-notch solutions make them a valuable partner",
+  },
+  {
+    name: "Dileep",
+    position: "Founder at chaloride",
+    timeStamp: "1683706279000",
+    image:
+      "https://user-images.githubusercontent.com/63062130/237905963-7826cbd3-b081-4cd8-9433-eaec203167a2.jpeg",
+    text: "Spotmies has been a reliable partner for our business, delivering high-quality services and products that have exceeded our expectations.",
+  },
+  {
+    name: "Venkat",
+    position: "Founder at Mr bikes",
+    timeStamp: "1683706279000",
+    image:
+      "https://user-images.githubusercontent.com/63062130/237906002-be5c749a-6eff-4620-b475-40683acfa331.jpeg",
+    text: "Spotmies is not just a service provider; they are visionaries who understand the pulse of our industry. With their cutting-edge product designing, they have given us a competitive edge and positioned us as leaders in the market.",
   },
 ];
 
@@ -285,60 +320,86 @@ export const clients = [
   {
     name: "Schemax",
     image:
-      "https://nftstorage.link/ipfs/bafkreiagazvd7eytwc6juxlcuei7uxyasrfoygaodpdrc42wydmhzu232m",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_01_.png",
     link: "https://www.schemaxtech.com",
   },
   {
     name: "Decentrialz",
     image:
-      "https://nftstorage.link/ipfs/bafkreigw3wq7a3euqslspjyxlgm73455u4s4ggvj5yyb7et3fjnl43oaba",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_02.png",
     link: "https://decentrialz.com",
   },
   {
     name: "Sweken",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Flogo-final.png?alt=media&token=096b08ad-a9ec-461d-b336-69bfa0475e3e",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_03_.png",
     link: "https://sweken.com",
   },
   {
     name: "Indie skull syndicate",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fiss_logo.png?alt=media&token=716d5a65-7225-4f30-a11c-2e955f021702",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_04_.png",
     link: "https://indieskullsyndicate.xyz",
   },
   {
     name: "A Square Entertainment",
     image:
-      "https://nftstorage.link/ipfs/bafkreigevdst43q3nm2hx4jixt7uilgst42ftpkde6z66npqhejuwczrzu",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_05_.png",
     link: "https://asquaregokarting.com",
   },
   {
     name: "CypherB",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fblue_banner%20(1).png?alt=media&token=6e70a6be-3178-4462-8423-c2ce4a44e513",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_06_.png",
     link: "https://cypherb.com",
   },
   {
     name: "Advait Labs",
     image:
-      "https://nftstorage.link/ipfs/bafkreifkmgwbrrfgkjz42h65y6ezbxaqq7oytl43c55g4e7h6mffuepvze",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_07_.png",
     link: "https://advaitlabs.com",
   },
   {
     name: "AU Incubation Centre",
     image:
-      "https://nftstorage.link/ipfs/bafkreif5qsqudolt33droztjm6gwdxynikfdfyvbe7zxr3objzgs7tfkse",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_08_.png",
   },
   {
     name: "Chalo Ride",
     image:
-      "https://nftstorage.link/ipfs/bafkreicvtovsbo4c4jc2x536w33vjy5xkbnnkrchhwraedqxisf4tcvepq",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c-09-.png",
   },
   {
     name: "Mr Bikes",
     image:
-      "https://nftstorage.link/ipfs/bafybeia4pjv3msjwzsssqvxdldpg6nipi4dxzcsgdrqwdfnncgstudmif4",
+      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_10-.png",
   },
+  {
+    name: "The 10x Academy",
+    image:
+      "https://user-images.githubusercontent.com/63062130/236141959-fca188d4-e5f8-4fbb-b08c-00a1641a56f4.png",
+  },
+  {
+    name: "No Drafts",
+    image:
+      "https://user-images.githubusercontent.com/63062130/236141972-13662de3-6b16-41b4-a69e-accfc061dbb4.png",
+  },
+  {
+    name: "Vihaan electrix",
+    image:
+      "https://user-images.githubusercontent.com/63062130/236141975-bae3a963-8b32-40ee-8e91-4cadab832d81.png",
+  },
+  {
+    name: "CGRUM",
+    image:
+      "https://raw.githubusercontent.com/spotmies/images/90e541b79f9a1ccb39ee14da711dc084152755e0/CGRUM%20logo.png",
+  },
+  {
+    name: "NandiKrushi",
+    image:
+      "https://raw.githubusercontent.com/spotmies/images/90e541b79f9a1ccb39ee14da711dc084152755e0/nandhi%20krushi.png",
+  }
+
 ];
 
 // create a function to redirect to social media links like twitter, instagram, etc
@@ -349,9 +410,10 @@ export const socialMediaRedirect = (mediaName) => {
   const telegram = "https://t.me/";
   const youtube = "https://www.youtube.com/@spotmies4765";
   const facebook = "https://www.facebook.com/";
+  
   const linkedin = "https://www.linkedin.com/company/spotmies";
   const github = "https://github.com/spotmies";
-  const behance = "https://www.behance.net/naveenkatava";
+  const behance = "https://www.behance.net/spotmiesllp";
   const medium = "https://medium.com/@spotmies";
 
   switch (mediaName) {

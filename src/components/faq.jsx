@@ -81,13 +81,13 @@ function Faq() {
     <div className="w-[100vw] bg-white" id="faq">
       <div className="w-[90%] container mx-auto py-12  rounded-sm m-auto ">
         <Fade>
-          <h2 className="text-3xl md:text-5xl gil-bold mb-8 text-center text-primary2">
+          <h2 className="text-3xl md:text-5xl lg:text-6xl gil-bold mb-8 text-center text-primary2">
             Frequently Asked Questions
           </h2>
         </Fade>
 
-        <div className="flex flex-col md:flex-row justify-between w-full items-start m-auto h-full ">
-          <div className="max-w-xl pt-4 md:pt-0">
+        <div className="flex flex-col md:flex-row justify-between lg:justify-around  w-full items-start m-auto h-full ">
+          <div className="max-w-xl lg:max-w-2xl pt-4 md:pt-0">
             {faqs.slice(0, 4).map((faq, key) => (
               <div
                 key={key}
@@ -98,13 +98,13 @@ function Faq() {
                     onMouseOver={() => toggleQuestion(faq.id)}
                     onClick={() => toggleQuestion(faq.id)}
                     onMouseLeave={() => toggleQuestion(null)}
-                    className="w-full p-4 flex flex-row items-center justify-between text-left font-semibold text-primary2"
+                    className="w-full p-4 flex flex-row items-center justify-between text-left font-semibold lg:text-xl text-primary2"
                   >
                     {faq.question}
                     {selectedId === faq.id ? (
-                      <AiOutlineMinus className="text-2xl" />
+                      <AiOutlineMinus className="text-3xl" />
                     ) : (
-                      <AiOutlinePlus className="text-2xl" />
+                      <AiOutlinePlus className="text-3xl" />
                     )}
                   </button>
 
@@ -120,7 +120,7 @@ function Faq() {
             ))}
           </div>
 
-          <div className="max-w-xl pt-4 md:pt-0">
+          <div className="max-w-xl lg:max-w-2xl pt-4 md:pt-0">
             {faqs.slice(5, 9).map((faq, key) => (
               <div
                 key={key}
@@ -131,13 +131,13 @@ function Faq() {
                     onMouseOver={() => toggleQuestion(faq.id)}
                     onClick={() => toggleQuestion(faq.id)}
                     onMouseLeave={() => toggleQuestion(null)}
-                    className="w-full p-4 flex flex-row items-center justify-between text-left font-semibold text-primary2"
+                    className="w-full p-4 flex flex-row items-center justify-between text-left lg:text-xl font-semibold text-primary2"
                   >
                     {faq.question}
                     {selectedId === faq.id ? (
-                      <AiOutlineMinus className="text-2xl" />
+                      <AiOutlineMinus className="text-3xl" />
                     ) : (
-                      <AiOutlinePlus className="text-2xl" />
+                      <AiOutlinePlus className="text-3xl" />
                     )}
                   </button>
 

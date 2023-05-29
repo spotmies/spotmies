@@ -73,7 +73,7 @@ export default function Mentor2() {
             className="w-full h-full rounded-2xl hover:scale-110 transition-all duration-700 ease-in-out"
             style={{
               backgroundImage:
-                "url(https://nftstorage.link/ipfs/bafybeiaohu77reodwrtyq2vkqvcvwzzddd3rejia3qknewybhcyk65aktq)",
+                "url(https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/t_08_RaviSir.png)",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -131,20 +131,20 @@ export default function Mentor2() {
         <div className="flex flex-col items-start z-20 w-[40%] absolute right-0  my-auto py-[5%] pr-[3%] text-bg2">
           <Fade bottom>
             {" "}
-            <p className="text-md">- Our mentor</p>
+            <p className="text-md lg:text-lg">- Our mentor</p>
           </Fade>
 
           <Fade bottom>
-            <p className="gil-bold text-4xl">Ravi Eswarapu</p>
+            <p className="gil-bold text-4xl lg:text-5xl">Ravi Eswarapu</p>
           </Fade>
 
           <Fade bottom>
-            <p className="text-md gil-bold opacity-60">
+            <p className="text-md lg:text-lg gil-bold opacity-60">
               CEO at A-HUB | President at TiE AP | Angel Investor
             </p>
           </Fade>
           <Fade bottom>
-            <p className="text-xl pt-5 opacity-75 text-justify">
+            <p className="text-xl lg:text-3xl pt-5 opacity-75 text-justify">
               Ravi is a seasoned professional with over 24 years of experience
               in business, strategy, sales, operations, and corporate quality
               for large corporations and start-ups. He has worked with top
@@ -156,7 +156,7 @@ export default function Mentor2() {
           </Fade>
           <Fade bottom>
             <p
-              className="gil-med text-sm md:text-xl text-primary flex items-center cursor-pointer"
+              className="gil-med text-sm md:text-xl lg:text-2xl pt-5 text-primary flex items-center cursor-pointer"
               onClick={() => {
                 setIsPopupOpen(true);
               }}

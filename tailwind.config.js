@@ -22,6 +22,11 @@ module.exports = {
         text_color1: "#f1f1f1",
         text_color2: "#171717",
       },
+      screens: {
+        md: "1000px",
+        lg: "1900px",
+        // => @media (min-width: 1440px) { ... }
+      },
     },
   },
   plugins: [],

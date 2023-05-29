@@ -24,10 +24,10 @@ export default function AboutUs() {
         <div className="flex flex-col md:flex-row w-full items-start justify-between h-fit md:h-[30%]">
           <div className="flex flex-col items-start justify-center w-fit h-full text-text_color1">
             <Fade bottom>
-              <p className="gil-med text-4xl md:text-7xl ">
+              <p className="gil-med text-4xl md:text-7xl lg:text-9xl">
                 We Are <span className="text-primary">Creative</span>
                 <br />
-                <span className="gil-med text-5xl block md:hidden">
+                <span className="gil-med text-4xl block md:hidden lg:text-9xl">
                   Tech Company
                 </span>
               </p>
@@ -40,13 +40,15 @@ export default function AboutUs() {
                 </p>
               </Fade>
               <Fade bottom>
-                <p className="gil-med text-8xl ml-6">Tech Company</p>
+                <p className="gil-med text-8xl ml-6 lg:text-9xl">
+                  Tech Company
+                </p>
               </Fade>
             </div>
           </div>
 
           <div className="h-[50%] w-[1px] opacity-50 bg-bg2" />
-          <div className="flex flex-col w-full md:w-[30%] items-center justify-between text-text_color1 h-full">
+          <div className="flex flex-col w-full md:w-[30%] lg:text-2xl items-center justify-between text-text_color1 h-full">
             <Fade>
               <p className="text-justify opacity-60">
                 Discover the limitless possibilities where technology meets
@@ -57,25 +59,27 @@ export default function AboutUs() {
             </Fade>
             <div className="flex flex-row w-full items-center justify-between pt-[5%]">
               <div className="flex flex-col items-center justify-center">
-                <p className="gil-med text-3xl">
+                <p className="gil-med text-3xl lg:text-4xl">
                   <CountUp enableScrollSpy={true} end={30} />
                   <span className="md:mb-[15px] mb-[8px]">+</span>
                 </p>
-                <p className="gil-reg text-md">Projects</p>
+                <p className="gil-reg text-md lg:text-3xl">Projects</p>
               </div>
               <div className="flex flex-col items-center justify-center">
-                <p className="gil-med text-3xl">
+                <p className="gil-med text-3xl lg:text-4xl">
                   <CountUp enableScrollSpy={true} end={5} />
                   <span className="md:mb-[15px] mb-[8px]">+</span>
                 </p>
-                <p className="gil-reg text-md">Blockchain Projects</p>
+                <p className="gil-reg text-md lg:text-3xl">
+                  Blockchain Projects
+                </p>
               </div>
               <div className="flex flex-col items-center justify-center">
-                <p className="gil-med text-3xl">
+                <p className="gil-med text-3xl lg:text-4xl">
                   <CountUp enableScrollSpy={true} end={20} />
                   <span className="md:mb-[15px] mb-[8px]">+</span>
                 </p>
-                <p className="gil-reg text-md">Happy Clients</p>
+                <p className="gil-reg text-md lg:text-3xl">Happy Clients</p>
               </div>
             </div>
           </div>
@@ -85,7 +89,7 @@ export default function AboutUs() {
             <div
               className=" h-full w-full object-cover rounded-3xl  group-hover:scale-110  transition-all duration-700 ease-in-out"
               style={{
-                backgroundImage: `url(https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80)`,
+                backgroundImage: `url(https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/06_.png)`,
 
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -96,7 +100,7 @@ export default function AboutUs() {
           </div>
         </Fade>
       </div>
-      <div className="bg-bg2 w-full h-fit md:h-[40vh] pt-[10vh] md:pt-[20vh]">
+      <div className="bg-bg2 w-full h-fit md:h-[40vh] pt-[4vh] md:pt-[20vh]">
         <div className="pt-[50px] m-auto w-[90%]">
           <Fade>
             <ClientCarouselLogos />
@@ -108,7 +112,7 @@ export default function AboutUs() {
           <Fade>
             <div className="group overflow-hidden h-[50%] md:h-full w-full md:w-[45%] rounded-xl md:rounded-3xl">
               <img
-                src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+                src="https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/07_.png"
                 alt=""
                 className="w-full h-full object-cover rounded-xl md:rounded-3xl m-auto group-hover:scale-110 transition-all duration-700 ease-in-out"
               />
@@ -117,18 +121,20 @@ export default function AboutUs() {
           <div className="flex flex-col w-full md:w-[55%] h-[40%] md:h-full items-start justify-between px-2 md:px-8 py-2 text-text_color2">
             <Fade bottom>
               {" "}
-              <p className="gil-med text-sm md:text-xl">Our Mission</p>
+              <p className="gil-med text-sm md:text-xl lg:text-3xl">
+                - Our Mission
+              </p>
             </Fade>
             <Fade bottom>
               {" "}
-              <p className="gil-bold text-4xl md:text-5xl ">
+              <p className="gil-bold text-3xl md:text-5xl lg:text-8xl lg:w-[90%] w-full md:w-[90%]">
                 Making Quality Services <br /> Accessible to{" "}
                 <span className="text-primary">Everyone</span>
               </p>
             </Fade>
             <div className="opacity-50">
               <Fade bottom>
-                <p className="gil-reg text-sm md:text-xl text-justify opacity-50">
+                <p className="gil-reg text-sm md:text-xl lg:text-2xl opacity-50 lg:w-[75%]">
                   At our organization, we understand that quality of service is
                   key to building customer trust and loyalty. That's why we go
                   above and beyond to consistently deliver exceptional service

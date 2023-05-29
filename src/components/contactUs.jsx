@@ -74,7 +74,7 @@ export default function ContactUs() {
         <div
           className="relative h-[300px] md:h-full w-full md:w-[30%] z-20 rounded-l-2xl"
           style={{
-            backgroundImage: `url("https://images.unsplash.com/photo-1530541263627-4314dd7a44c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80")`,
+            backgroundImage: `url("https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/t_12-.jpeg")`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",

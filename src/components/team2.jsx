@@ -13,7 +13,7 @@ export default function TeamSlide2() {
   const teamJson = [
     {
       image:
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fsatish-min.jpeg?alt=media&token=f65f20e9-992d-4cd0-a0fe-7b9624fe3553",
+        "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/t_07-.jpeg",
       name: "Satish Kumar Saride",
       designation: "Founder & CEO",
       social: {
@@ -23,28 +23,29 @@ export default function TeamSlide2() {
     },
     {
       image:
-        "https://nftstorage.link/ipfs/bafkreidskjiaj65kdyjji47lwcrupcnkj7myn5tqh7c2qnlepsiljdh2fq",
-      name: "Venkat",
-      designation: "Product Architect",
-      social: {
-        twitter: "https://twitter.com/PvrRox?t=6nDjRpE4_9LYeLAHlYd4cQ&s=09",
-        linkedin: "https://www.linkedin.com/in/venkat-p-79b366119",
-      },
-    },
-    {
-      image:
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fsekhar.jpg?alt=media&token=03bc9e11-ad9b-428d-8bd2-e661d82b42cb",
+        "https://raw.githubusercontent.com/spotmies/images/858b0957133c26f8c629524cb4d7074eb66f535f/sekhar.jpg",
       name: "Sekhar javvadi",
-      designation: "Product Manager",
+      designation: "Co-Founder & Tech Lead",
       social: {
         twitter: "https://twitter.com/SekharJavvadi",
         linkedin: "https://www.linkedin.com/in/sekhar-javvadi-987380158",
-        github: "https://github.com/sekharjavvadi",
+        // github: "https://github.com/sekharjavvadi",
       },
     },
     {
       image:
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fhemanth.jpg?alt=media&token=fb20a381-2884-4f31-85be-0095bd3c55e8",
+        "https://raw.githubusercontent.com/spotmies/images/858b0957133c26f8c629524cb4d7074eb66f535f/ProductDesigner.jpeg",
+      name: "Venkat",
+      designation: "Product Architect",
+      social: {
+        // twitter: "https://twitter.com/PvrRox?t=6nDjRpE4_9LYeLAHlYd4cQ&s=09",
+        linkedin: "https://www.linkedin.com/in/venkat-p-79b366119",
+      },
+    },
+
+    {
+      image:
+        "https://raw.githubusercontent.com/spotmies/images/858b0957133c26f8c629524cb4d7074eb66f535f/hemanth.jpg",
       name: "Hemanth Kumar",
       designation: "Head of Blockchain Development",
       social: {
@@ -55,7 +56,7 @@ export default function TeamSlide2() {
     },
     {
       image:
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2Fnaveen.jpeg?alt=media&token=d9c2da83-cebe-4138-a5a8-39ef50f19dd0",
+        "https://github.com/spotmies/images/assets/63062130/044abb59-672c-4622-86a7-dc98da276cb4",
       name: "Naveen Kumar",
       designation: "Head of Product Design",
       social: {
@@ -100,12 +101,12 @@ export default function TeamSlide2() {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
+      breakpoint: { max: 4000, min: 1900 },
       items: 4,
-      partialVisibilityGutter: 0,
+      partialVisibilityGutter: 60,
     },
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
+      breakpoint: { max: 1899, min: 1024 },
       items: 3,
       partialVisibilityGutter: 80,
     },

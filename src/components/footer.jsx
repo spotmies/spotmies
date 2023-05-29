@@ -23,12 +23,12 @@ export default function FooterBar() {
           <div className="flex flex-wrap justify-between mb-12">
             <div className="w-full md:w-1/3 lg:w-1/3 pr-4">
               <img
-                src="/spotmies_banner.png"
+                src="https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/t_13_.png"
                 alt="logo"
-                className="w-40 mb-4"
+                className="w-52 mb-4"
               />
               {/* <h2 className="text-lg gil-bold mb-4">About Us</h2> */}
-              <p className="mb-4 text-justify">
+              <p className="mb-4 text-justify lg:text-xl">
                 Spotmies is a leading provider of innovative solutions for
                 Product Designing & Blockchain. With a team of experienced
                 professionals & a commitment to excellence, we are dedicated to
@@ -38,63 +38,63 @@ export default function FooterBar() {
                 success.
               </p>
             </div>
-            <div className="w-full md:w-1/3 lg:w-1/5">
-              <h2 className="text-lg gil-bold mb-4">Useful Links</h2>
+            <div className="w-full md:w-1/5 lg:w-1/5">
+              <h2 className="text-lg lg:text-xl gil-bold mb-4">Useful Links</h2>
               <ul className="list-reset">
-                <li className="mb-2">
+                <li className="mb-2 lg:text-xl">
                   <a href="/#home" className="hover:text-white">
                     Home
                   </a>
                 </li>
-                <li className="mb-2">
+                <li className="mb-2 lg:text-xl">
                   <a href="/#aboutUs" className="hover:text-white">
                     About Us
                   </a>
                 </li>
-                <li className="mb-2">
+                <li className="mb-2 lg:text-xl">
                   <a href="/#services" className="hover:text-white">
                     Services
                   </a>
                 </li>
-                <li className="mb-2">
+                <li className="mb-2 lg:text-xl">
                   <a href="/#articles" className="hover:text-white">
                     Blog
                   </a>
                 </li>
               </ul>
             </div>
-            <div className="w-full md:w-1/3 lg:w-1/5">
-              <h2 className="text-lg gil-bold mb-4">More</h2>
+            <div className="w-full md:w-1/5 lg:w-1/5">
+              <h2 className="text-lg lg:text-xl gil-bold mb-4">More</h2>
               <ul className="list-reset">
-                <li className="mb-2">
+                <li className="mb-2 lg:text-xl">
                   <a href="/#faq" className="hover:text-white">
                     FAQ
                   </a>
                 </li>
-                <li className="mb-2">
+                <li className="mb-2 lg:text-xl">
                   <a href="/#contactUs" className="hover:text-white">
                     Contact Us
                   </a>
                 </li>
-                <li className="mb-2">
+                <li className="mb-2 lg:text-xl">
                   <a href="#" className="hover:text-white">
                     Privacy Policy
                   </a>
                 </li>
-                <li className="mb-2">
+                <li className="mb-2 lg:text-xl">
                   <a href="#" className="hover:text-white">
                     Terms &amp; Conditions
                   </a>
                 </li>
               </ul>
             </div>
-            <div className="w-full md:w-1/3 lg:w-1/4">
-              <h2 className="text-lg gil-bold mb-4">Newsletter</h2>
-              <p className="mb-4">
+            <div className="w-full md:w-1/5 lg:w-1/4">
+              <h2 className="text-lg lg:text-xl gil-bold mb-4">Newsletter</h2>
+              <p className="mb-4 lg:text-xl">
                 Sign up for our newsletter and stay up-to-date with our latest
                 news and offers.
               </p>
-              <form className="flex mb-4">
+              <form className="flex mb-4 lg:text-xl">
                 <input
                   required
                   className="outline-none bg-bg1 text-gray-400 border-2 border-gray-700 py-2 px-3 w-full mr-2 rounded"
@@ -108,13 +108,22 @@ export default function FooterBar() {
                   <AiOutlineArrowRight className="w-6 h-6" />
                 </button>
               </form>
+              <div className="pt-4">
+                <h2 className="text-lg lg:text-xl gil-bold mb-2">
+                  Recognized By
+                </h2>
+                <img
+                  src="https://raw.githubusercontent.com/spotmies/images/90e541b79f9a1ccb39ee14da711dc084152755e0/Asset%201%403x.png"
+                  className="w-[250px] md:w-full lg:w-full grayscale hover:grayscale-0 transition-all duration-700 ease-in-out cursor-pointer"
+                />
+              </div>
             </div>
           </div>
-          <div className="w-full flex flex-row items-center justify-between">
-            <div className="text-sm text-gray-400">
+          <div className="w-full flex flex-col md:flex-row items-center justify-between">
+            <div className="text-sm lg:text-lg text-gray-400">
               © 2023 Spotmies LLP. All Rights Reserved.
             </div>
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 md:pt-0 lg:pt-0 pt-4">
               <a
                 aria-label="GitHub"
                 onClick={() => socialMediaRedirect("instagram")}

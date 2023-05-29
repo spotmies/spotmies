@@ -90,13 +90,13 @@ export default function TechStack() {
     >
       <div className="mt-5 px-0 md:px-5">
         <Fade bottom>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-16">
+          <div className="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-5 gap-8 md:gap-16">
             {technologies.map((tech, index) => (
               <div
-                className="relative flex items-center rounded-md hover:scale-110 transition-all duration-700 ease-in-out cursor-pointer opacity-100 hover:opacity-100 grayscale hover:grayscale-0"
+                className="relative flex items-center rounded-md hover:scale-110 transition-all duration-700 ease-in-out cursor-pointer opacity-100 hover:opacity-100 md:grayscale lg:grayscale hover:grayscale-0"
                 key={index}
               >
-                <div className={`text-xl md:text-4xl text-black`}>
+                <div className={`text-3xl md:text-4xl text-black`}>
                   {tech.icon}
                 </div>
                 <h3 className="text-xl md:text-3xl ml-4 gil-med text-gray-900">
