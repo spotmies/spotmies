@@ -23,7 +23,7 @@ const ArticlesList = () => {
       title: "How to build & launch a DAPP from Scratch?",
       description:
         "Have you ever wondered, how cryptocurrency works and how the underline technology i.e. Blockchain works in a seemingly harmonious way so that we as users can use them without much difficulty? ",
-      link: "https://www.linkedin.com/pulse/how-build-launch-dapp-from-scratch-spotmies/?trackingId=HTPLizTDSo%2BVzLDlUacobQ%3D%3D",
+      link: "/Articles/Article0",
       image:
         "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/t_09-.png",
     },
@@ -33,7 +33,7 @@ const ArticlesList = () => {
       title: "Implementation of cryptography in Blockchain",
       description:
         "Imagine that data is like a puzzle. Each piece of data is like one small piece of the puzzle, and when all of the pieces are put together, they form a complete picture.",
-      link: "https://www.linkedin.com/pulse/implementation-cryptography-blockchain-spotmies/?trackingId=9KOezgthoHknBzYblozLfQ%3D%3D",
+      link: "/Articles/Article1",
       image:
         "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/t_10_.png",
     },
@@ -43,7 +43,7 @@ const ArticlesList = () => {
       title: "Why data privacy 🔒 is more crucial now a day's.",
       description:
         "It is important to protect your privary because it can help keep you safe from identity theft, fraud, and other crimes. ",
-      link: "https://www.linkedin.com/posts/spotmies_data-privacy-activity-7018892815887716353-HbTi?utm_source=share&utm_medium=member_desktop",
+      link: "/Articles/Article2",
       image:
         "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/t_11_.png",
     },
