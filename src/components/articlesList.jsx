@@ -9,6 +9,11 @@ import {
 } from "react-icons/bs";
 import { MdOpenInNew } from "react-icons/md";
 import { Fade } from "react-reveal";
+import Link from 'next/link';
+// import FooterBar from "./footer";
+// import articles from "@/pages/articles";
+// import articles from "@/app/articles";
+// import articles from "../app/articles";
 
 const ArticlesList = () => {
   const article = [
@@ -18,7 +23,7 @@ const ArticlesList = () => {
       title: "How to build & launch a DAPP from Scratch?",
       description:
         "Have you ever wondered, how cryptocurrency works and how the underline technology i.e. Blockchain works in a seemingly harmonious way so that we as users can use them without much difficulty? ",
-      link: "https://www.linkedin.com/pulse/how-build-launch-dapp-from-scratch-spotmies/?trackingId=HTPLizTDSo%2BVzLDlUacobQ%3D%3D",
+      link: "/Articles/How-to-build-&-launch-a-DAPP-from-Scratch",
       image:
         "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/t_09-.png",
     },
@@ -28,7 +33,7 @@ const ArticlesList = () => {
       title: "Implementation of cryptography in Blockchain",
       description:
         "Imagine that data is like a puzzle. Each piece of data is like one small piece of the puzzle, and when all of the pieces are put together, they form a complete picture.",
-      link: "https://www.linkedin.com/pulse/implementation-cryptography-blockchain-spotmies/?trackingId=9KOezgthoHknBzYblozLfQ%3D%3D",
+      link: "/Articles/Implementation-of-cryptography-in-Blockchain",
       image:
         "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/t_10_.png",
     },
@@ -38,7 +43,7 @@ const ArticlesList = () => {
       title: "Why data privacy 🔒 is more crucial now a day's.",
       description:
         "It is important to protect your privary because it can help keep you safe from identity theft, fraud, and other crimes. ",
-      link: "https://www.linkedin.com/posts/spotmies_data-privacy-activity-7018892815887716353-HbTi?utm_source=share&utm_medium=member_desktop",
+      link: "/Articles/Why-data-privacy-🔒-is-more-crucial-now-a-day's.",
       image:
         "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/t_11_.png",
     },
@@ -59,6 +64,10 @@ const ArticlesList = () => {
               <BsArrowLeftCircle className="inline-block text-3xl mr-2 text-primary2 cursor-pointer" />
               <BsArrowRightCircleFill className="inline-block text-3xl text-primary2 cursor-pointer" />
             </div> */}
+
+<Link href="/article">
+<button class="flex-shrink-0 text-white bg-black hover:bg-slate-500 border-0 py-2 px-8 focus:outline-none  rounded text-lg mt-10 sm:mt-0">Show more</button>
+</Link>      
           </div>
           <div className="opacity-40">
             <Fade bottom>
@@ -124,7 +133,9 @@ const ArticlesList = () => {
             </div>
           </Fade>
         </div>
-      </div>
+</div>
+
+
     </div>
   );
 };
