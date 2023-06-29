@@ -382,7 +382,7 @@ export function ProjectDetails({ index, showMaximize }) {
             {item == "godaddy" && <SiGodaddy color="#7DB701" size="3rem" />}
             {item == "biconomy" &&
               imageIcon(
-                "https://raw.githubusercontent.com/pdkkg/images/43f94647a0c49df8fe085358c8c69101d6a4df53/biconomy.png"
+                "https://raw.githubusercontent.com/spotmies/images/43f94647a0c49df8fe085358c8c69101d6a4df53/biconomy.png"
               )}
 
             {item == "polygon" &&

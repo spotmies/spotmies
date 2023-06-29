@@ -44,7 +44,7 @@ export default function Services() {
                   description:
                     "Transform your ideas into reality with our expert product design services",
                   image:
-                    "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/02_.png",
+                    "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSecondFolder%2FSecond1.avif?alt=media&token=23147974-49ad-4a89-a13a-eaffa8be8152",
                 })}
               </div>
             </Fade>
@@ -62,7 +62,7 @@ export default function Services() {
                     description:
                       "From ideation to launch, our web development services deliver excellence at every step",
                     image:
-                      "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/03_.png",
+                      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSecondFolder%2FSecond3.avif?alt=media&token=a668618e-05b4-4931-b71d-f5a4e029421b",
                   })}
                 </div>
               </Fade>
@@ -78,7 +78,7 @@ export default function Services() {
                     description:
                       "Empower your business with the transformative potential of blockchain technology",
                     image:
-                      "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/04_ethereum.png",
+                      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSecondFolder%2FSecond4.avif?alt=media&token=a3199497-b42f-4413-b2f9-dab2ba9e0dcb",
                   })}
                 </div>
               </Fade>
@@ -94,11 +94,11 @@ export default function Services() {
                     setTitle("Windows & Mac");
                     setbody(windowsDevelopment);
                   },
-                  title: "Windows & Mac",
+                  title: "",
                   description:
                     "Maximize your device's potential with our expert Windows & Mac services.",
                   image:
-                    "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/04_.png",
+                    "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSecondFolder%2FSecond2.avif?alt=media&token=37d68459-0b1f-4f4e-be16-52c2745f98c4",
                 })}
               </div>
             </Fade>
@@ -114,7 +114,7 @@ export default function Services() {
                   description:
                     "Building Mobile apps that not only look great but perform flawlessly across all devices",
                   image:
-                    "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/05_.png",
+                    "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSecondFolder%2FSecond5.png?alt=media&token=78fc21e6-958f-4303-a5ab-168285a4b883",
                 })}
               </div>
             </Fade>

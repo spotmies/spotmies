@@ -23,7 +23,7 @@ export default function FooterBar() {
           <div className="flex flex-wrap justify-between mb-12">
             <div className="w-full md:w-1/3 lg:w-1/3 pr-4">
               <img
-                src="https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/t_13_.png"
+                src="https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/t_13_.png"
                 alt="logo"
                 className="w-52 mb-4"
               />
@@ -113,7 +113,7 @@ export default function FooterBar() {
                   Recognized By
                 </h2>
                 <img
-                  src="https://raw.githubusercontent.com/pdkkg/images/90e541b79f9a1ccb39ee14da711dc084152755e0/Asset%201%403x.png"
+                  src="https://raw.githubusercontent.com/spotmies/images/90e541b79f9a1ccb39ee14da711dc084152755e0/Asset%201%403x.png"
                   className="w-[250px] md:w-full lg:w-full grayscale hover:grayscale-0 transition-all duration-700 ease-in-out cursor-pointer"
                 />
               </div>

@@ -13,7 +13,7 @@ export default function TeamSlide2() {
   const teamJson = [
     {
       image:
-        "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/t_07-.jpeg",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FSatishCEO.jpeg?alt=media&token=45293231-1b44-41c3-802e-ad9d9d0c0359",
       name: "Satish Kumar Saride",
       designation: "Founder & CEO",
       social: {
@@ -23,7 +23,7 @@ export default function TeamSlide2() {
     },
     {
       image:
-        "https://raw.githubusercontent.com/pdkkg/images/858b0957133c26f8c629524cb4d7074eb66f535f/sekhar.jpg",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FSekhar.jpg?alt=media&token=cca2ece2-1682-4173-914e-b2bf5f74e32d",
       name: "Sekhar javvadi",
       designation: "Co-Founder & Tech Lead",
       social: {
@@ -34,7 +34,7 @@ export default function TeamSlide2() {
     },
     {
       image:
-        "https://raw.githubusercontent.com/pdkkg/images/858b0957133c26f8c629524cb4d7074eb66f535f/ProductDesigner.jpeg",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FProductDesigner.jpeg?alt=media&token=27f56501-35bc-472f-a948-389d98ab320a",
       name: "Venkat",
       designation: "Product Architect",
       social: {
@@ -45,7 +45,7 @@ export default function TeamSlide2() {
 
     {
       image:
-        "https://raw.githubusercontent.com/pdkkg/images/858b0957133c26f8c629524cb4d7074eb66f535f/hemanth.jpg",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2Fhemanth.jpg?alt=media&token=0e721a73-964a-46c5-a37a-04f72fa0d227",
       name: "Hemanth Kumar",
       designation: "Head of Blockchain Development",
       social: {
@@ -56,7 +56,7 @@ export default function TeamSlide2() {
     },
     {
       image:
-        "https://github.com/spotmies/images/assets/63062130/044abb59-672c-4622-86a7-dc98da276cb4",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FNaveen.jpeg?alt=media&token=e528b905-35c6-4475-9211-6b73dd484a3d",
       name: "Naveen Kumar",
       designation: "Head of Product Design",
       social: {
@@ -67,7 +67,7 @@ export default function TeamSlide2() {
     },
     {
       image:
-        "https://nftstorage.link/ipfs/bafybeif3shhcbwmtgs5vzmalh2zksy4livhmc72rjn6gjr7twinnvmhjie",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FSudhir.png?alt=media&token=4844d0b9-da24-4035-9f66-1ca92a33d419",
       name: "Sudhir Kumar",
       designation: "Head of Marketing",
       social: {

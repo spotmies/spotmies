@@ -30,7 +30,7 @@ export default function TeamSlide() {
                   description:
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                   image:
-                    "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/t_01_.jpeg",
+                    "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2Fourteam1.jpeg?alt=media&token=db726f2f-9873-4dce-8ac1-b02b97c9b806",
                 })}
               </div>
             </Fade>
@@ -42,7 +42,7 @@ export default function TeamSlide() {
                     description:
                       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                     image:
-                      "https://raw.githubusercontent.com/pdkkg/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/t_02_.jpeg",
+                      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/t_02_.jpeg",
                   })}
                 </div>
               </Fade>
@@ -102,7 +102,7 @@ export default function TeamSlide() {
                   description:
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                   image:
-                    "https://user-images.githubusercontent.com/63062130/240160727-62a81bce-5a0c-4912-beb3-f6e57ab9b81c.jpeg",
+                    "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2Fourteam4.jpeg?alt=media&token=108a936c-8d5e-4e9c-a5c9-4c8b32c88433",
                 })}
               </div>
             </Fade>
