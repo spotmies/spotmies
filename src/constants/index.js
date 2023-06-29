@@ -343,7 +343,7 @@ export const clients = [
   {
     name: "A Square Entertainment",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_05_.png?alt=media&token=f561af32-b626-4839-91b9-62dfa3fde82bhttps://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_05_.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_05_.png?alt=media&token=f561af32-b626-4839-91b9-62dfa3fde82b",
     link: "https://asquaregokarting.com",
   },
   {
