@@ -74,7 +74,7 @@ export default function ContactUs() {
         <div
           className="relative h-[300px] md:h-full w-full md:w-[30%] z-20 rounded-l-2xl"
           style={{
-            backgroundImage: `url("https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/t_12-.jpeg")`,
+            backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFinalFolder%2FChatToConcact.avif?alt=media&token=5e4d6c67-2321-4e4e-b70f-77ae16f91556")`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",

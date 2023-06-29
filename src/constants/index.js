@@ -156,7 +156,7 @@ export const testimonials = [
     when: "8 months ago",
     timeStamp: "1657612842000",
     image:
-      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/19_vamsi.jpeg",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fvamsi.jpeg?alt=media&token=57559d07-5ee2-42b8-993b-c4a68ec5682a",
     text: "Spotmies team provided top-notch customer service. Our project was completed in a timely manner, and the quality of the work was outstanding.",
   },
   {
@@ -165,7 +165,7 @@ export const testimonials = [
     when: "1 months ago",
     timeStamp: "1673510442000",
     image:
-      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/20_Ravi.jpeg",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2FRavi.jpeg?alt=media&token=19da1739-5af9-4500-a8d5-c9deb3fa3cb2",
     text: "UI Designer in this team is very good at suggesting ideas to get more attention for the clients businesses while frontend & the blockchain devs are exceptionally experienced & excellent in their respective fields. Really impressed by their work, 10/10 would recommend.",
   },
 
@@ -175,7 +175,7 @@ export const testimonials = [
     timeStamp: "1676188842000",
     when: "2 months ago",
     image:
-      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/21_.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2FAnand.png?alt=media&token=d8ce6909-fa16-40b7-9fd0-81524644108f",
     text: "We chose spotmies because of responsive and trust work on delivery on time. They implemented cleared designs and latest strategies for outlining and reporting for every stage of the development process.",
   },
   {
@@ -183,7 +183,7 @@ export const testimonials = [
     position: "Founder at Advait Labs & Decentrialz",
     timeStamp: "1683706279000",
     image:
-      "https://user-images.githubusercontent.com/63062130/237905955-c9e67527-64a7-4b83-bc0b-d6541d1a28f4.jpeg",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2FSwaroop.jpeg?alt=media&token=dcc67c1a-23fc-4224-9521-075e9ad946a4",
     text: "The team at Spotmies is highly dedicated & efficient in their work. Their responsiveness & commitment towards implementing tech ideas is commendable. I feel fortunate to have learned about them through a referral, and I am eagerly looking forward to continue working with them in the future.",
   },
   {
@@ -191,7 +191,7 @@ export const testimonials = [
     position: "Founder & CEO at Edumoon",
     timeStamp: "1683706279000",
     image:
-      "https://user-images.githubusercontent.com/63062130/237905972-e60a7053-78e9-4a19-a093-de2342bac05d.jpg",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2FMahidhar.jpg?alt=media&token=0b1c3593-e201-4ae1-af23-1dbdd8cd66ee",
     text: "Spotmies is a dynamic company with an impressive portfolio of completed projects. Their commitment to excellence and top-notch solutions make them a valuable partner",
   },
   {
@@ -199,7 +199,7 @@ export const testimonials = [
     position: "Founder at chaloride",
     timeStamp: "1683706279000",
     image:
-      "https://user-images.githubusercontent.com/63062130/237905963-7826cbd3-b081-4cd8-9433-eaec203167a2.jpeg",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2FDileep.jpeg?alt=media&token=1247cd6e-e457-41a0-bfd1-1d61e916bcc3",
     text: "Spotmies has been a reliable partner for our business, delivering high-quality services and products that have exceeded our expectations.",
   },
   {
@@ -207,7 +207,7 @@ export const testimonials = [
     position: "Founder at Mr bikes",
     timeStamp: "1683706279000",
     image:
-      "https://user-images.githubusercontent.com/63062130/237906002-be5c749a-6eff-4620-b475-40683acfa331.jpeg",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2FVenkat.jpeg?alt=media&token=afc8f55b-4e00-4b2f-ae02-ae1622c7ee08",
     text: "Spotmies is not just a service provider; they are visionaries who understand the pulse of our industry. With their cutting-edge product designing, they have given us a competitive edge and positioned us as leaders in the market.",
   },
 ];
