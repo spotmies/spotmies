@@ -5,7 +5,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 const image =
   // "https://images.unsplash.com/photo-1543269664-56d93c1b41a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80";
   // "https://nftstorage.link/ipfs/bafybeifur6x6mg6u6465nojbgtuckodzghkeovjoltga7cysdzmuyvj7ku";
-  "https://user-images.githubusercontent.com/63062130/235426000-7fe76fdf-a3d4-4f5c-8068-6388ffebac2f.jpeg";
+  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFirstFolder%2FTopPagePic.jpeg?alt=media&token=9906ec9d-1894-4315-b823-d73881638d03";
 
 const LandingSlide = () => {
   return (

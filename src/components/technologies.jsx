@@ -7,27 +7,27 @@ export default function TechSlide() {
   const blockchains = [
     {
       name: "Ethereum",
-      icon: "https://user-images.githubusercontent.com/63062130/235427159-1b9af51a-03a1-41a6-b83e-06511ec4dd67.png",
+      icon: "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSixthFolder%2Flogo1.png?alt=media&token=4812baf6-6e2a-4ebb-80c1-5ad2e252b214",
     },
     {
       name: "Polygon",
-      icon: "https://user-images.githubusercontent.com/63062130/235427169-5241ccf6-6bc2-4950-a22b-60400563c2a3.png",
+      icon: "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSixthFolder%2Flogo2.png?alt=media&token=b0480974-afb5-4945-b578-503fd34eca96",
     },
     {
       name: "Solana",
-      icon: "https://user-images.githubusercontent.com/63062130/235427170-66e4237c-6a63-4c8a-aba4-845170c6fc99.png",
+      icon: "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSixthFolder%2Flogo3.png?alt=media&token=12a14738-7671-47eb-9b36-b7f3dc7c69ca",
     },
     {
       name: "Near",
-      icon: "https://user-images.githubusercontent.com/63062130/235427167-0ab2f870-d148-4b30-b654-bf3f24670868.png",
+      icon: "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSixthFolder%2Flogo4.png?alt=media&token=93778dd2-b9f3-4ec1-ae38-3c273bb987ae",
     },
     {
       name: "Hedera",
-      icon: "https://user-images.githubusercontent.com/63062130/235427166-3ad659ac-bd2e-45f2-9248-4939c20f701c.png",
+      icon: "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSixthFolder%2Flogo5.png?alt=media&token=8e9b7ab9-58fa-4f18-8976-0d15196909f8",
     },
     {
       name: "Biconomy",
-      icon: "https://raw.githubusercontent.com/spotmies/images/43f94647a0c49df8fe085358c8c69101d6a4df53/biconomy.png",
+      icon: "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSixthFolder%2Flogo6.png?alt=media&token=34575ed5-3831-4e25-9e45-3c61ba86d26a",
     },
   ];
 
