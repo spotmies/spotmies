@@ -320,7 +320,7 @@ export const clients = [
   {
     name: "Schemax",
     image:
-      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_01_.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive2.png?alt=media&token=869ac8bb-d6fb-4655-b40e-2bcddf34a864",
     link: "https://www.schemaxtech.com",
   },
   {
