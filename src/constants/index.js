@@ -319,85 +319,84 @@ export const primaryColor = "#142440";
 export const clients = [
   {
     name: "Schemax",
-    image:
-      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_01_.png",
+    image:"https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_01_.png?alt=media&token=840d4f4d-8119-4c4b-ae45-b840fdff0a37",
     link: "https://www.schemaxtech.com",
   },
   {
     name: "Decentrialz",
     image:
-      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_02.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FThirdFolder%2FL-10.png?alt=media&token=5e8dd11e-cc8c-4514-8f42-efa41bb40ab0",
     link: "https://decentrialz.com",
   },
   {
     name: "Sweken",
     image:
-      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_03_.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_03_.png?alt=media&token=8272891d-ab2b-4f95-95db-94827d1e9bec",
     link: "https://sweken.com",
   },
   {
     name: "Indie skull syndicate",
     image:
-      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_04_.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_04_.png?alt=media&token=bb2f730d-ec1b-4cea-96cb-31fe7f89846f",
     link: "https://indieskullsyndicate.xyz",
   },
   {
     name: "A Square Entertainment",
     image:
-      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_05_.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_05_.png?alt=media&token=f561af32-b626-4839-91b9-62dfa3fde82b",
     link: "https://asquaregokarting.com",
   },
   {
     name: "CypherB",
     image:
-      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_06_.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_06_.png?alt=media&token=0f57916c-4206-4983-aaef-4f4534dcacc2",
     link: "https://cypherb.com",
   },
   {
     name: "Advait Labs",
     image:
-      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_07_.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_07_.png?alt=media&token=e3767613-0f4c-496f-a294-7bb6a49702cd",
     link: "https://advaitlabs.com",
   },
   {
     name: "AU Incubation Centre",
     image:
-      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_08_.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_08_.png?alt=media&token=ef39ad3a-42ba-446a-b411-f6a6cd249ed0",
   },
   {
     name: "Chalo Ride",
     image:
-      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c-09-.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc-09-.png?alt=media&token=2f7837fd-e2c1-4e60-8449-6b49a490dd50",
   },
   {
     name: "Mr Bikes",
     image:
-      "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/c_10-.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_10-.png?alt=media&token=bb866e8f-5def-4113-ac31-3151f4a17f3a",
   },
   {
     name: "The 10x Academy",
     image:
-      "https://user-images.githubusercontent.com/63062130/236141959-fca188d4-e5f8-4fbb-b08c-00a1641a56f4.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FThirdFolder%2FL-1.png?alt=media&token=370b13c5-0022-4b4e-aaf4-9faf62a1849a",
   },
   {
     name: "No Drafts",
     image:
-      "https://user-images.githubusercontent.com/63062130/236141972-13662de3-6b16-41b4-a69e-accfc061dbb4.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_12.png?alt=media&token=cd2981cf-0d88-4564-81af-7d00ee47e629",
   },
   {
     name: "Vihaan electrix",
     image:
-      "https://user-images.githubusercontent.com/63062130/236141975-bae3a963-8b32-40ee-8e91-4cadab832d81.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_13.png?alt=media&token=f0973e1e-fcff-4abd-a715-aabefcc4e649",
   },
   {
     name: "CGRUM",
     image:
-      "https://raw.githubusercontent.com/spotmies/images/90e541b79f9a1ccb39ee14da711dc084152755e0/CGRUM%20logo.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_14.png?alt=media&token=cef3bb00-15e4-4fea-9578-3796c91d82f3",
   },
   {
     name: "NandiKrushi",
     image:
-      "https://raw.githubusercontent.com/spotmies/images/90e541b79f9a1ccb39ee14da711dc084152755e0/nandhi%20krushi.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_15.png?alt=media&token=0a27663b-e058-4fa5-abaf-33d9118963d9",
   }
 
 ];
