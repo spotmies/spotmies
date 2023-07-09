@@ -73,7 +73,7 @@ export default function Mentor2() {
             className="w-full h-full rounded-2xl hover:scale-110 transition-all duration-700 ease-in-out"
             style={{
               backgroundImage:
-                "url(https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/t_08_RaviSir.png)",
+                "url(https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2Four%20mentor%2FRaviSir.png?alt=media&token=beb9f30c-2265-450d-9b60-40d173d1bd36)",
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
@@ -121,7 +121,7 @@ export default function Mentor2() {
           className="w-full h-full rounded-3xl group-hover:scale-110 transition-all duration-700 ease-in-out absolute inset-0"
           style={{
             backgroundImage:
-              "url(https://nftstorage.link/ipfs/bafybeiaohu77reodwrtyq2vkqvcvwzzddd3rejia3qknewybhcyk65aktq)",
+              "url(https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2Four%20mentor%2FRaviSir.png?alt=media&token=beb9f30c-2265-450d-9b60-40d173d1bd36)",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
