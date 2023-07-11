@@ -53,7 +53,7 @@ export default function TeamSlide() {
                     description:
                       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                     image:
-                      "https://user-images.githubusercontent.com/63062130/240163219-96a12133-f89e-4eb1-9c93-cd9e61da6e00.jpg",
+                      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2Fourteam3.jpg?alt=media&token=f71e80ce-901f-46c5-a4e1-8917449312fa",
                   })}
                 </div>
               </Fade>
