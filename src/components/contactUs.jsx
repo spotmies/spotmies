@@ -67,7 +67,7 @@ export default function ContactUs() {
 
   return (
     <div
-      className="w-[100vw] h-fit md:h-[650px] text-black py-9 bg-bg2"
+      className="w-[100vw]  h-fit md:h-[650px] mb-20 text-black py-9 bg-bg2"
       id="contactUs"
     >
       <div className="m-auto w-[90%] bg-white h-full flex flex-col md:flex-row items-center justify-center rounded-2xl">
