@@ -7,6 +7,7 @@ import {
   AiOutlineArrowRight,
 } from "react-icons/ai";
 import { BsMedium } from "react-icons/bs";
+import Call from "./call";
 import {
   FaLinkedin,
   FaYoutube,
@@ -17,9 +18,10 @@ import {
 
 export default function FooterBar() {
   return (
-    <div className=" w-[100vw]" id="footer">
+    <div className=" w-[100vw] z-40" id="footer">
       <footer className=" bg-bg1 text-gray-400 pt-16 pb-8">
-        <div className="container mx-auto px-4">
+        <Call />
+        <div className="container mx-auto pt-11 px-4">
           <div className="flex flex-wrap justify-between mb-12">
             <div className="w-full md:w-1/3 lg:w-1/3 pr-4">
               <img

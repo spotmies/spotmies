@@ -1,0 +1,40 @@
+@media only screen and (max-width: 768px) {
+    .schedule .s1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .schedule a {
+        margin-top: 0px;
+    }
+
+    .schedule .s1 .s2 {
+        margin: 20px;
+        margin-bottom: 0px;
+    }
+
+    .schedule .s1 .s2 p {
+        margin-top: 10px;
+    }
+
+    .schedule {
+        margin-top: -180px !important;
+        height: auto !important;
+
+    }
+
+    #contactUs {
+        margin-bottom: 7rem !important;
+    }
+
+}
+
+.s3 a {
+    width: 200px !important;
+    text-align: center;
+    padding-top: 0.8rem;
+    margin: auto;
+}
