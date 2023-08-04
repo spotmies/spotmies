@@ -85,7 +85,7 @@ export default function Partners() {
             <img
               src={partner.image}
               alt="ethereum"
-              className="cursor-pointer h-[100px] w-[260px]  object-contain m-auto " style={{display:'flex', justifyContent:'center'}} 
+              className="cursor-pointer h-[160px] w-[400px]  object-contain m-auto " style={{display:'flex', justifyContent:'center'}} 
             />
             {/* <h3 className="text-2xl gil-med text-gray-900">
                     {client.name}

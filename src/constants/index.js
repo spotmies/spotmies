@@ -405,8 +405,6 @@ export const partners = [
   {
     name: "Dizi Automation",
     image:"https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2Fdizi%20automation%20logo(1).png?alt=media&token=ed2aeded-2642-451e-bcf9-94fded8cde85",
-    width: "500px",
-    height: "500px",
   },
   {
     name: "The ReachX",
