@@ -268,3 +268,10 @@ a {
     color-scheme: dark;
   }
 }
+@media screen and (max-width: 768px) {
+ .style{
+    width: 100%;
+    height: 100%;   
+ } 
+  
+}

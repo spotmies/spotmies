@@ -19,6 +19,7 @@ import HowWeStart from "./how_we_start_project";
 import Mentor2 from "./mentor2";
 import TechStack from "./techStack";
 import BlockchainService from "./blockchainServices";
+import Partners from "./partners";
 
 export default function HomePage() {
   return (
@@ -34,6 +35,7 @@ export default function HomePage() {
       <BlockchainService />
       <TechStack />
       <Testimonials />
+      <Partners />
       <TeamSlide />
       <TeamSlide2 />
       <Mentor2 />

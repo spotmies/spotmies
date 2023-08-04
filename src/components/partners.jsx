@@ -2,10 +2,10 @@
 import React from "react";
 import Wrapper from "./reusableComponent/wrapper";
 import Carousel from "react-multi-carousel";
-import { clients, testimonials } from "@/constants";
+import { partners, testimonials } from "@/constants";
 import { BsDisplay } from "react-icons/bs";
 
-export default function Testimonials() {
+export default function Partners() {
   function timestampToMonthsAgo(timestam) {
     const timestamp = parseInt(timestam);
     const currentDate = new Date();
@@ -61,35 +61,31 @@ export default function Testimonials() {
   };
 
   return (
+    <div className="style">
+    <div className="bg-bg2 md:h-96 h-52 md:mb-0 mb-9">
     <Wrapper
-      title={"What our client say's about us"}
-      className="bg-bg2 min-h-fit"
+  
     >
-      <div className="flex flex-wrap w-[100%] items-center justify-center"></div>
-      <Carousel responsive={responsive} partialVisible={true}>
-        {testimonials.map((testimonial, index) =>
-          testimonialCard({
-            ...testimonial,
-            key: index,
-            when: testimonial.timeStamp,
-          })
-        )}
-      </Carousel>
+    
 
-      <p className="text-4xl md:text-5xl text-left text-text_color2 gil-bold mt-10 lg:pt-10 " style={{display:'flex', justifyContent:'center'}} >
-        Our Clients
+      <p className="text-4xl md:text-5xl text-left text-text_color2 gil-bold lg:pt-10 " style={{display:'flex', justifyContent:'center'}} >
+        Our Partners
       </p>
 
-      <div className="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-5 gap-2 md:gap-4 mt-2 md:mt-8">
-        {clients.map((client, index) => (
+      <div className=" row row-cols-2 md:grid-cols-5 lg:grid-cols-5  gap-2 md:gap-40 mt-2 md:mt-8 h-full "style={{display:'flex', justifyContent:'center'}} >
+        {partners.map((partner, index) => (
           <div
-            className="relative flex justify-around items-center px-4 py-4 bg-bg2 rounded-md hover:scale-110 transition-all duration-700 ease-in-out cursor-pointer"
-            key={index}
+            // className="relative flex justify-around items-center px-4 py-4 mx-16 bg grey-bg2 rounded-md hover:scale-110 transition-all duration-700 ease-in-out cursor-pointer"
+            // key={index}
           >
+            {/* Add responsiveness to image on only this slide */}
+            <div className="absolute top-0 left-0 w-full h-full bg-black opacity-0 hover:opacity-50 transition-all duration-700 ease-in-out rounded-md" ></div>
+            
+
             <img
-              src={client.image}
+              src={partner.image}
               alt="ethereum"
-              className="cursor-pointer h-[60px] w-[160px] lg:grayscale md:grayscale hover:grayscale-0 object-contain m-auto hover:scale-110 transition-all duration-700 ease-in-out "
+              className="cursor-pointer h-[100px] w-[260px]  object-contain m-auto " style={{display:'flex', justifyContent:'center'}} 
             />
             {/* <h3 className="text-2xl gil-med text-gray-900">
                     {client.name}
@@ -98,6 +94,8 @@ export default function Testimonials() {
         ))}
       </div>
     </Wrapper>
+    </div>
+    </div>
   );
   function testimonialCard({ text, image, name, position, when, key }) {
     return (
@@ -110,7 +108,7 @@ export default function Testimonials() {
           "{text}"
         </p>
 
-        <div className="flex flex-row w-full justify-between items-center">
+        <div className="flex flex-row w-full justify-between items-center ">
           <div className="flex flex-row mt-[10px]">
             <img
               src={image}
@@ -132,6 +130,7 @@ export default function Testimonials() {
         </div>
         {/* </div> */}
       </div>
+      
     );
   }
 }
