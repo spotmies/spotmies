@@ -25,7 +25,7 @@ export default function DesignSlide() {
           </p>
         </Fade>
       </div>
-
+<Fade bottom>
       <div className="absolute bottom-3 flex flex-row w-full items-center justify-center">
         <button
           onClick={() => {
@@ -38,6 +38,7 @@ export default function DesignSlide() {
           Show More
         </button>
       </div>
+      </Fade>
     </div>
   );
 }

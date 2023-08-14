@@ -318,6 +318,11 @@ export const primaryColor = "#142440";
 
 export const clients = [
   {
+    name: "Advon",
+    image:"https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FAdvon%20banner%20logo(1).png?alt=media&token=98ad139f-743b-4f18-be03-b112c5d758bb",
+    link: "https://advon.com",
+  },
+  {
     name: "Schemax",
     image:"https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_01_.png?alt=media&token=840d4f4d-8119-4c4b-ae45-b840fdff0a37",
     link: "https://www.schemaxtech.com",
@@ -345,12 +350,6 @@ export const clients = [
     image:
       "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_05_.png?alt=media&token=f561af32-b626-4839-91b9-62dfa3fde82b",
     link: "https://asquaregokarting.com",
-  },
-  {
-    name: "CypherB",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_06_.png?alt=media&token=0f57916c-4206-4983-aaef-4f4534dcacc2",
-    link: "https://cypherb.com",
   },
   {
     name: "Advait Labs",
@@ -398,6 +397,84 @@ export const clients = [
     image:
       "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_15.png?alt=media&token=0a27663b-e058-4fa5-abaf-33d9118963d9",
   }
+
+];
+
+export const partners = [
+  
+  {
+    name: "Dizi Automation",
+    image:"https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2Fdizi%20automation%20logo(1).png?alt=media&token=ed2aeded-2642-451e-bcf9-94fded8cde85",
+  },
+  {
+    name: "The ReachX",
+    image:"https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2Freachx%20logo(1).png?alt=media&token=88a44da1-fdec-429f-aaa7-8f5a10ba8d0b",
+    
+  },
+  // {
+  //   name: "Indie skull syndicate",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_04_.png?alt=media&token=bb2f730d-ec1b-4cea-96cb-31fe7f89846f",
+  //   link: "https://indieskullsyndicate.xyz",
+  // },
+  // {
+  //   name: "A Square Entertainment",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_05_.png?alt=media&token=f561af32-b626-4839-91b9-62dfa3fde82b",
+  //   link: "https://asquaregokarting.com",
+  // },
+  // {
+  //   name: "CypherB",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_06_.png?alt=media&token=0f57916c-4206-4983-aaef-4f4534dcacc2",
+  //   link: "https://cypherb.com",
+  // },
+  // {
+  //   name: "Advait Labs",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_07_.png?alt=media&token=e3767613-0f4c-496f-a294-7bb6a49702cd",
+  //   link: "https://advaitlabs.com",
+  // },
+  // {
+  //   name: "AU Incubation Centre",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_08_.png?alt=media&token=ef39ad3a-42ba-446a-b411-f6a6cd249ed0",
+  // },
+  // {
+  //   name: "Chalo Ride",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc-09-.png?alt=media&token=2f7837fd-e2c1-4e60-8449-6b49a490dd50",
+  // },
+  // {
+  //   name: "Mr Bikes",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_10-.png?alt=media&token=bb866e8f-5def-4113-ac31-3151f4a17f3a",
+  // },
+  // {
+  //   name: "The 10x Academy",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FThirdFolder%2FL-1.png?alt=media&token=370b13c5-0022-4b4e-aaf4-9faf62a1849a",
+  // },
+  // {
+  //   name: "No Drafts",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_12.png?alt=media&token=cd2981cf-0d88-4564-81af-7d00ee47e629",
+  // },
+  // {
+  //   name: "Vihaan electrix",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_13.png?alt=media&token=f0973e1e-fcff-4abd-a715-aabefcc4e649",
+  // },
+  // {
+  //   name: "CGRUM",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_14.png?alt=media&token=cef3bb00-15e4-4fea-9578-3796c91d82f3",
+  // },
+  // {
+  //   name: "NandiKrushi",
+  //   image:
+  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_15.png?alt=media&token=0a27663b-e058-4fa5-abaf-33d9118963d9",
+  // }
 
 ];
 

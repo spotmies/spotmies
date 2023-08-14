@@ -80,7 +80,7 @@ function Faq() {
   return (
     <div className="w-[100vw] bg-white" id="faq">
       <div className="w-[90%] container mx-auto py-12  rounded-sm m-auto ">
-        <Fade>
+        <Fade bottom>
           <h2 className="text-3xl md:text-5xl lg:text-6xl gil-bold mb-8 text-center text-primary2">
             Frequently Asked Questions
           </h2>

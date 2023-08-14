@@ -160,6 +160,7 @@ a {
   animation-fill-mode: both;
   visibility: visible;
 }
+
 @keyframes slideInDown {
   from {
     transform: translateY(-50%);
@@ -267,4 +268,11 @@ a {
   html {
     color-scheme: dark;
   }
+}
+@media screen and (max-width: 768px) {
+ .style{
+    width: 100%;
+    height: 100%;   
+ } 
+  
 }
