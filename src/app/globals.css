@@ -160,6 +160,7 @@ a {
   animation-fill-mode: both;
   visibility: visible;
 }
+
 @keyframes slideInDown {
   from {
     transform: translateY(-50%);

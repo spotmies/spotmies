@@ -4,6 +4,7 @@ import Wrapper from "./reusableComponent/wrapper";
 import Carousel from "react-multi-carousel";
 import { partners, testimonials } from "@/constants";
 import { BsDisplay } from "react-icons/bs";
+import { Fade } from "react-reveal";
 
 export default function Partners() {
   function timestampToMonthsAgo(timestam) {
@@ -61,40 +62,40 @@ export default function Partners() {
   };
 
   return (
-    <div className="style">
-    <div className="bg-bg2 md:h-96 h-52 md:mb-0 mb-9">
-    <Wrapper
-  
-    >
-    
+    <div className="animated">
+      <div className="bg-bg2 md:h-96 h-52 md:mb-0 mb-9">
+        <Wrapper>
 
-      <p className="text-4xl md:text-5xl text-left text-text_color2 gil-bold lg:pt-10 " style={{display:'flex', justifyContent:'center'}} >
-        Our Partners
-      </p>
+          <Fade bottom>
+            <p className="text-4xl md:text-5xl text-left text-text_color2 gil-bold lg:pt-10 " style={{ display: 'flex', justifyContent: 'center' }} >
+              Our Partners
+            </p>
+          </Fade>
 
-      <div className=" row row-cols-2 md:grid-cols-5 lg:grid-cols-5  gap-2 md:gap-40 mt-2 md:mt-8 h-full "style={{display:'flex', justifyContent:'center'}} >
-        {partners.map((partner, index) => (
-          <div
-            // className="relative flex justify-around items-center px-4 py-4 mx-16 bg grey-bg2 rounded-md hover:scale-110 transition-all duration-700 ease-in-out cursor-pointer"
-            // key={index}
-          >
-            {/* Add responsiveness to image on only this slide */}
-            <div className="absolute top-0 left-0 w-full h-full bg-black opacity-0 hover:opacity-50 transition-all duration-700 ease-in-out rounded-md" ></div>
-            
+          <div className=" row row-cols-2 md:grid-cols-5 lg:grid-cols-5  gap-2 md:gap-40 mt-2 md:mt-8 h-full " style={{ display: 'flex', justifyContent: 'center' }} >
+            {partners.map((partner, index) => (
+              <div
+              // className="relative flex justify-around items-center px-4 py-4 mx-16 bg grey-bg2 rounded-md hover:scale-110 transition-all duration-700 ease-in-out cursor-pointer"
+              // key={index}
+              >
+                {/* Add responsiveness to image on only this slide */}
+                {/* <div className="absolute top-0 left-0 w-full h-full bg-black opacity-0 hover:opacity-50 transition-all duration-700 ease-in-out rounded-md" ></div> */}
 
-            <img
-              src={partner.image}
-              alt="ethereum"
-              className="cursor-pointer h-[160px] w-[400px]  object-contain m-auto " style={{display:'flex', justifyContent:'center'}} 
-            />
-            {/* <h3 className="text-2xl gil-med text-gray-900">
+                <Fade bottom>
+                  <img
+                    src={partner.image}
+                    alt="ethereum"
+                    className="cursor-pointer h-[160px] w-[400px]  object-contain m-auto " style={{ display: 'flex', justifyContent: 'center' }}
+                  />
+                </Fade>
+                {/* <h3 className="text-2xl gil-med text-gray-900">
                     {client.name}
                   </h3> */}
+              </div>
+            ))}
           </div>
-        ))}
+        </Wrapper>
       </div>
-    </Wrapper>
-    </div>
     </div>
   );
   function testimonialCard({ text, image, name, position, when, key }) {
@@ -130,7 +131,7 @@ export default function Partners() {
         </div>
         {/* </div> */}
       </div>
-      
+
     );
   }
 }
