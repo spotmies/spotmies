@@ -16,6 +16,7 @@ import {
 import { FaFileContract } from "react-icons/fa";
 import Carousel from "react-multi-carousel";
 import { MdOutlinePayment } from "react-icons/md";
+import { Fade } from "react-reveal";
 export default function BlockchainService() {
   const blockchainServices = [
     {
@@ -115,6 +116,7 @@ export default function BlockchainService() {
       className="bg-bg2 min-h-fit"
       titleClassName="lg:text-7xl"
     >
+      <Fade bottom>
       <div className="flex flex-col-reverse md:flex-row w-full justify-between items-start min-h-[20vh] py-[2vh]">
         <div className="flex flex-col w-[90%] md:w-[35%] text-text_color2 mt-4 md:mt-0">
           <p className="text-xl lg:text-xl text-justify opacity-60">
@@ -126,6 +128,7 @@ export default function BlockchainService() {
             our services offer seamless integration and enhance the overall user
             experience
           </p>
+          
           <HoverButton
             text={"Contact Us"}
             className="mt-4 w-fit rounded-md"
@@ -143,6 +146,7 @@ export default function BlockchainService() {
             }}
           />
         </div>
+        
         <div className="md:w-[60%] w-[100%] ">
           <Carousel responsive={responsive} partialVisible={true}>
             {blockchainServices.map((service, index) => (
@@ -153,6 +157,8 @@ export default function BlockchainService() {
           </Carousel>
         </div>
       </div>
+      </Fade>
+
     </Wrapper>
   );
 
