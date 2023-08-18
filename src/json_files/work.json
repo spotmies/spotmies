@@ -16,7 +16,7 @@
       "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%204.png?alt=media&token=35ae211b-cd48-4793-9ef6-d316b716151c",
       "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%205.png?alt=media&token=703aa98c-f780-4cea-9f37-6e232b8b8a83"
     ],
-    "techstack": ["flutter", "reactjs", "nodejs", "mongodb"],
+    "techstack": ["figma","flutter", "reactjs", "mysql", "aws"],
     "content": [
       {
         "title": "Introduction:",
@@ -44,9 +44,8 @@
       }
     ],
     "links": {
-      "website": "https://www.schemaxtech.com",
-      "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
-      "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
+      "website": "https://www.boomboomtalk.xyz",
+      "android": "https://play.google.com/store/apps/details?id=com.boom_boom_talk"
     }
   }
 },
@@ -55,7 +54,7 @@
 
   "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%206%20(2).jpg?alt=media&token=504a9599-2a40-42d8-a59a-070b6eded842",
   "projectLink": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
-  "tags": ["Web 3"],
+  "tags": ["Web 4"],
   "title": "Dizi Automation Solutions",
   "projectName": "dizi automation solutions",
   "completed": true,
@@ -67,7 +66,7 @@
       "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%209%20(1).jpg?alt=media&token=646138ae-0681-4b14-8838-044e227b43ef",
       "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%2010%20(1).jpg?alt=media&token=8aad3538-28ab-4229-ad0b-c6483746eaf2"
     ],
-    "techstack": ["flutter", "reactjs", "nodejs", "mongodb"],
+    "techstack": ["reactjs", "nextjs", "tailwind"],
     "content": [
       {
         "title": "Introduction:",
@@ -96,9 +95,9 @@
 
     ],
     "links": {
-      "website": "https://www.schemaxtech.com",
-      "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
-      "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
+      "website": "https://www.diziautomation.com",
+      "android": "https://www.diziautomation.com/"
+      
     }
   }
 },
