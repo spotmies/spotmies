@@ -2,6 +2,7 @@ import React from "react";
 import LandingSlide from "./landing_slide";
 import AboutUs from "./aboutUs";
 import Services from "./services";
+import IndvPage from "./IndividualBlogPage/IndvPage";
 
 import FooterBar from "./footer";
 
@@ -16,6 +17,7 @@ import Testimonials from "./testimonials";
 import DesignSlide from "./designSlide";
 import TechSlide from "./technologies";
 import HowWeStart from "./how_we_start_project";
+
 import Mentor2 from "./mentor2";
 import TechStack from "./techStack";
 import BlockchainService from "./blockchainServices";
@@ -43,7 +45,10 @@ export default function HomePage() {
 
       <Faq />
       <ArticlesList />
+
+      <Faq />
       <ContactUs />
+      {/* <IndvPage/> */}
       <FooterBar />
     </div>
   );
