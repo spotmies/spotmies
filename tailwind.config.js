@@ -22,7 +22,7 @@ module.exports = {
         text_color2: "#171717",
       },
       screens: {
-        md: "1000px",
+        md: "1280px",
         lg: "1900px",
         // => @media (min-width: 1440px) { ... }
       },
