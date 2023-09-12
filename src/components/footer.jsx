@@ -91,7 +91,7 @@ export default function FooterBar() {
                   </a>
                 </li>
                 <li className="mb-2 lg:text-xl">
-                  <a href="#" className="hover:text-white">
+                  <a href="/privacy" className="hover:text-white">
                     Privacy Policy
                   </a>
                 </li>
