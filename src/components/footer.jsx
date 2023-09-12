@@ -1,6 +1,6 @@
 "use client";
 import { socialMediaRedirect } from "@/constants";
-import React from "react";
+import React, { useState } from "react";
 import {
   AiFillBehanceSquare,
   AiFillInstagram,
@@ -15,7 +15,21 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 
+import axios from 'axios';
+
 export default function FooterBar() {
+  const [email, setEmail] = useState('');
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Send email to the API using Axios
+    axios.post('https://script.google.com/macros/s/AKfycbxmCKtzq0paW6ovftholsG1MqTpYVngu6JE6n12HWYnysF78xpS/exec', email )
+      .then(response => {
+        console.log(response.data);   // Handle the API response
+      })
+      .catch(error => {
+        console.error(error); // Handle any errors
+      });
+  };
   return (
     <div className=" w-[100vw]" id="footer">
       <footer className=" bg-bg1 text-gray-400 pt-16 pb-8">
@@ -94,12 +108,14 @@ export default function FooterBar() {
                 Sign up for our newsletter and stay up-to-date with our latest
                 news and offers.
               </p>
-              <form className="flex mb-4 lg:text-xl">
+              <form onSubmit={handleSubmit} className="flex mb-4 lg:text-xl" >
                 <input
                   required
                   className="outline-none bg-bg1 text-gray-400 border-2 border-gray-700 py-2 px-3 w-full mr-2 rounded"
                   type="email"
                   placeholder="Enter your email"
+                  value={email}
+                  onChange={e => setEmail(e.target.value)}
                 />
                 <button
                   className="bg-bg1 text-white gil-bold py-2 px-4 rounded border-2 border-gray-700 opacity-60 hover:opacity-100 transition-opacity"

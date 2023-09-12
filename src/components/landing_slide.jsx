@@ -104,7 +104,7 @@ export const Navbarr = ({ noScrollEffect }) => {
   };
 
   const scheduleMeeting = () => {
-    const calendlyLink = "https://calendly.com/sekhar_javvadi/30min";
+    const calendlyLink = "https://calendly.com/spotmies/30min";
     window.open(calendlyLink, "_blank");
   };
 
