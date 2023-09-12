@@ -1,5 +1,55 @@
 [
   {
+    "description": "At Dizi Automation Solutions, we specialize in crafting technology stack solutions within the realm of enterprise digital solutions. Leveraging the power of open-source technologies, we excel in creating impactful solutions across various domains, including Web and Mobility Solutions, Data Analytics, Data Engineering, and AI/ML Solutions.",
+
+    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%206%20(2).jpg?alt=media&token=504a9599-2a40-42d8-a59a-070b6eded842",
+    "projectLink": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+    "tags": ["Web 4"],
+    "title": "Dizi Automation Solutions",
+    "projectName": "dizi automation solutions",
+    "completed": true,
+    "overview": {
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%206%20(2).jpg?alt=media&token=504a9599-2a40-42d8-a59a-070b6eded842",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%207%20(1).jpg?alt=media&token=0e697cd2-d690-4226-ac7f-eb56da7a6800",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%208%20(1).jpg?alt=media&token=8f8f85f0-bd41-4709-ac35-4b2638828792",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%209%20(1).jpg?alt=media&token=646138ae-0681-4b14-8838-044e227b43ef",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%2010%20(1).jpg?alt=media&token=8aad3538-28ab-4229-ad0b-c6483746eaf2"
+      ],
+      "techstack": ["reactjs", "nextjs", "tailwind"],
+      "content": [
+        {
+          "title": "Introduction:",
+          "description": "Welcome to Dizi Automation Solutions, your trusted partner in delivering cutting-edge business solutions, consulting, and services. With a global presence spanning strategic locations across the Middle East, US, Canada, and India, we bring together expertise, innovation, and technology to empower businesses."
+        },
+        {
+          "title": "Customer-Centric Approach:",
+          "description": "As a customer-centric organization, our journey revolves around meeting the dynamic needs of our clients. We continually evolve our offerings to align with the ever-changing landscape of business challenges. Our commitment to innovation drives us to reimagine solutions and delivery models, benefitting not only our customers but also our clients and partners.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%207%20(1).jpg?alt=media&token=0e697cd2-d690-4226-ac7f-eb56da7a6800"
+        },
+        {
+          "title": "Innovation and Investment:",
+          "description": "A pivotal pillar of our business strategy is our unwavering investment in product/accelerator platforms. This strategic approach not only fosters exceptional value for all stakeholders but also mitigates risks. By constantly refining our platforms, we ensure that our offerings remain at the forefront of technological advancements.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%208%20(1).jpg?alt=media&token=8f8f85f0-bd41-4709-ac35-4b2638828792"
+        },
+        {
+          "title": "Our Vision:",
+          "description": "At Vashista Dizi Automation Solutions, our vision is crystal clear – to consistently deliver exceptional service and value to our customers. We have positioned ourselves as leaders in the Oracle ecosystem and Data Analytics domain, amplified by our AI-driven services.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%209%20(1).jpg?alt=media&token=646138ae-0681-4b14-8838-044e227b43ef"
+        },
+        {
+          "title": "Conclusion:",
+          "description": "At Dizi Automation Solutions, our journey is fueled by innovation, expertise, and an unwavering commitment to our customers. We stand ready to help businesses embrace the future, navigate challenges, and seize opportunities in the ever-evolving digital landscape. Join us on this exciting expedition towards excellence, where technology transforms possibilities into realities.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%2010%20(1).jpg?alt=media&token=8aad3538-28ab-4229-ad0b-c6483746eaf2"
+        }
+      ],
+      "links": {
+        "website": "https://www.diziautomation.com",
+        "android": "https://www.diziautomation.com/"
+      }
+    }
+  },
+  {
     "description": "Schemax is a software product and technology services company based out of India (Hyderabad & Visakhapatnam.",
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive1.png?alt=media&token=e522a709-bb40-4edd-b6d0-962d35059a7e",
     "projectLink": "https://www.schemaxtech.com",
@@ -177,6 +227,56 @@
     }
   },
   {
+    "description": "In the realm of modern romance, BoomBoomTalk stands tall as a pioneering force in the digital dating landscape. Seamlessly combining innovative Web3 integration with the age-old art of connecting hearts, BoomBoomTalk is more than just another dating platform – it's a revolutionary experience that transcends conventional boundaries. In this portfolio entry, we'll delve into the captivating world of BoomBoomTalk, exploring its cutting-edge features, the transformative power of Web3, and its unwavering commitment to user safety.",
+
+    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%201.png?alt=media&token=76a62138-e5ec-4883-a4c6-bce56ff46955",
+    "projectLink": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+    "tags": ["Web 3"],
+    "title": "Boom Boom Talk",
+    "projectName": "boom-boom-talk",
+    "completed": true,
+    "overview": {
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%201.png?alt=media&token=76a62138-e5ec-4883-a4c6-bce56ff46955",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%202.png?alt=media&token=637edb53-d53c-470a-9446-b97284ac5cee",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%203.png?alt=media&token=72f5b262-fd24-4fb4-a7fc-fd0366a076f8",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%204.png?alt=media&token=35ae211b-cd48-4793-9ef6-d316b716151c",
+        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%205.png?alt=media&token=703aa98c-f780-4cea-9f37-6e232b8b8a83"
+      ],
+      "techstack": ["figma", "flutter", "reactjs", "mysql", "aws"],
+      "content": [
+        {
+          "title": "Introduction:",
+          "description": "Elevate your dating journey with BoomBoom Talk, a revolutionary online dating platform designed to bring genuine connections to the forefront. Our cutting-edge features empower you to discover compatible matches effortlessly. Our advanced matchmaking algorithm takes your preferences to heart, making every match a potential meaningful connection. Say goodbye to the swipe-saturated world and hello to profiles that truly resonate."
+        },
+        {
+          "title": "Chat-Centric Connections:",
+          "description": "In an era marked by fleeting interactions and superficial swipes, BoomBoomTalk prioritizes meaningful connections forged through genuine conversations. Our platform places chat at the heart of the dating experience, encouraging users to engage in substantive dialogues that go beyond mere appearances. By facilitating in-depth conversations, BoomBoomTalk helps users discover the true essence of their potential partners, fostering bonds that are rooted in compatibility and shared values.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%202.png?alt=media&token=637edb53-d53c-470a-9446-b97284ac5cee"
+        },
+        {
+          "title": "Elevate Your Interaction:",
+          "description": "Interactive profiles come alive on BoomBoom Talk, enabling you to showcase your true self through multimedia content that goes beyond just pictures. Break the ice with fun and engaging challenges, ensuring that those initial conversations flow seamlessly. Immerse yourself in our virtual events, where you can meet like-minded singles in a relaxed and enjoyable atmosphere, all while prioritizing your safety and privacy.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%203.png?alt=media&token=72f5b262-fd24-4fb4-a7fc-fd0366a076f8"
+        },
+        {
+          "title": "Safety Above All:",
+          "description": "Safety is the cornerstone of every successful dating platform, and at BoomBoomTalk, we take it to the next level. Our commitment to user safety is unwavering, evidenced by our comprehensive measures to safeguard user profiles and personal information. Through stringent verification processes and advanced security protocols, we ensure that every profile on our platform is genuine and trustworthy.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%204.png?alt=media&token=35ae211b-cd48-4793-9ef6-d316b716151c"
+        },
+        {
+          "title": "Conclusion:",
+          "description": "In the landscape of digital dating, BoomBoomTalk emerges as a trailblazing force that redefines the possibilities of human connection. Through innovative Web3 integration, the power of genuine conversations, and an unyielding commitment to safety, we've created a platform that transcends the limitations of traditional dating apps. BoomBoomTalk is more than just technology – it's the catalyst for genuine, transformative relationships in the digital age. Join us in shaping the future of romance, one meaningful connection at a time.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%205.png?alt=media&token=703aa98c-f780-4cea-9f37-6e232b8b8a83"
+        }
+      ],
+      "links": {
+        "website": "https://www.boomboomtalk.xyz",
+        "android": "https://play.google.com/store/apps/details?id=com.boom_boom_talk"
+      }
+    }
+  },
+  {
     "description": " Cypher-B is an innovative recruitment and verification platform built on the blockchain. It revolutionizes the hiring process by enabling users to secure job opportunities, verify their identities, and share their credentials with employers and organizations. By leveraging the power of blockchain technology, Cypher-B ensures a secure, tamper-proof, and transparent ecosystem for both job seekers and employers.",
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive4.png?alt=media&token=16ccda3e-e07c-4548-b580-24c472456d47",
     "projectLink": "https://www.cypherb.com",
@@ -269,7 +369,7 @@
   {
     "description": "Introducing VIP Food Delivery, an innovative food delivery app designed to provide you with a premium and hassle-free culinary experience. With our beautifully crafted UI screens, we aimed to showcase the potential of this app, although the project itself did not materialize.",
 
-    "image": "https://raw.githubusercontent.com/spotmies/images/main/vip%20delivery%20app/273d89169222763.644905769d34d.png",
+    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive5.png?alt=media&token=745f4be7-3f95-45f6-9fea-cdb827734aee",
     "projectLink": "https://pumpendump.com",
     "tags": ["Web 2"],
     "title": "VIP Food delivery",
@@ -336,7 +436,7 @@
   {
     "description": "Nandikrushi is a revolutionary consumer application that aims to bridge the gap between farmers and consumers by facilitating the delivery of organic food directly from the source. With a commitment to providing the best quality groceries, Nandikrushi serves as a trusted grocery delivery service provider in Vizag. By prioritizing transparency and authenticity, the platform ensures that every product delivered to the consumer's doorstep is of the highest standard.",
 
-    "image": "https://github.com/spotmies/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/9_food.png?raw=true",
+    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive6.png?alt=media&token=9160069f-dde3-4121-9e23-53d3c61ce39f",
     "projectLink": "https://google.com",
     "tags": ["Web 2"],
     "title": "Nandikrushi",
@@ -392,7 +492,7 @@
   {
     "description": "Spotmies is an innovative and open-source home service application designed to bridge the gap between householders and blue-collar service providers. With Spotmies, users can effortlessly find reliable service professionals for their various home service needs, while service providers can showcase their skills and connect with potential clients.",
 
-    "image": "https://raw.githubusercontent.com/spotmies/images/main/spotmies%20user%20app/28721f170721903.6463218e6bc98.png",
+    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive7.png?alt=media&token=8594bc44-1785-4713-87fb-9ad80cadb84e",
     "projectLink": "https://google.com",
     "tags": ["Web 2"],
     "title": "Spotmies",
@@ -469,7 +569,7 @@
   {
     "description": "CGRUM is QR Scanning application with reward system. It is useful in the traditional television marketing for best results.",
 
-    "image": "https://github.com/spotmies/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/10_dashboard.png?raw=true",
+    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive8.png?alt=media&token=46673965-aad4-457f-8921-6b2343192444",
     "projectLink": "https://play.google.com/store/apps/details?id=com.cgrum",
     "tags": ["Web 2"],
     "title": " CGRUM",
@@ -519,7 +619,7 @@
   {
     "description": "Crypto MX is a cutting-edge crypto trading application that brings the world of digital currencies right to your fingertips. With real-time data and comprehensive market insights, Crypto MX empowers you to stay informed and make informed trading decisions.",
 
-    "image": "https://github.com/spotmies/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/11_crypto.png?raw=true",
+    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive9.png?alt=media&token=c1965c63-228c-4065-b265-b9475273d199",
     "projectLink": "https://google.com",
     "tags": ["Web 3"],
     "title": "Crypto MX",
@@ -570,7 +670,7 @@
   {
     "description": "Vihaan Electrix is a comprehensive e-commerce platform developed using Flutter, React.js, and Node.js. It serves as an efficient electric bike booking platform that enables users to browse and book electric vehicles. Additionally, the platform provides access to service stations for maintenance and repair services. Vihaan Electrix focuses on simplifying the transition to electric mobility by addressing various facets of electric vehicle ownership.",
 
-    "image": "https://raw.githubusercontent.com/spotmies/images/main/vihaan%20electrix/d4490a169035379.6446288349b24.png",
+    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive10.png?alt=media&token=ff60042d-bcd2-4967-a28c-bffeae4864b0",
     "projectLink": "https://vihaanelectrix.in",
     "tags": ["Web 2"],
     "title": "Vihaan Electrix",
@@ -631,7 +731,7 @@
   {
     "description": "Bill Ezy is an innovative financial management application designed to help individuals overcome common challenges associated with managing finances and sticking to a budget. Developed as a project for a hackathon in our incubation center, Bill Ezy aims to provide practical solutions to address various financial concerns and promote better money management.",
 
-    "image": "https://raw.githubusercontent.com/spotmies/images/main/bill%20ezy/e2653c169912127.6454bbb7b5f23.png",
+    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive11.png?alt=media&token=81bcd718-941c-4872-9210-4dd2e6fe9952",
     "projectLink": "https://vihaanelectrix.in",
     "tags": ["Web 2"],
     "title": "Bill Ezy - Simplify Your Finances",
@@ -645,7 +745,7 @@
         "https://raw.githubusercontent.com/spotmies/images/main/bill%20ezy/ef658f169912127.6454bbb7b8b60.png",
         "https://raw.githubusercontent.com/spotmies/images/main/bill%20ezy/b61b76169912127.6454bbb7b7a58.png"
       ],
-      "techstack": ["figma","adobexd"],
+      "techstack": ["figma", "adobexd"],
       "content": [
         {
           "image": "https://raw.githubusercontent.com/spotmies/images/main/bill%20ezy/d0750f169912127.6454bbb7b9a8a.png",
@@ -704,7 +804,7 @@
 
   {
     "description": "Experience the extraordinary world of Indie Skull Syndicate, where creativity, uniqueness, and digital ownership merge into a captivating journey. Join Zoople and 2,500 other wanderers in this groundbreaking NFT project that blurs the boundaries between humans and phantoms. Are you ready to become a member of the Syndicate",
-    "image": "https://github.com/spotmies/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/5_indiesskull.png?raw=true",
+    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive12.png?alt=media&token=0d7c5bd8-f2a3-4cbb-9990-500ee4a5ab3c",
     "projectLink": "https://indieskullsyndicate.xyz",
     "tags": ["Web 3", "NFT"],
     "title": "Indie Skull Syndicate",
@@ -776,7 +876,7 @@
   },
   {
     "description": "Mad Angles is an extraordinary NFT (Non-Fungible Token) project that combines the allure of triangular art with the captivating expressions of eyes, mouth, and eyebrows. It is a unique and visually stunning collection of digital assets that showcases the creative fusion of geometry and emotions. Although the project has been fully developed, encompassing UI design, artwork, and smart contract deployment on the Ethereum network, it awaits the opportunity to be launched into the vibrant NFT marketplace.",
-    "image": "https://raw.githubusercontent.com/spotmies/images/main/madangles/59ce1f170633731.6461d796dec6d.png",
+    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive13.png?alt=media&token=f161aa15-eb6c-4181-9704-b829df6d3cd7",
     "projectLink": "https://indieskullsyndicate.xyz",
     "tags": ["Web 3", "NFT"],
     "title": "Mad Angles",
@@ -837,7 +937,7 @@
 
   {
     "description": "Reels NFT is an extraordinary digital art project that celebrates the captivating world of paper art through a collection of 1826 unique pieces. Developed as an in-house venture by our creative team, Reels NFT offers a mesmerizing assortment of intricately crafted paper artworks, waiting to be unveiled and cherished by art enthusiasts and collectors.",
-    "image": "https://raw.githubusercontent.com/spotmies/images/main/reels/45e3bd170632725.6461d3935cd00.png",
+    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive14.png?alt=media&token=437da3c8-80fb-411d-92d6-7edfa46aac2f",
     "projectLink": "https://indieskullsyndicate.xyz",
     "tags": ["Web 3", "NFT"],
     "title": "Reels NFT",
@@ -896,7 +996,7 @@
 
   {
     "description": "Minting your very own Something NFT is made accessible and affordable, with a mint price of just 0.005 Ethereum. As an additional gesture, every wallet is entitled to receive one free NFT, allowing everyone to participate and experience the joy of owning these remarkable artworks.",
-    "image": "https://github.com/spotmies/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/6_something.png?raw=true",
+    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive15.png?alt=media&token=426b4f3e-14e6-4673-a5f8-bd27dc446208",
     "projectLink": "https://itssomethingnft.xyz",
     "tags": ["Web 3", "NFT"],
     "title": "It's something NFT",
@@ -958,7 +1058,7 @@
   {
     "description": "Experience the thrill of the Pum Pend Ump collection as we embark on an exciting journey to the bull market. With each mint, we'll pump this collection for seven days, and on the eighth day, we have something big to announce! Get ready to join us in this thrilling adventure where the market is our playground.",
 
-    "image": "https://github.com/spotmies/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/7_pumpendump.png?raw=true",
+    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive16.png?alt=media&token=100ef7ab-9af4-42cf-ba79-b26e4444498e",
     "projectLink": "https://pumpendump.com",
     "tags": ["Web 3"],
     "title": "Pum Pend Ump",
@@ -1024,7 +1124,7 @@
   {
     "description": " Project Hex is an exciting NFT (non-fungible token) based project developed with blockchain technology, specifically using Solidity for secure and accurate crypto transactions. By leveraging IPFS (InterPlanetary File System) for data storage and retrieval, and integrating with OpenSea, Project Hex provides a seamless and reliable platform for NFT enthusiasts. The project boasts an interactive web UI, designed to enhance the user experience and make navigating the world of NFTs simple and enjoyable.",
 
-    "image": "https://github.com/spotmies/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/12_project.png?raw=true",
+    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive17.png?alt=media&token=3b1bd048-b7ae-40be-bbc3-0fcb20f13409",
     "projectLink": "https://projecthex.xyz",
     "tags": ["Web 3"],
     "title": " Project Hex",
@@ -1080,7 +1180,7 @@
   {
     "description": "Visakhapatnam's premier two-wheeler rental service. We are here to make your travel experience in Visakhapatnam convenient and enjoyable. Whether you need a bike or a scooter for short distances or longer trips, Chalo Ride has got you covered. With our commitment to affordable prices and excellent service, we aim to provide you with the best value for your money.",
 
-    "image": "https://github.com/spotmies/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/15_chaloRide.png?raw=true",
+    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive18.png?alt=media&token=59440fac-4221-4052-a567-8556ff77529b",
     "projectLink": "http://chaloride.in/bikes-for-rental-visakapatnam",
     "tags": ["Web 2"],
 
@@ -1153,7 +1253,7 @@
   {
     "description": "Mr bikes is the no 1 Bike rental service provider in Andhra Pradesh. We are here to provide bikes on rental basis to students, tourists and who are enthusiast in bike riding. Curently we are providing bike rental services in Vizag",
 
-    "image": "https://github.com/spotmies/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/16_mrBikes.png?raw=true",
+    "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive19.png?alt=media&token=1aad31d2-cecc-4e24-9512-54002f11b983",
     "projectLink": "https://www.mrbikes.in/bikes-for-rental-visakapatnam",
     "tags": ["Web 2"],
     "title": " Mr Bikes",
