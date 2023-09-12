@@ -1,5 +1,107 @@
 [
   {
+  "description": "In the realm of modern romance, BoomBoomTalk stands tall as a pioneering force in the digital dating landscape. Seamlessly combining innovative Web3 integration with the age-old art of connecting hearts, BoomBoomTalk is more than just another dating platform – it's a revolutionary experience that transcends conventional boundaries. In this portfolio entry, we'll delve into the captivating world of BoomBoomTalk, exploring its cutting-edge features, the transformative power of Web3, and its unwavering commitment to user safety.",
+
+  "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%201.png?alt=media&token=76a62138-e5ec-4883-a4c6-bce56ff46955",
+  "projectLink": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+  "tags": ["Web 3"],
+  "title": "Boom Boom Talk",
+  "projectName": "boom-boom-talk",
+  "completed": true,
+  "overview": {
+    "images": [
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%201.png?alt=media&token=76a62138-e5ec-4883-a4c6-bce56ff46955",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%202.png?alt=media&token=637edb53-d53c-470a-9446-b97284ac5cee",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%203.png?alt=media&token=72f5b262-fd24-4fb4-a7fc-fd0366a076f8",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%204.png?alt=media&token=35ae211b-cd48-4793-9ef6-d316b716151c",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%205.png?alt=media&token=703aa98c-f780-4cea-9f37-6e232b8b8a83"
+    ],
+    "techstack": ["figma","flutter", "reactjs", "mysql", "aws"],
+    "content": [
+      {
+        "title": "Introduction:",
+        "description": "Elevate your dating journey with BoomBoom Talk, a revolutionary online dating platform designed to bring genuine connections to the forefront. Our cutting-edge features empower you to discover compatible matches effortlessly. Our advanced matchmaking algorithm takes your preferences to heart, making every match a potential meaningful connection. Say goodbye to the swipe-saturated world and hello to profiles that truly resonate."
+      },
+      {
+        "title": "Chat-Centric Connections:",
+        "description": "In an era marked by fleeting interactions and superficial swipes, BoomBoomTalk prioritizes meaningful connections forged through genuine conversations. Our platform places chat at the heart of the dating experience, encouraging users to engage in substantive dialogues that go beyond mere appearances. By facilitating in-depth conversations, BoomBoomTalk helps users discover the true essence of their potential partners, fostering bonds that are rooted in compatibility and shared values.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%202.png?alt=media&token=637edb53-d53c-470a-9446-b97284ac5cee"
+      },
+      {
+        "title": "Elevate Your Interaction:",
+        "description": "Interactive profiles come alive on BoomBoom Talk, enabling you to showcase your true self through multimedia content that goes beyond just pictures. Break the ice with fun and engaging challenges, ensuring that those initial conversations flow seamlessly. Immerse yourself in our virtual events, where you can meet like-minded singles in a relaxed and enjoyable atmosphere, all while prioritizing your safety and privacy.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%203.png?alt=media&token=72f5b262-fd24-4fb4-a7fc-fd0366a076f8"
+      },
+      {
+        "title": "Safety Above All:",
+        "description": "Safety is the cornerstone of every successful dating platform, and at BoomBoomTalk, we take it to the next level. Our commitment to user safety is unwavering, evidenced by our comprehensive measures to safeguard user profiles and personal information. Through stringent verification processes and advanced security protocols, we ensure that every profile on our platform is genuine and trustworthy.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%204.png?alt=media&token=35ae211b-cd48-4793-9ef6-d316b716151c"
+      },
+      {
+        "title": "Conclusion:",
+        "description": "In the landscape of digital dating, BoomBoomTalk emerges as a trailblazing force that redefines the possibilities of human connection. Through innovative Web3 integration, the power of genuine conversations, and an unyielding commitment to safety, we've created a platform that transcends the limitations of traditional dating apps. BoomBoomTalk is more than just technology – it's the catalyst for genuine, transformative relationships in the digital age. Join us in shaping the future of romance, one meaningful connection at a time.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%205.png?alt=media&token=703aa98c-f780-4cea-9f37-6e232b8b8a83"
+      }
+    ],
+    "links": {
+      "website": "https://www.boomboomtalk.xyz",
+      "android": "https://play.google.com/store/apps/details?id=com.boom_boom_talk"
+    }
+  }
+},
+{
+  "description": "At Dizi Automation Solutions, we specialize in crafting technology stack solutions within the realm of enterprise digital solutions. Leveraging the power of open-source technologies, we excel in creating impactful solutions across various domains, including Web and Mobility Solutions, Data Analytics, Data Engineering, and AI/ML Solutions.",
+
+  "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%206%20(2).jpg?alt=media&token=504a9599-2a40-42d8-a59a-070b6eded842",
+  "projectLink": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+  "tags": ["Web 4"],
+  "title": "Dizi Automation Solutions",
+  "projectName": "dizi automation solutions",
+  "completed": true,
+  "overview": {
+    "images": [
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%206%20(2).jpg?alt=media&token=504a9599-2a40-42d8-a59a-070b6eded842",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%207%20(1).jpg?alt=media&token=0e697cd2-d690-4226-ac7f-eb56da7a6800",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%208%20(1).jpg?alt=media&token=8f8f85f0-bd41-4709-ac35-4b2638828792",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%209%20(1).jpg?alt=media&token=646138ae-0681-4b14-8838-044e227b43ef",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%2010%20(1).jpg?alt=media&token=8aad3538-28ab-4229-ad0b-c6483746eaf2"
+    ],
+    "techstack": ["reactjs", "nextjs", "tailwind"],
+    "content": [
+      {
+        "title": "Introduction:",
+        "description": "Welcome to Dizi Automation Solutions, your trusted partner in delivering cutting-edge business solutions, consulting, and services. With a global presence spanning strategic locations across the Middle East, US, Canada, and India, we bring together expertise, innovation, and technology to empower businesses."
+      },
+      {
+        "title": "Customer-Centric Approach:",
+        "description": "As a customer-centric organization, our journey revolves around meeting the dynamic needs of our clients. We continually evolve our offerings to align with the ever-changing landscape of business challenges. Our commitment to innovation drives us to reimagine solutions and delivery models, benefitting not only our customers but also our clients and partners.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%207%20(1).jpg?alt=media&token=0e697cd2-d690-4226-ac7f-eb56da7a6800"
+      },
+      {
+        "title": "Innovation and Investment:",
+        "description": "A pivotal pillar of our business strategy is our unwavering investment in product/accelerator platforms. This strategic approach not only fosters exceptional value for all stakeholders but also mitigates risks. By constantly refining our platforms, we ensure that our offerings remain at the forefront of technological advancements.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%208%20(1).jpg?alt=media&token=8f8f85f0-bd41-4709-ac35-4b2638828792"
+      },
+      {
+        "title": "Our Vision:",
+        "description": "At Vashista Dizi Automation Solutions, our vision is crystal clear – to consistently deliver exceptional service and value to our customers. We have positioned ourselves as leaders in the Oracle ecosystem and Data Analytics domain, amplified by our AI-driven services.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%209%20(1).jpg?alt=media&token=646138ae-0681-4b14-8838-044e227b43ef"
+      },
+      {
+        "title": "Conclusion:",
+        "description": "At Dizi Automation Solutions, our journey is fueled by innovation, expertise, and an unwavering commitment to our customers. We stand ready to help businesses embrace the future, navigate challenges, and seize opportunities in the ever-evolving digital landscape. Join us on this exciting expedition towards excellence, where technology transforms possibilities into realities.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%2010%20(1).jpg?alt=media&token=8aad3538-28ab-4229-ad0b-c6483746eaf2"
+      }
+
+    ],
+    "links": {
+      "website": "https://www.diziautomation.com",
+      "android": "https://www.diziautomation.com/"
+      
+    }
+  }
+},
+  {
     "description": "Schemax is a software product and technology services company based out of India (Hyderabad & Visakhapatnam.",
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive1.png?alt=media&token=e522a709-bb40-4edd-b6d0-962d35059a7e",
     "projectLink": "https://www.schemaxtech.com",
@@ -1208,4 +1310,6 @@
       }
     }
   }
+
+  
 ]
