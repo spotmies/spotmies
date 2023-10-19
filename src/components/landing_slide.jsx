@@ -211,6 +211,15 @@ export const Navbarr = ({ noScrollEffect }) => {
           </a>
 
           <a
+            onClick={() => navigation("reaidy")}
+            className={`${
+              toggleNavbar ? "text-primary" : "text-white"
+            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
+          >
+            Prouduct
+          </a>
+
+          <a
             onClick={() => navigation("contactUs")}
             className={`${
               toggleNavbar ? "text-primary" : "text-white"
@@ -251,6 +260,12 @@ export const Navbarr = ({ noScrollEffect }) => {
           className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer"
         >
           About Us
+        </a>
+        <a
+          onClick={() => navigation("reaidy")}
+          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+        >
+          Product
         </a>
         <a
           onClick={() => navigation("contactUs")}
