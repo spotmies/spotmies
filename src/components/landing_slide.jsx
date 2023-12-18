@@ -216,7 +216,7 @@ export const Navbarr = ({ noScrollEffect }) => {
               toggleNavbar ? "text-primary" : "text-white"
             }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
           >
-            Prouduct
+            Product
           </a>
 
           <a

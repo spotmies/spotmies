@@ -94,7 +94,7 @@ export default function Services() {
                     setTitle("Windows & Mac");
                     setbody(windowsDevelopment);
                   },
-                  title: "",
+                  title: "Windows & Mac",
                   description:
                     "Maximize your device's potential with our expert Windows & Mac services.",
                   image:
