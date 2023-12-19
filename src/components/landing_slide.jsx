@@ -72,14 +72,13 @@ const LandingSlide = () => {
           /> */}
           <button
             onClick={() => {
-              window.document
-                .getElementById("services")
-                .scrollIntoView({ behavior: "smooth" });
-            }}
+              const calendlyLink = "https://calendly.com/spotmies/30min";
+              window.open(calendlyLink, "_blank");
+              }}
             type={"button"}
-            className={`gil-reg text-xs md:text-sm lg:text-xl flex flex-row items-center justify-center hover:bg-white hover:text-bg1 rounded-sm md:min-w-[120px] min-w-[100px] lg:min-w-[170px] md:min-h-[40px] min-h-[30px] lg:min-h-[50px] mt-4 bg-transparent text-white border border-white animated`}
+            className={`gil-reg text-xs md:text-sm lg:text-xl flex flex-row items-center justify-center hover:bg-white hover:text-bg1 rounded-sm md:min-w-[160px] min-w-[140px] lg:min-w-[210px] md:min-h-[40px] min-h-[30px] lg:min-h-[50px] mt-4 bg-transparent text-white border border-white animated`}
           >
-            Read More
+            Schedule a Call
             <AiOutlineArrowRight className="ml-2" />
           </button>
         </div>
