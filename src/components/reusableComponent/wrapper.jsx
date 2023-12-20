@@ -11,7 +11,7 @@ export default function Wrapper({
 }) {
   return (
     <div className={cx(`w-[100vw] min-h-[100vh]`, className)} id="works">
-      <div className="flex flex-col justify-center w-[90%] h-full py-[4%] m-auto">
+      <div className=" flex flex-col justify-center w-[90%] h-full py-[4vh] m-auto ">
         <Fade bottom>
           <p
             className={cx(

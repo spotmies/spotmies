@@ -84,17 +84,17 @@ export default function Testimonials() {
       </Fade>
       
 
-      <div className="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-5 gap-2 md:gap-4 mt-2 md:mt-8">
+      <div className="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-5  gap-2 md:gap-4 mt-2 md:mt-8 ">
         {clients.map((client, index) => (
           <div
-            className="relative flex justify-around items-center px-4 py-4 bg-bg2 rounded-md hover:scale-110 transition-all duration-700 ease-in-out cursor-pointer"
+            className="relative flex justify-around items-center px-4 py-4 bg-bg2 rounded-md hover:scale-110 transition-all duration-700 ease-in-out cursor-pointer "
             key={index}
           >
             <Fade bottom>
             <img
               src={client.image}
               alt="ethereum"
-              className="cursor-pointer h-[60px] w-[160px] lg:grayscale md:grayscale hover:grayscale-0 object-contain m-auto hover:scale-110 transition-all duration-700 ease-in-out "
+              className="cursor-pointer h-[60px] w-[160px] lg:h-[120px] lg:w-[220px] lg:grayscale md:grayscale hover:grayscale-0 object-contain m-auto hover:scale-110 transition-all duration-700 ease-in-out "
             />
             </Fade>
             {/* <h3 className="text-2xl gil-med text-gray-900">

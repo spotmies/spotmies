@@ -63,11 +63,11 @@ export default function Partners() {
 
   return (
     <div className="animated">
-      <div className="bg-bg2 md:h-96 h-52 md:mb-0 mb-9">
-        <Wrapper>
+      <div className="bg-bg2 lg:h-140 md:h-96 h-52 md:mb-0 mb-9 " >
+        <Wrapper >
 
-          <Fade bottom>
-            <p className="text-4xl md:text-5xl text-left text-text_color2 gil-bold lg:pt-10 " style={{ display: 'flex', justifyContent: 'center' }} >
+          <Fade bottom >
+            <p className="text-4xl md:text-5xl  text-left text-text_color2 gil-bold lg:pt-10 " style={{ display: 'flex', justifyContent: 'center' }} >
               Our Partners
             </p>
           </Fade>

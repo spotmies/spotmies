@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { BsArrowRight, BsArrowUpRightCircle } from "react-icons/bs";
 import { Fade } from "react-reveal";
 import { PopUp } from "./services";
+import img from "../../public/img.jpg";
 
 export default function TeamSlide() {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -41,8 +42,7 @@ export default function TeamSlide() {
                     title: "Web Development",
                     description:
                       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    image:
-                      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2Fourteam4.jpeg?alt=media&token=108a936c-8d5e-4e9c-a5c9-4c8b32c88433",
+                    image:"img.jpg",
                   })}
                 </div>
               </Fade>
