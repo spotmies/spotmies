@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { BsArrowUpRightCircle } from "react-icons/bs";
+import CountUp from "react-countup";
 import { Fade } from "react-reveal";
 
 export default function ReaidySlide() {
@@ -46,6 +47,33 @@ export default function ReaidySlide() {
               analysis.
             </p>
           </Fade>
+          <Fade bottom>
+          <div className="flex flex-row w-full items-center justify-between pt-[5%] mb-[5%]">
+              <div className="flex flex-col items-center justify-center">
+                <p className="gil-med text-3xl lg:text-4xl">
+                  <CountUp enableScrollSpy={true} end={3000} />
+                  <span className="md:mb-[15px] mb-[8px]">+</span>
+                </p>
+                <p className="gil-reg text-md md:text-lg lg:text-3xl">Users</p>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <p className="gil-med text-3xl lg:text-4xl">
+                  <CountUp enableScrollSpy={true} end={2500} />
+                  <span className="md:mb-[15px] mb-[8px]">+</span>
+                </p>
+                <p className="gil-reg text-md md:text-lg lg:text-3xl">
+                  Interviews
+                </p>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <p className="gil-med text-3xl lg:text-4xl">
+                  <CountUp enableScrollSpy={true} end={70} />
+                  <span className="md:mb-[15px] mb-[8px]">+</span>
+                </p>
+                <p className="gil-reg text-md md:text-lg lg:text-3xl">Companies</p>
+              </div>
+            </div>
+            </Fade>
           <Fade bottom>
             <p
               className="gil-bold text-xl md:text-xl text-[#9d5b11] flex items-center cursor-pointer"
@@ -96,6 +124,33 @@ export default function ReaidySlide() {
               analysis.
             </p>
           </Fade>
+          <Fade bottom>
+          <div className="flex flex-row w-full items-center justify-between pt-[5%]">
+              <div className="flex flex-col items-center justify-center">
+                <p className="gil-med text-3xl lg:text-4xl">
+                  <CountUp enableScrollSpy={true} end={3000} />
+                  <span className="md:mb-[15px] mb-[8px]">+</span>
+                </p>
+                <p className="gil-reg text-md md:text-lg lg:text-3xl">Users</p>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <p className="gil-med text-3xl lg:text-4xl">
+                  <CountUp enableScrollSpy={true} end={2500} />
+                  <span className="md:mb-[15px] mb-[8px]">+</span>
+                </p>
+                <p className="gil-reg text-md md:text-lg lg:text-3xl">
+                  Interviews
+                </p>
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <p className="gil-med text-3xl lg:text-4xl">
+                  <CountUp enableScrollSpy={true} end={70} />
+                  <span className="md:mb-[15px] mb-[8px]">+</span>
+                </p>
+                <p className="gil-reg text-md md:text-lg lg:text-3xl">Companies</p>
+              </div>
+            </div>
+            </Fade>
           <Fade bottom>
             <p
               className="gil-bold text-sm md:text-xl lg:text-2xl pt-5 text-[#9d5b11] flex items-center cursor-pointer"
