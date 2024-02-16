@@ -397,15 +397,35 @@ export const clients = [
     image:
       "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_15.png?alt=media&token=0a27663b-e058-4fa5-abaf-33d9118963d9",
   },
-  {
-    name: "Infy Skill",
-    image:
-      "https://infyskill.reaidy.io/static/media/infyskill_banner.c23d7a0150ef9ba47012.png",
-  },
+  // {
+  //   name: "Infy Skill",
+  //   image:
+  //     "https://infyskill.reaidy.io/static/media/infyskill_banner.c23d7a0150ef9ba47012.png",
+  // },
   {
     name: "VatsaProCons",
     image:
       "https://www.vatsaprocons.com/img/Banner_logo.png",
+  },
+  {
+    name: "HRD",
+    image:
+      "https://static.wixstatic.com/media/be8621_cb66cf20f7fc471b993bafd4ede60652~mv2.png/v1/fill/w_183,h_105,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Untitled%20design_edited_edited.png",
+  },
+  {
+    name: "Credit Report",
+    image:
+      "https://reaidystorage.blob.core.windows.net/spotmiespublic/final-logo.png",
+  },
+  {
+    name: "ZinInThuiswerken",
+    image:
+      "https://reaidystorage.blob.core.windows.net/spotmiespublic/ZIN.png",
+  },
+  {
+    name: "Smartfalcon",
+    image:
+      "https://www.smartfalcon.io/images/logo.png",
   }
 
 ];
