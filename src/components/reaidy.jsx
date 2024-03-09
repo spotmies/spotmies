@@ -51,7 +51,7 @@ export default function ReaidySlide() {
           <div className="flex flex-row w-full items-center justify-between pt-[5%] mb-[5%]">
               <div className="flex flex-col items-center justify-center">
                 <p className="gil-med text-3xl lg:text-4xl">
-                  <CountUp enableScrollSpy={true} end={3000} />
+                  <CountUp enableScrollSpy={true} end={4000} />
                   <span className="md:mb-[15px] mb-[8px]">+</span>
                 </p>
                 <p className="gil-reg text-md md:text-lg lg:text-3xl">Users</p>
@@ -67,7 +67,7 @@ export default function ReaidySlide() {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <p className="gil-med text-3xl lg:text-4xl">
-                  <CountUp enableScrollSpy={true} end={70} />
+                  <CountUp enableScrollSpy={true} end={80} />
                   <span className="md:mb-[15px] mb-[8px]">+</span>
                 </p>
                 <p className="gil-reg text-md md:text-lg lg:text-3xl">Companies</p>
