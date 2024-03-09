@@ -16,6 +16,9 @@ import {
   SiHyperledger,
   SiJavascript,
   SiStellar,
+  SiMicrosoftazure,
+  SiGooglecloud,
+  SiLooker,
 } from "react-icons/si";
 import { Fade } from "react-reveal";
 export default function TechStack() {
@@ -81,6 +84,19 @@ export default function TechStack() {
       icon: <SiStellar color="#08B5E5" />,
       name: "Stellar",
     },
+    {
+      icon: <SiMicrosoftazure color="#08B5E5" />,
+      name: "Azure",
+    },
+    {
+      icon: <SiGooglecloud color="#3680f7" />,
+      name: "GCP",
+    },
+    {
+      icon: <SiLooker color="#3680f7" />,
+      name: "LookerStudio",
+    },
+
   ];
 
   return (
