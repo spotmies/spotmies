@@ -12,10 +12,13 @@ import {
   AiOutlineMobile,
   AiOutlineStar,
   AiOutlineWallet,
+  AiOutlineCloud,
 } from "react-icons/ai";
-import { FaFileContract } from "react-icons/fa";
+import { FaFileContract, FaJoomla, } from "react-icons/fa";
+import { SiWeb3Dotjs, SiSmartthings, } from "react-icons/si";
 import Carousel from "react-multi-carousel";
-import { MdOutlinePayment } from "react-icons/md";
+import { GiCyberEye } from "react-icons/gi";
+import { MdOutlinePayment, MdOutlineSecurity, } from "react-icons/md";
 import { Fade } from "react-reveal";
 export default function BlockchainService() {
   const blockchainServices = [
@@ -41,48 +44,96 @@ export default function BlockchainService() {
       description:
         "NFT marketplace on your website enables buying, selling and trading unique digital assets that are verified on the blockchain, creating scarcity, and value for collectors and creators.",
     },
+    // {
+    //   title: "Smart Contract",
+    //   icon: (
+    //     <FaFileContract size="5rem" className="text-primary ml-[-10px] icon" />
+    //   ),
+    //   description:
+    //     "Smart contracts enable automated, secure and transparent execution of agreements on the blockchain, reducing the need for intermediaries and increasing efficiency and trust in transactions.",
+    // },
+    // {
+    //   title: "DEFI Development",
+    //   icon: (
+    //     <AiOutlineDollar size="5rem" className="text-primary ml-[-10px] icon" />
+    //   ),
+    //   description:
+    //     "DeFi is a blockchain-based financial system that enables users to access financial services such as borrowing, lending, and trading without intermediaries. It provides transparent, secure, and decentralized financial solutions.",
+    // },
+    // {
+    //   title: "Smart Contract Audit",
+    //   icon: (
+    //     <AiOutlineAudit size="5rem" className="text-primary ml-[-10px] icon" />
+    //   ),
+    //   description:
+    //     "Smart contract auditing ensures the code is secure, optimized and efficient to minimize risks of potential vulnerabilities, bugs and hacks. It's a critical step to build trust and confidence in blockchain applications.",
+    // },
+    // {
+    //   title: "Web3 Wallet",
+    //   icon: (
+    //     <AiOutlineWallet size="5rem" className="text-primary ml-[-10px] icon" />
+    //   ),
+    //   description:
+    //     "We3 Wallet Integration allows users to securely store and manage their digital assets in one place, with added security features like multi-factor authentication and biometric verification. It simplifies transactions and allows users to easily access their crypto assets from anywhere.",
+    // },
+    // {
+    //   title: "Gasless Transaction",
+    //   icon: (
+    //     <MdOutlinePayment
+    //       size="5rem"
+    //       className="text-primary ml-[-10px] icon"
+    //     />
+    //   ),
+    //   description:
+    //     "Gasless Transaction allows users to transact on the blockchain without paying gas fees by having a third-party cover the transaction cost, increasing accessibility and ease of use for blockchain applications.",
+    // },
     {
-      title: "Smart Contract",
+      title: "Application Development",
       icon: (
         <FaFileContract size="5rem" className="text-primary ml-[-10px] icon" />
       ),
       description:
-        "Smart contracts enable automated, secure and transparent execution of agreements on the blockchain, reducing the need for intermediaries and increasing efficiency and trust in transactions.",
+        "Application development is creating software for devices like computers and smartphones. It includes designing, programming, and testing to produce user-friendly applications. The goal is to meet specific needs and functionalities.",
     },
     {
-      title: "DEFI Development",
+      title: "ML Model",
       icon: (
-        <AiOutlineDollar size="5rem" className="text-primary ml-[-10px] icon" />
+        <FaJoomla size="5rem" className="text-primary ml-[-10px] icon" />
       ),
       description:
-        "DeFi is a blockchain-based financial system that enables users to access financial services such as borrowing, lending, and trading without intermediaries. It provides transparent, secure, and decentralized financial solutions.",
+        "Machine Learning models are computational algorithms that learn patterns from data, enabling predictions and decision-making. They adapt and improve accuracy with experience, finding applications across diverse industries, from healthcare to finance.",
     },
     {
-      title: "Smart Contract Audit",
+      title: "IoT",
       icon: (
-        <AiOutlineAudit size="5rem" className="text-primary ml-[-10px] icon" />
+        <SiSmartthings size="5rem" className="text-primary ml-[-10px] icon" />
       ),
       description:
-        "Smart contract auditing ensures the code is secure, optimized and efficient to minimize risks of potential vulnerabilities, bugs and hacks. It's a critical step to build trust and confidence in blockchain applications.",
+        "IoT connects devices to the internet, enabling data exchange for improved automation in various sectors like smart homes and industry. It transforms our surroundings into a more connected and efficient ecosystem.",
     },
     {
-      title: "Web3 Wallet",
+      title: "Cyber Security",
       icon: (
-        <AiOutlineWallet size="5rem" className="text-primary ml-[-10px] icon" />
+        <MdOutlineSecurity size="5rem" className="text-primary ml-[-10px] icon" />
       ),
       description:
-        "We3 Wallet Integration allows users to securely store and manage their digital assets in one place, with added security features like multi-factor authentication and biometric verification. It simplifies transactions and allows users to easily access their crypto assets from anywhere.",
+        "Cybersecurity is the practice of protecting computer systems, networks, and data from digital threats and unauthorized access. It involves implementing measures to safeguard information, prevent cyber attacks, and ensure the confidentiality and integrity of sensitive data.",
     },
     {
-      title: "Gasless Transaction",
+      title: "Cloud",
       icon: (
-        <MdOutlinePayment
-          size="5rem"
-          className="text-primary ml-[-10px] icon"
-        />
+        <AiOutlineCloud size="5rem" className="text-primary ml-[-10px] icon" />
       ),
       description:
-        "Gasless Transaction allows users to transact on the blockchain without paying gas fees by having a third-party cover the transaction cost, increasing accessibility and ease of use for blockchain applications.",
+        "Cloud computing involves accessing and storing data, as well as running applications over the internet instead of on physical hardware. It provides scalable and on-demand computing resources, offering flexibility and efficiency for businesses and individuals.",
+    },
+    {
+      title: "Web3",
+      icon: (
+        <SiWeb3Dotjs size="5rem" className="text-primary ml-[-10px] icon" />
+      ),
+      description:
+        "Web3 signifies the decentralized future of the internet, leveraging technologies such as blockchain to enhance transparency and empower users in online interactions, reducing reliance on traditional intermediaries.",
     },
   ];
 

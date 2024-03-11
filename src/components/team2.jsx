@@ -56,6 +56,12 @@ export default function TeamSlide2() {
     },
     {
       image:
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/gowri_sankhar.jpg",
+      name: "Gowri Sankar",
+      designation: "Head of IoT",
+    },
+    {
+      image:
         "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FSudhir.png?alt=media&token=4844d0b9-da24-4035-9f66-1ca92a33d419",
       name: "Sudhir Kumar",
       designation: "Head of Marketing",
