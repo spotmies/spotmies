@@ -305,7 +305,7 @@ export function ProjectDetails({ index, showMaximize, setShowpopup }) {
         <div className="flex justify-between items-center gap-5 md:gap-10">
           {worksJson[index]?.overview?.links?.website && (<HoverButton text={"Visit"} onClick={handleButtonClick} className="rounded-xl" />)}
 
-          {showMaximize && (
+          {/* {showMaximize && (
             <FiMaximize2
               size="1.5rem"
               className="text-[#1D1D1D] hover:text-primary cursor-pointer hover:scale-110 transition-all duration-700 ease-in-out"
@@ -313,13 +313,13 @@ export function ProjectDetails({ index, showMaximize, setShowpopup }) {
                 window.open(`/projects/${worksJson[index]?.projectName}`, "_self");
               }}
             />
-          )}
-          {/* <div
+          )} */}
+          <div
             className="text-[#1D1D1D] hover:text-primary cursor-pointer hover:scale-110 transition-all duration-700 ease-in-out"
             onClick={() => setShowpopup(false)}
           >
             <AiOutlineClose size="2rem" />
-          </div> */}
+          </div>
         </div>
       </div>
 
