@@ -1,10 +1,11 @@
 [
   {
     "description": "At Dizi Automation Solutions, we specialize in crafting technology stack solutions within the realm of enterprise digital solutions. Leveraging the power of open-source technologies, we excel in creating impactful solutions across various domains, including Web and Mobility Solutions, Data Analytics, Data Engineering, and AI/ML Solutions.",
-
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%206%20(2).jpg?alt=media&token=504a9599-2a40-42d8-a59a-070b6eded842",
     "projectLink": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
-    "tags": ["Web 4"],
+    "tags": [
+      "Web 4"
+    ],
     "title": "Dizi Automation Solutions",
     "projectName": "dizi automation solutions",
     "completed": true,
@@ -16,7 +17,11 @@
         "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%209%20(1).jpg?alt=media&token=646138ae-0681-4b14-8838-044e227b43ef",
         "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%2010%20(1).jpg?alt=media&token=8aad3538-28ab-4229-ad0b-c6483746eaf2"
       ],
-      "techstack": ["reactjs", "nextjs", "tailwind"],
+      "techstack": [
+        "reactjs",
+        "nextjs",
+        "tailwind"
+      ],
       "content": [
         {
           "title": "Introduction:",
@@ -53,7 +58,9 @@
     "description": "Schemax is a software product and technology services company based out of India (Hyderabad & Visakhapatnam.",
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive1.png?alt=media&token=e522a709-bb40-4edd-b6d0-962d35059a7e",
     "projectLink": "https://www.schemaxtech.com",
-    "tags": ["Web 2"],
+    "tags": [
+      "Web 2"
+    ],
     "title": "Schemax Tech",
     "projectName": "schemax-tech",
     "completed": true,
@@ -64,7 +71,13 @@
         "https://raw.githubusercontent.com/spotmies/images/main/schemax/8c9dd1169115757.64476f00c764c.png",
         "https://raw.githubusercontent.com/spotmies/images/main/schemax/3af8b5169115757.64476f00c681f.png"
       ],
-      "techstack": ["reactjs", "nextjs", "tailwind", "vercel", "figma"],
+      "techstack": [
+        "reactjs",
+        "nextjs",
+        "tailwind",
+        "vercel",
+        "figma"
+      ],
       "content": [
         {
           "title": "About Schemax tech",
@@ -105,10 +118,11 @@
   },
   {
     "description": "Decentrialz is an innovative platform that revolutionizes the recruitment process for clinical trials. Our mission is to provide an integrated technology platform that locates, qualifies, and recruits patients at scale. With our proprietary software solutions, we automate manual tasks, ensuring streamlined and efficient recruitment processes within target timeframes and budgets.",
-
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive2.png?alt=media&token=869ac8bb-d6fb-4655-b40e-2bcddf34a864",
     "projectLink": "https://decentrialz.com",
-    "tags": ["Web 2"],
+    "tags": [
+      "Web 2"
+    ],
     "title": "Decentrialz",
     "projectName": "decentrialz",
     "completed": true,
@@ -122,7 +136,14 @@
         "https://raw.githubusercontent.com/spotmies/images/main/decentralize/e9ae5b170730703.646345d2d88df.png",
         "https://raw.githubusercontent.com/spotmies/images/main/decentralize/2f8a1f170730703.646345d2d6e54.png"
       ],
-      "techstack": ["reactjs", "vite", "python", "aws", "vercel", "mysql"],
+      "techstack": [
+        "reactjs",
+        "vite",
+        "python",
+        "aws",
+        "vercel",
+        "mysql"
+      ],
       "content": [
         {
           "title": "Project Description",
@@ -150,7 +171,6 @@
           "description": " We activate highly relevant channels to precisely target and engage potential participants. Leveraging digital marketing strategies, healthcare professional networks, and advocacy groups, we maximize the reach and effectiveness of our recruitment efforts.",
           "image": "https://raw.githubusercontent.com/spotmies/images/main/decentralize/bbd7bf170730703.646345d2d795a.png"
         },
-
         {
           "title": "On-Demand Virtual Nurse:",
           "description": " To maintain the human touch, we provide an on-demand virtual nurse layer for secondary qualification. This virtual nurse offers personalized support and assistance to potential participants, addressing their questions and concerns, and ensuring a compassionate and empathetic experience.",
@@ -163,24 +183,23 @@
         {
           "title": "Achieve Recruitment Goals",
           "description": " Through our integrated technology platform, we empower organizations to locate, qualify, and recruit patients at scale. Our automated recruitment platform saves time, reduces administrative burden, and helps you achieve your recruitment goals within the specified time and budget.",
-
           "image": "https://raw.githubusercontent.com/spotmies/images/main/decentralize/2f8a1f170730703.646345d2d6e54.png"
         }
       ],
       "links": {
-        "website": "https://www.schemaxtech.com",
+        "website": "https://decentrialz.com",
         "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
         "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
       }
     }
   },
-
   {
     "description": "A Square Go Karting is an exhilarating theme park located in Anandapuram, Visakhapatnam. With its play arena, drive-in, and race track, it offers an adventurous experience for youngsters and children. Featuring India's longest track, it invites you to test your skills and enjoy thrilling twists and turns with your friends and family",
-
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive3.png?alt=media&token=d1e90a5a-6884-48d6-b135-904adc784387",
     "projectLink": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
-    "tags": ["Web 2"],
+    "tags": [
+      "Web 2"
+    ],
     "title": "A Square Go Karting",
     "projectName": "a-square-go-karting",
     "completed": true,
@@ -192,7 +211,12 @@
         "https://raw.githubusercontent.com/spotmies/images/main/gokarting/d851f6168724535.643fc2291b128.png",
         "https://raw.githubusercontent.com/spotmies/images/main/gokarting/fe44ca168724535.643faf6c49688.png"
       ],
-      "techstack": ["flutter", "reactjs", "nodejs", "mongodb"],
+      "techstack": [
+        "flutter",
+        "reactjs",
+        "nodejs",
+        "mongodb"
+      ],
       "content": [
         {
           "title": "Project Description",
@@ -220,7 +244,7 @@
         }
       ],
       "links": {
-        "website": "https://www.schemaxtech.com",
+        "website": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
         "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
         "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
       }
@@ -228,10 +252,11 @@
   },
   {
     "description": "In the realm of modern romance, BoomBoomTalk stands tall as a pioneering force in the digital dating landscape. Seamlessly combining innovative Web3 integration with the age-old art of connecting hearts, BoomBoomTalk is more than just another dating platform – it's a revolutionary experience that transcends conventional boundaries. In this portfolio entry, we'll delve into the captivating world of BoomBoomTalk, exploring its cutting-edge features, the transformative power of Web3, and its unwavering commitment to user safety.",
-
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%201.png?alt=media&token=76a62138-e5ec-4883-a4c6-bce56ff46955",
     "projectLink": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
-    "tags": ["Web 3"],
+    "tags": [
+      "Web 3"
+    ],
     "title": "Boom Boom Talk",
     "projectName": "boom-boom-talk",
     "completed": true,
@@ -243,7 +268,13 @@
         "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%204.png?alt=media&token=35ae211b-cd48-4793-9ef6-d316b716151c",
         "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%205.png?alt=media&token=703aa98c-f780-4cea-9f37-6e232b8b8a83"
       ],
-      "techstack": ["figma", "flutter", "reactjs", "mysql", "aws"],
+      "techstack": [
+        "figma",
+        "flutter",
+        "reactjs",
+        "mysql",
+        "aws"
+      ],
       "content": [
         {
           "title": "Introduction:",
@@ -280,7 +311,9 @@
     "description": " Cypher-B is an innovative recruitment and verification platform built on the blockchain. It revolutionizes the hiring process by enabling users to secure job opportunities, verify their identities, and share their credentials with employers and organizations. By leveraging the power of blockchain technology, Cypher-B ensures a secure, tamper-proof, and transparent ecosystem for both job seekers and employers.",
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive4.png?alt=media&token=16ccda3e-e07c-4548-b580-24c472456d47",
     "projectLink": "https://www.cypherb.com",
-    "tags": ["Web 3"],
+    "tags": [
+      "Web 3"
+    ],
     "title": "Cypher-B",
     "projectName": "cypher-b",
     "glimpse": "Recruitment Platform on the blockchain",
@@ -310,7 +343,6 @@
           "description": " Cypher-B provides a range of functionalities that streamline the recruitment process and enhance trust between employers and candidates. With easy registration, verified candidates, enhanced transparency, and the ability to track past records, Cypher-B offers a comprehensive solution for efficient and reliable hiring",
           "image": "https://raw.githubusercontent.com/spotmies/images/main/%20cypherb/1e7a56168877497.6442516a7a7dc.png"
         },
-
         {
           "title": "Easy Registration",
           "description": " Joining Cypher-B is a seamless process. Users can easily register as employees, employers, or colleges and securely add their academic details to the blockchain. This ensures that their records are stored permanently, providing a reliable source of information that only authorized parties can access.",
@@ -334,7 +366,6 @@
         {
           "title": " Get Verified ",
           "description": " Cypher-B conducts technical and HR interviews to verify your profile. By showcasing your verified profile and demonstrating an impressive interview performance, you gain an advantage in connecting with partner companies for job opportunities.",
-
           "image": "https://raw.githubusercontent.com/spotmies/images/main/%20cypherb/d094fb168877497.6442516a76f69.png"
         },
         {
@@ -360,7 +391,7 @@
         }
       ],
       "links": {
-        "website": "https://www.schemaxtech.com",
+        "website": "https://cypherb.spotmies.com",
         "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
         "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
       }
@@ -368,10 +399,11 @@
   },
   {
     "description": "Introducing VIP Food Delivery, an innovative food delivery app designed to provide you with a premium and hassle-free culinary experience. With our beautifully crafted UI screens, we aimed to showcase the potential of this app, although the project itself did not materialize.",
-
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive5.png?alt=media&token=745f4be7-3f95-45f6-9fea-cdb827734aee",
     "projectLink": "https://pumpendump.com",
-    "tags": ["Web 2"],
+    "tags": [
+      "Web 2"
+    ],
     "title": "VIP Food delivery",
     "projectName": "vip-food-delivery",
     "completed": true,
@@ -382,7 +414,9 @@
         "https://raw.githubusercontent.com/spotmies/images/main/vip%20delivery%20app/fcee06169222763.6449067b9af79.png",
         "https://raw.githubusercontent.com/spotmies/images/main/vip%20delivery%20app/92c3bb169222763.6449067b9bc99.png"
       ],
-      "techstack": ["figma"],
+      "techstack": [
+        "figma"
+      ],
       "content": [
         {
           "image": "https://raw.githubusercontent.com/spotmies/images/main/vip%20delivery%20app/42c779169222763.6449067b99fe8.png",
@@ -426,19 +460,19 @@
         }
       ],
       "links": {
-        "website": "https://www.schemaxtech.com",
+        "website": "https://www.behance.net/gallery/169222763/VIP-delivery-mobile-app-ui",
         "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
         "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
       }
     }
   },
-
   {
     "description": "Nandikrushi is a revolutionary consumer application that aims to bridge the gap between farmers and consumers by facilitating the delivery of organic food directly from the source. With a commitment to providing the best quality groceries, Nandikrushi serves as a trusted grocery delivery service provider in Vizag. By prioritizing transparency and authenticity, the platform ensures that every product delivered to the consumer's doorstep is of the highest standard.",
-
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive6.png?alt=media&token=9160069f-dde3-4121-9e23-53d3c61ce39f",
     "projectLink": "https://google.com",
-    "tags": ["Web 2"],
+    "tags": [
+      "Web 2"
+    ],
     "title": "Nandikrushi",
     "projectName": "nandikrushi",
     "completed": true,
@@ -450,7 +484,14 @@
         "https://raw.githubusercontent.com/spotmies/images/main/nandhi%20krushi/eefc2f170631031.6461cc59b456e.png",
         "https://raw.githubusercontent.com/spotmies/images/main/nandhi%20krushi/e46f88170631031.6461cc59b2caa.png"
       ],
-      "techstack": ["figma", "flutter", "reactjs", "mysql", "php", "aws"],
+      "techstack": [
+        "figma",
+        "flutter",
+        "reactjs",
+        "mysql",
+        "php",
+        "aws"
+      ],
       "content": [
         {
           "image": "https://raw.githubusercontent.com/spotmies/images/main/nandhi%20krushi/1ce906170631031.6461cc59b2073.png",
@@ -482,19 +523,19 @@
         }
       ],
       "links": {
-        "website": "https://www.schemaxtech.com",
+        "website": null,
         "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
         "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
       }
     }
   },
-
   {
     "description": "Spotmies is an innovative and open-source home service application designed to bridge the gap between householders and blue-collar service providers. With Spotmies, users can effortlessly find reliable service professionals for their various home service needs, while service providers can showcase their skills and connect with potential clients.",
-
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive7.png?alt=media&token=8594bc44-1785-4713-87fb-9ad80cadb84e",
     "projectLink": "https://google.com",
-    "tags": ["Web 2"],
+    "tags": [
+      "Web 2"
+    ],
     "title": "Spotmies",
     "projectName": "spotmies",
     "completed": true,
@@ -568,10 +609,11 @@
   },
   {
     "description": "CGRUM is QR Scanning application with reward system. It is useful in the traditional television marketing for best results.",
-
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive8.png?alt=media&token=46673965-aad4-457f-8921-6b2343192444",
     "projectLink": "https://play.google.com/store/apps/details?id=com.cgrum",
-    "tags": ["Web 2"],
+    "tags": [
+      "Web 2"
+    ],
     "title": " CGRUM",
     "projectName": "cgrum",
     "completed": true,
@@ -582,7 +624,12 @@
         "https://raw.githubusercontent.com/spotmies/images/main/cgrum/0305f8170635643.6461df0a651ad.png",
         "https://raw.githubusercontent.com/spotmies/images/main/cgrum/295857170635643.6461df0a63b8c.png"
       ],
-      "techstack": ["figma", "flutter", "nodejs", "aws"],
+      "techstack": [
+        "figma",
+        "flutter",
+        "nodejs",
+        "aws"
+      ],
       "content": [
         {
           "image": "https://raw.githubusercontent.com/spotmies/images/main/cgrum/04b97e170635643.6461df0a67acf.png",
@@ -609,19 +656,19 @@
         }
       ],
       "links": {
-        "website": "https://www.schemaxtech.com",
+        "website": "https://play.google.com/store/apps/details?id=com.cgrum",
         "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
         "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
       }
     }
   },
-
   {
     "description": "Crypto MX is a cutting-edge crypto trading application that brings the world of digital currencies right to your fingertips. With real-time data and comprehensive market insights, Crypto MX empowers you to stay informed and make informed trading decisions.",
-
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive9.png?alt=media&token=c1965c63-228c-4065-b265-b9475273d199",
     "projectLink": "https://google.com",
-    "tags": ["Web 3"],
+    "tags": [
+      "Web 3"
+    ],
     "title": "Crypto MX",
     "projectName": "crypto-mx",
     "completed": false,
@@ -629,7 +676,10 @@
       "images": [
         "https://github.com/spotmies/images/blob/68dfe13aec4879d52a692b7ce44bcd586b02c2b1/11_crypto.png?raw=true"
       ],
-      "techstack": ["flutter", "aws"],
+      "techstack": [
+        "flutter",
+        "aws"
+      ],
       "content": [
         {
           "title": "Project Description",
@@ -661,7 +711,7 @@
         }
       ],
       "links": {
-        "website": "https://www.schemaxtech.com",
+        "website": null,
         "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
         "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
       }
@@ -669,10 +719,11 @@
   },
   {
     "description": "Vihaan Electrix is a comprehensive e-commerce platform developed using Flutter, React.js, and Node.js. It serves as an efficient electric bike booking platform that enables users to browse and book electric vehicles. Additionally, the platform provides access to service stations for maintenance and repair services. Vihaan Electrix focuses on simplifying the transition to electric mobility by addressing various facets of electric vehicle ownership.",
-
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive10.png?alt=media&token=ff60042d-bcd2-4967-a28c-bffeae4864b0",
     "projectLink": "https://vihaanelectrix.in",
-    "tags": ["Web 2"],
+    "tags": [
+      "Web 2"
+    ],
     "title": "Vihaan Electrix",
     "projectName": "vihaan-electrix",
     "completed": true,
@@ -722,7 +773,7 @@
         }
       ],
       "links": {
-        "website": "https://www.schemaxtech.com",
+        "website": "https://vihaanelectrix.in",
         "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
         "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
       }
@@ -730,10 +781,11 @@
   },
   {
     "description": "Bill Ezy is an innovative financial management application designed to help individuals overcome common challenges associated with managing finances and sticking to a budget. Developed as a project for a hackathon in our incubation center, Bill Ezy aims to provide practical solutions to address various financial concerns and promote better money management.",
-
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive11.png?alt=media&token=81bcd718-941c-4872-9210-4dd2e6fe9952",
     "projectLink": "https://vihaanelectrix.in",
-    "tags": ["Web 2"],
+    "tags": [
+      "Web 2"
+    ],
     "title": "Bill Ezy - Simplify Your Finances",
     "projectName": "bill-ezy",
     "completed": false,
@@ -745,7 +797,10 @@
         "https://raw.githubusercontent.com/spotmies/images/main/bill%20ezy/ef658f169912127.6454bbb7b8b60.png",
         "https://raw.githubusercontent.com/spotmies/images/main/bill%20ezy/b61b76169912127.6454bbb7b7a58.png"
       ],
-      "techstack": ["figma", "adobexd"],
+      "techstack": [
+        "figma",
+        "adobexd"
+      ],
       "content": [
         {
           "image": "https://raw.githubusercontent.com/spotmies/images/main/bill%20ezy/d0750f169912127.6454bbb7b9a8a.png",
@@ -795,18 +850,20 @@
         }
       ],
       "links": {
-        "website": "https://www.schemaxtech.com",
+        "website": null,
         "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
         "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
       }
     }
   },
-
   {
     "description": "Experience the extraordinary world of Indie Skull Syndicate, where creativity, uniqueness, and digital ownership merge into a captivating journey. Join Zoople and 2,500 other wanderers in this groundbreaking NFT project that blurs the boundaries between humans and phantoms. Are you ready to become a member of the Syndicate",
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive12.png?alt=media&token=0d7c5bd8-f2a3-4cbb-9990-500ee4a5ab3c",
     "projectLink": "https://indieskullsyndicate.xyz",
-    "tags": ["Web 3", "NFT"],
+    "tags": [
+      "Web 3",
+      "NFT"
+    ],
     "title": "Indie Skull Syndicate",
     "projectName": "indie-skull-syndicate",
     "glimpse": "NFT based project",
@@ -841,7 +898,6 @@
         {
           "image": "https://raw.githubusercontent.com/spotmies/images/main/Grinch%20nft/45aeff169113745.644764b38368c.png",
           "title": "Next-Level Technology ",
-
           "description": " At Indie Skull Syndicate, we leverage cutting-edge technologies to ensure a seamless and immersive experience for our community. Our application is built on Next.js, a powerful framework that combines the benefits of React with server-side rendering, offering lightning-fast performance and enhanced SEO capabilities. The smart contracts that govern the creation, ownership, and trading of NFTs are developed using the Solidity programming language, ensuring the utmost security and reliability."
         },
         {
@@ -868,7 +924,7 @@
         }
       ],
       "links": {
-        "website": "https://www.schemaxtech.com",
+        "website": "https://indieskullsyndicate.spotmies.com",
         "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
         "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
       }
@@ -878,7 +934,10 @@
     "description": "Mad Angles is an extraordinary NFT (Non-Fungible Token) project that combines the allure of triangular art with the captivating expressions of eyes, mouth, and eyebrows. It is a unique and visually stunning collection of digital assets that showcases the creative fusion of geometry and emotions. Although the project has been fully developed, encompassing UI design, artwork, and smart contract deployment on the Ethereum network, it awaits the opportunity to be launched into the vibrant NFT marketplace.",
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive13.png?alt=media&token=f161aa15-eb6c-4181-9704-b829df6d3cd7",
     "projectLink": "https://indieskullsyndicate.xyz",
-    "tags": ["Web 3", "NFT"],
+    "tags": [
+      "Web 3",
+      "NFT"
+    ],
     "title": "Mad Angles",
     "projectName": "mad-angles",
     "glimpse": "NFT based project",
@@ -910,7 +969,6 @@
         {
           "image": "https://raw.githubusercontent.com/spotmies/images/main/madangles/e472d0170633731.6461d796ddf45.png",
           "title": "Design, Art, and Development",
-
           "description": "The Mad Angles project encompasses every aspect of creating a compelling NFT collection. Our talented team of designers meticulously crafted the user interface (UI) to provide an immersive and seamless experience for collectors and enthusiasts. The artwork itself showcases the skilled fusion of geometric shapes and expressive facial features, resulting in visually striking and emotionally evocative NFTs. Moreover, we have deployed the project's smart contract on the Ethereum network, ensuring transparency, security, and authenticity for each Mad Ngle token."
         },
         {
@@ -928,18 +986,20 @@
         }
       ],
       "links": {
-        "website": "https://www.schemaxtech.com",
+        "website": null,
         "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
         "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
       }
     }
   },
-
   {
     "description": "Reels NFT is an extraordinary digital art project that celebrates the captivating world of paper art through a collection of 1826 unique pieces. Developed as an in-house venture by our creative team, Reels NFT offers a mesmerizing assortment of intricately crafted paper artworks, waiting to be unveiled and cherished by art enthusiasts and collectors.",
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive14.png?alt=media&token=437da3c8-80fb-411d-92d6-7edfa46aac2f",
-    "projectLink": "https://indieskullsyndicate.xyz",
-    "tags": ["Web 3", "NFT"],
+    "projectLink": "https://reel1826.spotmies.com/",
+    "tags": [
+      "Web 3",
+      "NFT"
+    ],
     "title": "Reels NFT",
     "projectName": "reels-nft",
     "glimpse": "NFT based project",
@@ -969,7 +1029,6 @@
         },
         {
           "title": "Exclusive Ownership:",
-
           "description": "Reels NFT grants collectors the exclusive opportunity to own and showcase these remarkable paper art creations in their digital collections. Through the integration of blockchain technology, each artwork is tokenized as a unique non-fungible token (NFT), ensuring its authenticity, provenance, and scarcity. As a proud owner of a Reels NFT, you become part of a select community that appreciates the artistry and significance of these exquisite paper artworks."
         },
         {
@@ -987,18 +1046,20 @@
         }
       ],
       "links": {
-        "website": "https://www.schemaxtech.com",
+        "website": "https://reel1826.spotmies.com",
         "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
         "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
       }
     }
   },
-
   {
     "description": "Minting your very own Something NFT is made accessible and affordable, with a mint price of just 0.005 Ethereum. As an additional gesture, every wallet is entitled to receive one free NFT, allowing everyone to participate and experience the joy of owning these remarkable artworks.",
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive15.png?alt=media&token=426b4f3e-14e6-4673-a5f8-bd27dc446208",
-    "projectLink": "https://itssomethingnft.xyz",
-    "tags": ["Web 3", "NFT"],
+    "projectLink": "https://somethingnft.spotmies.com",
+    "tags": [
+      "Web 3",
+      "NFT"
+    ],
     "title": "It's something NFT",
     "projectName": "its-something-nft",
     "glimpse": "NFT based project",
@@ -1048,19 +1109,19 @@
         }
       ],
       "links": {
-        "website": "https://www.schemaxtech.com",
+        "website": "https://somethingnft.spotmies.com",
         "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
         "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
       }
     }
   },
-
   {
     "description": "Experience the thrill of the Pum Pend Ump collection as we embark on an exciting journey to the bull market. With each mint, we'll pump this collection for seven days, and on the eighth day, we have something big to announce! Get ready to join us in this thrilling adventure where the market is our playground.",
-
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive16.png?alt=media&token=100ef7ab-9af4-42cf-ba79-b26e4444498e",
     "projectLink": "https://pumpendump.com",
-    "tags": ["Web 3"],
+    "tags": [
+      "Web 3"
+    ],
     "title": "Pum Pend Ump",
     "projectName": "pum-pend-ump",
     "completed": true,
@@ -1114,19 +1175,19 @@
         }
       ],
       "links": {
-        "website": "https://www.schemaxtech.com",
+        "website": null,
         "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
         "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
       }
     }
   },
-
   {
     "description": " Project Hex is an exciting NFT (non-fungible token) based project developed with blockchain technology, specifically using Solidity for secure and accurate crypto transactions. By leveraging IPFS (InterPlanetary File System) for data storage and retrieval, and integrating with OpenSea, Project Hex provides a seamless and reliable platform for NFT enthusiasts. The project boasts an interactive web UI, designed to enhance the user experience and make navigating the world of NFTs simple and enjoyable.",
-
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive17.png?alt=media&token=3b1bd048-b7ae-40be-bbc3-0fcb20f13409",
     "projectLink": "https://projecthex.xyz",
-    "tags": ["Web 3"],
+    "tags": [
+      "Web 3"
+    ],
     "title": " Project Hex",
     "projectName": "project-hex",
     "completed": true,
@@ -1170,20 +1231,19 @@
         }
       ],
       "links": {
-        "website": "https://www.schemaxtech.com",
+        "website": null,
         "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
         "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
       }
     }
   },
-
   {
     "description": "Visakhapatnam's premier two-wheeler rental service. We are here to make your travel experience in Visakhapatnam convenient and enjoyable. Whether you need a bike or a scooter for short distances or longer trips, Chalo Ride has got you covered. With our commitment to affordable prices and excellent service, we aim to provide you with the best value for your money.",
-
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive18.png?alt=media&token=59440fac-4221-4052-a567-8556ff77529b",
     "projectLink": "http://chaloride.in/bikes-for-rental-visakapatnam",
-    "tags": ["Web 2"],
-
+    "tags": [
+      "Web 2"
+    ],
     "title": "Chalo Ride",
     "projectName": "chalorode",
     "completed": true,
@@ -1195,17 +1255,19 @@
         "https://raw.githubusercontent.com/spotmies/images/main/chalo%20ride/196049170278165.645b3f910c1b8.png",
         "https://raw.githubusercontent.com/spotmies/images/main/chalo%20ride/93d32a170278165.645b413603ce4.png"
       ],
-      "techstack": ["reactjs", "tailwind", "godaddy"],
+      "techstack": [
+        "reactjs",
+        "tailwind",
+        "godaddy"
+      ],
       "content": [
         {
           "image": "https://raw.githubusercontent.com/spotmies/images/main/chalo%20ride/ba728e170278165.645b3f910cc98.png",
-
           "title": "Explore Visakhapatnam with Ease and Convenience",
           "description": "Welcome to Chalo Ride, Visakhapatnam's premier two-wheeler rental service. We are here to make your travel experience in Visakhapatnam convenient and enjoyable. Whether you need a bike or a scooter for short distances or longer trips, Chalo Ride has got you covered. With our commitment to affordable prices and excellent service, we aim to provide you with the best value for your money."
         },
         {
           "image": "https://raw.githubusercontent.com/spotmies/images/main/chalo%20ride/ce48dd170278165.645b3f910e3b6.png",
-
           "title": "What we Do?",
           "description": "At Chalo Ride, we want you to have a wonderful experience exploring Visakhapatnam. Our goal is to offer 2-wheeler rental prices at the lowest possible rates, ensuring that you save time by dealing with just one company. We believe that travelling in Visakhapatnam should be hassle-free and cost-effective, allowing you to discover the city's beauty and attractions with ease."
         },
@@ -1215,7 +1277,6 @@
         },
         {
           "image": "https://raw.githubusercontent.com/spotmies/images/main/chalo%20ride/196049170278165.645b3f910c1b8.png",
-
           "title": "A One-Stop Solution for Your Rental Needs",
           "description": "Chalo Ride is your one-stop solution for all your two-wheeler rental needs in Visakhapatnam. Whether you are a resident or a tourist exploring the city, we offer a comprehensive fleet of bikes and scooters to cater to your specific requirements. From daily commutes to weekend getaways, our range of vehicles ensures that you find the perfect ride for your journey."
         },
@@ -1237,25 +1298,24 @@
         },
         {
           "image": "https://raw.githubusercontent.com/spotmies/images/main/chalo%20ride/93d32a170278165.645b413603ce4.png",
-
           "title": "Currently Available in Visakhapatnam ",
           "description": " Please note that Chalo Ride is currently available in Visakhapatnam. We are actively expanding our services to other cities, and soon you'll be able to enjoy our convenient and affordable rental options in more locations. Stay tuned for updates as we continue to grow and serve you better."
         }
       ],
       "links": {
-        "website": "https://www.schemaxtech.com",
+        "website": "http://chaloride.in/bikes-for-rental-visakapatnam",
         "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
         "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
       }
     }
   },
-
   {
     "description": "Mr bikes is the no 1 Bike rental service provider in Andhra Pradesh. We are here to provide bikes on rental basis to students, tourists and who are enthusiast in bike riding. Curently we are providing bike rental services in Vizag",
-
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2Ffive19.png?alt=media&token=1aad31d2-cecc-4e24-9512-54002f11b983",
     "projectLink": "https://www.mrbikes.in/bikes-for-rental-visakapatnam",
-    "tags": ["Web 2"],
+    "tags": [
+      "Web 2"
+    ],
     "title": " Mr Bikes",
     "projectName": "mr-bikes",
     "completed": true,
@@ -1266,14 +1326,17 @@
         "https://raw.githubusercontent.com/spotmies/images/main/mr%20bikes/36e7fb170376321.645cbdcb96e50%20(1).png",
         "https://raw.githubusercontent.com/spotmies/images/main/mr%20bikes/ba0b59170376321.645cbdcb95806.png"
       ],
-      "techstack": ["reactjs", "tailwind", "godaddy"],
+      "techstack": [
+        "reactjs",
+        "tailwind",
+        "godaddy"
+      ],
       "content": [
         {
           "image": "https://raw.githubusercontent.com/spotmies/images/main/mr%20bikes/0d214e170376321.645cbdcb96484.png",
           "title": "Introduction:",
           "description": " Welcome to Mr Bikes, the premier bike rental service provider in Andhra Pradesh. We take pride in offering a wide range of high-quality bikes for rent, catering to the needs of students, tourists, and bike enthusiasts. Whether you're looking for an adventure-filled ride or a convenient means of transportation, Mr Bikes has got you covered. With our exceptional service and competitive prices, we strive to make your biking experience in Vizag unforgettable."
         },
-
         {
           "title": " Unleash the Thrill: ",
           "description": " At Mr Bikes, we believe in the thrill of two-wheelers and the freedom they offer. Our diverse fleet of bikes includes a variety of models, ranging from sleek sports bikes to comfortable scooters. No matter your preference or riding style, we have the perfect bike to match your needs. Experience the adrenaline rush as you explore the scenic beauty of Vizag and its surroundings, all from the saddle of a well-maintained and reliable bike."
@@ -1302,7 +1365,7 @@
         }
       ],
       "links": {
-        "website": "https://www.schemaxtech.com",
+        "website": "https://www.mrbikes.in/bikes-for-rental-visakapatnam",
         "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
         "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
       }
