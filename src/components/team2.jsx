@@ -57,7 +57,7 @@ export default function TeamSlide2() {
     {
       image:
         "https://reaidystorage.blob.core.windows.net/spotmiespublic/gowri_sankhar.jpg",
-      name: "Gowri Sankar",
+      name: "Gowri Shankar",
       designation: "Head of IoT",
     },
     {

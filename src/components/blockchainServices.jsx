@@ -13,13 +13,16 @@ import {
   AiOutlineStar,
   AiOutlineWallet,
   AiOutlineCloud,
+  AiFillHdd,
+  AiOutlineCluster,
 } from "react-icons/ai";
 import { FaFileContract, FaJoomla, } from "react-icons/fa";
-import { SiWeb3Dotjs, SiSmartthings, } from "react-icons/si";
+import { SiWeb3Dotjs, SiSmartthings, SiOracle, SiAmazonec2, SiGitter, SiDocsdotrs, SiOpenapiinitiative, SiMultisim} from "react-icons/si";
 import Carousel from "react-multi-carousel";
-import { GiCyberEye } from "react-icons/gi";
-import { MdOutlinePayment, MdOutlineSecurity, } from "react-icons/md";
+import { MdOutlinePayment, MdOutlineSecurity, MdOutlineTransform, MdDiversity3, } from "react-icons/md";
 import { Fade } from "react-reveal";
+import { IoMdAnalytics, } from "react-icons/io";
+import { TbArrowAutofitContentFilled, } from "react-icons/tb";
 export default function BlockchainService() {
   const blockchainServices = [
     {
@@ -135,6 +138,79 @@ export default function BlockchainService() {
       description:
         "Web3 signifies the decentralized future of the internet, leveraging technologies such as blockchain to enhance transparency and empower users in online interactions, reducing reliance on traditional intermediaries.",
     },
+    {
+      title: "Oracle EBS Services",
+      icon: (
+        <SiOracle size="5rem" className="text-primary ml-[-10px] icon" />
+      ),
+      description:
+        "Oracle E-Business Suite (EBS) offers a versatile range of integrated services, from finance and supply chain management to human resources, providing organizations with a unified platform to enhance operational efficiency and streamline business functions.",
+    },
+    {
+      title: "Oracle DB Consulting Services",
+      icon: (
+        <AiFillHdd size="5rem" className="text-primary ml-[-10px] icon" />
+      ),
+      description:
+        "Oracle DB Consulting services offer specialized expertise for optimizing Oracle Databases, ensuring robust performance and effective data management strategies for businesses.",
+    },
+    {
+      title: "Digital Transformation Solutions",
+      icon: (
+        <SiAmazonec2 size="5rem" className="text-primary ml-[-10px] icon" />
+      ),
+      description:
+        "Digital Transformation solutions revolutionize businesses by seamlessly integrating advanced technologies, fostering innovation, and enhancing operational efficiency to meet the demands of the modern digital landscape.",
+    },
+    {
+      title: "IT Automation",
+      icon: (
+        <AiOutlineCluster size="5rem" className="text-primary ml-[-10px] icon" />
+      ),
+      description:
+        "IT Automation streamlines and accelerates complex workflows, enhancing operational efficiency by automating repetitive tasks, minimizing errors, and enabling organizations to focus on innovation and strategic initiatives.",
+    },
+    {
+      title: "Data Engineering Services",
+      icon: (
+        <SiOpenapiinitiative size="5rem" className="text-primary ml-[-10px] icon" />
+      ),
+      description:
+        "Data Engineering Services provide comprehensive solutions for collecting, processing, and transforming raw data into valuable insights, ensuring organizations harness the full potential of their data assets to drive informed decision-making and business success.",
+    },
+    {
+      title: "IT Strategic and Planning",
+      icon: (
+        <SiDocsdotrs size="5rem" className="text-primary ml-[-10px] icon" />
+      ),
+      description:
+        "IT Strategic and Planning services guide organizations in aligning technology initiatives with business goals, fostering a roadmap for innovation, efficiency, and optimal resource utilization.",
+    },
+    {
+      title: "IT Staffing",
+      icon: (
+        <MdDiversity3 size="5rem" className="text-primary ml-[-10px] icon" />
+      ),
+      description:
+        "IT Staffing services offer tailored solutions for businesses to secure skilled professionals, ensuring a dynamic and capable workforce that aligns with the evolving technological needs of the organization.",
+    },
+    {
+      title: "Data Analytics and BI",
+      icon: (
+        <IoMdAnalytics size="5rem" className="text-primary ml-[-10px] icon" />
+      ),
+      description:
+        "Data Analytics and BI services empower organizations to extract actionable insights from their data, enabling informed decision-making and strategic planning for enhanced business performance.",
+    },
+    {
+      title: "IT Migration",
+      icon: (
+        <TbArrowAutofitContentFilled size="5rem" className="text-primary ml-[-10px] icon" />
+      ),
+      description:
+        "IT Migration services facilitate seamless transitions, ensuring the efficient relocation of systems, applications, and data to new environments, minimizing disruptions and optimizing performance.",
+    },
+
   ];
 
   const responsive = {
