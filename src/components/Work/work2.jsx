@@ -315,10 +315,10 @@ export function ProjectDetails({ index, showMaximize, setShowpopup }) {
             />
           )} */}
           <div
-            className="text-[#1D1D1D] hover:text-primary cursor-pointer hover:scale-110 transition-all duration-700 ease-in-out"
+            className="absolute right-5 top-3 bg-white rounded-full p-2 text-[#1D1D1D] hover:text-primary cursor-pointer hover:scale-110 transition-all duration-700 ease-in-out"
             onClick={() => setShowpopup(false)}
           >
-            <AiOutlineClose size="2rem" />
+            <AiOutlineClose size="1.5rem" />
           </div>
         </div>
       </div>

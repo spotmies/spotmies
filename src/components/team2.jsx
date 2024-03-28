@@ -34,17 +34,6 @@ export default function TeamSlide2() {
     },
     {
       image:
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FProductDesigner.jpeg?alt=media&token=27f56501-35bc-472f-a948-389d98ab320a",
-      name: "Venkat",
-      designation: "Product Architect",
-      social: {
-        // twitter: "https://twitter.com/PvrRox?t=6nDjRpE4_9LYeLAHlYd4cQ&s=09",
-        linkedin: "https://www.linkedin.com/in/venkat-p-79b366119",
-      },
-    },
-
-    {
-      image:
         "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2Fhemanth.jpg?alt=media&token=0e721a73-964a-46c5-a37a-04f72fa0d227",
       name: "Hemanth Kumar",
       designation: "Head of Blockchain Development",
@@ -67,6 +56,12 @@ export default function TeamSlide2() {
     },
     {
       image:
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/gowri_sankhar.jpg",
+      name: "Gowri Shankar",
+      designation: "Head of IoT",
+    },
+    {
+      image:
         "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FSudhir.png?alt=media&token=4844d0b9-da24-4035-9f66-1ca92a33d419",
       name: "Sudhir Kumar",
       designation: "Head of Marketing",
@@ -74,28 +69,7 @@ export default function TeamSlide2() {
         linkedin: "https://www.linkedin.com/in/sudhirvolt",
       },
     },
-    {
-      image:
-        "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-      name: "Ravi Eswarapu",
-      designation: "Mentor (business)",
-      social: {
-        facebook: "https://www.facebook.com/",
-        twitter: "https://twitter.com/",
-        linkedin: "https://www.linkedin.com/",
-      },
-    },
-    {
-      image:
-        "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-      name: "Sekhar javvadi",
-      designation: "Mentor (technology)",
-      social: {
-        facebook: "https://www.facebook.com/",
-        twitter: "https://twitter.com/",
-        linkedin: "https://www.linkedin.com/",
-      },
-    },
+    
   ];
 
   const responsive = {
