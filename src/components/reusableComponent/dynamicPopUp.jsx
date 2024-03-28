@@ -16,7 +16,7 @@ export function DynamicPopUp({ children, show, setShow }) {
             setShow && setShow(false);
           }}
         >
-          <AiOutlineClose size="2rem" color="black" />
+          {/* <AiOutlineClose size="2rem" color="black" /> */}
         </div>
       </div>
     </div>

@@ -11,11 +11,11 @@ import {
   SiPython,
   SiMysql,
   SiAmazonaws,
-  SiIpfs,
   SiWeb3Dotjs,
-  SiHyperledger,
   SiJavascript,
-  SiStellar,
+  SiMicrosoftazure,
+  SiGooglecloud,
+  SiLooker,
 } from "react-icons/si";
 import { Fade } from "react-reveal";
 export default function TechStack() {
@@ -62,25 +62,26 @@ export default function TechStack() {
       name: "AWS",
     },
     {
-      icon: <SiIpfs color="#65C2CB" />,
-      name: "IPFS",
-    },
-    {
       icon: <SiWeb3Dotjs color="#F16822" />,
       name: "Web3 JS",
-    },
-    {
-      icon: <SiHyperledger color="#2F3134" />,
-      name: "Hyperledger",
     },
     {
       icon: <SiJavascript color="#F7DF1E" />,
       name: "Javascript",
     },
     {
-      icon: <SiStellar color="#08B5E5" />,
-      name: "Stellar",
+      icon: <SiMicrosoftazure color="#08B5E5" />,
+      name: "Azure",
     },
+    {
+      icon: <SiGooglecloud color="#3680f7" />,
+      name: "GCP",
+    },
+    {
+      icon: <SiLooker color="#3680f7" />,
+      name: "LookerStudio",
+    },
+
   ];
 
   return (

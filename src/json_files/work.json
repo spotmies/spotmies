@@ -1,5 +1,208 @@
 [
   {
+    "description": "Supercharge your career with Reaidy.io! Access AI-driven interview simulations and programming language courses. Sharpen your skills with realistic mock interviews and structured courses. Track your progress with intelligent analytics and unlock exclusive job opportunities. Elevate your career today with Reaidy.io!",
+    "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy1.png",
+    "projectLink": "https://www.reaidy.io/index.html",
+    "tags": [
+      "Web 2"
+    ],
+    "title": "ReAIdy.io",
+    "projectName": "reaidy",
+    "completed": true,
+    "overview": {
+      "images": [
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy1.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy2.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy3.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy4.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy5.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy6.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy7.png"
+      ],
+      "techstack": [
+        "reactjs",
+        "tailwind"
+      ],
+      "content": [
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy1.png",
+          "title": "Introduction:",
+          "description": " Elevate your career path with the power of AI-driven interview simulations and comprehensive programming language courses at Reaidy.io. Our innovative platform offers realistic mock interviews to sharpen your skills and boost your confidence for the real thing. Dive into structured courses covering diverse programming languages, all while benefiting from intelligent analytics that track your progress and guide your learning journey. Plus, gain access to exclusive internship and job opportunities through our network of collaborative industry partners. Get ready to take your career to new heights with Reaidy.io."
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy2.png",
+          "title": " Journey to Excellence with AI Interviews",
+          "description": " Embark on your journey to excellence with AI Interviews on our platform at Reaidy.io. Elevate your career with our comprehensive suite of features, including personalized learning roadmaps to master new programming languages. Challenge yourself with AI mock interviews designed to hone your skills, and receive detailed analytics to fine-tune your interview performance. Unlock exclusive job and internship opportunities through our collaborative partnerships with leading companies, ensuring a seamless transition into the professional world. Join us at Reaidy.io and let's take your career to new heights together."
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy3.png",
+          "title": "What ReAIdy do?",
+          "description": "In the heart of our mission lies the revolution of career preparation. Utilizing cutting-edge AI mock interviews, our platform enables users to hone their interview skills by tackling real-world questions head-on. Our personalized learning roadmap serves as a guide towards mastering new programming languages, while intelligent analytics meticulously track progress, providing invaluable insights for continuous enhancement. We unlock doors to exclusive internship and job opportunities through collaborative partnerships with industry-leading companies. Supported by seamless customer support, our platform offers a comprehensive journey towards professional excellence, seamlessly merging preparation with opportunity. Join us at Reaidy.io and embark on your path to success today. "
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy6.png",
+          "title": "How does ReAIdy Work?",
+          "description": "Get started on our platform by registering and creating your profile. Tailor your experience by inputting your skills, experiences, and career aspirations, allowing us to personalize your journey. Engage in immersive AI-powered mock interviews to refine your skills and gain valuable insights. Explore our curated courses designed to enhance your abilities and expand your knowledge base. Additionally, leverage our user-friendly Resume Builder tool to craft a professional resume that effectively showcases your strengths and maximizes your chances of being noticed by recruiters. With Reaidy.io, take control of your career advancement and unlock new opportunities with confidence."
+        }
+      ],
+      "links": {
+        "website": "https://www.reaidy.io/index.html",
+        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
+      }
+    }
+  },
+  {
+    "description": "Vatsa ProCons empowers businesses to navigate the ever-evolving technological landscape with confidence. We offer cutting-edge solutions and expert guidance that help your organization thrive in the digital age. Whether you're a small startup or a large enterprise, we tailor our services to meet your unique needs and objectives",
+    "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/vatsa1.png",
+    "projectLink": "https://www.vatsaprocons.com",
+    "tags": [
+      "Web 2"
+    ],
+    "title": "Vatsa",
+    "projectName": "vatsa",
+    "completed": true,
+    "overview": {
+      "images": [
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/vatsa1.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/vatsa2.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/vatsa3.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/vatsa4.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/vatsa5.png"
+      ],
+      "techstack": [
+        "reactjs",
+        "tailwind"
+      ],
+      "content": [
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/vatsa2.png",
+          "title": "Introduction:",
+          "description": " Vatsa ProCons empowers businesses to navigate the ever-evolving technological landscape with confidence. We offer cutting-edge solutions and expert guidance that help your organization thrive in the digital age. Whether you're a small startup or a large enterprise, we tailor our services to meet your unique needs and objectives "
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/vatsa3.png",
+          "title": " Who we are ",
+          "description": " We are a team of passionate and experienced IT professionals. Our consultants come from diverse backgrounds and bring a wealth of expertise in various industries. We blend innovation with practicality, and our solutions are designed to address your most complex challenges head-on."
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/vatsa5.png",
+          "title": "About Vatsa",
+          "description": "At Vatsa ProCons, we are passionate about empowering businesses through technology and innovation. As an IT consulting firm, we offer a wide range of comprehensive services that cater to organizations of all sizes and industries. Our mission is to be your trusted technology advisor, guiding you on a transformative journey towards digital excellence."
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/vatsa4.png",
+          "title": "Our Services"
+        }
+      ],
+      "links": {
+        "website": "https://www.vatsaprocons.com",
+        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
+      }
+    }
+  },
+  {
+    "description": "Introducing our Credit Report, We offer comprehensive financial insights tailored to your borrowing needs, from home loans to credit cards. Our platform delivers detailed credit reports, streamlining loan applications and empowering informed decisions. Trust us as your steadfast partner in achieving financial well-being, backed by reliable insights and unwavering support.",
+    "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/credit.report5.png",
+    "projectLink": "https://saiteja-credit-report.onrender.com",
+    "tags": [
+      "Web 2"
+    ],
+    "title": "Credit Report",
+    "projectName": "creditreport",
+    "completed": true,
+    "overview": {
+      "images": [
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/credit.report1.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/credit.report2.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/credit.report3.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/credit.report4.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/credit.report5.png"
+      ],
+      "techstack": [
+        "reactjs",
+        "tailwind"
+      ],
+      "content": [
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/credit.report1.png",
+          "title": "Introduction:",
+          "description": " Introducing credit report, we specialize in empowering individuals with comprehensive financial insights to navigate their borrowing needs confidently. Offering a suite of services tailored to meet diverse financial goals, we provide unparalleled access to crucial information for securing various loans including home loans, personal loans, credit cards, vehicle loans, and a spectrum of other lending products. Our robust platform delivers detailed credit reports, enabling informed decision-making and optimizing loan approval processes. With our expertise, customers can seamlessly explore their borrowing options, streamline loan applications, and embark on their financial journeys with clarity and assurance. Trust us to be your steadfast partner in achieving your lending objectives, ensuring every step towards financial well-being is backed by reliable insights and unwavering support."
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/credit.report3.png",
+          "title": "Credit Report",
+          "description": " At our credit report, accessing your credit report is more than just a service—it's an essential tool for understanding and managing your financial health. With our user-friendly platform, gaining insight into your credit report has never been easier. Seamlessly navigate through detailed summaries of your credit history, including accounts, payment history, credit inquiries, and more. Our comprehensive reports provide invaluable transparency, allowing you to identify areas for improvement, dispute inaccuracies, and make informed decisions about your financial future. Whether you're planning to apply for a loan, mortgage, or credit card, having a clear understanding of your credit report empowers you to take control of your financial well-being. Trust us to provide the insights you need to navigate your financial journey with confidence and peace of mind."
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/credit.report2.png"
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/credit.report4.png"
+        }
+      ],
+      "links": {
+        "website": "https://saiteja-credit-report.onrender.com",
+        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
+      }
+    }
+  },
+  {
+    "description": "Zin is Well-being and Trust through Hybrid Working Our hybrid work solutions reduces stress and burnout, boosts productivity, and promote sustainability. As an employer you save on costs through tax benefits.",
+    "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit3.png",
+    "projectLink": "https://www.zininthuiswerken.nl",
+    "tags": [
+      "Web 2"
+    ],
+    "title": "Zit",
+    "projectName": "zit",
+    "completed": true,
+    "overview": {
+      "images": [
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit1.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/ZIT.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit3.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit4.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit5.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit6.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit7.png"
+      ],
+      "techstack": [
+        "reactjs",
+        "tailwind"
+      ],
+      "content": [
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit1.png",
+          "title": "Introduction:",
+          "description": "Zin is Well-being and Trust through Hybrid Working Our hybrid work solutions reduces stress and burnout, boosts productivity, and promote sustainability. As an employer you save on costs through tax benefits."
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/ZIT.png"
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit3.png"
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit4.png"
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit5.png"
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit6.png"
+        }
+      ],
+      "links": {
+        "website": "https://www.zininthuiswerken.nl",
+        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
+      }
+    }
+  },
+  {
     "description": "At Dizi Automation Solutions, we specialize in crafting technology stack solutions within the realm of enterprise digital solutions. Leveraging the power of open-source technologies, we excel in creating impactful solutions across various domains, including Web and Mobility Solutions, Data Analytics, Data Engineering, and AI/ML Solutions.",
     "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%206%20(2).jpg?alt=media&token=504a9599-2a40-42d8-a59a-070b6eded842",
     "projectLink": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
