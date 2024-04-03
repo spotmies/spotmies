@@ -269,10 +269,10 @@
     "completed": true,
     "overview": {
       "images": [
-        "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/08_.png",
-        "https://raw.githubusercontent.com/spotmies/images/main/schemax/312c43169115757.64476fd530cde.png",
-        "https://raw.githubusercontent.com/spotmies/images/main/schemax/8c9dd1169115757.64476f00c764c.png",
-        "https://raw.githubusercontent.com/spotmies/images/main/schemax/3af8b5169115757.64476f00c681f.png"
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/08_ (1).png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/312c43169115757.64476fd530cde.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/8c9dd1169115757.64476f00c764c.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/3af8b5169115757.64476f00c681f.png"
       ],
       "techstack": [
         "reactjs",
@@ -287,7 +287,7 @@
           "description": "Schemax Tech, a leading software product and technology services company based in India (Hyderabad & Visakhapatnam), has been revolutionizing the digital landscape since its inception in 2011. Our primary mission is to empower our customers by providing them with business value-driven technology products, custom-developed solutions, and exceptional services."
         },
         {
-          "image": "https://raw.githubusercontent.com/spotmies/images/main/schemax/312c43169115757.64476fd530cde.png"
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/312c43169115757.64476fd530cde.png"
         },
         {
           "title": "Visionary Leadership",
@@ -298,14 +298,14 @@
           "description": "To ensure an outstanding user experience, we leveraged the power of cutting-edge technologies. The website was built using Next.js and React.js, providing a solid foundation for seamless performance and efficient code management. By utilizing Tailwind CSS, we crafted a visually appealing and responsive website that captivates visitors across various devices and screen sizes."
         },
         {
-          "image": "https://raw.githubusercontent.com/spotmies/images/main/schemax/8c9dd1169115757.64476f00c764c.png"
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/8c9dd1169115757.64476f00c764c.png"
         },
         {
           "title": "Design Process",
           "description": "The design process was executed with utmost precision and creativity. We employed industry-leading tools such as Figma and Adobe XD, enabling our team to create beautiful and intuitive designs that truly reflect the essence of Schemax Tech. The combination of sleek aesthetics and user-friendly interfaces ensures a delightful browsing experience for every visitor."
         },
         {
-          "image": "https://raw.githubusercontent.com/spotmies/images/main/schemax/3af8b5169115757.64476f00c681f.png"
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/3af8b5169115757.64476f00c681f.png"
         },
         {
           "title": "Rising to the Challenge",
@@ -331,8 +331,8 @@
     "completed": true,
     "overview": {
       "images": [
-        "https://raw.githubusercontent.com/spotmies/images/cc21efb2212e862f2b5acfe08e9d2fe9c671e566/09_.png",
-        "https://raw.githubusercontent.com/spotmies/images/main/decentralize/531290170730703.646345d2d625f.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/09_.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/531290170730703.646345d2d625f.png",
         "https://raw.githubusercontent.com/spotmies/images/main/decentralize/5d7893170730703.646345d2d9515.png",
         "https://raw.githubusercontent.com/spotmies/images/main/decentralize/7404fd170730703.64634bda0abf9.png",
         "https://raw.githubusercontent.com/spotmies/images/main/decentralize/bbd7bf170730703.646345d2d795a.png",

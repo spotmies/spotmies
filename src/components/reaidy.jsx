@@ -10,11 +10,11 @@ export default function ReaidySlide() {
   };
 
   return (
-    <div id="reaidy" className="w-[100vw] h-[130vh] md:h-[100vh] bg-bg3 flex flex-col items-center justify-center">
+    <div id="reaidy" className="w-[100vw] h-[80vh] md:h-[100vh] bg-[#171717] flex flex-col items-center justify-center">
       <div className="block md:hidden w-full h-full py-[5%]">
         <div className="w-[90%] md:w-[90%] h-[40%] m-auto overflow-hidden rounded-2xl">
           <div
-            className="w-full h-full rounded-2xl hover:scale-110 transition-all duration-700 ease-in-out"
+            className="w-full h-60 md:h-full rounded-2xl hover:scale-110 transition-all duration-700 ease-in-out"
             style={{
               backgroundImage: "url(/reaidy-bg-mobile.png)",
               backgroundSize: "cover",
@@ -23,7 +23,7 @@ export default function ReaidySlide() {
             }}
           />
         </div>
-        <div className="flex flex-col items-start z-20 w-[90%] py-[5%] m-auto text-bg1">
+        <div className="flex flex-col items-start z-20 w-[90%] py-[5%] m-auto text-bg2">
           <Fade bottom>
             {" "}
             <p className="text-md">- Our Product</p>
@@ -76,7 +76,7 @@ export default function ReaidySlide() {
           </Fade>
           <Fade bottom>
             <p
-              className="gil-bold text-xl md:text-xl text-[#9d5b11] flex items-center cursor-pointer"
+              className="gil-bold text-xl md:text-xl text-[#0098a3] flex items-center cursor-pointer"
               onClick={() => {
                 // setIsPopupOpen(true);
                 redirectToReaidySite();
@@ -87,7 +87,7 @@ export default function ReaidySlide() {
           </Fade>
         </div>
       </div>
-      <div className="w-[90%] md:w-[90%] h-[80%] group overflow-hidden rounded-3xl hidden md:flex flex-row justify-between items-start relative">
+      <div className="w-[90%] md:w-[90%] h-[85%] group overflow-hidden rounded-3xl hidden md:flex flex-row justify-between items-start relative">
         <div
           className="w-full h-full rounded-3xl group-hover:scale-110 transition-all duration-700 ease-in-out absolute inset-0"
           style={{
@@ -153,7 +153,7 @@ export default function ReaidySlide() {
           </Fade>
           <Fade bottom>
             <p
-              className="gil-bold text-sm md:text-xl lg:text-2xl pt-5 text-[#9d5b11] flex items-center cursor-pointer"
+              className="gil-bold text-sm md:text-xl lg:text-2xl text-[#0098a3] flex items-center cursor-pointer pt-5"
               onClick={() => {
                 // setIsPopupOpen(true);
                 redirectToReaidySite();

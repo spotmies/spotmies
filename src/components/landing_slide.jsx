@@ -6,6 +6,7 @@ const image =
   // "https://images.unsplash.com/photo-1543269664-56d93c1b41a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80";
   // "https://nftstorage.link/ipfs/bafybeifur6x6mg6u6465nojbgtuckodzghkeovjoltga7cysdzmuyvj7ku";
   "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFirstFolder%2FTopPagePic.jpeg?alt=media&token=9906ec9d-1894-4315-b823-d73881638d03";
+  
 
 const LandingSlide = () => {
   return (
@@ -25,7 +26,7 @@ const LandingSlide = () => {
         className="absolute inset-0 w-full h-full rounded-none "
         style={{
           // background image
-          backgroundImage: `url(${image})`,
+          backgroundImage: "url(/landing_page.png)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
