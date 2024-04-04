@@ -151,6 +151,14 @@ export const socials = [
 
 export const testimonials = [
   {
+    name: "Marco Turk",
+    position: "Founder at Zin In Thuiswerken",
+    timeStamp: "1712137317000",
+    image:
+      "https://reaidystorage.blob.core.windows.net/spotmiespublic/0bc8f2ee-eaf3-4760-9400-ef08d1967917.jpg",
+    text: "Impressed by the team’s expertise and adaptability regarding the development of our AI solution, which made the process went smoothly. Highly recommend them for innovative solutions.",
+  },
+  {
     name: "Vamsi Gummadi",
     position: "Founder & CEO at Sweken",
     when: "8 months ago",
