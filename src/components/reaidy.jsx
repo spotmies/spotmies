@@ -10,7 +10,7 @@ export default function ReaidySlide() {
   };
 
   return (
-    <div id="reaidy" className="w-[100vw] h-[110vh] md:h-[100vh] bg-[#171717] flex flex-col items-center justify-center">
+    <div id="reaidy" className="w-[100vw] h-full md:h-[100vh] bg-[#171717] flex flex-col items-center justify-center">
       <div className="block md:hidden w-full h-full py-[5%]">
         <div className="w-[90%] md:w-[90%] h-[30%] m-auto overflow-hidden rounded-2xl">
           <div
