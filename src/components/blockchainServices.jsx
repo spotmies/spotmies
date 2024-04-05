@@ -25,28 +25,7 @@ import { IoMdAnalytics, } from "react-icons/io";
 import { TbArrowAutofitContentFilled, } from "react-icons/tb";
 export default function BlockchainService() {
   const blockchainServices = [
-    {
-      title: "DApp Development",
-      icon: (
-        <AiOutlineCodeSandbox
-          size="5rem"
-          className="text-primary ml-[-10px] icon"
-        />
-      ),
-      description:
-        "DApp is a decentralized application built on a blockchain network that provides transparency, security, and reliability to end-users. By integrating DApp into your website, you can offer your users a secure and decentralized environment to interact with your services and products.",
-    },
-    {
-      title: "NFT Marketplace",
-      icon: (
-        <AiOutlineFileImage
-          size="5rem"
-          className="text-primary ml-[-10px] icon"
-        />
-      ),
-      description:
-        "NFT marketplace on your website enables buying, selling and trading unique digital assets that are verified on the blockchain, creating scarcity, and value for collectors and creators.",
-    },
+    
     // {
     //   title: "Smart Contract",
     //   icon: (
@@ -210,6 +189,28 @@ export default function BlockchainService() {
       description:
         "IT Migration services facilitate seamless transitions, ensuring the efficient relocation of systems, applications, and data to new environments, minimizing disruptions and optimizing performance.",
     },
+    {
+      title: "DApp Development",
+      icon: (
+        <AiOutlineCodeSandbox
+          size="5rem"
+          className="text-primary ml-[-10px] icon"
+        />
+      ),
+      description:
+        "DApp is a decentralized application built on a blockchain network that provides transparency, security, and reliability to end-users. By integrating DApp into your website, you can offer your users a secure and decentralized environment to interact with your services and products.",
+    },
+    {
+      title: "NFT Marketplace",
+      icon: (
+        <AiOutlineFileImage
+          size="5rem"
+          className="text-primary ml-[-10px] icon"
+        />
+      ),
+      description:
+        "NFT marketplace on your website enables buying, selling and trading unique digital assets that are verified on the blockchain, creating scarcity, and value for collectors and creators.",
+    }
 
   ];
 
