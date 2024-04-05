@@ -95,8 +95,10 @@ export default function ReaidySlide() {
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
+            // checking copilot;
           }}
         />
+        
         <div className="absolute inset-0 bg-black opacity-10 group-hover:opacity-30 transition-all duration-700 ease-in-out opacity-layer rounded-md md:rounded-3xl" />
         <div className="flex flex-col items-start z-20 w-[40%] absolute right-0  my-auto py-[5%] pr-[3%] text-bg2">
           <Fade bottom>
