@@ -202,7 +202,6 @@ export const Navbarr = ({ noScrollEffect }) => {
             About Us
           </a>
           <a
-            onClick={() => navigation("articles")}
             className={`${
               toggleNavbar ? "text-primary" : "text-white"
             }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
@@ -226,6 +225,14 @@ export const Navbarr = ({ noScrollEffect }) => {
             }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
           >
             Contact Us
+          </a>
+
+          <a
+            className={`${
+              toggleNavbar ? "text-primary" : "text-white"
+            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
+          >
+            Careers
           </a>
           <a
             onClick={scheduleMeeting}
@@ -272,6 +279,11 @@ export const Navbarr = ({ noScrollEffect }) => {
           className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer"
         >
           Contact Us
+        </a>
+        <a
+          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+        >
+          Careers
         </a>
         <a
           onClick={scheduleMeeting}
