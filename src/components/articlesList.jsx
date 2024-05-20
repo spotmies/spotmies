@@ -124,7 +124,7 @@ const ArticlesList = () => {
             </div>
           </Fade>
         </div>
-            <center className="mt-5"><button className="gil-bold text-lg text-white bg-primary py-2 hover:bg-white hover:text-primary border-2 border-primary px-5 rounded-lg">View More</button></center>
+            <center className="mt-5"><a href='/blog' className="gil-bold text-lg text-white bg-primary py-2 hover:bg-white hover:text-primary border-2 border-primary px-5 rounded-lg">View More</a></center>
       </div>
     </div>
   );

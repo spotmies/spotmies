@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState, Suspense } from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import Link from "next/link";
 
 const image =
   // "https://images.unsplash.com/photo-1543269664-56d93c1b41a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80";
@@ -88,7 +89,7 @@ const LandingSlide = () => {
   );
 };
 
-export const Navbarr = ({ noScrollEffect }) => {
+export const Navbarr = ({ noScrollEffect, career }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [toggleNavbar, setToggleNavbar] = useState(false);
 
@@ -97,10 +98,15 @@ export const Navbarr = ({ noScrollEffect }) => {
   }
   const navigation = (id) => {
     // navigation by id
-    window.document
+    if(career){
+      window.location.href = `/#${id}`;
+    }
+    else{
+      window.document
       .getElementById(id ?? "services")
       .scrollIntoView({ behavior: "smooth" });
     setIsOpen(false);
+    }
   };
 
   const scheduleMeeting = () => {
@@ -201,13 +207,14 @@ export const Navbarr = ({ noScrollEffect }) => {
           >
             About Us
           </a>
-          <a
+          <Link 
+            href="/blog"
             className={`${
               toggleNavbar ? "text-primary" : "text-white"
             }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
           >
             Blogs
-          </a>
+          </Link>
 
           <a
             onClick={() => navigation("reaidy")}
@@ -227,13 +234,13 @@ export const Navbarr = ({ noScrollEffect }) => {
             Contact Us
           </a>
 
-          <a
-            className={`${
-              toggleNavbar ? "text-primary" : "text-white"
-            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
-          >
-            Careers
-          </a>
+          <Link href="/career"
+              className={`${
+                toggleNavbar ? "text-primary" : "text-white"
+              }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
+            >
+              Careers
+          </Link>
           <a
             onClick={scheduleMeeting}
             className={`${

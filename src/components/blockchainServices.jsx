@@ -17,7 +17,7 @@ import {
   AiOutlineCluster,
 } from "react-icons/ai";
 import { FaFileContract, FaJoomla, } from "react-icons/fa";
-import { SiWeb3Dotjs, SiSmartthings, SiOracle, SiAmazonec2, SiGitter, SiDocsdotrs, SiOpenapiinitiative, SiMultisim} from "react-icons/si";
+import { SiWeb3Dotjs, SiSmartthings, SiOracle, SiAmazonec2, SiGitter, SiDocsdotrs, SiOpenapiinitiative, SiMultisim } from "react-icons/si";
 import Carousel from "react-multi-carousel";
 import { MdOutlinePayment, MdOutlineSecurity, MdOutlineTransform, MdDiversity3, } from "react-icons/md";
 import { Fade } from "react-reveal";
@@ -25,7 +25,7 @@ import { IoMdAnalytics, } from "react-icons/io";
 import { TbArrowAutofitContentFilled, } from "react-icons/tb";
 export default function BlockchainService() {
   const blockchainServices = [
-    
+
     // {
     //   title: "Smart Contract",
     //   icon: (
@@ -240,51 +240,45 @@ export default function BlockchainService() {
 
   return (
     <Wrapper
-      title="Revolutionize Your Experience with Web 3.0"
+      title="Revolutionize Your Experience with AI"
       className="bg-bg2 min-h-fit"
       titleClassName="lg:text-7xl"
     >
       <Fade bottom>
-      <div className="flex flex-col-reverse md:flex-row w-full justify-between items-start min-h-[20vh] py-[2vh]">
-        <div className="flex flex-col w-[90%] md:w-[35%] text-text_color2 mt-4 md:mt-0">
-          <p className="text-xl lg:text-xl text-justify opacity-60">
-            Web 3.0 services are necessary to meet the demands of a
-            decentralized and trustless digital landscape. By leveraging
-            blockchain technology, our services provide secure and transparent
-            solutions that empower businesses and individuals. From NFT
-            marketplaces to smart contract auditing and gasless transactions,
-            our services offer seamless integration and enhance the overall user
-            experience
-          </p>
-          
-          <HoverButton
-            text={"Contact Us"}
-            className="mt-4 w-fit rounded-md"
-            icon={<AiOutlineArrowRight />}
-            onClick={() =>{
-              // navigate to contact page /#contact
+        <div className="flex flex-col-reverse md:flex-row w-full justify-between items-start min-h-[20vh] py-[2vh]">
+          <div className="flex flex-col w-[90%] md:w-[35%] text-text_color2 mt-4 md:mt-0">
+            <p className="text-xl lg:text-xl text-justify opacity-60">
+              AI services are essential to meet the demands of an intelligent and automated digital landscape. By leveraging AI technology, our services provide efficient and innovative solutions that empower businesses and individuals. From advanced data analytics to intelligent automation and machine learning, our services offer seamless integration and enhance the overall user experience.
+            </p>
 
-              window.document
-              .getElementById("contactUs")
-              .scrollIntoView({ behavior: "smooth" });
-          
+            <HoverButton
+              text={"Contact Us"}
+              className="mt-4 w-fit rounded-md"
+              icon={<AiOutlineArrowRight />}
+              onClick={() => {
+                // navigate to contact page /#contact
+
+                window.document
+                  .getElementById("contactUs")
+                  .scrollIntoView({ behavior: "smooth" });
 
 
 
-            }}
-          />
+
+              }}
+            />
+          </div>
+
+          <div className="md:w-[60%] w-[100%] ">
+            <Carousel responsive={responsive} partialVisible={true}>
+              {blockchainServices.map((service, index) => (
+                <div key={index}>
+                  {card(service.title, service.icon, service.description)}
+                </div>
+              ))}
+            </Carousel>
+          </div>
         </div>
-        
-        <div className="md:w-[60%] w-[100%] ">
-          <Carousel responsive={responsive} partialVisible={true}>
-            {blockchainServices.map((service, index) => (
-              <div key={index}>
-                {card(service.title, service.icon, service.description)}
-              </div>
-            ))}
-          </Carousel>
-        </div>
-      </div>
       </Fade>
 
     </Wrapper>
