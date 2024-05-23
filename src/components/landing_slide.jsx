@@ -7,7 +7,7 @@ const image =
   // "https://images.unsplash.com/photo-1543269664-56d93c1b41a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80";
   // "https://nftstorage.link/ipfs/bafybeifur6x6mg6u6465nojbgtuckodzghkeovjoltga7cysdzmuyvj7ku";
   "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFirstFolder%2FTopPagePic.jpeg?alt=media&token=9906ec9d-1894-4315-b823-d73881638d03";
-  
+
 
 const LandingSlide = () => {
   return (
@@ -76,7 +76,7 @@ const LandingSlide = () => {
             onClick={() => {
               const calendlyLink = "https://calendly.com/spotmies/30min";
               window.open(calendlyLink, "_blank");
-              }}
+            }}
             type={"button"}
             className={`gil-reg text-xs md:text-sm lg:text-xl flex flex-row items-center justify-center hover:bg-white hover:text-bg1 rounded-sm md:min-w-[160px] min-w-[140px] lg:min-w-[210px] md:min-h-[40px] min-h-[30px] lg:min-h-[50px] mt-4 bg-transparent text-white border border-white animated`}
           >
@@ -98,14 +98,14 @@ export const Navbarr = ({ noScrollEffect, career }) => {
   }
   const navigation = (id) => {
     // navigation by id
-    if(career){
+    if (career) {
       window.location.href = `/#${id}`;
     }
-    else{
+    else {
       window.document
-      .getElementById(id ?? "services")
-      .scrollIntoView({ behavior: "smooth" });
-    setIsOpen(false);
+        .getElementById(id ?? "services")
+        .scrollIntoView({ behavior: "smooth" });
+      setIsOpen(false);
     }
   };
 
@@ -162,9 +162,8 @@ export const Navbarr = ({ noScrollEffect, career }) => {
         </div>
         <div className="flex items-center">
           <button
-            className={`${
-              toggleNavbar ? "text-primary" : "text-white"
-            } hover:text-secundary focus:outline-none md:hidden`}
+            className={`${toggleNavbar ? "text-primary" : "text-white"
+              } hover:text-secundary focus:outline-none md:hidden`}
             aria-label="Menu"
             onClick={toggleMenu}
           >
@@ -184,77 +183,68 @@ export const Navbarr = ({ noScrollEffect, career }) => {
         <div className="hidden md:flex items-center">
           <a
             onClick={() => navigation("services")}
-            className={`${
-              toggleNavbar ? "text-primary" : "text-white"
-            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
+            className={`${toggleNavbar ? "text-primary" : "text-white"
+              }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
           >
             Services
           </a>
           <a
             onClick={() => navigation("portfolio")}
-            className={`${
-              toggleNavbar ? "text-primary" : "text-white"
-            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
+            className={`${toggleNavbar ? "text-primary" : "text-white"
+              }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
           >
             Portfolio
           </a>
 
           <a
             onClick={() => navigation("about")}
-            className={`${
-              toggleNavbar ? "text-primary" : "text-white"
-            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
+            className={`${toggleNavbar ? "text-primary" : "text-white"
+              }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
           >
             About Us
           </a>
-          <Link 
+          <Link
             href="/blog"
-            className={`${
-              toggleNavbar ? "text-primary" : "text-white"
-            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
+            className={`${toggleNavbar ? "text-primary" : "text-white"
+              }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
           >
             Blogs
           </Link>
 
           <a
             onClick={() => navigation("reaidy")}
-            className={`${
-              toggleNavbar ? "text-primary" : "text-white"
-            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
+            className={`${toggleNavbar ? "text-primary" : "text-white"
+              }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
           >
             Product
           </a>
 
           <a
             onClick={() => navigation("contactUs")}
-            className={`${
-              toggleNavbar ? "text-primary" : "text-white"
-            }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
+            className={`${toggleNavbar ? "text-primary" : "text-white"
+              }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
           >
             Contact Us
           </a>
 
           <Link href="/career"
-              className={`${
-                toggleNavbar ? "text-primary" : "text-white"
+            className={`${toggleNavbar ? "text-primary" : "text-white"
               }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
-            >
-              Careers
+          >
+            Careers
           </Link>
           <a
             onClick={scheduleMeeting}
-            className={`${
-              toggleNavbar ? "text-primary" : "text-white"
-            }  mx-4 border-b-2 border-secundary cursor-pointer lg:text-xl`}
+            className={`${toggleNavbar ? "text-primary" : "text-white"
+              }  mx-4 border-b-2 border-secundary cursor-pointer lg:text-xl`}
           >
             Schedule a Call
           </a>
         </div>
       </div>
       <div
-        className={`${
-          isOpen ? "" : "hidden"
-        } md:hidden bg-white transition-all duration-700 ease-in-out`}
+        className={`${isOpen ? "" : "hidden"
+          } md:hidden bg-white transition-all duration-700 ease-in-out`}
       >
         <a
           onClick={() => navigation("services")}
@@ -275,6 +265,12 @@ export const Navbarr = ({ noScrollEffect, career }) => {
         >
           About Us
         </a>
+        <Link
+          href="/blog"
+          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+        >
+          Blogs
+        </Link>
         <a
           onClick={() => navigation("reaidy")}
           className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer"
@@ -287,11 +283,11 @@ export const Navbarr = ({ noScrollEffect, career }) => {
         >
           Contact Us
         </a>
-        <a
+        <Link href="/career"
           className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer"
         >
           Careers
-        </a>
+        </Link>
         <a
           onClick={scheduleMeeting}
           className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer"
