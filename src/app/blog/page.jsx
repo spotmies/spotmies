@@ -19,7 +19,7 @@ export default function page() {
                 <div className='flex md:flex-wrap lg:flex-wrap flex-wrap gap-10 w-fit mx-auto '>
                     <Link href="/blog/blogs">
                         <img className='h-[50vh] rounded-3xl mt-10' src="https://images.pexels.com/photos/1051073/pexels-photo-1051073.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
-                        <p className='ml-2 g'>Blog 1</p>
+                        {/* <p className='ml-2 g'>Blog 1</p> */}
                     </Link>
                     <Link href="/blog/blogs">
                         <img className='h-[50vh] rounded-3xl mt-10' src="https://images.pexels.com/photos/1051073/pexels-photo-1051073.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
