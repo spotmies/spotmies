@@ -8,17 +8,14 @@ const image =
   // "https://nftstorage.link/ipfs/bafybeifur6x6mg6u6465nojbgtuckodzghkeovjoltga7cysdzmuyvj7ku";
   "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFirstFolder%2FTopPagePic.jpeg?alt=media&token=9906ec9d-1894-4315-b823-d73881638d03";
 
-
 const LandingSlide = () => {
   return (
     <section
       className="h-screen w-full flex flex-col justify-center items-center relative bg-bg1"
-      id="home"
-    >
+      id="home">
       <div
         className="absolute inset-0 bg-black opacity-40 w-full h-full rounded-none "
-        style={{ zIndex: "9" }}
-      ></div>
+        style={{ zIndex: "9" }}></div>
       <div className="fixed top-0 left-0 h-fit w-full z-50 ">
         <Navbarr />
       </div>
@@ -42,8 +39,7 @@ const LandingSlide = () => {
             .map((_, i) => (
               <div
                 className="w-full h-10 flex  items-center justify-between p-4"
-                key={i}
-              >
+                key={i}>
                 <div className="relative z-10 bg-white rounded-full w-1 h-1 m-2" />
                 <div className="relative z-10 bg-white rounded-full w-1 h-1 m-2" />
                 <div className="relative z-10 bg-white rounded-full w-1 h-1 m-2" />
@@ -78,8 +74,7 @@ const LandingSlide = () => {
               window.open(calendlyLink, "_blank");
             }}
             type={"button"}
-            className={`gil-reg text-xs md:text-sm lg:text-xl flex flex-row items-center justify-center hover:bg-white hover:text-bg1 rounded-sm md:min-w-[160px] min-w-[140px] lg:min-w-[210px] md:min-h-[40px] min-h-[30px] lg:min-h-[50px] mt-4 bg-transparent text-white border border-white animated`}
-          >
+            className={`gil-reg text-xs md:text-sm lg:text-xl flex flex-row items-center justify-center hover:bg-white hover:text-bg1 rounded-sm md:min-w-[160px] min-w-[140px] lg:min-w-[210px] md:min-h-[40px] min-h-[30px] lg:min-h-[50px] mt-4 bg-transparent text-white border border-white animated`}>
             Schedule a Call
             <AiOutlineArrowRight className="ml-2" />
           </button>
@@ -144,16 +139,14 @@ export const Navbarr = ({ noScrollEffect, career }) => {
   return (
     <nav
       className="bg-transparent fixed w-full z-10 px-5 md:px-[5vw] lg:px-[5vw] animated-down"
-      id="navigationBar"
-    >
+      id="navigationBar">
       <div className="container mx-auto flex justify-between items-center py-4 lg:py-6">
         <div
           className="flex items-center cursor-pointer"
           onClick={() => {
             // navigate to #home
             window.location.href = "/";
-          }}
-        >
+          }}>
           <img
             src={toggleNavbar ? "/spotmies_banner.png" : "/spotmies_banner.png"}
             alt="Logo"
@@ -165,18 +158,15 @@ export const Navbarr = ({ noScrollEffect, career }) => {
             className={`${toggleNavbar ? "text-primary" : "text-white"
               } hover:text-secundary focus:outline-none md:hidden`}
             aria-label="Menu"
-            onClick={toggleMenu}
-          >
+            onClick={toggleMenu}>
             <svg
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="menu w-6 h-6"
-            >
+              className="menu w-6 h-6">
               <path
                 fillRule="evenodd"
                 d="M2 5a1 1 0 011-1h14a1 1 0 110 2H3a1 1 0 01-1-1zm0 5a1 1 0 011-1h14a1 1 0 110 2H3a1 1 0 01-1-1zm1 4a1 1 0 100 2h14a1 1 0 100-2H3z"
-                clipRule="evenodd"
-              ></path>
+                clipRule="evenodd"></path>
             </svg>
           </button>
         </div>
@@ -235,34 +225,31 @@ export const Navbarr = ({ noScrollEffect, career }) => {
           </Link>
           <a
             onClick={scheduleMeeting}
-            className={`${toggleNavbar ? "text-primary" : "text-white"
-              }  mx-4 border-b-2 border-secundary cursor-pointer lg:text-xl`}
-          >
+            className={`${
+              toggleNavbar ? "text-primary" : "text-white"
+            }  mx-4 border-b-2 border-secundary cursor-pointer lg:text-xl`}>
             Schedule a Call
           </a>
         </div>
       </div>
       <div
-        className={`${isOpen ? "" : "hidden"
-          } md:hidden bg-white transition-all duration-700 ease-in-out`}
-      >
+        className={`${
+          isOpen ? "" : "hidden"
+        } md:hidden bg-white transition-all duration-700 ease-in-out`}>
         <a
           onClick={() => navigation("services")}
-          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer"
-        >
+          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer">
           Services
         </a>
 
         <a
           onClick={() => navigation("portfolio")}
-          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer"
-        >
+          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer">
           Portfolio
         </a>
         <a
-          onClick={() => navigation("aboutUs")}
-          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer"
-        >
+          onClick={() => navigation("about")}
+          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer">
           About Us
         </a>
         <Link
@@ -273,14 +260,12 @@ export const Navbarr = ({ noScrollEffect, career }) => {
         </Link>
         <a
           onClick={() => navigation("reaidy")}
-          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer"
-        >
+          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer">
           Product
         </a>
         <a
           onClick={() => navigation("contactUs")}
-          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer"
-        >
+          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer">
           Contact Us
         </a>
         <Link href="/career"
@@ -290,8 +275,7 @@ export const Navbarr = ({ noScrollEffect, career }) => {
         </Link>
         <a
           onClick={scheduleMeeting}
-          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer"
-        >
+          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer">
           Schedule a Call
         </a>
       </div>
