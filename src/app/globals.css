@@ -100,6 +100,29 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.image-div{
+    background-image: url(./career/photo.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.linear-image-gradient{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(0, 152, 163,0.75) 0%,rgba(42, 241, 255, 0.4) 70%, rgba(0,212,255,0) 100%);
+}
+.career-slide-gradient{
+  background: linear-gradient(180deg, rgba(4, 206, 220, 1) 0%, rgba(98, 222, 238, 1) 45%, rgba(248, 248, 248, 1) 100%);
+}
+.tech-stack:hover{
+  @apply bg-gray-900 scale-110
+}
+.tech-stack:hover> *:first-child{
+  @apply text-primary
+}
+.tech-stack:hover p{
+  @apply text-white
+}
+
+
 a {
   color: inherit;
   text-decoration: none;

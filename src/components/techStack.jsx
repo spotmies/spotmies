@@ -16,11 +16,43 @@ import {
   SiMicrosoftazure,
   SiGooglecloud,
   SiLooker,
+  SiTensorflow,
+  SiPytorch,
+  SiKeras,
+  SiTableau,
+  SiPowerbi,
+  SiDevpost,
+  SiInfiniti,
+  SiAzuredevops,
 } from "react-icons/si";
 import { Fade } from "react-reveal";
 export default function TechStack() {
   // add truffle,Ganache
   const technologies = [
+    {
+      icon: <SiTensorflow color="#3680f7" />,
+      name: "Tenserflow",
+    },
+    {
+      icon: <SiPytorch color="#3680f7" />,
+      name: "PyTorch",
+    },
+    {
+      icon: <SiKeras color="#3680f7" />,
+      name: "Keras",
+    },
+    {
+      icon: <SiTableau color="#3680f7" />,
+      name: "Tableau",
+    },
+    {
+      icon: <SiPowerbi color="#3680f7" />,
+      name: "Power BI",
+    },
+    {
+      icon: <SiAzuredevops color="#3680f7" />,
+      name: "DevOps",
+    },
     {
       icon: <FaReact color="#61DBFB" />,
       name: "React",
@@ -80,7 +112,7 @@ export default function TechStack() {
     {
       icon: <SiLooker color="#3680f7" />,
       name: "LookerStudio",
-    },
+    }
 
   ];
 
