@@ -32,7 +32,7 @@ export default function career() {
   return (
     <div className='bg-[rgb(248,248,248)]'>
     <Navbarr noScrollEffect={true} career={true} />
-      <div className='h-[100vh] career-slide-gradient flex items-center  flex-col'>
+      <div className='h-[100vh] bg-[#60f4ff] flex items-center  flex-col'>
         <h1 className='text-7xl sm:text-8xl gil-med mt-[20vh]'>Technologies</h1>
         {/* <div className='bg-white mt-14 items-center flex justify-center py-2 px-2 md:w-[40vw] lg:w-[40vw] w-[80%] rounded-md'>
           <CiSearch className='text-black'/>
@@ -40,50 +40,50 @@ export default function career() {
         </div> */}
         <div className='flex flex-wrap justify-center mt-32  gap-16'>
           <div className='p-2 flex flex-col justify-center items-center cursor-pointer rounded tech-stack transition-all delay-100 overflow-hidden ease-linear'>
-            <SiMongodb className='text-5xl 2xl:text-3xl transition-all delay-100'/>
-            <p className='text-lg 2xl:text-base mt-2 transition-all delay-100'>MERN stack</p>
+            <SiMongodb className='text-4xl xl:text-3xl transition-all delay-100'/>
+            <p className='text-lg xl:text-base mt-2 transition-all delay-100'>MERN stack</p>
           </div>
           <div className='p-2 flex flex-col justify-center items-center cursor-pointer rounded tech-stack transition-all delay-100 overflow-hidden ease-linear'>
-            <SiNodedotjs className='text-5xl 2xl:text-3xl transition-all delay-100'/>
-            <p className='text-lg 2xl:text-base mt-2 transition-all delay-100'>Node JS</p>
+            <SiNodedotjs className='text-4xl xl:text-3xl transition-all delay-100'/>
+            <p className='text-lg xl:text-base mt-2 transition-all delay-100'>Node JS</p>
           </div>
           <div className='p-2 flex flex-col justify-center items-center cursor-pointer rounded tech-stack transition-all delay-100 overflow-hidden ease-linear'>
-            <SiTensorflow  className='text-5xl 2xl:text-3xl transition-all delay-100'/>
-            <p className='text-lg 2xl:text-base mt-2 transition-all delay-100'>Artificial Intellegence</p>
+            <SiTensorflow  className='text-4xl xl:text-3xl transition-all delay-100'/>
+            <p className='text-lg xl:text-base mt-2 transition-all delay-100'>Artificial Intellegence</p>
           </div>
           <div className='p-2 flex flex-col justify-center items-center cursor-pointer rounded tech-stack transition-all delay-100 overflow-hidden ease-linear'>
-            <SiPython className='text-5xl 2xl:text-3xl transition-all delay-100'/>
-            <p className='text-lg 2xl:text-base mt-2 transition-all delay-100'>Python</p>
+            <SiPython className='text-4xl xl:text-3xl transition-all delay-100'/>
+            <p className='text-lg xl:text-base mt-2 transition-all delay-100'>Python</p>
           </div>
           <div className='p-2 flex flex-col justify-center items-center cursor-pointer rounded tech-stack transition-all delay-100 overflow-hidden ease-linear'>
-            <SiLinux className='text-5xl 2xl:text-3xl transition-all delay-100'/>
-            <p className='text-lg 2xl:text-base mt-2 transition-all delay-100'>Linux</p>
+            <SiLinux className='text-4xl xl:text-3xl transition-all delay-100'/>
+            <p className='text-lg xl:text-base mt-2 transition-all delay-100'>Linux</p>
           </div>
           <div className='p-2 flex flex-col justify-center items-center cursor-pointer rounded tech-stack transition-all delay-100 overflow-hidden ease-linear'>
-            <SiBlockchaindotcom  className='text-5xl 2xl:text-3xl transition-all delay-100'/>
-            <p className='text-lg 2xl:text-base mt-2 transition-all delay-100'>Blockchain</p>
+            <SiBlockchaindotcom  className='text-4xl xl:text-3xl transition-all delay-100'/>
+            <p className='text-lg xl:text-base mt-2 transition-all delay-100'>Blockchain</p>
           </div>
           <div className='p-2 flex flex-col justify-center items-center cursor-pointer rounded tech-stack transition-all delay-100 overflow-hidden ease-linear'>
-            <SiBugcrowd className='text-5xl 2xl:text-3xl transition-all delay-100'/>
-            <p className='text-lg 2xl:text-base mt-2 transition-all delay-100'>Security</p>
+            <SiBugcrowd className='text-4xl xl:text-3xl transition-all delay-100'/>
+            <p className='text-lg xl:text-base mt-2 transition-all delay-100'>Security</p>
           </div>
           <div className='p-2 flex flex-col justify-center items-center cursor-pointer rounded tech-stack transition-all delay-100 overflow-hidden ease-linear'>
-            <SiReact className='text-5xl 2xl:text-3xl transition-all delay-100'/>
-            <p className='text-lg 2xl:text-base mt-2 transition-all delay-100'>React</p>
+            <SiReact className='text-4xl xl:text-3xl transition-all delay-100'/>
+            <p className='text-lg xl:text-base mt-2 transition-all delay-100'>React</p>
           </div>
           <div className='p-2 flex flex-col justify-center items-center cursor-pointer rounded tech-stack transition-all delay-100 overflow-hidden ease-linear'>
-            <SiFlutter  className='text-5xl 2xl:text-3xl transition-all delay-100'/>
-            <p className='text-lg 2xl:text-base mt-2 transition-all delay-100'>Flutter</p>
+            <SiFlutter  className='text-4xl xl:text-3xl transition-all delay-100'/>
+            <p className='text-lg xl:text-base mt-2 transition-all delay-100'>Flutter</p>
           </div>
           <div className='p-2 flex flex-col justify-center items-center cursor-pointer rounded tech-stack transition-all delay-100 overflow-hidden ease-linear'>
-            <SiGit  className='text-5xl 2xl:text-3xl transition-all delay-100'/>
-            <p className='text-lg 2xl:text-base mt-2 transition-all delay-100'>Git</p>
+            <SiGit  className='text-4xl xl:text-3xl transition-all delay-100'/>
+            <p className='text-lg xl:text-base mt-2 transition-all delay-100'>Git</p>
           </div>
         </div>
       </div>
       {/* middle  */}
       <div className='hidden md:block lg:block' >
-        <div className='image-div h-[50vh] w-[40vw] mt-[-9rem] shadow-lg mx-auto relative rounded-lg overflow-hidden '>
+        <div className='image-div h-[50vh] w-[40vw] mt-[-5rem] shadow-lg mx-auto relative rounded-lg overflow-hidden '>
           <div className='linear-image-gradient w-full h-full absolute flex flex-col px-10'>
           <p className='bg-black text-primary w-fit px-4 py-2 text-gil-med text-sm rounded-full mt-10'>Featured Interview</p>
           <h1 className='z-2 text-black text-xl mt-7 gil-med font-bold'>What is your Interview <br /> Percentage telling you?</h1>

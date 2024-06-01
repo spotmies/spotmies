@@ -59,7 +59,7 @@ export default function ReaidySlide() {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <p className="gil-med text-3xl lg:text-4xl text-[#0098a3]">
-                  <CountUp enableScrollSpy={true} end={2500} />
+                  <CountUp enableScrollSpy={true} end={4000} />
                   <span className="md:mb-[15px] mb-[8px]">+</span>
                 </p>
                 <p className="gil-reg text-md md:text-lg lg:text-3xl">
@@ -68,7 +68,7 @@ export default function ReaidySlide() {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <p className="gil-med text-3xl lg:text-4xl text-[#0098a3]">
-                  <CountUp enableScrollSpy={true} end={80} />
+                  <CountUp enableScrollSpy={true} end={100} />
                   <span className="md:mb-[15px] mb-[8px]">+</span>
                 </p>
                 <p className="gil-reg text-md md:text-lg lg:text-3xl">Companies</p>
@@ -139,7 +139,7 @@ export default function ReaidySlide() {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <p className="gil-med text-3xl lg:text-4xl text-[#0098a3]">
-                  <CountUp enableScrollSpy={true} end={2500} />
+                  <CountUp enableScrollSpy={true} end={4000} />
                   <span className="md:mb-[15px] mb-[8px]">+</span>
                 </p>
                 <p className="gil-reg text-md md:text-lg lg:text-3xl">
@@ -148,7 +148,7 @@ export default function ReaidySlide() {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <p className="gil-med text-3xl lg:text-4xl text-[#0098a3]">
-                  <CountUp enableScrollSpy={true} end={80} />
+                  <CountUp enableScrollSpy={true} end={100} />
                   <span className="md:mb-[15px] mb-[8px]">+</span>
                 </p>
                 <p className="gil-reg text-md md:text-lg lg:text-3xl">Companies</p>
