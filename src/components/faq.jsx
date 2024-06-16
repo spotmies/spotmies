@@ -68,6 +68,7 @@ const variants = {
 
 function Faq() {
   const [selectedId, setSelectedId] = useState(null);
+  const [hoveredId, setHoveredId] = useState(null);
 
   const toggleQuestion = (id) => {
     if (selectedId === id) {
@@ -77,31 +78,38 @@ function Faq() {
     }
   };
 
+  const handleMouseOver = (id) => {
+    setHoveredId(id);
+  };
+
+  const handleMouseLeave = () => {
+    setHoveredId(null);
+  };
+
   return (
     <div className="w-[100vw] bg-white" id="faq">
-      <div className="w-[90%] container mx-auto py-12  rounded-sm m-auto ">
+      <div className="w-[90%] container mx-auto py-12 rounded-sm m-auto ">
         <Fade bottom>
           <h2 className="text-3xl md:text-5xl lg:text-6xl gil-bold mb-8 text-center text-primary2">
             Frequently Asked Questions
           </h2>
         </Fade>
 
-        <div className="flex flex-col md:flex-row justify-between lg:justify-around  w-full items-start m-auto h-full ">
+        <div className="flex flex-col md:flex-row justify-between lg:justify-around w-full items-start m-auto h-full ">
           <div className="max-w-xl lg:max-w-2xl pt-4 md:pt-0">
             {faqs.slice(0, 4).map((faq, key) => (
               <div
                 key={key}
                 className="bg-white border border-slate-300 rounded-xl overflow-hidden mb-4"
+                onMouseOver={() => handleMouseOver(faq.id)}
+                onMouseLeave={handleMouseLeave}
               >
                 <Fade bottom>
                   <button
-                    onMouseOver={() => toggleQuestion(faq.id)}
-                    onClick={() => toggleQuestion(faq.id)}
-                    onMouseLeave={() => toggleQuestion(null)}
                     className="w-full p-4 flex flex-row items-center justify-between text-left font-semibold lg:text-xl text-primary2"
                   >
                     {faq.question}
-                    {selectedId === faq.id ? (
+                    {selectedId === faq.id || hoveredId === faq.id ? (
                       <AiOutlineMinus className="text-3xl" />
                     ) : (
                       <AiOutlinePlus className="text-3xl" />
@@ -110,7 +118,7 @@ function Faq() {
 
                   <motion.div
                     variants={variants}
-                    animate={selectedId === faq.id ? "open" : "closed"}
+                    animate={selectedId === faq.id || hoveredId === faq.id ? "open" : "closed"}
                     className="px-4"
                   >
                     <p className="text-gray-600 pb-4">{faq.answer}</p>
@@ -125,16 +133,15 @@ function Faq() {
               <div
                 key={key}
                 className="bg-white border border-slate-300 rounded-xl overflow-hidden mb-4"
+                onMouseOver={() => handleMouseOver(faq.id)}
+                onMouseLeave={handleMouseLeave}
               >
                 <Fade bottom>
-                  <button
-                    onMouseOver={() => toggleQuestion(faq.id)}
-                    onClick={() => toggleQuestion(faq.id)}
-                    onMouseLeave={() => toggleQuestion(null)}
+                  <button 
                     className="w-full p-4 flex flex-row items-center justify-between text-left lg:text-xl font-semibold text-primary2"
                   >
                     {faq.question}
-                    {selectedId === faq.id ? (
+                    {selectedId === faq.id || hoveredId === faq.id ? (
                       <AiOutlineMinus className="text-3xl" />
                     ) : (
                       <AiOutlinePlus className="text-3xl" />
@@ -143,7 +150,7 @@ function Faq() {
 
                   <motion.div
                     variants={variants}
-                    animate={selectedId === faq.id ? "open" : "closed"}
+                    animate={selectedId === faq.id || hoveredId === faq.id ? "open" : "closed"}
                     className="px-4"
                   >
                     <p className="text-gray-600 pb-4">{faq.answer}</p>

@@ -75,6 +75,11 @@ export default function FooterBar() {
                     Blog
                   </a>
                 </li>
+                <li className="mb-2 lg:text-xl">
+                  <a href="/career" className="hover:text-white">
+                    Careers
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="w-full md:w-1/5 lg:w-1/5">
