@@ -151,6 +151,14 @@ export const socials = [
 
 export const testimonials = [
   {
+    name: "Marco Turk",
+    position: "Founder at Zin In Thuiswerken",
+    timeStamp: "1712137317000",
+    image:
+      "https://reaidystorage.blob.core.windows.net/spotmiespublic/0bc8f2ee-eaf3-4760-9400-ef08d1967917.jpg",
+    text: "Impressed by the team’s expertise and adaptability regarding the development of our AI solution, which made the process went smoothly. Highly recommend them for innovative solutions.",
+  },
+  {
     name: "Vamsi Gummadi",
     position: "Founder & CEO at Sweken",
     when: "8 months ago",
@@ -604,7 +612,7 @@ export const productDesign = [
   },
 ];
 
-export const webDevelopment = [
+export const Datascience = [
   {
     description:
       "At our software development company, we have a highly skilled web development team that specializes in using cutting-edge technologies and frameworks to deliver exceptional web development services. Our team utilizes a range of technologies, including Node.js, React.js,Next.js, MongoDB, Python, and Express.js, to create high-performance, scalable, and responsive web applications.",
@@ -662,7 +670,7 @@ export const blockchainDevelopment = [
   },
 ];
 
-export const mobileDevelopment = [
+export const AI = [
   {
     description:
       "At our software development company, we have a dedicated team of mobile app developers who specialize in creating Android and iOS applications that not only look great but also perform flawlessly across all devices. We use a range of technologies, including Flutter, Node.js, MongoDB, and Express.js, to deliver exceptional mobile app development services.",
@@ -689,7 +697,7 @@ export const mobileDevelopment = [
   },
 ];
 
-export const windowsDevelopment = [
+export const SAAS = [
   {
     description:
       "At our software development company, we offer expert Windows and Mac application development services that enable our clients to maximize their devices' potential. Our team of experienced developers specializes in using Flutter, a cross-platform app development framework, to create visually stunning and high-performance Windows and Mac applications.  ",

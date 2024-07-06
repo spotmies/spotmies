@@ -94,7 +94,7 @@ export default function Mentor2() {
             </p>
           </Fade>
           <Fade bottom>
-            <p className="text-xl pt-5 opacity-75 text-justify">
+            <p className="text-xl pt-5 opacity-75 text-justify text-gray-400">
               Ravi is a seasoned professional with over 24 years of experience
               in business, strategy, sales, operations, and corporate quality
               for large corporations and start-ups. He has worked with top
@@ -144,7 +144,7 @@ export default function Mentor2() {
             </p>
           </Fade>
           <Fade bottom>
-            <p className="text-xl lg:text-3xl pt-5 opacity-75 text-justify">
+            <p className="text-xl lg:text-3xl pt-5 opacity-75 text-justify text-gray-400">
               Ravi is a seasoned professional with over 24 years of experience
               in business, strategy, sales, operations, and corporate quality
               for large corporations and start-ups. He has worked with top
