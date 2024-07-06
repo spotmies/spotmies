@@ -21,6 +21,7 @@ import TechStack from "./techStack";
 import BlockchainService from "./blockchainServices";
 import Partners from "./partners";
 import ReaidySlide from "./reaidy";
+import ChatBot from "./chatBot";
 
 export default function HomePage() {
   return (
@@ -49,6 +50,7 @@ export default function HomePage() {
       <ArticlesList />
       <ContactUs />
       <FooterBar />
+      <ChatBot />
     </div>
   );
 }
