@@ -20,7 +20,7 @@ const ChatBot = () => {
     return (
         <div>
             {/* Placeholder for chat icon */}
-            {!isOpen && (
+            {/* {!isOpen && (
                 <button
                     onClick={() => setIsOpen(true)}
                     style={{ position: 'fixed', bottom: '20px', right: '20px', zIndex: 1001, color: 'white', padding: '10px', borderRadius: '50%', border: 'none', cursor: 'pointer' }}
@@ -28,7 +28,7 @@ const ChatBot = () => {
                 >
                     <FaRegCommentDots className='md:text-2xl' />
                 </button>
-            )}
+            )} */}
 
             {/* Chatbot loader or iframe */}
             {isOpen && (
