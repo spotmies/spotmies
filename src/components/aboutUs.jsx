@@ -128,7 +128,7 @@ export default function AboutUs() {
             </Fade>
             <Fade bottom>
               {" "}
-              <p className="gil-bold text-3xl md:text-5xl lg:text-8xl lg:w-[90%] w-full md:w-[90%]">
+              <p className="gil-bold text-3xl md:text-5xl lg:text-5xl lg:w-[90%] w-full md:w-[90%]">
                 Making Quality Services <br /> Accessible to{" "}
                 <span className="text-primary">Everyone</span>
               </p>
