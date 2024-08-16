@@ -65,7 +65,7 @@ export default function TeamSlide() {
               {/* add content here
                */}
               <Fade bottom>
-                <p className="md:text-5xl lg:text-6xl gil-bold text-3xl">
+                <p className="md:text-5xl lg:text-5xl gil-bold text-3xl">
                   {" "}
                   We Are <span className="text-primary">Result</span> Driven
                   Team
@@ -73,7 +73,7 @@ export default function TeamSlide() {
               </Fade>
               <div className="opacity-60">
                 <Fade bottom>
-                  <p className="text-sm lg:text-xl opacity-60 lg:w-[90%] text-justify">
+                  <p className="text-sm lg:text-lg opacity-60 lg:w-[90%] text-justify">
                     At our company, quality is of the utmost importance when it
                     comes to development. We strive to ensure that all of our
                     products are of the highest standard and built to last. We
