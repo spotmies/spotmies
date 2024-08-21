@@ -11,6 +11,8 @@ import {
   SiDjango,
   SiPython,
   SiMysql,
+  SiMicrosoftazure,
+  SiOpenai,
   SiAmazonaws,
   SiIpfs,
   SiWeb3Dotjs,
@@ -27,8 +29,8 @@ import {
   SiEthereum,
   SiPhp,
   SiGodaddy,
+  
 } from "react-icons/si";
-
 import HoverButton from "../reusableComponent/hoverButton";
 import {
   AiFillAndroid,
@@ -36,6 +38,7 @@ import {
   AiOutlineEye,
   AiOutlineGithub,
 } from "react-icons/ai";
+
 import { MdOpenInNew } from "react-icons/md";
 import worksJson from "../../json_files/work.json";
 import Fade from "react-reveal/Fade";
@@ -384,6 +387,8 @@ export function ProjectDetails({ index, showMaximize, setShowpopup }) {
               {item == "reactjs" && <FaReact color="#61DBFB" size="3rem" />}
               {item == "mongodb" && <SiMongodb color="#47A248" size="3rem" />}
               {item == "vectorDB" && <SiVectorlogozone color="#47A248" size="3rem" />}
+              {item == "azure" && <SiMicrosoftazure color="#007fff" size="3rem" />}
+              {item == "openAI" && <SiOpenai  color="#363636" size="3rem" />}
               {item == "solidity" && <SiSolidity color="#363636" size="3rem" />}
               {item == "nextjs" && <SiNextdotjs color="#000000" size="3rem" />}
               {item == "django" && <SiDjango color="#092E20" size="3rem" />}

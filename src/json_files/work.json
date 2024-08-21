@@ -55,7 +55,7 @@
   {
     "description": "Unlock the power of AI-driven chatbots to enhance customer engagement and streamline communication. Train your chatbot with your website's data using our advanced web scraping tool, and deliver accurate, relevant responses to your customers. Capture leads effortlessly and boost conversions with Workewhere’s cutting-edge technology. Elevate your customer experience and drive business growth today with Workewhere!",
     "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/Oscar.png",
-    "projectLink": "https://app.workewhere.nl/",
+    "projectLink": "https://workewhere.nl/",
     "tags": [
       "Web 2"
     ],
@@ -80,7 +80,8 @@
         "nodejs",
         "mongodb",
         "vectorDB",
-        "RAG"
+        "openAI",
+        "azure"
       ],
       "content": [
         {
@@ -114,7 +115,7 @@
         }
       ],
       "links": {
-        "website": "https://app.workewhere.nl/",
+        "website": "https://workewhere.nl/",
         "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
         "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
       }
