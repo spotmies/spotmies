@@ -129,9 +129,12 @@ export default function Services() {
     return (
       <>
         <div className="absolute inset-0 bg-black opacity-20 hover:opacity-40 opacity-layer rounded-md md:rounded-xl" />
-        <div className="absolute inset-0 w-full h-full p-3 md:p-6 lg:p-10 flex flex-col">
+        <div className="absolute inset-0 w-full h-full p-3 md:p-6 lg:p-10 flex flex-col" 
+            onClick={() => {
+              onClick && onClick();
+            }}>
           <Fade bottom>
-            <p className="text-white gil-bold text-md md:text-3xl lg:text-4xl">
+            <p className="text-white gil-bold text-md md:text-3xl lg:text-4xl" >
               {title}
             </p>
           </Fade>
@@ -139,11 +142,6 @@ export default function Services() {
             {description}
           </p>
           <BsArrowRight
-            onClick={() => {
-              onClick && onClick();
-            }}
-            size=""
-            color="white"
             className="absolute bottom-[20px] md:text-[2rem] right-[30px]  onHoverShow cursor-pointer"
           />
         </div>
@@ -174,12 +172,12 @@ export function PopUp({ title, body, show, setShow }) {
           </>
         ))}
         <div
-          className="absolute top-2 right-2 cursor-pointer"
+          className="fixed top-2 right-2 cursor-pointer"
           onClick={() => {
             setShow(false);
           }}
         >
-          <AiOutlineCloseCircle size="2rem" color="black" />
+          <AiOutlineCloseCircle size="2rem" color="white" />
         </div>
       </div>
     </div>

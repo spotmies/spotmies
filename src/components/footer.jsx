@@ -31,7 +31,7 @@ export default function FooterBar() {
       });
   };
   return (
-    <div className=" w-[100vw]" id="footer">
+    <div className=" w-[100vw] gil-reg" id="footer">
       <footer className=" bg-bg1 text-gray-400 pt-16 pb-8">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-between mb-12">
