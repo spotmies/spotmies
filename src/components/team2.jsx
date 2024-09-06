@@ -25,7 +25,7 @@ export default function TeamSlide2() {
       image:
         "https://reaidystorage.blob.core.windows.net/spotmiespublic/sekhar.jpeg",
       name: "Sekhar javvadi",
-      designation: "Co-Founder & Tech Lead",
+      designation: "Co-Founder & CTO",
       social: {
         twitter: "https://twitter.com/SekharJavvadi",
         linkedin: "https://www.linkedin.com/in/sekhar-javvadi-987380158",
@@ -36,7 +36,8 @@ export default function TeamSlide2() {
       image:
         "https://reaidystorage.blob.core.windows.net/spotmiespublic/hemanth.jpeg",
       name: "Hemanth Kumar",
-      designation: "Head of Blockchain Development",
+      // designation: "Head of Blockchain Development",
+      designation: "Co-Founder",
       social: {
         twitter: "https://twitter.com/The_Veeranala",
         linkedin:
@@ -47,7 +48,8 @@ export default function TeamSlide2() {
       image:
         "https://reaidystorage.blob.core.windows.net/spotmiespublic/naveen.jpeg",
       name: "Naveen Kumar",
-      designation: "Head of Product Design",
+      // designation: "Head of Product Design",
+      designation: "Co-Founder & Head of Product Design",
       social: {
         behance: "https://www.behance.net/naveenkatava",
 
