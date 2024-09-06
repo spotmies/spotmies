@@ -15,7 +15,7 @@ export default function TeamSlide2() {
       image:
         "https://reaidystorage.blob.core.windows.net/spotmiespublic/satish.jpeg",
       name: "Satish Kumar Saride",
-      designation: "Founder & CEO",
+      designation: "Co-Founder & CEO",
       social: {
         // twitter: "https://twitter.com/satish_saride",
         linkedin: "https://www.linkedin.com/in/saride-satish-kumar-59a26a187",
