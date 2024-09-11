@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, {useState} from "react";
 import Wrapper from "./reusableComponent/wrapper";
 import HoverButton from "./reusableComponent/hoverButton";
 import {
@@ -19,11 +19,14 @@ import {
 import { FaFileContract, FaJoomla, } from "react-icons/fa";
 import { SiWeb3Dotjs, SiSmartthings, SiOracle, SiAmazonec2, SiGitter, SiDocsdotrs, SiOpenapiinitiative, SiMultisim } from "react-icons/si";
 import Carousel from "react-multi-carousel";
-import { MdOutlinePayment, MdOutlineSecurity, MdOutlineTransform, MdDiversity3, } from "react-icons/md";
+import { MdOutlinePayment, MdOutlineSecurity, MdOutlineTransform, MdDiversity3, MdOutlineCancel, } from "react-icons/md";
 import { Fade } from "react-reveal";
 import { IoMdAnalytics, } from "react-icons/io";
 import { TbArrowAutofitContentFilled, } from "react-icons/tb";
+import ContactUs from "./contactUs";
 export default function BlockchainService() {
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+  
   const blockchainServices = [
 
     // {
@@ -244,6 +247,10 @@ export default function BlockchainService() {
       className="bg-bg2 min-h-fit"
       titleClassName="lg:text-7xl"
     >
+      <PopUp
+        show={isPopupOpen}
+        setShow={setIsPopupOpen}
+      />
       <Fade bottom>
         <div className="flex flex-col-reverse md:flex-row w-full justify-between items-start min-h-[20vh] py-[2vh]">
           <div className="flex flex-col w-[90%] md:w-[35%] text-text_color2 mt-4 md:mt-0">
@@ -255,18 +262,14 @@ export default function BlockchainService() {
               text={"Contact Us"}
               className="mt-4 w-fit rounded-md"
               icon={<AiOutlineArrowRight />}
-              onClick={() => {
-                // navigate to contact page /#contact
-
-                window.document
-                  .getElementById("contactUs")
-                  .scrollIntoView({ behavior: "smooth" });
+              onClick={()=>setIsPopupOpen(true)}
+                
 
 
 
 
-              }}
             />
+            
           </div>
 
           <div className="md:w-[60%] w-[100%] ">
@@ -282,7 +285,9 @@ export default function BlockchainService() {
       </Fade>
 
     </Wrapper>
+    
   );
+
 
   function card(title, icon, description) {
     return (
@@ -297,4 +302,31 @@ export default function BlockchainService() {
       </div>
     );
   }
+}
+
+export function PopUp({ show, setShow }) {
+  if (!show) return null;
+  return (
+    <div className="fixed inset-0 bg-gray-500 bg-opacity-75 flex items-center justify-center z-50">
+      <div
+        className="rounded-2xl bg-white z-50 shadow-sm p-0 hover:shadow-lg transition duration-300 w-[90vw] md:w-[90vw] h-[90vh] md:min-h-fit md:h-[83vh] min-h-[300px] flex flex-col justify-between relative md:overflow-y-auto overflow-y-auto"
+      >
+        
+        <div>
+          <ContactUs width = "w-[100%]" height = "h-[579px]" py="py-0" />
+        </div>
+        
+        <div
+          className="fixed top-2 right-2 cursor-pointer"
+          onClick={() => {
+            setShow(false);
+          }}
+        >
+          <button >
+            <MdOutlineCancel className="h-[35px] w-[35px]"/>
+          </button>
+        </div>
+      </div>
+    </div>
+  );
 }

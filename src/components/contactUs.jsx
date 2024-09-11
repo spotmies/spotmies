@@ -12,7 +12,7 @@ import HoverButton from "./reusableComponent/hoverButton";
 import { Fade } from "react-reveal";
 import { socialMediaRedirect } from "@/constants";
 
-export default function ContactUs() {
+export default function ContactUs({width = 'w-[90%]',height = 'h-[650px]', py = 'py-9' }) {
   const [loading, setLoading] = useState(false);
 
   const nameRef = useRef(null);
@@ -67,10 +67,10 @@ export default function ContactUs() {
 
   return (
     <div
-      className="w-[100vw] h-fit md:h-[650px] text-black py-9 bg-bg2"
+      className={`w-[100%] h-full md:${height} text-black ${py} bg-bg2`}
       id="contactUs"
     >
-      <div className="m-auto w-[90%] bg-white h-full flex flex-col md:flex-row items-center justify-center rounded-2xl">
+      <div className={`m-auto ${width} h-full bg-white flex flex-col md:flex-row items-center justify-center rounded-2xl`}>
         <div
           className="relative h-[300px] md:h-full w-full md:w-[30%] z-20 rounded-l-2xl"
           style={{
