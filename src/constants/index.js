@@ -326,32 +326,9 @@ export const primaryColor = "#142440";
 
 export const clients = [
   {
-    name: "Advon",
-    image:"https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FAdvon%20banner%20logo(1).png?alt=media&token=98ad139f-743b-4f18-be03-b112c5d758bb",
-    link: "https://advon.com",
-  },
-  {
-    name: "Schemax",
-    image:"https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_01_.png?alt=media&token=840d4f4d-8119-4c4b-ae45-b840fdff0a37",
-    link: "https://www.schemaxtech.com",
-  },
-  {
-    name: "Decentrialz",
+    name: "ZinInThuiswerken",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FThirdFolder%2FL-10.png?alt=media&token=5e8dd11e-cc8c-4514-8f42-efa41bb40ab0",
-    link: "https://decentrialz.com",
-  },
-  {
-    name: "Sweken",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_03_.png?alt=media&token=8272891d-ab2b-4f95-95db-94827d1e9bec",
-    link: "https://sweken.com",
-  },
-  {
-    name: "Indie skull syndicate",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_04_.png?alt=media&token=bb2f730d-ec1b-4cea-96cb-31fe7f89846f",
-    link: "https://indieskullsyndicate.xyz",
+      "https://reaidystorage.blob.core.windows.net/spotmiespublic/ZIN.png",
   },
   {
     name: "A Square Entertainment",
@@ -360,15 +337,47 @@ export const clients = [
     link: "https://asquaregokarting.com",
   },
   {
-    name: "Advait Labs",
+    name: "Smartfalcon",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_07_.png?alt=media&token=e3767613-0f4c-496f-a294-7bb6a49702cd",
-    link: "https://advaitlabs.com",
+      "https://www.smartfalcon.io/images/logo.png",
+  },
+  {
+    name: "Credit Report",
+    image:
+      "https://reaidystorage.blob.core.windows.net/spotmiespublic/final-logo.png",
   },
   {
     name: "AU Incubation Centre",
     image:
       "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_08_.png?alt=media&token=ef39ad3a-42ba-446a-b411-f6a6cd249ed0",
+  },
+  {
+    name: "Schemax",
+    image:"https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_01_.png?alt=media&token=840d4f4d-8119-4c4b-ae45-b840fdff0a37",
+    link: "https://www.schemaxtech.com",
+  },
+  {
+    name: "Sweken",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_03_.png?alt=media&token=8272891d-ab2b-4f95-95db-94827d1e9bec",
+    link: "https://sweken.com",
+  },
+  {
+    name: "Vihaan electrix",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_13.png?alt=media&token=f0973e1e-fcff-4abd-a715-aabefcc4e649",
+  },
+  {
+    name: "Decentrialz",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FThirdFolder%2FL-10.png?alt=media&token=5e8dd11e-cc8c-4514-8f42-efa41bb40ab0",
+    link: "https://decentrialz.com",
+  },
+  {
+    name: "Advait Labs",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_07_.png?alt=media&token=e3767613-0f4c-496f-a294-7bb6a49702cd",
+    link: "https://advaitlabs.com",
   },
   {
     name: "Chalo Ride",
@@ -391,11 +400,6 @@ export const clients = [
       "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_12.png?alt=media&token=cd2981cf-0d88-4564-81af-7d00ee47e629",
   },
   {
-    name: "Vihaan electrix",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_13.png?alt=media&token=f0973e1e-fcff-4abd-a715-aabefcc4e649",
-  },
-  {
     name: "CGRUM",
     image:
       "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_14.png?alt=media&token=cef3bb00-15e4-4fea-9578-3796c91d82f3",
@@ -405,11 +409,6 @@ export const clients = [
     image:
       "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_15.png?alt=media&token=0a27663b-e058-4fa5-abaf-33d9118963d9",
   },
-  // {
-  //   name: "Infy Skill",
-  //   image:
-  //     "https://infyskill.reaidy.io/static/media/infyskill_banner.c23d7a0150ef9ba47012.png",
-  // },
   {
     name: "VatsaProCons",
     image:
@@ -421,20 +420,16 @@ export const clients = [
       "https://static.wixstatic.com/media/be8621_cb66cf20f7fc471b993bafd4ede60652~mv2.png/v1/fill/w_183,h_105,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Untitled%20design_edited_edited.png",
   },
   {
-    name: "Credit Report",
-    image:
-      "https://reaidystorage.blob.core.windows.net/spotmiespublic/final-logo.png",
+    name: "Advon",
+    image:"https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FAdvon%20banner%20logo(1).png?alt=media&token=98ad139f-743b-4f18-be03-b112c5d758bb",
+    link: "https://advon.com",
   },
   {
-    name: "ZinInThuiswerken",
+    name: "Indie skull syndicate",
     image:
-      "https://reaidystorage.blob.core.windows.net/spotmiespublic/ZIN.png",
+      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_04_.png?alt=media&token=bb2f730d-ec1b-4cea-96cb-31fe7f89846f",
+    link: "https://indieskullsyndicate.xyz",
   },
-  {
-    name: "Smartfalcon",
-    image:
-      "https://www.smartfalcon.io/images/logo.png",
-  }
 
 ];
 

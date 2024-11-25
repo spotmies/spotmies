@@ -53,6 +53,75 @@
     }
   },
   {
+    "description": "Unlock the power of AI-driven chatbots to enhance customer engagement and streamline communication. Train your chatbot with your website's data using our advanced web scraping tool, and deliver accurate, relevant responses to your customers. Capture leads effortlessly and boost conversions with Workewhere’s cutting-edge technology. Elevate your customer experience and drive business growth today with Workewhere!",
+    "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/Oscar.png",
+    "projectLink": "https://workewhere.nl/",
+    "tags": [
+      "Web 2"
+    ],
+    "title": "Workewhere",
+    "projectName": "Workewhere",
+    "completed": true,
+    "overview": {
+      "images": [
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/Oscar.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Dashboard-visitors.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Dashboard-Conversations.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Dashboard-Frequently asked topics.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Conversations-1.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Conversations-2.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-webinfo-basic info.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Chat settings-lead info.png",
+        "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Dashboard-feedbacks.png"
+      ],
+      "techstack": [
+        "reactjs",
+        "tailwind",
+        "nodejs",
+        "mongodb",
+        "vectorDB",
+        "openAI",
+        "azure"
+      ],
+      "content": [
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Dashboard-visitors.png",
+          "title": "Introduction: What Does Workewhere Do?",
+          "description": "Workewhere is a cutting-edge platform that allows companies to create highly interactive AI-driven chatbots designed to enhance customer engagement and streamline communication. By leveraging advanced AI technology, Workewhere enables businesses to train chatbots using their existing website content, making it easier for them to connect with their customers and provide instant, accurate responses to inquiries."
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Dashboard-Frequently asked topics.png",
+          "title": "How Does Workewhere Work?",
+          "description": "Workewhere utilizes a sophisticated combination of web scraping and AI to gather and process data from a company's website. Once a company provides its website link, Workewhere's built-in web scraping tool extracts relevant information, such as product details, company history, and FAQs. This data forms the foundation for training the chatbot, ensuring it has a deep understanding of the company’s offerings and can accurately represent the brand in all customer interactions."
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Conversations-2.png",
+          "title": "Why Use Retrieval-Augmented Generation (RAG) Chatbots?",
+          "description": "Traditional chatbots often struggle to provide relevant responses due to their limited understanding and static nature. Workewhere overcomes this limitation by implementing Retrieval-Augmented Generation (RAG) chatbots. These AI-powered chatbots combine retrieval models, which access a database of information, with generation models, which create contextually appropriate responses. The result is a chatbot that can deliver more accurate, relevant, and dynamic answers to user queries, closely mimicking human interaction."
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-webinfo-basic info.png",
+          "title": "How Is Data Acquired and Used?",
+          "description": "Workewhere's process begins with web scraping, where our AI system gathers data directly from the company’s website. This includes text, images, and structured data, which are all used to build a comprehensive knowledge base for the chatbot. The RAG model then retrieves the most relevant pieces of information from this database whenever a user asks a question. After retrieving the data, the generation model tailors the response to match the specific query, ensuring that users receive clear, concise, and informative answers."
+        },
+        {
+          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Chat settings-lead info.png",
+          "title": "What Happens When a User Shows Interest?",
+          "description": "If a user shows interest in a product or service while interacting with the chatbot, Workewhere captures essential details such as their name, email, and phone number. This lead information is securely sent to the company, allowing them to follow up with personalized offers or further communication. This seamless integration between AI-driven interaction and lead generation makes Workewhere an invaluable tool for businesses looking to increase conversions and customer satisfaction."
+        },
+        {
+          "title": "Conclusion:",
+          "description": "Workewhere is more than just a chatbot creation platform; it’s a powerful tool that combines the latest advancements in AI and data processing to provide companies with a competitive edge in customer engagement. Whether it’s answering queries, providing information, or generating leads, Workewhere ensures that businesses can maintain meaningful connections with their customers at every touchpoint."
+        }
+      ],
+      "links": {
+        "website": "https://workewhere.nl/",
+        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
+        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
+      }
+    }
+  },
+  {
     "description": "Vatsa ProCons empowers businesses to navigate the ever-evolving technological landscape with confidence. We offer cutting-edge solutions and expert guidance that help your organization thrive in the digital age. Whether you're a small startup or a large enterprise, we tailor our services to meet your unique needs and objectives",
     "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/vatsa1.png",
     "projectLink": "https://www.vatsaprocons.com",

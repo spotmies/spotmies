@@ -17,7 +17,7 @@ const ArticlesList = () => {
       // title about blockchain
       title: "How to build & launch a DAPP from Scratch?",
       description:
-        "Have you ever wondered, how cryptocurrency works and how the underline technology i.e. Blockchain works in a seemingly harmonious way so that we as users can use them without much difficulty? ",
+        "Ever wondered how cryptocurrency and its underlying blockchain technology work together seamlessly, allowing users to transact with ease? ",
       link: "https://www.linkedin.com/pulse/how-build-launch-dapp-from-scratch-spotmies/?trackingId=HTPLizTDSo%2BVzLDlUacobQ%3D%3D",
       image:
         "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FLatest%2Fimg1.png?alt=media&token=edae52c2-027b-4b58-9709-b3f291793e5b",
@@ -75,16 +75,16 @@ const ArticlesList = () => {
               {article.map((item, index) => (
                 <div
                   key={index}
-                  className="text-primary2 bg-white flex flex-col items-start justify-between md:justify-between lg:justify-around h-fit md:h-[450px] w-full md:w-[400px] lg:w-[500px] rounded-2xl shadow-sm  p-3 md:m-0 m-2"
+                  className="text-primary2 bg-white flex flex-col items-start justify-between md:justify-between lg:justify-around h-fit md:h-[450px] lg:h-[500px] w-full md:w-[400px] lg:w-[500px] rounded-2xl shadow-sm  p-3 md:m-0 m-2"
                 >
                   <Fade>
                     <img
                       src={item.image}
                       alt={item.title}
-                      className="h-[65%] md:h-[45%] lg:h-[55%] w-full object-cover rounded-lg"
+                      className="h-[65%] md:h-[45%] lg:h-[60%] w-full object-cover rounded-lg"
                     />
                   </Fade>
-                  <div className="flex flex-col items-start justify-center pt-4 pl-2">
+                  <div className="flex flex-col items-start justify-center pt-4 lg:pt-0 pl-2">
                     <div className="opacity-50">
                       <Fade bottom>
                         <p className="text-xs lg:text-sm text-primary2 opacity-70">
@@ -93,20 +93,20 @@ const ArticlesList = () => {
                       </Fade>
                     </div>
                     <Fade bottom>
-                      <p className="text-2xl pb-2 pt-6 text-primary2 gil-med">
+                      <p className="text-2xl lg:text-xl pb-2 pt-6 lg:pt-3 text-primary2 gil-med">
                         {item.title}
                       </p>
                     </Fade>
                     <div className="opacity-50">
                       <Fade bottom>
-                        <p className="opacity-70 text-sm md:text-sm lg:text-lg text-primary2 text-ellipsis w-full overflow-hidden lg:overflow-visible h-[40px]">
+                        <p className="opacity-70 text-sm md:text-sm lg:text-base text-primary2 text-ellipsis w-full overflow-hidden lg:overflow-visible h-[40px]">
                           {item.description}
                         </p>
                       </Fade>
                     </div>
                     <Fade bottom>
                       <div
-                        className="flex flex-row items-center justify-start pt-6 pb-2 cursor-pointer"
+                        className="flex flex-row items-center justify-start pt-6 lg:pt-8 pb-2 cursor-pointer"
                         onClick={() => {
                           if (!item.link) return;
                           window.open(item.link, "_blank");

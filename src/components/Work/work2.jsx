@@ -5,11 +5,14 @@ import { AiOutlineClose } from "react-icons/ai";
 import {
   SiFlutter,
   SiMongodb,
+  SiVectorlogozone,
   SiSolidity,
   SiNextdotjs,
   SiDjango,
   SiPython,
   SiMysql,
+  SiMicrosoftazure,
+  SiOpenai,
   SiAmazonaws,
   SiIpfs,
   SiWeb3Dotjs,
@@ -26,8 +29,8 @@ import {
   SiEthereum,
   SiPhp,
   SiGodaddy,
+  
 } from "react-icons/si";
-
 import HoverButton from "../reusableComponent/hoverButton";
 import {
   AiFillAndroid,
@@ -35,6 +38,7 @@ import {
   AiOutlineEye,
   AiOutlineGithub,
 } from "react-icons/ai";
+
 import { MdOpenInNew } from "react-icons/md";
 import worksJson from "../../json_files/work.json";
 import Fade from "react-reveal/Fade";
@@ -331,12 +335,12 @@ export function ProjectDetails({ index, showMaximize, setShowpopup }) {
           // partialVisible={true}
           infinite={true}
           autoPlay={true}
-          autoPlaySpeed={2000}
+          autoPlaySpeed={3000}
         >
           {worksJson[index]?.overview?.images?.map((item, key) => (
             <div
               key={key}
-              className="w-full h-[300px] lg:h-[600px] md:h-[600px] p-4 rounded-md"
+              className="h-fit mx-[20%] w-[900px] lg:w-[600px] md:w-[900px] md:p-4 rounded-md"
             >
               <img
                 src={item}
@@ -364,7 +368,7 @@ export function ProjectDetails({ index, showMaximize, setShowpopup }) {
             <div className="w-full py-4 rounded-md ">
               <img
                 src={item.image}
-                className="w-full object-cover rounded-md min-h-[200px] bg-slate-300"
+                className="w-full object-cover rounded-md min-h-[200px] bg-slate-300 bg-white"
                 alt="portfolio"
               />
             </div>
@@ -382,6 +386,9 @@ export function ProjectDetails({ index, showMaximize, setShowpopup }) {
               {item == "flutter" && <SiFlutter color="#02569B" size="3rem" />}
               {item == "reactjs" && <FaReact color="#61DBFB" size="3rem" />}
               {item == "mongodb" && <SiMongodb color="#47A248" size="3rem" />}
+              {item == "vectorDB" && <SiVectorlogozone color="#47A248" size="3rem" />}
+              {item == "azure" && <SiMicrosoftazure color="#007fff" size="3rem" />}
+              {item == "openAI" && <SiOpenai  color="#363636" size="3rem" />}
               {item == "solidity" && <SiSolidity color="#363636" size="3rem" />}
               {item == "nextjs" && <SiNextdotjs color="#000000" size="3rem" />}
               {item == "django" && <SiDjango color="#092E20" size="3rem" />}

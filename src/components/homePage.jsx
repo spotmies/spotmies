@@ -40,7 +40,7 @@ export default function HomePage() {
      
       <Testimonials />
      
-      <Partners />
+      {/* <Partners /> */}
       <TeamSlide />
       <TeamSlide2 />
       <Mentor2 />

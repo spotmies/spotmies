@@ -20,21 +20,21 @@ export default function HowWeStart() {
           </p>
         </Fade>
         <br />
-        <div className="flex flex-col md:flex-row items-center justify-between w-full lg:pt-[2%]">
+        <div className="flex flex-col md:flex-row items-center justify-between w-full">
           {blockComp(
-            <AiOutlineFileSearch className="text-7xl lg:text-8xl text-text_color1 ml-[-8px] opacity-80" />,
+            <AiOutlineFileSearch className="text-7xl lg:text-7xl text-text_color1 ml-[-8px] opacity-80" />,
             "Analyze",
             " We analyze your requirements and provide you with the best solution"
           )}
 
           {blockComp(
-            <AiOutlineBuild className="text-7xl lg:text-8xl text-text_color1 ml-[-8px] opacity-80" />,
+            <AiOutlineBuild className="text-7xl lg:text-7xl text-text_color1 ml-[-8px] opacity-80" />,
             "Design",
             "The product design is done by our team of experts to give you the best experience"
           )}
 
           {blockComp(
-            <AiOutlineAppstoreAdd className="text-7xl lg:text-8xl text-text_color1 ml-[-8px] opacity-80" />,
+            <AiOutlineAppstoreAdd className="text-7xl lg:text-7xl text-text_color1 ml-[-8px] opacity-80" />,
             "Deliver",
             "We develop your product with the latest technologies to deliver you the outstanding performance"
           )}

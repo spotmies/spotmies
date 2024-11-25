@@ -57,7 +57,7 @@ export default function TechSlide() {
 
         <div className="mt-10">
           <Fade bottom>
-            <div className="grid grid-cols-2 md:grid-cols-6 lg:grid-cols-6 gap-8">
+            <div className="grid grid-cols-2 md:grid-cols-6 lg:grid-cols-6 gap-8 lg:gap-2">
               {AITech.map((Tech, index) => (
                 <div
                   className="relative flex justify-around items-center px-5 py-4 bg-bg2 rounded-md hover:scale-110 transition-all duration-700 ease-in-out cursor-pointer"
@@ -66,9 +66,9 @@ export default function TechSlide() {
                   <img
                     src={Tech.icon}
                     alt="ethereum"
-                    className="md:h-10 md:w-10 lg:h-14 lg:w-14 h-8 w-89  object-contain"
+                    className="md:h-10 md:w-10 lg:h-12 lg:w-12 h-8 w-89  object-contain"
                   />
-                  <h3 className="text-xl md:text-2xl lg:text-3xl gil-med text-gray-900">
+                  <h3 className="text-xl md:text-2xl lg:text-2xl gil-med text-gray-900">
                     {Tech.name}
                   </h3>
                 </div>

@@ -76,7 +76,7 @@ export default function AboutUs() {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <p className="gil-med text-3xl lg:text-4xl">
-                  <CountUp enableScrollSpy={true} end={2} />
+                  <CountUp enableScrollSpy={true} end={4} />
                   <span className="md:mb-[15px] mb-[8px]">+</span>
                 </p>
                 <p className="gil-reg text-md lg:text-3xl">AI Projects</p>
@@ -128,7 +128,7 @@ export default function AboutUs() {
             </Fade>
             <Fade bottom>
               {" "}
-              <p className="gil-bold text-3xl md:text-5xl lg:text-8xl lg:w-[90%] w-full md:w-[90%]">
+              <p className="gil-bold text-3xl md:text-5xl lg:text-5xl lg:w-[90%] w-full md:w-[90%]">
                 Making Quality Services <br /> Accessible to{" "}
                 <span className="text-primary">Everyone</span>
               </p>
