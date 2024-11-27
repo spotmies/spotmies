@@ -43,7 +43,7 @@ export default function HomePage() {
       {/* <Partners /> */}
       <TeamSlide />
       <TeamSlide2 />
-      <Mentor2 />
+      {/* <Mentor2 /> */}
       {/* <Mentors /> */}
 
       <Faq />
