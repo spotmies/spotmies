@@ -170,7 +170,7 @@ export const Navbarr = ({ noScrollEffect, career }) => {
             </svg>
           </button>
         </div>
-        <div className="hidden md:flex items-center">
+        <div className="hidden gil-reg md:flex items-center">
           <a
             onClick={() => navigation("services")}
             className={`${toggleNavbar ? "text-primary" : "text-white"
