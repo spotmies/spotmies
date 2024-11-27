@@ -17,14 +17,14 @@ export default function career() {
                 <BsFillLaptopFill   className=' text-primary text-3xl '/> 
                 <p className='opacity-75 text-primary ml-3 mt-1'>Job</p>
               </div>
-              <h1 className='text-3xl opacity-75 gil-med mt-5'>{title}</h1>
+              <h1 className='text-2xl opacity-90 gil-med mt-3'>{title}</h1>
               <p className='text-sm opacity-75 mt-3'>
                   Primary skills:{skills}<br/>
                   {desc}
                 </p>
               </div>
              <div className='flex items-center'>
-              <a href={link} target='_blank'><button className='text-sm bg-primary text-white px-5 hover:bg-white border-2 hover:border-primary hover:text-primary rounded-xl py-3'>Take interview</button></a>
+              <a href={link} target='_blank'><button className='text-sm bg-primary text-white px-5 hover:bg-white border-2 hover:border-primary hover:text-primary rounded-xl py-3'>Apply</button></a>
              </div></div>
         </div>
     )
@@ -83,13 +83,13 @@ export default function career() {
       </div>
       {/* middle  */}
       <div className='hidden md:block lg:block' >
-        <div className='image-div h-[50vh] w-[40vw] mt-[-5rem] shadow-lg mx-auto relative rounded-lg overflow-hidden '>
+        <div className='image-div h-[50vh] w-[40vw] mt-[-3rem] shadow-lg mx-auto relative rounded-lg overflow-hidden '>
           <div className='linear-image-gradient w-full h-full absolute flex flex-col px-10'>
           <p className='bg-black text-primary w-fit px-4 py-2 text-gil-med text-sm rounded-full mt-10'>Featured Interview</p>
           <h1 className='z-2 text-black text-xl mt-7 gil-med font-bold'>What is your Interview <br /> Percentage telling you?</h1>
           <p className='w-[60%] mt-5 text-sm text-black font-semibold'>We have made a Website that keeps track of your interviews and help in preparing for your Interview.</p>
           <br />
-          <a target='_blank' href="https://www.reaidy.io" className='text-white w-28 justify-center flex items-center h-8 mt-5 cursor-pointer rounded-lg border-2 text-sm border-white hover:bg-white hover:text-black'>Take Interview</a>
+          <a target='_blank' href="https://www.reaidy.io" className='text-white w-28 justify-center flex items-center h-8 mt-2 cursor-pointer rounded-lg border-2 text-sm border-white hover:bg-white hover:text-black'>Take Interview</a>
           </div>
         </div>
       </div>
@@ -100,73 +100,85 @@ export default function career() {
                 title:"React Developer",
                 skills:"React.js, JavaScript, HTML, CSS, Redux.",
                 desc:"Design and develop reusable UI components, implement state management using Redux, collaborate with design teams to implement UI/UX designs.",
-                link:"https://app.reaidy.io/share?page=interview_invitation&id=6659761687d9fd5837701947"
+                // link:"https://app.reaidy.io/share?page=interview_invitation&id=6659761687d9fd5837701947"
+                link:"https://app.reaidy.io/jobpost/6745638b39b8ab953a793db6"
             })}
             {jobRoles({
                 title:"Node JS Developer",
                 skills:"Node.js, Express.js, MongoDB, SQL, RESTful APIs.",
                 desc:"Maintain backend systems, optimize performance, integrate with frontend applications, manage databases, and implement security protocols.",
-                link:"https://app.reaidy.io/share?page=interview_invitation&id=6659767af7bc14981aef4b68"
+                // link:"https://app.reaidy.io/share?page=interview_invitation&id=6659767af7bc14981aef4b68"
+                link:"https://app.reaidy.io/jobpost/674569369ab8e43eba32c07b"
             })}
             {jobRoles({
                 title:"Flutter Developer",
                 skills:"Dart, Flutter, Firebase, RESTful APIs.",
                 desc:"Develop and maintain cross-platform mobile applications using Flutter framework, integrate with backend services, ensure app performance.",
-                link:"https://app.reaidy.io/share?page=interview_invitation&id=6659775862c7f1f38bb54cc9"
+                // link:"https://app.reaidy.io/share?page=interview_invitation&id=6659775862c7f1f38bb54cc9"
+                link:"https://app.reaidy.io/jobpost/67456c6c9ab8e43eba32d079"
             })}
             {jobRoles({
                 title:"AI ML Developer",
                 skills:"Python, TensorFlow, PyTorch, scikit-learn, RESTful APIs.",
                 desc:"Develop ML models, optimize algorithms, integrate AI into mobile apps, collaborate with frontend/backend teams, ensure efficiency of AI/ML components.",
-                link:"https://app.reaidy.io/share?page=interview_invitation&id=66597793f7bc14981aef4e2a"
+                // link:"https://app.reaidy.io/share?page=interview_invitation&id=66597793f7bc14981aef4e2a"
+                link:"https://app.reaidy.io/jobpost/674570016fb26a0a87039fc9"
             })}
             {jobRoles({
                 title:"Blockchain Developer",
                 skills:"Solidity, Ethereum, Hyperledger Fabric, Smart Contracts, Web3.js.",
                 desc:"Develop smart contracts, architect blockchain solutions, integrate blockchain into applications, ensure efficiency of blockchain components.",
-                link:"https://app.reaidy.io/share?page=interview_invitation&id=665977d487d9fd58377019c6"
+                // link:"https://app.reaidy.io/share?page=interview_invitation&id=665977d487d9fd58377019c6"
+                link:"https://app.reaidy.io/jobpost/67459d8f381bf992c71f0186"
             })}
             {jobRoles({
                 title:"Devops Engineer",
                 skills:"Docker, Kubernetes, Ansible, Terraform, CI/CD pipelines.",
                 desc:"Orchestrate containers, automate deployment, manage CI/CD pipelines, collaborate with teams, ensure infrastructure scalability.",
-                link:"https://app.reaidy.io/share?page=interview_invitation&id=6659780162c7f1f38bb54cd0"
+                // link:"https://app.reaidy.io/share?page=interview_invitation&id=6659780162c7f1f38bb54cd0"
+                link:"https://app.reaidy.io/jobpost/674577bddff7a2ec8c0f4db1"
             })}
             {jobRoles({
                 title:"Mern stack Developer",
                 skills:"Proficiency in MongoDB, Express.js, React.js, Node.js, JavaScript, HTML, and CSS.",
                 desc:"Develop and maintain MERN web apps, collaborate with cross-functional teams, troubleshoot issues.",
-                link:"https://app.reaidy.io/share?page=interview_invitation&id=6659772287d9fd58377019a3"
+                // link:"https://app.reaidy.io/share?page=interview_invitation&id=6659772287d9fd58377019a3"
+                link:"https://app.reaidy.io/jobpost/67457902dff7a2ec8c0f4dfe"
             })}
             {jobRoles({
                 title:"Sales executive",
                 skills:"Excellent communication, negotiation skills, customer relationship management, market knowledge.",
                 desc:"Generate leads, achieve sales targets, maintain client relationships, provide solutions to customer needs.",
-                link:"https://app.reaidy.io/share?page=interview_invitation&id=66597846f7bc14981aef4e31"
+                // link:"https://app.reaidy.io/share?page=interview_invitation&id=66597846f7bc14981aef4e31"
+                link:"https://app.reaidy.io/jobpost/67457a23dff7a2ec8c0f4ee1"
             })}
             {jobRoles({
                 title:"Marketing Executive",
                 skills:"Market research, strategic planning, digital marketing, content creation, analytical skills.",
                 desc:"Develop marketing campaigns to drive brand awareness and lead generation, analyze metrics for optimization.",
-                link:"https://app.reaidy.io/share?page=interview_invitation&id=6659787b87d9fd58377019cd"
+                // link:"https://app.reaidy.io/share?page=interview_invitation&id=6659787b87d9fd58377019cd"
+                link:"https://app.reaidy.io/jobpost/67457c4ee99a1c2b26a0a8a2"
             })}
             {jobRoles({
                 title:"Social media manager",
                 skills:"Social media platform expertise, content creation, community management, analytics, creativity.",
                 desc:"Implement social media strategies, manage channels, create content, analyze metrics.",
-                link:"https://app.reaidy.io/share?page=interview_invitation&id=665978d962c7f1f38bb54cd7"
+                // link:"https://app.reaidy.io/share?page=interview_invitation&id=665978d962c7f1f38bb54cd7"
+                link:"https://app.reaidy.io/jobpost/67457d7486242563ae260086"
             })} 
             {jobRoles({
                 title:"Lead generation Manager",
                 skills:"Excellent communication, research skills, persistence, attention to detail, sales acumen.",
                 desc:"Identify leads via cold calling, emails, maintain CRM records.",
-                link:"https://app.reaidy.io/share?page=interview_invitation&id=6659797b87d9fd5837701a08"
+                // link:"https://app.reaidy.io/share?page=interview_invitation&id=6659797b87d9fd5837701a08"
+                link:"https://app.reaidy.io/jobpost/67457e8b86242563ae26010d"
             })}
             {jobRoles({
                 title:"Graphic designer",
                 skills:"Graphic design software (e.g., Adobe Photoshop, Illustrator, InDesign), creativity, typography.",
                 desc:"Create graphics for print and digital, collaborate, deliver high-quality designs within deadlines.",
-                link:"https://app.reaidy.io/share?page=interview_invitation&id=665979ad62c7f1f38bb54cde"
+                // link:"https://app.reaidy.io/share?page=interview_invitation&id=665979ad62c7f1f38bb54cde"
+                link:"https://app.reaidy.io/jobpost/67457fa186242563ae260168"
             })}
         </div>
       <FooterBar />

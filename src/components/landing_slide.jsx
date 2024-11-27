@@ -174,14 +174,14 @@ export const Navbarr = ({ noScrollEffect, career }) => {
           <a
             onClick={() => navigation("services")}
             className={`${toggleNavbar ? "text-primary" : "text-white"
-              }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
+              }  mx-4 border-b-2 border-transparent gil-reg hover:border-secundary cursor-pointer lg:text-xl`}
           >
             Services
           </a>
           <a
             onClick={() => navigation("portfolio")}
             className={`${toggleNavbar ? "text-primary" : "text-white"
-              }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
+              }  mx-4 border-b-2 border-transparent gil-reg hover:border-secundary cursor-pointer lg:text-xl`}
           >
             Portfolio
           </a>
@@ -189,14 +189,14 @@ export const Navbarr = ({ noScrollEffect, career }) => {
           <a
             onClick={() => navigation("about")}
             className={`${toggleNavbar ? "text-primary" : "text-white"
-              }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
+              }  mx-4 border-b-2 border-transparent gil-reg hover:border-secundary cursor-pointer lg:text-xl`}
           >
             About Us
           </a>
           <Link
             href="/blog"
             className={`${toggleNavbar ? "text-primary" : "text-white"
-              }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
+              }  mx-4 border-b-2 border-transparent gil-reg hover:border-secundary cursor-pointer lg:text-xl`}
           >
             Blogs
           </Link>
@@ -204,7 +204,7 @@ export const Navbarr = ({ noScrollEffect, career }) => {
           <a
             onClick={() => navigation("reaidy")}
             className={`${toggleNavbar ? "text-primary" : "text-white"
-              }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
+              }  mx-4 border-b-2 border-transparent gil-reg hover:border-secundary cursor-pointer lg:text-xl`}
           >
             Product
           </a>
@@ -212,14 +212,14 @@ export const Navbarr = ({ noScrollEffect, career }) => {
           <a
             onClick={() => navigation("contactUs")}
             className={`${toggleNavbar ? "text-primary" : "text-white"
-              }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
+              }  mx-4 border-b-2 border-transparent hover:border-secundary gil-reg cursor-pointer lg:text-xl`}
           >
             Contact Us
           </a>
 
           <Link href="/career"
             className={`${toggleNavbar ? "text-primary" : "text-white"
-              }  mx-4 border-b-2 border-transparent hover:border-secundary cursor-pointer lg:text-xl`}
+              }  mx-4 border-b-2 border-transparent hover:border-secundary gil-reg cursor-pointer lg:text-xl`}
           >
             Careers
           </Link>
@@ -227,7 +227,7 @@ export const Navbarr = ({ noScrollEffect, career }) => {
             onClick={scheduleMeeting}
             className={`${
               toggleNavbar ? "text-primary" : "text-white"
-            }  mx-4 border-b-2 border-secundary cursor-pointer lg:text-xl`}>
+            }  mx-4 border-b-2 border-secundary gil-reg cursor-pointer lg:text-xl`}>
             Schedule a Call
           </a>
         </div>
@@ -238,44 +238,44 @@ export const Navbarr = ({ noScrollEffect, career }) => {
         } md:hidden bg-white transition-all duration-700 ease-in-out`}>
         <a
           onClick={() => navigation("services")}
-          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer">
+          className="block px-4 py-2 text-primary2 border-b-2 gil-reg border-transparent hover:border-secundary cursor-pointer">
           Services
         </a>
 
         <a
           onClick={() => navigation("portfolio")}
-          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer">
+          className="block px-4 py-2 text-primary2 gil-reg border-b-2 border-transparent hover:border-secundary cursor-pointer">
           Portfolio
         </a>
         <a
           onClick={() => navigation("about")}
-          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer">
+          className="block px-4 py-2 text-primary2 gil-reg border-b-2 border-transparent hover:border-secundary cursor-pointer">
           About Us
         </a>
         <Link
           href="/blog"
-          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+          className="block px-4 py-2 text-primary2 border-b-2 gil-reg border-transparent hover:border-secundary cursor-pointer"
         >
           Blogs
         </Link>
         <a
           onClick={() => navigation("reaidy")}
-          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer">
+          className="block px-4 py-2 text-primary2 gil-reg border-b-2 border-transparent hover:border-secundary cursor-pointer">
           Product
         </a>
         <a
           onClick={() => navigation("contactUs")}
-          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer">
+          className="block px-4 py-2 text-primary2 border-b-2 gil-reg border-transparent hover:border-secundary cursor-pointer">
           Contact Us
         </a>
         <Link href="/career"
-          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer"
+          className="block px-4 py-2 text-primary2 gil-reg border-b-2 border-transparent hover:border-secundary cursor-pointer"
         >
           Careers
         </Link>
         <a
           onClick={scheduleMeeting}
-          className="block px-4 py-2 text-primary2 border-b-2 border-transparent hover:border-secundary cursor-pointer">
+          className="block px-4 py-2 text-primary2 gil-reg border-b-2 border-transparent hover:border-secundary cursor-pointer">
           Schedule a Call
         </a>
       </div>

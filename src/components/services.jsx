@@ -55,10 +55,10 @@ export default function Services() {
                   {dataInsideDiv({
                     onClick: () => {
                       setIsPopupOpen(true);
-                      setTitle("Datascience and Neural Networks");
+                      setTitle(" Android & iOS");
                       setbody(Datascience);
                     },
-                    title: "Datascience and Neural Networks",
+                    title: " Android & iOS",
                     description:
                       "Experience the future with our advanced neural network solutions.",
                     image:
