@@ -89,7 +89,7 @@ export default function AboutUs() {
             <div
               className=" h-full w-full object-cover rounded-3xl  group-hover:scale-110  transition-all duration-700 ease-in-out"
               style={{
-                backgroundImage: `url(https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FNew%20images%2Ftotalteam.jpg?alt=media&token=3180296f-98bc-408e-a300-63611536255c)`,
+                backgroundImage: `url(https://spotmiesstorage.blob.core.windows.net/media/Group1.png)`,
 
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
