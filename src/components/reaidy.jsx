@@ -9,13 +9,22 @@ export default function ReaidySlide() {
   const blockedUrls = ["www.spotmies.ai", "anotherblockedsite.com"]; // Add your blocked hostnames here
 
   // Check if the current hostname is in the blocked list
-  const shouldShowComponent = !blockedUrls.includes(window.location.hostname);
+
 
   const redirectToReaidySite = () => {
     window.open("https://reaidy.io", "_blank");
   };
 
   const [data, setData] = useState([]); // Initialize as an empty array
+
+  const [isClient, setIsClient] = useState(false);
+
+  const shouldShowComponent = isClient && !blockedUrls.includes(window.location.hostname);
+
+  useEffect(() => {
+    // This will set isClient to true once the component is mounted in the browser
+    setIsClient(true);
+  }, []);
 
   useEffect(() => {
     async function apiGet() {
