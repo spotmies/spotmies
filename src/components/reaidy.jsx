@@ -1,17 +1,30 @@
 "use client";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { BsArrowUpRightCircle } from "react-icons/bs";
 import CountUp from "react-countup";
 import { Fade } from "react-reveal";
-import { useState, useEffect } from "react";
 
 export default function ReaidySlide() {
-  // let usersCount,interviewsCount,companiesCount;
+  // List of blocked URLs where the component should NOT be shown
+  const blockedUrls = ["www.spotmies.ai", "anotherblockedsite.com"]; // Add your blocked hostnames here
+
+  // Check if the current hostname is in the blocked list
+
 
   const redirectToReaidySite = () => {
     window.open("https://reaidy.io", "_blank");
   };
+
   const [data, setData] = useState([]); // Initialize as an empty array
+
+  const [isClient, setIsClient] = useState(false);
+
+  const shouldShowComponent = isClient && !blockedUrls.includes(window.location.hostname);
+
+  useEffect(() => {
+    // This will set isClient to true once the component is mounted in the browser
+    setIsClient(true);
+  }, []);
 
   useEffect(() => {
     async function apiGet() {
@@ -27,16 +40,7 @@ export default function ReaidySlide() {
     }
     apiGet();
   }, []);
-  const getValue = (value) => {
-    console.log(typeof value, value);
-    value.toString();
-    for (let i = value.length; i > 0; i++) {
-      if (value[i] != "0") {
-        return value[0] + ("0" * value.length - 1);
-      }
-    }
-    return value;
-  };
+
   const getValueByName = (name) => {
     if (!Array.isArray(data)) {
       console.error("Data is not an array:", data);
@@ -72,6 +76,10 @@ export default function ReaidySlide() {
     return false; // Default return value if name is not found
   };
 
+  if (!shouldShowComponent) {
+    return null; // If the hostname is in the blocked list, return null to hide the component
+  }
+
   return (
     <div
       id="reaidy"
@@ -94,18 +102,12 @@ export default function ReaidySlide() {
             <p className="text-md text-[#0098a3]">- Our Product</p>
           </Fade>
           <Fade bottom>
-            {/* <p className="gil-bold text-5xl">Reaidy.io</p> */}
             <img
               src="https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy white logo.png"
               alt="reaidy"
               className="w-[50%]"
             />
           </Fade>
-          {/* <Fade bottom>
-            <p className="text-md gil-bold opacity-60">
-              CEO at A-HUB | President at TiE AP | Angel Investor
-            </p>
-          </Fade> */}
           <Fade bottom>
             <p className="text-xl pt-5 opacity-75 text-justify text-gray-400 font-semibold">
               Reaidy is an innovative AI-powered platform designed to empower
@@ -159,7 +161,6 @@ export default function ReaidySlide() {
             <p
               className="gil-bold text-xl md:text-xl text-[#0098a3] flex items-center cursor-pointer"
               onClick={() => {
-                // setIsPopupOpen(true);
                 redirectToReaidySite();
               }}>
               Learn More&nbsp; <BsArrowUpRightCircle />{" "}
@@ -175,7 +176,6 @@ export default function ReaidySlide() {
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
-            // checking copilot;
           }}
         />
 
@@ -189,7 +189,6 @@ export default function ReaidySlide() {
           </Fade>
 
           <Fade bottom>
-            {/* <p className="gil-bold text-5xl lg:text-5xl">Reaidy.io</p> */}
             <img
               src="https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy white logo.png"
               alt="reaidy"
@@ -197,11 +196,6 @@ export default function ReaidySlide() {
             />
           </Fade>
 
-          {/* <Fade bottom>
-            <p className="text-md lg:text-lg gil-bold opacity-60">
-              CEO at A-HUB | President at TiE AP | Angel Investor
-            </p>
-          </Fade> */}
           <Fade bottom>
             <p className="text-xl lg:text-3xl pt-5 opacity-75 text-justify text-gray-400">
               Reaidy is an innovative AI-powered platform designed to empower
@@ -253,9 +247,8 @@ export default function ReaidySlide() {
           </Fade>
           <Fade bottom>
             <p
-              className="gil-bold text-sm md:text-xl lg:text-2xl text-[gray] flex items-center cursor-pointer pt-5 hover:text-[#0098a3]"
+              className="gil-bold text-xl md:text-xl text-[#0098a3] flex items-center cursor-pointer"
               onClick={() => {
-                // setIsPopupOpen(true);
                 redirectToReaidySite();
               }}>
               Learn More&nbsp; <BsArrowUpRightCircle />{" "}
