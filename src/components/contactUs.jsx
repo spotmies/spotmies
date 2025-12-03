@@ -1,5 +1,6 @@
 "use client";
 import React, { useRef, useState } from "react";
+import Image from "next/image";
 import {
   AiOutlineTwitter,
   AiFillInstagram,
@@ -12,7 +13,7 @@ import HoverButton from "./reusableComponent/hoverButton";
 import { Fade } from "react-reveal";
 import { socialMediaRedirect } from "@/constants";
 
-export default function ContactUs({width = 'w-[90%]',height = 'h-[650px]', py = 'py-9' }) {
+export default function ContactUs({ width = 'w-[90%]', height = 'h-[650px]', py = 'py-9' }) {
   const [loading, setLoading] = useState(false);
 
   const nameRef = useRef(null);
@@ -30,11 +31,8 @@ export default function ContactUs({width = 'w-[90%]',height = 'h-[650px]', py = 
 
     console.log(name, mobile, mail, description);
 
-    // pushing data to google sheet
 
     const formDatab = new FormData(formEle);
-    console.log(formDatab);
-
     setLoading(true);
 
     fetch(
@@ -47,9 +45,7 @@ export default function ContactUs({width = 'w-[90%]',height = 'h-[650px]', py = 
       .then((res) => res.json())
       .then((data) => {
         setLoading(false);
-        console.log(data);
         alert("Thank you for contacting us. We will get back to you soon.");
-        // clear the form
         try {
           nameRef.current.value = "";
           mailRef.current.value = "";
@@ -70,25 +66,31 @@ export default function ContactUs({width = 'w-[90%]',height = 'h-[650px]', py = 
       className={`w-[100%] h-full md:${height} text-black ${py} bg-bg2`}
       id="contactUs"
     >
-      <div className={`m-auto ${width} h-full bg-white flex flex-col md:flex-row items-center justify-center rounded-2xl`}>
-        <div
-          className="relative h-[300px] md:h-full w-full md:w-[30%] z-20 rounded-l-2xl"
-          style={{
-            backgroundImage: `url("https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFinalFolder%2FChatToConcact.avif?alt=media&token=5e4d6c67-2321-4e4e-b70f-77ae16f91556")`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-            borderRadius: "1rem",
-          }}
-        >
-          <div className="absolute top-0 left-0 w-full h-full bg-primary2 rounded-2xl bg-opacity-50 z-10 "></div>
-          <div className="absolute h-full md:h-full flex flex-row items-end z-20">
-            <div className="flex flex-col pl-6 text-white pb-4">
+      <div className={`m-auto ${width} h-full bg-white flex flex-col md:flex-row items-center justify-center rounded-2xl shadow-lg`}>
+
+        
+        <div className="relative h-[300px] md:h-auto md:self-stretch w-full md:w-[30%] md:basis-[30%] z-20 shrink-0 overflow-hidden rounded-t-2xl md:rounded-l-2xl md:rounded-tr-none md:rounded-bl-2xl">
+
+          <Image
+            src="https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFinalFolder%2FChatToConcact.avif?alt=media&token=5e4d6c67-2321-4e4e-b70f-77ae16f91556"
+            alt="Contact background"
+            fill
+            className="object-cover"
+            sizes="(max-width: 768px) 100vw, 30vw"
+            priority 
+          />
+
+          
+          <div className="absolute top-0 left-0 w-full h-full bg-primary2 bg-opacity-50 z-10"></div>
+
+          {/* Text Content over Image */}
+          <div className="absolute h-full w-full flex flex-row items-end z-20">
+            <div className="flex flex-col pl-6 text-white pb-4 w-full">
               <Fade>
                 <div className="text-2xl md:text-3xl gil-med text">
                   Spotmies
                 </div>
-                <p className="gil-light text-xs opacity-70 w-[70%]">
+                <p className="gil-light text-xs opacity-70 w-[90%] md:w-[70%]">
                   AU incubation centre, Andhra university, Visakhapatnam -
                   530003,
                   <br />
@@ -97,10 +99,10 @@ export default function ContactUs({width = 'w-[90%]',height = 'h-[650px]', py = 
                   info@spotmies.com
                 </p>
               </Fade>
-              <div className="flex flex-row w-[50%] pt-4 justify-between">
-                <div className="w-[40px] h-[40px] bg-transparent flex flex-col items-center justify-center cursor-pointer ">
+
+              <div className="flex flex-row w-[80%] md:w-[50%] pt-4 justify-between">
+                <div className="w-[40px] h-[40px] flex items-center justify-center cursor-pointer hover:scale-110 transition-all">
                   <Fade left>
-                    {" "}
                     <AiOutlineTwitter
                       size="1.6rem"
                       onClick={() => socialMediaRedirect("twitter")}
@@ -108,9 +110,8 @@ export default function ContactUs({width = 'w-[90%]',height = 'h-[650px]', py = 
                   </Fade>
                 </div>
 
-                <div className="w-[40px] h-[40px] bg-transparent flex flex-col items-center justify-center cursor-pointer">
+                <div className="w-[40px] h-[40px] flex items-center justify-center cursor-pointer hover:scale-110 transition-all">
                   <Fade left>
-                    {" "}
                     <FaLinkedinIn
                       size="1.4rem"
                       onClick={() => socialMediaRedirect("linkedin")}
@@ -118,7 +119,7 @@ export default function ContactUs({width = 'w-[90%]',height = 'h-[650px]', py = 
                   </Fade>
                 </div>
 
-                <div className="w-[40px] h-[40px] bg-transparent flex flex-col items-center justify-center cursor-pointer">
+                <div className="w-[40px] h-[40px] flex items-center justify-center cursor-pointer hover:scale-110 transition-all">
                   <Fade left>
                     <AiFillInstagram
                       size="1.6rem"
@@ -127,7 +128,7 @@ export default function ContactUs({width = 'w-[90%]',height = 'h-[650px]', py = 
                   </Fade>
                 </div>
 
-                <div className="w-[40px] h-[40px] bg-transparent flex flex-col items-center justify-center cursor-pointer">
+                <div className="w-[40px] h-[40px] flex items-center justify-center cursor-pointer hover:scale-110 transition-all">
                   <Fade left>
                     <FaYoutube
                       size="1.4rem"
@@ -139,6 +140,8 @@ export default function ContactUs({width = 'w-[90%]',height = 'h-[650px]', py = 
             </div>
           </div>
         </div>
+
+        {/* --- FORM CONTAINER --- */}
         <div className="h-fit md:h-full w-full md:w-[70%] gil-reg">
           <div className="h-full w-full m-auto p-4 md:p-8">
             <form
@@ -156,9 +159,11 @@ export default function ContactUs({width = 'w-[90%]',height = 'h-[650px]', py = 
                   </p>
                 </Fade>
               </div>
-              <div className="w-[90%] flex flex-row items-center justify-between pt-6">
+
+              {/* Form Inputs */}
+              <div className="w-[90%] flex flex-col md:flex-row items-center justify-between pt-6 gap-4 md:gap-0">
                 <Fade bottom>
-                  <div className="relative mb-6 w-[100%]">
+                  <div className="relative mb-2 md:mb-6 w-full">
                     <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                       <AiOutlineUser />
                     </div>
@@ -167,24 +172,13 @@ export default function ContactUs({width = 'w-[90%]',height = 'h-[650px]', py = 
                       ref={nameRef}
                       required={true}
                       type="text"
-                      id="input-group-1"
                       className="h-[50px] outline-none bg-transparent border border-gray-300 text-gray-900 text-sm rounded-xl block w-full pl-10 p-2.5 "
                       placeholder="Your Name"
                     />
                   </div>
                 </Fade>
-                {/* <div className="relative mb-6 w-[45%]">
-                  <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                    <AiOutlineUser />
-                  </div>
-                  <input
-                    type="text"
-                    id="input-group-1"
-                    className="h-[50px] outline-none bg-transparent border border-gray-300 text-gray-900 text-sm rounded-xl block w-full pl-10 p-2.5 "
-                    placeholder="Last name"
-                  />
-                </div> */}
               </div>
+
               <Fade bottom>
                 <div className="relative mb-6 w-[90%]">
                   <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
@@ -195,12 +189,12 @@ export default function ContactUs({width = 'w-[90%]',height = 'h-[650px]', py = 
                     ref={mailRef}
                     required={true}
                     type="email"
-                    id="input-group-1"
                     className="h-[50px] outline-none bg-transparent border border-gray-300 text-gray-900 text-sm rounded-xl block w-full pl-10 p-2.5 "
                     placeholder="your@email.com"
                   />
                 </div>
               </Fade>
+
               <Fade bottom>
                 <div className="relative mb-6 w-[90%]">
                   <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
@@ -210,12 +204,12 @@ export default function ContactUs({width = 'w-[90%]',height = 'h-[650px]', py = 
                     name="Phone"
                     ref={mobileRef}
                     type="text"
-                    id="input-group-1"
                     className="h-[50px] outline-none bg-transparent border border-gray-300 text-gray-900 text-sm rounded-xl block w-full pl-10 p-2.5 "
                     placeholder="9876543210 (optional)"
                   />
                 </div>
               </Fade>
+
               <Fade bottom>
                 <div className="relative mb-6 w-[90%]">
                   <textarea
@@ -224,7 +218,6 @@ export default function ContactUs({width = 'w-[90%]',height = 'h-[650px]', py = 
                     required={true}
                     rows={5}
                     type="text"
-                    id="input-group-1"
                     className="outline-none bg-transparent border border-gray-300 text-gray-900 text-sm rounded-xl block w-full p-2.5 "
                     placeholder="Your Message"
                   />
