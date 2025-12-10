@@ -34,7 +34,7 @@ export default function HomePage() {
       <HowWeStart />
       <DesignSlide />
       <TechSlide />
-      <ReaidySlide />
+      {/* <ReaidySlide /> */}
       <BlockchainService />
       <TechStack />
      
