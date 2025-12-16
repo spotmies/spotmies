@@ -1,58 +1,5 @@
 [
   {
-    "description": "Supercharge your career with Reaidy.io! Access AI-driven interview simulations and programming language courses. Sharpen your skills with realistic mock interviews and structured courses. Track your progress with intelligent analytics and unlock exclusive job opportunities. Elevate your career today with Reaidy.io!",
-    "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy1.png",
-    "projectLink": "https://www.reaidy.io/index.html",
-    "tags": [
-      "Web 2"
-    ],
-    "title": "ReAIdy.io",
-    "projectName": "reaidy",
-    "completed": true,
-    "overview": {
-      "images": [
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy1.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy2.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy3.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy4.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy5.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy6.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy7.png"
-      ],
-      "techstack": [
-        "reactjs",
-        "tailwind"
-      ],
-      "content": [
-        {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy1.png",
-          "title": "Introduction:",
-          "description": " Elevate your career path with the power of AI-driven interview simulations and comprehensive programming language courses at Reaidy.io. Our innovative platform offers realistic mock interviews to sharpen your skills and boost your confidence for the real thing. Dive into structured courses covering diverse programming languages, all while benefiting from intelligent analytics that track your progress and guide your learning journey. Plus, gain access to exclusive internship and job opportunities through our network of collaborative industry partners. Get ready to take your career to new heights with Reaidy.io."
-        },
-        {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy2.png",
-          "title": " Journey to Excellence with AI Interviews",
-          "description": " Embark on your journey to excellence with AI Interviews on our platform at Reaidy.io. Elevate your career with our comprehensive suite of features, including personalized learning roadmaps to master new programming languages. Challenge yourself with AI mock interviews designed to hone your skills, and receive detailed analytics to fine-tune your interview performance. Unlock exclusive job and internship opportunities through our collaborative partnerships with leading companies, ensuring a seamless transition into the professional world. Join us at Reaidy.io and let's take your career to new heights together."
-        },
-        {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy3.png",
-          "title": "What ReAIdy do?",
-          "description": "In the heart of our mission lies the revolution of career preparation. Utilizing cutting-edge AI mock interviews, our platform enables users to hone their interview skills by tackling real-world questions head-on. Our personalized learning roadmap serves as a guide towards mastering new programming languages, while intelligent analytics meticulously track progress, providing invaluable insights for continuous enhancement. We unlock doors to exclusive internship and job opportunities through collaborative partnerships with industry-leading companies. Supported by seamless customer support, our platform offers a comprehensive journey towards professional excellence, seamlessly merging preparation with opportunity. Join us at Reaidy.io and embark on your path to success today. "
-        },
-        {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/reaidy6.png",
-          "title": "How does ReAIdy Work?",
-          "description": "Get started on our platform by registering and creating your profile. Tailor your experience by inputting your skills, experiences, and career aspirations, allowing us to personalize your journey. Engage in immersive AI-powered mock interviews to refine your skills and gain valuable insights. Explore our curated courses designed to enhance your abilities and expand your knowledge base. Additionally, leverage our user-friendly Resume Builder tool to craft a professional resume that effectively showcases your strengths and maximizes your chances of being noticed by recruiters. With Reaidy.io, take control of your career advancement and unlock new opportunities with confidence."
-        }
-      ],
-      "links": {
-        "website": "https://www.reaidy.io/index.html",
-        "android": "https://play.google.com/store/apps/details?id=com.asquaregokarting",
-        "ios": "https://play.google.com/store/apps/details?id=com.asquaregokarting"
-      }
-    }
-  },
-  {
     "description": "Unlock the power of AI-driven chatbots to enhance customer engagement and streamline communication. Train your chatbot with your website's data using our advanced web scraping tool, and deliver accurate, relevant responses to your customers. Capture leads effortlessly and boost conversions with Workewhere’s cutting-edge technology. Elevate your customer experience and drive business growth today with Workewhere!",
     "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/Oscar.png",
     "projectLink": "https://workewhere.nl/",
