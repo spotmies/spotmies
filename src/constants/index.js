@@ -333,7 +333,7 @@ export const clients = [
   {
     name: "A Square Entertainment",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_05_.png?alt=media&token=f561af32-b626-4839-91b9-62dfa3fde82b",
+      "https://asquaregokarting.com/assets/images/logo/logo.png",
     link: "https://asquaregokarting.com",
   },
   {
@@ -349,65 +349,65 @@ export const clients = [
   {
     name: "AU Incubation Centre",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_08_.png?alt=media&token=ef39ad3a-42ba-446a-b411-f6a6cd249ed0",
+      "https://aaic.in/images/logo.png",
   },
   {
     name: "Schemax",
-    image:"https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_01_.png?alt=media&token=840d4f4d-8119-4c4b-ae45-b840fdff0a37",
+    image: "https://schemaxtech.com/images/logo.png",
     link: "https://www.schemaxtech.com",
   },
   {
     name: "Sweken",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_03_.png?alt=media&token=8272891d-ab2b-4f95-95db-94827d1e9bec",
+      "https://www.sweken.com/cropped-logo-final.png",
     link: "https://sweken.com",
   },
   {
     name: "Vihaan electrix",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_13.png?alt=media&token=f0973e1e-fcff-4abd-a715-aabefcc4e649",
+      "https://via.placeholder.com/200x100?text=Vihaan+Electrix",
   },
   {
     name: "Decentrialz",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FThirdFolder%2FL-10.png?alt=media&token=5e8dd11e-cc8c-4514-8f42-efa41bb40ab0",
+      "https://via.placeholder.com/200x100?text=Decentrialz",
     link: "https://decentrialz.com",
   },
   {
     name: "Advait Labs",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_07_.png?alt=media&token=e3767613-0f4c-496f-a294-7bb6a49702cd",
+      "https://advaitlabs.com/assets/images/logo.png",
     link: "https://advaitlabs.com",
   },
   {
     name: "Chalo Ride",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc-09-.png?alt=media&token=2f7837fd-e2c1-4e60-8449-6b49a490dd50",
+      "https://via.placeholder.com/200x100?text=Chalo+Ride",
   },
   {
     name: "Mr Bikes",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_10-.png?alt=media&token=bb866e8f-5def-4113-ac31-3151f4a17f3a",
+      "https://via.placeholder.com/200x100?text=Mr+Bikes",
   },
   {
     name: "The 10x Academy",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FThirdFolder%2FL-1.png?alt=media&token=370b13c5-0022-4b4e-aaf4-9faf62a1849a",
+      "https://via.placeholder.com/200x100?text=The+10x+Academy",
   },
   {
     name: "No Drafts",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_12.png?alt=media&token=cd2981cf-0d88-4564-81af-7d00ee47e629",
+      "https://via.placeholder.com/200x100?text=No+Drafts",
   },
   {
     name: "CGRUM",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_14.png?alt=media&token=cef3bb00-15e4-4fea-9578-3796c91d82f3",
+      "https://via.placeholder.com/200x100?text=CGRUM",
   },
   {
     name: "NandiKrushi",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_15.png?alt=media&token=0a27663b-e058-4fa5-abaf-33d9118963d9",
+      "https://via.placeholder.com/200x100?text=NandiKrushi",
   },
   {
     name: "VatsaProCons",
@@ -421,28 +421,48 @@ export const clients = [
   },
   {
     name: "Advon",
-    image:"https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FAdvon%20banner%20logo(1).png?alt=media&token=98ad139f-743b-4f18-be03-b112c5d758bb",
+    image: "https://via.placeholder.com/200x100?text=Advon",
     link: "https://advon.com",
   },
   {
     name: "Indie skull syndicate",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_04_.png?alt=media&token=bb2f730d-ec1b-4cea-96cb-31fe7f89846f",
+      "https://via.placeholder.com/200x100?text=Indie+Skull",
     link: "https://indieskullsyndicate.xyz",
+  },
+  {
+    name: "MBQ",
+    image: "/mbq-logo.png",
+  },
+  {
+    name: "Safeguardair",
+    image: "/safeguardair-logo.png",
+  },
+  {
+    name: "Orfus",
+    image: "/orfus-white.png",
+  },
+  {
+    name: "Vitlas Care Pro",
+    image: "/vitlascarepro-logo.png",
+  },
+  {
+    name: "Varun Motors",
+    image: "/varunmotor-white.png",
   },
 
 ];
 
 export const partners = [
-  
+
   {
     name: "Dizi Automation",
-    image:"https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2Fdizi%20automation%20logo(1).png?alt=media&token=ed2aeded-2642-451e-bcf9-94fded8cde85",
+    image: "https://via.placeholder.com/200x100?text=Dizi+Automation",
   },
   {
     name: "The ReachX",
-    image:"https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2Freachx%20logo(1).png?alt=media&token=88a44da1-fdec-429f-aaa7-8f5a10ba8d0b",
-    
+    image: "https://via.placeholder.com/200x100?text=The+ReachX",
+
   },
   // {
   //   name: "Indie skull syndicate",
@@ -519,7 +539,7 @@ export const socialMediaRedirect = (mediaName) => {
   const telegram = "https://t.me/";
   const youtube = "https://www.youtube.com/@spotmies4765";
   const facebook = "https://www.facebook.com/";
-  
+
   const linkedin = "https://www.linkedin.com/company/spotmies";
   const github = "https://github.com/spotmies";
   const behance = "https://www.behance.net/spotmiesllp";

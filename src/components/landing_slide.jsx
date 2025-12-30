@@ -1,12 +1,8 @@
 "use client";
-import React, { useEffect, useState, Suspense } from "react";
+import React, { useEffect, useState } from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import Link from "next/link";
-
-const image =
-  // "https://images.unsplash.com/photo-1543269664-56d93c1b41a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80";
-  // "https://nftstorage.link/ipfs/bafybeifur6x6mg6u6465nojbgtuckodzghkeovjoltga7cysdzmuyvj7ku";
-  "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFirstFolder%2FTopPagePic.jpeg?alt=media&token=9906ec9d-1894-4315-b823-d73881638d03";
+import { usePathname } from "next/navigation"; // Import hook to get current path
 
 const LandingSlide = () => {
   return (
@@ -57,17 +53,6 @@ const LandingSlide = () => {
           and customer service to exceed your expectations.
         </p>
         <div className="w-full flex flex-row items-center justify-left z-50 ml-1">
-          {/* <HoverButton
-            onClick={() => {
-             
-              window.document
-                .getElementById("services")
-                .scrollIntoView({ behavior: "smooth" });
-            }}
-            text="Read More"
-            className=" border-white"
-            
-          /> */}
           <button
             onClick={() => {
               const calendlyLink = "https://calendly.com/spotmies/30min";
@@ -87,6 +72,7 @@ const LandingSlide = () => {
 export const Navbarr = ({ noScrollEffect, career }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [toggleNavbar, setToggleNavbar] = useState(false);
+  const pathname = usePathname(); // Get current route
 
   function toggleMenu() {
     setIsOpen(!isOpen);
@@ -95,11 +81,11 @@ export const Navbarr = ({ noScrollEffect, career }) => {
     // navigation by id
     if (career) {
       window.location.href = `/#${id}`;
-    }
-    else {
-      window.document
-        .getElementById(id ?? "services")
-        .scrollIntoView({ behavior: "smooth" });
+    } else {
+      const el = window.document.getElementById(id ?? "services");
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
       setIsOpen(false);
     }
   };
@@ -135,6 +121,20 @@ export const Navbarr = ({ noScrollEffect, career }) => {
       }
     });
   }, []);
+
+  // Helper to determine active class
+  const getActiveClass = (pathToCheck) => {
+    return pathname === pathToCheck
+      ? "border-secundary" // Active style
+      : "border-transparent hover:border-secundary"; // Inactive style
+  };
+
+  // Helper for blog specifically (to match /blog/post-id etc)
+  const getBlogActiveClass = () => {
+    return pathname && pathname.includes("/blog")
+      ? "border-secundary"
+      : "border-transparent hover:border-secundary";
+  };
 
   return (
     <nav
@@ -174,68 +174,62 @@ export const Navbarr = ({ noScrollEffect, career }) => {
           <a
             onClick={() => navigation("services")}
             className={`${toggleNavbar ? "text-primary" : "text-white"
-              }  mx-4 border-b-2 border-transparent gil-reg hover:border-secundary cursor-pointer lg:text-xl`}
-          >
+              }  mx-4 border-b-2 border-transparent gil-reg hover:border-secundary cursor-pointer lg:text-xl`}>
             Services
           </a>
           <a
             onClick={() => navigation("portfolio")}
             className={`${toggleNavbar ? "text-primary" : "text-white"
-              }  mx-4 border-b-2 border-transparent gil-reg hover:border-secundary cursor-pointer lg:text-xl`}
-          >
+              }  mx-4 border-b-2 border-transparent gil-reg hover:border-secundary cursor-pointer lg:text-xl`}>
             Portfolio
           </a>
 
           <a
             onClick={() => navigation("about")}
             className={`${toggleNavbar ? "text-primary" : "text-white"
-              }  mx-4 border-b-2 border-transparent gil-reg hover:border-secundary cursor-pointer lg:text-xl`}
-          >
+              }  mx-4 border-b-2 border-transparent gil-reg hover:border-secundary cursor-pointer lg:text-xl`}>
             About Us
           </a>
           <Link
             href="/blog"
             className={`${toggleNavbar ? "text-primary" : "text-white"
-              }  mx-4 border-b-2 border-transparent gil-reg hover:border-secundary cursor-pointer lg:text-xl`}
-          >
+              }  mx-4 border-b-2 ${getBlogActiveClass()} gil-reg cursor-pointer lg:text-xl`}>
             Blogs
           </Link>
 
           <a
             onClick={() => navigation("reaidy")}
             className={`${toggleNavbar ? "text-primary" : "text-white"
-              }  mx-4 border-b-2 border-transparent gil-reg hover:border-secundary cursor-pointer lg:text-xl`}
-          >
+              }  mx-4 border-b-2 border-transparent gil-reg hover:border-secundary cursor-pointer lg:text-xl`}>
             Product
           </a>
 
           <a
             onClick={() => navigation("contactUs")}
             className={`${toggleNavbar ? "text-primary" : "text-white"
-              }  mx-4 border-b-2 border-transparent hover:border-secundary gil-reg cursor-pointer lg:text-xl`}
-          >
+              }  mx-4 border-b-2 border-transparent hover:border-secundary gil-reg cursor-pointer lg:text-xl`}>
             Contact Us
           </a>
 
-          <Link href="/career"
+          <Link
+            href="/career"
             className={`${toggleNavbar ? "text-primary" : "text-white"
-              }  mx-4 border-b-2 border-transparent hover:border-secundary gil-reg cursor-pointer lg:text-xl`}
-          >
+              }  mx-4 border-b-2 ${getActiveClass(
+                "/career"
+              )} hover:border-secundary gil-reg cursor-pointer lg:text-xl`}>
             Careers
           </Link>
           <a
             onClick={scheduleMeeting}
-            className={`${
-              toggleNavbar ? "text-primary" : "text-white"
-            }  mx-4 border-b-2 border-secundary gil-reg cursor-pointer lg:text-xl`}>
+            className={`${toggleNavbar ? "text-primary" : "text-white"
+              }  mx-4 border-b-2 border-transparent hover:border-secundary gil-reg cursor-pointer lg:text-xl`}>
             Schedule a Call
           </a>
         </div>
       </div>
       <div
-        className={`${
-          isOpen ? "" : "hidden"
-        } md:hidden bg-white transition-all duration-700 ease-in-out`}>
+        className={`${isOpen ? "" : "hidden"
+          } md:hidden bg-white transition-all duration-700 ease-in-out`}>
         <a
           onClick={() => navigation("services")}
           className="block px-4 py-2 text-primary2 border-b-2 gil-reg border-transparent hover:border-secundary cursor-pointer">
@@ -254,8 +248,7 @@ export const Navbarr = ({ noScrollEffect, career }) => {
         </a>
         <Link
           href="/blog"
-          className="block px-4 py-2 text-primary2 border-b-2 gil-reg border-transparent hover:border-secundary cursor-pointer"
-        >
+          className="block px-4 py-2 text-primary2 border-b-2 gil-reg border-transparent hover:border-secundary cursor-pointer">
           Blogs
         </Link>
         <a
@@ -268,9 +261,9 @@ export const Navbarr = ({ noScrollEffect, career }) => {
           className="block px-4 py-2 text-primary2 border-b-2 gil-reg border-transparent hover:border-secundary cursor-pointer">
           Contact Us
         </a>
-        <Link href="/career"
-          className="block px-4 py-2 text-primary2 gil-reg border-b-2 border-transparent hover:border-secundary cursor-pointer"
-        >
+        <Link
+          href="/career"
+          className="block px-4 py-2 text-primary2 gil-reg border-b-2 border-transparent hover:border-secundary cursor-pointer">
           Careers
         </Link>
         <a
@@ -284,5 +277,3 @@ export const Navbarr = ({ noScrollEffect, career }) => {
 };
 
 export default LandingSlide;
-
-// hidden md:flex items-center
