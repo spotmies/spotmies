@@ -390,7 +390,7 @@ export const clients = [
   },
   {
     name: "HRD",
-    image: "/hrd.jpeg",
+    image: "/HRD.png",
   },
   {
     name: "Advon",
@@ -404,15 +404,15 @@ export const clients = [
   },
   {
     name: "MBQ",
-    image: "/mbq-logo.png",
+    image: "/MBQ.png",
   },
   {
     name: "Safeguardair",
-    image: "/safeguardair-logo.png",
+    image: "/safe_gaurd_b.png",
   },
   {
     name: "Orfus",
-    image: "/orfus-white.png",
+    image: "/orfus.png",
   },
   {
     name: "Vitlas Care Pro",
@@ -420,7 +420,7 @@ export const clients = [
   },
   {
     name: "Varun Motors",
-    image: "/varunmotor-white.png",
+    image: "/varun_motors.png",
   },
 ];
 
