@@ -68,19 +68,21 @@ export default function ContactUs({ width = 'w-[90%]', height = 'h-[650px]', py 
     >
       <div className={`m-auto ${width} h-full bg-white flex flex-col md:flex-row items-center justify-center rounded-2xl shadow-lg`}>
 
-        
+
         <div className="relative h-[300px] md:h-auto md:self-stretch w-full md:w-[30%] md:basis-[30%] z-20 shrink-0 overflow-hidden rounded-t-2xl md:rounded-l-2xl md:rounded-tr-none md:rounded-bl-2xl">
 
+          {/* --- FIX APPLIED BELOW --- */}
           <Image
             src="https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFinalFolder%2FChatToConcact.avif?alt=media&token=5e4d6c67-2321-4e4e-b70f-77ae16f91556"
             alt="Contact background"
             fill
             className="object-cover"
             sizes="(max-width: 768px) 100vw, 30vw"
-            priority 
+            priority
+            unoptimized={true} // <--- THIS FIXES THE CRASH
           />
 
-          
+
           <div className="absolute top-0 left-0 w-full h-full bg-primary2 bg-opacity-50 z-10"></div>
 
           {/* Text Content over Image */}
@@ -94,7 +96,8 @@ export default function ContactUs({ width = 'w-[90%]', height = 'h-[650px]', py 
                   AU incubation centre, Andhra university, Visakhapatnam -
                   530003,
                   <br />
-                  +91 8341980196
+                  +91 8341980196<br />
+                  +91 7207333883(Hiring)
                   <br />
                   info@spotmies.com
                 </p>

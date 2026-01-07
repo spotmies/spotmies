@@ -1,5 +1,6 @@
 import { MdPhone } from "react-icons/md";
 
+// ... (Your existing exploreWorlds, startingFeatures, etc. arrays go here. Keep them as is.) ...
 export const exploreWorlds = [
   {
     id: "world-1",
@@ -41,11 +42,6 @@ export const exploreWorlds = [
     description:
       "We build web and desktop apps that are fast, secure, and scalable with the help of the latest technologies like React, Node, MongoDB And Next.js.",
   },
-  // {
-  //   id: 'world-5',
-  //   imgUrl: '/planet-05.png',
-  //   title: 'Hawkins Labs',
-  // },
 ];
 
 export const startingFeatures = [
@@ -61,7 +57,6 @@ export const startingFeatures = [
   },
   {
     text: "We develop your product with the latest technologies to deliver you the outstanding performance",
-    // image: "/product-innovation.png",
     image: "/option.png",
     invertColor: true,
   },
@@ -143,10 +138,6 @@ export const socials = [
     url: "/github-icon.png",
     link: "https://github.com/spotmies",
   },
-  // {
-  //   name: 'facebook',
-  //   url: '/facebook.svg',
-  // },
 ];
 
 export const testimonials = [
@@ -227,7 +218,6 @@ export const ceoTestimonials = [
     when: "2 months ago",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/E._S._L._Narasimhan_at_Telangana_Jagruthi_Program.jpg/1200px-E._S._L._Narasimhan_at_Telangana_Jagruthi_Program.jpg",
-    // "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FScreenshot%202022-12-27%20at%2012.42.06%20PM.png?alt=media&token=a7431523-3c17-4361-b12f-731720f6e35c",
     text: "Working with Naidu Sunkari has been an absolute pleasure. Their leadership and vision have been instrumental in driving positive change for our state, and I have no doubt that their continued success will have a lasting impact on our community.",
   },
   {
@@ -244,7 +234,6 @@ export const ceoTestimonials = [
     when: "1 months ago",
     image:
       "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
-    // "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/assets%2FWhatsApp%20Image%202022-12-23%20at%206.40.13%20PM.jpeg?alt=media&token=af2e1828-0d53-4f9a-8ffa-37ae7e6e7afa",
     text: "I have had the pleasure of working with Naidu Sunkari for several years now and can confidently say that he is an exceptional leader. His strategic vision, commitment to excellence, and ability to inspire and motivate others are truly unparalleled.",
   },
 ];
@@ -324,191 +313,235 @@ export const dummyClients = [
 
 export const primaryColor = "#142440";
 
+// --- CLIENTS SECTION (Updated with CORRECT filenames from your public folder) ---
 export const clients = [
   {
     name: "ZinInThuiswerken",
-    image:
-      "https://reaidystorage.blob.core.windows.net/spotmiespublic/ZIN.png",
+    image: "/ZIN.png",
   },
   {
     name: "A Square Entertainment",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_05_.png?alt=media&token=f561af32-b626-4839-91b9-62dfa3fde82b",
+    image: "/c_05_.png",
     link: "https://asquaregokarting.com",
   },
   {
     name: "Smartfalcon",
-    image:
-      "https://www.smartfalcon.io/images/logo.png",
+    image: "/smart_falcon.png",
   },
   {
     name: "Credit Report",
-    image:
-      "https://reaidystorage.blob.core.windows.net/spotmiespublic/final-logo.png",
+    image: "/credit_report.png",
   },
   {
     name: "AU Incubation Centre",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_08_.png?alt=media&token=ef39ad3a-42ba-446a-b411-f6a6cd249ed0",
+    image: "/a_hub.png",
   },
   {
     name: "Schemax",
-    image:"https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_01_.png?alt=media&token=840d4f4d-8119-4c4b-ae45-b840fdff0a37",
+    image: "/schemax.png",
     link: "https://www.schemaxtech.com",
   },
   {
     name: "Sweken",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_03_.png?alt=media&token=8272891d-ab2b-4f95-95db-94827d1e9bec",
+    image: "/sweken.png",
     link: "https://sweken.com",
   },
   {
     name: "Vihaan electrix",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_13.png?alt=media&token=f0973e1e-fcff-4abd-a715-aabefcc4e649",
+    image: "/vihaan.png",
   },
   {
     name: "Decentrialz",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FThirdFolder%2FL-10.png?alt=media&token=5e8dd11e-cc8c-4514-8f42-efa41bb40ab0",
+    image: "/decentrailz.png",
     link: "https://decentrialz.com",
   },
   {
     name: "Advait Labs",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_07_.png?alt=media&token=e3767613-0f4c-496f-a294-7bb6a49702cd",
+    image: "/advait_labs.png",
     link: "https://advaitlabs.com",
   },
   {
     name: "Chalo Ride",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc-09-.png?alt=media&token=2f7837fd-e2c1-4e60-8449-6b49a490dd50",
+    image: "/chalo_rides.png",
   },
   {
     name: "Mr Bikes",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_10-.png?alt=media&token=bb866e8f-5def-4113-ac31-3151f4a17f3a",
+    image: "/mr_bikes.png",
   },
   {
     name: "The 10x Academy",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FThirdFolder%2FL-1.png?alt=media&token=370b13c5-0022-4b4e-aaf4-9faf62a1849a",
+    image: "/iox_academy.png",
   },
   {
     name: "No Drafts",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_12.png?alt=media&token=cd2981cf-0d88-4564-81af-7d00ee47e629",
+    image: "/no_drafts.png",
   },
   {
     name: "CGRUM",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_14.png?alt=media&token=cef3bb00-15e4-4fea-9578-3796c91d82f3",
+    image: "/cgrum.png",
   },
   {
     name: "NandiKrushi",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_15.png?alt=media&token=0a27663b-e058-4fa5-abaf-33d9118963d9",
+    image: "/nandikrushi.png",
   },
   {
     name: "VatsaProCons",
-    image:
-      "https://www.vatsaprocons.com/img/Banner_logo.png",
+    image: "/vatsa.png",
   },
   {
     name: "HRD",
-    image:
-      "https://static.wixstatic.com/media/be8621_cb66cf20f7fc471b993bafd4ede60652~mv2.png/v1/fill/w_183,h_105,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Untitled%20design_edited_edited.png",
+    image: "/HRD.png",
   },
   {
     name: "Advon",
-    image:"https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FAdvon%20banner%20logo(1).png?alt=media&token=98ad139f-743b-4f18-be03-b112c5d758bb",
+    image: "/Advon.png",
     link: "https://advon.com",
   },
   {
     name: "Indie skull syndicate",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_04_.png?alt=media&token=bb2f730d-ec1b-4cea-96cb-31fe7f89846f",
+    image: "/indie_skull.png",
     link: "https://indieskullsyndicate.xyz",
   },
-
+  {
+    name: "MBQ",
+    image: "/MBQ.png",
+  },
+  {
+    name: "Safeguardair",
+    image: "/safe_gaurd_b.png",
+  },
+  {
+    name: "Orfus",
+    image: "/orfus.png",
+  },
+  {
+    name: "Vitlas Care Pro",
+    image: "/vitlascarepro-logo.png",
+  },
+  {
+    name: "Varun Motors",
+    image: "/varun_motors.png",
+  },
 ];
 
+// --- PARTNERS SECTION (Mirrors Clients with new names) ---
 export const partners = [
-  
   {
     name: "Dizi Automation",
-    image:"https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2Fdizi%20automation%20logo(1).png?alt=media&token=ed2aeded-2642-451e-bcf9-94fded8cde85",
+    image: "https://placehold.co/200x100?text=Dizi+Automation",
   },
   {
     name: "The ReachX",
-    image:"https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2Freachx%20logo(1).png?alt=media&token=88a44da1-fdec-429f-aaa7-8f5a10ba8d0b",
-    
+    image: "https://placehold.co/200x100?text=The+ReachX",
   },
-  // {
-  //   name: "Indie skull syndicate",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_04_.png?alt=media&token=bb2f730d-ec1b-4cea-96cb-31fe7f89846f",
-  //   link: "https://indieskullsyndicate.xyz",
-  // },
-  // {
-  //   name: "A Square Entertainment",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_05_.png?alt=media&token=f561af32-b626-4839-91b9-62dfa3fde82b",
-  //   link: "https://asquaregokarting.com",
-  // },
-  // {
-  //   name: "CypherB",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_06_.png?alt=media&token=0f57916c-4206-4983-aaef-4f4534dcacc2",
-  //   link: "https://cypherb.com",
-  // },
-  // {
-  //   name: "Advait Labs",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_07_.png?alt=media&token=e3767613-0f4c-496f-a294-7bb6a49702cd",
-  //   link: "https://advaitlabs.com",
-  // },
-  // {
-  //   name: "AU Incubation Centre",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_08_.png?alt=media&token=ef39ad3a-42ba-446a-b411-f6a6cd249ed0",
-  // },
-  // {
-  //   name: "Chalo Ride",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc-09-.png?alt=media&token=2f7837fd-e2c1-4e60-8449-6b49a490dd50",
-  // },
-  // {
-  //   name: "Mr Bikes",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_10-.png?alt=media&token=bb866e8f-5def-4113-ac31-3151f4a17f3a",
-  // },
-  // {
-  //   name: "The 10x Academy",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FThirdFolder%2FL-1.png?alt=media&token=370b13c5-0022-4b4e-aaf4-9faf62a1849a",
-  // },
-  // {
-  //   name: "No Drafts",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_12.png?alt=media&token=cd2981cf-0d88-4564-81af-7d00ee47e629",
-  // },
-  // {
-  //   name: "Vihaan electrix",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_13.png?alt=media&token=f0973e1e-fcff-4abd-a715-aabefcc4e649",
-  // },
-  // {
-  //   name: "CGRUM",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_14.png?alt=media&token=cef3bb00-15e4-4fea-9578-3796c91d82f3",
-  // },
-  // {
-  //   name: "NandiKrushi",
-  //   image:
-  //     "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FOurClients%2Fc_15.png?alt=media&token=0a27663b-e058-4fa5-abaf-33d9118963d9",
-  // }
-
+  {
+    name: "MBQ",
+    image: "/mbq-logo.png",
+  },
+  {
+    name: "Safeguardair",
+    image: "/safeguardair-logo.png",
+  },
+  {
+    name: "Orfus",
+    image: "/orfus-white.png",
+  },
+  {
+    name: "Vitlas Care Pro",
+    image: "/vitlascarepro-logo.png",
+  },
+  {
+    name: "Varun Motors",
+    image: "/varunmotor-white.png",
+  },
+  // --- Existing Clients Merged ---
+  {
+    name: "ZinInThuiswerken",
+    image: "/ZIN.png",
+  },
+  {
+    name: "A Square Entertainment",
+    image: "/c_05_.png",
+    link: "https://asquaregokarting.com",
+  },
+  {
+    name: "Smartfalcon",
+    image: "/smart_falcon.png",
+  },
+  {
+    name: "Credit Report",
+    image: "/credit_report.png",
+  },
+  {
+    name: "AU Incubation Centre",
+    image: "/a_hub.png",
+  },
+  {
+    name: "Schemax",
+    image: "/schemax.png",
+    link: "https://www.schemaxtech.com",
+  },
+  {
+    name: "Sweken",
+    image: "/sweken.png",
+    link: "https://sweken.com",
+  },
+  {
+    name: "Vihaan electrix",
+    image: "/vihaan.png",
+  },
+  {
+    name: "Decentrialz",
+    image: "/decentrailz.png",
+    link: "https://decentrialz.com",
+  },
+  {
+    name: "Advait Labs",
+    image: "/advait_labs.png",
+    link: "https://advaitlabs.com",
+  },
+  {
+    name: "Chalo Ride",
+    image: "/chalo_rides.png",
+  },
+  {
+    name: "Mr Bikes",
+    image: "/mr_bikes.png",
+  },
+  {
+    name: "The 10x Academy",
+    image: "/iox_academy.png",
+  },
+  {
+    name: "No Drafts",
+    image: "/no_drafts.png",
+  },
+  {
+    name: "CGRUM",
+    image: "/cgrum.png",
+  },
+  {
+    name: "NandiKrushi",
+    image: "/nandikrushi.png",
+  },
+  {
+    name: "VatsaProCons",
+    image: "/vatsa.png",
+  },
+  {
+    name: "HRD",
+    image: "/hrd.jpeg",
+  },
+  {
+    name: "Advon",
+    image: "/Advon.png",
+    link: "https://advon.com",
+  },
+  {
+    name: "Indie skull syndicate",
+    image: "/indie_skull.png",
+    link: "https://indieskullsyndicate.xyz",
+  },
 ];
 
 // create a function to redirect to social media links like twitter, instagram, etc
@@ -519,7 +552,7 @@ export const socialMediaRedirect = (mediaName) => {
   const telegram = "https://t.me/";
   const youtube = "https://www.youtube.com/@spotmies4765";
   const facebook = "https://www.facebook.com/";
-  
+
   const linkedin = "https://www.linkedin.com/company/spotmies";
   const github = "https://github.com/spotmies";
   const behance = "https://www.behance.net/spotmiesllp";
