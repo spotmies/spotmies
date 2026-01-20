@@ -112,7 +112,7 @@ export default function AboutUs() {
           <Fade>
             <div className="group overflow-hidden h-[50%] md:h-full w-full md:w-[45%] rounded-xl md:rounded-3xl">
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFourthFolder%2FFour1.avif?alt=media&token=fba9a7b9-f86c-4b77-b0f8-0d578e07e6f9
+                src="https://spotmiesstorage.blob.core.windows.net/old-data/Group1.png
                 "
                 alt=""
                 className="w-full h-full object-cover rounded-xl md:rounded-3xl m-auto group-hover:scale-110 transition-all duration-700 ease-in-out"

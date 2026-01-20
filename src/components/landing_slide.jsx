@@ -20,7 +20,7 @@ const LandingSlide = () => {
         className="absolute inset-0 w-full h-full rounded-none "
         style={{
           // background image
-          backgroundImage: "url(/landing_page.png)",
+          backgroundImage: "url(https://spotmiesstorage.blob.core.windows.net/old-data/landing_page.png)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
