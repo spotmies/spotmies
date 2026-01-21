@@ -142,7 +142,7 @@ export default function FooterBar() {
           </div>
           <div className="w-full flex flex-col md:flex-row items-center justify-between">
             <div className="text-sm lg:text-lg text-gray-400">
-              © 2024 Spotmies LLP. All Rights Reserved.
+              © 2026 Spotmies LLP. All Rights Reserved.
             </div>
             <div className="flex space-x-4 md:pt-0 lg:pt-0 pt-4">
               <a
