@@ -73,7 +73,7 @@ export default function ContactUs({ width = 'w-[90%]', height = 'h-[650px]', py 
 
           {/* --- FIX APPLIED BELOW --- */}
           <Image
-            src="https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFinalFolder%2FChatToConcact.avif?alt=media&token=5e4d6c67-2321-4e4e-b70f-77ae16f91556"
+            src="https://spotmiesstorage.blob.core.windows.net/old-data/ChatToConcact.avif"
             alt="Contact background"
             fill
             className="object-cover"

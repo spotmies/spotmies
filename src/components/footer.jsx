@@ -134,7 +134,7 @@ export default function FooterBar() {
                   Recognized By
                 </h2>
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2Flast%20image%2Fstartupindia.png?alt=media&token=403f5acd-a208-48dd-9343-27e3389d3e3f"
+                  src="https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_last image_startupindia.png"
                   className="w-[250px] md:w-full lg:w-full grayscale hover:grayscale-0 transition-all duration-700 ease-in-out cursor-pointer"
                 />
               </div>
