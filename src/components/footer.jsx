@@ -37,7 +37,7 @@ export default function FooterBar() {
           <div className="flex flex-wrap justify-between mb-12">
             <div className="w-full md:w-1/3 lg:w-1/3 pr-4">
               <img
-                src="/spotmies_banner.png"
+                src="https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_banner.png"
                 alt="logo"
                 className="w-52 mb-4"
               />

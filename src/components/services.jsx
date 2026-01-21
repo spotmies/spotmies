@@ -44,7 +44,7 @@ export default function Services() {
                   description:
                     "Realize your vision with our expert AI & ML product design services.",
                   image:
-                    "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSecondFolder%2FSecond1.avif?alt=media&token=23147974-49ad-4a89-a13a-eaffa8be8152",
+                    "https://spotmiesstorage.blob.core.windows.net/old-data/",
                 })}
               </div>
             </Fade>
