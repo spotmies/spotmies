@@ -31,7 +31,7 @@ export default function TeamSlide() {
                   description:
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                   image:
-                    "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2Fourteam1.jpeg?alt=media&token=db726f2f-9873-4dce-8ac1-b02b97c9b806",
+                    "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_SeventhFolder_ourteam1.jpeg",
                 })}
               </div>
             </Fade>
@@ -53,7 +53,7 @@ export default function TeamSlide() {
                     description:
                       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
                     image:
-                      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2Fourteam3.jpg?alt=media&token=f71e80ce-901f-46c5-a4e1-8917449312fa",
+                      "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_SeventhFolder_ourteam3.jpg",
                   })}
                 </div>
               </Fade>
@@ -101,7 +101,7 @@ export default function TeamSlide() {
                   title: "Mobile Development",
                   description:
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                  image: "group.jpg"
+                  image: "https://spotmiesstorage.blob.core.windows.net/old-data/group.jpg"
                     // "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FNew%20images%2FPXL_20230630_064756373-1(1).jpg?alt=media&token=e6189f9e-955d-4555-bf84-edea46984820",
                   
 })}

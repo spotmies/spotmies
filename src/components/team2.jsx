@@ -13,7 +13,7 @@ export default function TeamSlide2() {
   const teamJson = [
     {
       image:
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/satish.jpeg",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/satish.jpeg",
       name: "Satish Kumar Saride",
       designation: "Co-Founder & CEO",
       social: {
@@ -23,7 +23,7 @@ export default function TeamSlide2() {
     },
     {
       image:
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/sekhar.jpeg",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/sekhar.jpeg",
       name: "Sekhar javvadi",
       designation: "Co-Founder & CTO",
       social: {
@@ -34,7 +34,7 @@ export default function TeamSlide2() {
     },
     {
       image:
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/hemanth.jpeg",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/hemanth.jpeg",
       name: "Hemanth Kumar",
       // designation: "Head of Blockchain Development",
       designation: "Co-Founder",
@@ -46,7 +46,7 @@ export default function TeamSlide2() {
     },
     {
       image:
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/naveen.jpeg",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/naveen.jpeg",
       name: "Naveen Kumar",
       // designation: "Head of Product Design",
       designation: "Co-Founder & Head of Product Design",

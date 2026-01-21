@@ -9,7 +9,7 @@ export default function DesignSlide() {
       className="h-[100vh] w-[100vw] bg-bg1 relative"
       style={{
         backgroundImage:
-          "url(https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSixthFolder%2FOurDesginsPic.png?alt=media&token=9a01eb87-9cc6-46d0-81bf-9d35faba35a0)",
+          "url(https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_SixthFolder_OurDesginsPic.png)",
         backgroundAttachment: "fixed",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",

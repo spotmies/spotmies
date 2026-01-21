@@ -20,7 +20,7 @@ const LandingSlide = () => {
         className="absolute inset-0 w-full h-full rounded-none "
         style={{
           // background image
-          backgroundImage: "url(/landing_page.png)",
+          backgroundImage: "url(https://spotmiesstorage.blob.core.windows.net/old-data/landing_page.png)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -148,7 +148,7 @@ export const Navbarr = ({ noScrollEffect, career }) => {
             window.location.href = "/";
           }}>
           <img
-            src={toggleNavbar ? "/spotmies_banner.png" : "/spotmies_banner.png"}
+            src={toggleNavbar ? "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_banner.png" : "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_banner.png"}
             alt="Logo"
             className=" h-6 md:h-10 lg:h-14 cursor-pointer"
           />
@@ -178,17 +178,17 @@ export const Navbarr = ({ noScrollEffect, career }) => {
             Services
           </a>
           <a
-            onClick={() => navigation("portfolio")}
-            className={`${toggleNavbar ? "text-primary" : "text-white"
-              }  mx-4 border-b-2 border-transparent gil-reg hover:border-secundary cursor-pointer lg:text-xl`}>
-            Portfolio
-          </a>
-
-          <a
             onClick={() => navigation("about")}
             className={`${toggleNavbar ? "text-primary" : "text-white"
               }  mx-4 border-b-2 border-transparent gil-reg hover:border-secundary cursor-pointer lg:text-xl`}>
             About Us
+          </a>
+
+          <a
+            onClick={() => navigation("portfolio")}
+            className={`${toggleNavbar ? "text-primary" : "text-white"
+              }  mx-4 border-b-2 border-transparent gil-reg hover:border-secundary cursor-pointer lg:text-xl`}>
+            Portfolio
           </a>
           <Link
             href="/blog"
@@ -197,12 +197,12 @@ export const Navbarr = ({ noScrollEffect, career }) => {
             Blogs
           </Link>
 
-          <a
+          {/* <a
             onClick={() => navigation("reaidy")}
             className={`${toggleNavbar ? "text-primary" : "text-white"
               }  mx-4 border-b-2 border-transparent gil-reg hover:border-secundary cursor-pointer lg:text-xl`}>
             Product
-          </a>
+          </a> */}
 
           <a
             onClick={() => navigation("contactUs")}
@@ -237,25 +237,25 @@ export const Navbarr = ({ noScrollEffect, career }) => {
         </a>
 
         <a
-          onClick={() => navigation("portfolio")}
-          className="block px-4 py-2 text-primary2 gil-reg border-b-2 border-transparent hover:border-secundary cursor-pointer">
-          Portfolio
-        </a>
-        <a
           onClick={() => navigation("about")}
           className="block px-4 py-2 text-primary2 gil-reg border-b-2 border-transparent hover:border-secundary cursor-pointer">
           About Us
+        </a>
+        <a
+          onClick={() => navigation("portfolio")}
+          className="block px-4 py-2 text-primary2 gil-reg border-b-2 border-transparent hover:border-secundary cursor-pointer">
+          Portfolio
         </a>
         <Link
           href="/blog"
           className="block px-4 py-2 text-primary2 border-b-2 gil-reg border-transparent hover:border-secundary cursor-pointer">
           Blogs
         </Link>
-        <a
+        {/* <a
           onClick={() => navigation("reaidy")}
           className="block px-4 py-2 text-primary2 gil-reg border-b-2 border-transparent hover:border-secundary cursor-pointer">
           Product
-        </a>
+        </a> */}
         <a
           onClick={() => navigation("contactUs")}
           className="block px-4 py-2 text-primary2 border-b-2 gil-reg border-transparent hover:border-secundary cursor-pointer">

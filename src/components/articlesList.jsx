@@ -20,7 +20,7 @@ const ArticlesList = () => {
         "Ever wondered how cryptocurrency and its underlying blockchain technology work together seamlessly, allowing users to transact with ease? ",
       link: "https://www.linkedin.com/pulse/how-build-launch-dapp-from-scratch-spotmies/?trackingId=HTPLizTDSo%2BVzLDlUacobQ%3D%3D",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FLatest%2Fimg1.png?alt=media&token=edae52c2-027b-4b58-9709-b3f291793e5b",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_Latest_img1.png",
     },
     {
       when: "13 Jan, 2023",
@@ -30,7 +30,7 @@ const ArticlesList = () => {
         "Imagine that data is like a puzzle. Each piece of data is like one small piece of the puzzle, and when all of the pieces are put together, they form a complete picture.",
       link: "https://www.linkedin.com/pulse/implementation-cryptography-blockchain-spotmies/?trackingId=9KOezgthoHknBzYblozLfQ%3D%3D",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FLatest%2Fimg2.png?alt=media&token=5cb61f72-0397-4c21-874f-fe00985fdb8d",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_Latest_img2.png",
     },
     {
       when: "15 Feb, 2023",
@@ -40,7 +40,7 @@ const ArticlesList = () => {
         "It is important to protect your privary because it can help keep you safe from identity theft, fraud, and other crimes. ",
       link: "https://www.linkedin.com/posts/spotmies_data-privacy-activity-7018892815887716353-HbTi?utm_source=share&utm_medium=member_desktop",
       image:
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FLatest%2Fimg3.png?alt=media&token=748d29fb-342b-40b1-bef5-d44570439cc7",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_Latest_img3.png",
     },
   ];
 

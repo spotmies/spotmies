@@ -44,7 +44,7 @@ export default function Services() {
                   description:
                     "Realize your vision with our expert AI & ML product design services.",
                   image:
-                    "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSecondFolder%2FSecond1.avif?alt=media&token=23147974-49ad-4a89-a13a-eaffa8be8152",
+                    "https://spotmiesstorage.blob.core.windows.net/old-data/Second1.avif",
                 })}
               </div>
             </Fade>
@@ -62,7 +62,7 @@ export default function Services() {
                     description:
                       "Experience the future with our advanced neural network solutions.",
                     image:
-                      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSecondFolder%2FSecond3.avif?alt=media&token=a668618e-05b4-4931-b71d-f5a4e029421b",
+                      "https://spotmiesstorage.blob.core.windows.net/old-data/Second3.avif",
                   })}
                 </div>
               </Fade>
@@ -78,7 +78,7 @@ export default function Services() {
                     description:
                       "Elevate your business with our cutting-edge SaaS solutions for seamless scalability and efficiency.",
                     image:
-                      "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSecondFolder%2FSecond4.avif?alt=media&token=a3199497-b42f-4413-b2f9-dab2ba9e0dcb",
+                      "https://spotmiesstorage.blob.core.windows.net/old-data/Second4.avif",
                   })}
                 </div>
               </Fade>
@@ -99,7 +99,7 @@ export default function Services() {
                   description:
                     "Empower your business with the transformative potential of blockchain technology",
                   image:
-                    "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSecondFolder%2FSecond2.avif?alt=media&token=37d68459-0b1f-4f4e-be16-52c2745f98c4",
+                    "https://spotmiesstorage.blob.core.windows.net/old-data/Second2.avif",
                 })}
               </div>
             </Fade>
