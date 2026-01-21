@@ -11,15 +11,15 @@
     "completed": true,
     "overview": {
       "images": [
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/Oscar.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Dashboard-visitors.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Dashboard-Conversations.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Dashboard-Frequently asked topics.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Conversations-1.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Conversations-2.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-webinfo-basic info.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Chat settings-lead info.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Dashboard-feedbacks.png"
+        "https://spotmiesstorage.blob.core.windows.net/old-data/Oscar.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/oscar-Dashboard-visitors.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/oscar-Dashboard-Conversations.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/oscar-Dashboard-Frequently asked topics.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/oscar-Conversations-1.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/oscar-Conversations-2.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/oscar-webinfo-basic info.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/oscar-Chat settings-lead info.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/oscar-Dashboard-feedbacks.png"
       ],
       "techstack": [
         "reactjs",
@@ -32,27 +32,27 @@
       ],
       "content": [
         {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Dashboard-visitors.png",
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/oscar-Dashboard-visitors.png",
           "title": "Introduction: What Does Workewhere Do?",
           "description": "Workewhere is a cutting-edge platform that allows companies to create highly interactive AI-driven chatbots designed to enhance customer engagement and streamline communication. By leveraging advanced AI technology, Workewhere enables businesses to train chatbots using their existing website content, making it easier for them to connect with their customers and provide instant, accurate responses to inquiries."
         },
         {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Dashboard-Frequently asked topics.png",
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/oscar-Dashboard-Frequently asked topics.png",
           "title": "How Does Workewhere Work?",
           "description": "Workewhere utilizes a sophisticated combination of web scraping and AI to gather and process data from a company's website. Once a company provides its website link, Workewhere's built-in web scraping tool extracts relevant information, such as product details, company history, and FAQs. This data forms the foundation for training the chatbot, ensuring it has a deep understanding of the company’s offerings and can accurately represent the brand in all customer interactions."
         },
         {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Conversations-2.png",
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/oscar-Conversations-2.png",
           "title": "Why Use Retrieval-Augmented Generation (RAG) Chatbots?",
           "description": "Traditional chatbots often struggle to provide relevant responses due to their limited understanding and static nature. Workewhere overcomes this limitation by implementing Retrieval-Augmented Generation (RAG) chatbots. These AI-powered chatbots combine retrieval models, which access a database of information, with generation models, which create contextually appropriate responses. The result is a chatbot that can deliver more accurate, relevant, and dynamic answers to user queries, closely mimicking human interaction."
         },
         {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-webinfo-basic info.png",
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/oscar-webinfo-basic info.png",
           "title": "How Is Data Acquired and Used?",
           "description": "Workewhere's process begins with web scraping, where our AI system gathers data directly from the company’s website. This includes text, images, and structured data, which are all used to build a comprehensive knowledge base for the chatbot. The RAG model then retrieves the most relevant pieces of information from this database whenever a user asks a question. After retrieving the data, the generation model tailors the response to match the specific query, ensuring that users receive clear, concise, and informative answers."
         },
         {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/oscar-Chat settings-lead info.png",
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/oscar-Chat settings-lead info.png",
           "title": "What Happens When a User Shows Interest?",
           "description": "If a user shows interest in a product or service while interacting with the chatbot, Workewhere captures essential details such as their name, email, and phone number. This lead information is securely sent to the company, allowing them to follow up with personalized offers or further communication. This seamless integration between AI-driven interaction and lead generation makes Workewhere an invaluable tool for businesses looking to increase conversions and customer satisfaction."
         },
@@ -80,11 +80,11 @@
     "completed": true,
     "overview": {
       "images": [
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/vatsa1.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/vatsa2.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/vatsa3.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/vatsa4.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/vatsa5.png"
+        "https://spotmiesstorage.blob.core.windows.net/old-data/vatsa1.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/vatsa2.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/vatsa3.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/vatsa4.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/vatsa5.png"
       ],
       "techstack": [
         "reactjs",
@@ -92,22 +92,22 @@
       ],
       "content": [
         {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/vatsa2.png",
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/vatsa2.png",
           "title": "Introduction:",
           "description": " Vatsa ProCons empowers businesses to navigate the ever-evolving technological landscape with confidence. We offer cutting-edge solutions and expert guidance that help your organization thrive in the digital age. Whether you're a small startup or a large enterprise, we tailor our services to meet your unique needs and objectives "
         },
         {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/vatsa3.png",
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/vatsa3.png",
           "title": " Who we are ",
           "description": " We are a team of passionate and experienced IT professionals. Our consultants come from diverse backgrounds and bring a wealth of expertise in various industries. We blend innovation with practicality, and our solutions are designed to address your most complex challenges head-on."
         },
         {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/vatsa5.png",
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/vatsa5.png",
           "title": "About Vatsa",
           "description": "At Vatsa ProCons, we are passionate about empowering businesses through technology and innovation. As an IT consulting firm, we offer a wide range of comprehensive services that cater to organizations of all sizes and industries. Our mission is to be your trusted technology advisor, guiding you on a transformative journey towards digital excellence."
         },
         {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/vatsa4.png",
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/vatsa4.png",
           "title": "Our Services"
         }
       ],
@@ -130,11 +130,11 @@
     "completed": true,
     "overview": {
       "images": [
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/credit.report1.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/credit.report2.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/credit.report3.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/credit.report4.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/credit.report5.png"
+        "https://spotmiesstorage.blob.core.windows.net/old-data/credit.report1.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/credit.report2.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/credit.report3.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/credit.report4.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/credit.report5.png"
       ],
       "techstack": [
         "reactjs",
@@ -142,20 +142,20 @@
       ],
       "content": [
         {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/credit.report1.png",
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/credit.report1.png",
           "title": "Introduction:",
           "description": " Introducing credit report, we specialize in empowering individuals with comprehensive financial insights to navigate their borrowing needs confidently. Offering a suite of services tailored to meet diverse financial goals, we provide unparalleled access to crucial information for securing various loans including home loans, personal loans, credit cards, vehicle loans, and a spectrum of other lending products. Our robust platform delivers detailed credit reports, enabling informed decision-making and optimizing loan approval processes. With our expertise, customers can seamlessly explore their borrowing options, streamline loan applications, and embark on their financial journeys with clarity and assurance. Trust us to be your steadfast partner in achieving your lending objectives, ensuring every step towards financial well-being is backed by reliable insights and unwavering support."
         },
         {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/credit.report3.png",
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/credit.report3.png",
           "title": "Credit Report",
           "description": " At our credit report, accessing your credit report is more than just a service—it's an essential tool for understanding and managing your financial health. With our user-friendly platform, gaining insight into your credit report has never been easier. Seamlessly navigate through detailed summaries of your credit history, including accounts, payment history, credit inquiries, and more. Our comprehensive reports provide invaluable transparency, allowing you to identify areas for improvement, dispute inaccuracies, and make informed decisions about your financial future. Whether you're planning to apply for a loan, mortgage, or credit card, having a clear understanding of your credit report empowers you to take control of your financial well-being. Trust us to provide the insights you need to navigate your financial journey with confidence and peace of mind."
         },
         {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/credit.report2.png"
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/credit.report2.png"
         },
         {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/credit.report4.png"
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/credit.report4.png"
         }
       ],
       "links": {
@@ -177,13 +177,13 @@
     "completed": true,
     "overview": {
       "images": [
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit1.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/ZIT.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit3.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit4.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit5.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit6.png",
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit7.png"
+        "https://spotmiesstorage.blob.core.windows.net/old-data/zit1.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/ZIT.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/zit3.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/zit4.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/zit5.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/zit6.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/zit7.png"
       ],
       "techstack": [
         "reactjs",
@@ -191,24 +191,24 @@
       ],
       "content": [
         {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit1.png",
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/zit1.png",
           "title": "Introduction:",
           "description": "Zin is Well-being and Trust through Hybrid Working Our hybrid work solutions reduces stress and burnout, boosts productivity, and promote sustainability. As an employer you save on costs through tax benefits."
         },
         {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/ZIT.png"
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/ZIT.png"
         },
         {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit3.png"
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/zit3.png"
         },
         {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit4.png"
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/zit4.png"
         },
         {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit5.png"
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/zit5.png"
         },
         {
-          "image": "https://reaidystorage.blob.core.windows.net/spotmiespublic/zit6.png"
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/zit6.png"
         }
       ],
       "links": {
@@ -230,11 +230,11 @@
     "completed": true,
     "overview": {
       "images": [
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%206%20(2).jpg?alt=media&token=504a9599-2a40-42d8-a59a-070b6eded842",
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%207%20(1).jpg?alt=media&token=0e697cd2-d690-4226-ac7f-eb56da7a6800",
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%208%20(1).jpg?alt=media&token=8f8f85f0-bd41-4709-ac35-4b2638828792",
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%209%20(1).jpg?alt=media&token=646138ae-0681-4b14-8838-044e227b43ef",
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%2010%20(1).jpg?alt=media&token=8aad3538-28ab-4229-ad0b-c6483746eaf2"
+        "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_FifthFolder_five2.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_SeventhFolder_Desktop - 7 -1-.jpg",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_SeventhFolder_Desktop - 8 -1-.jpg",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_SeventhFolder_Desktop - 9 -1-.jpg",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_SeventhFolder_Desktop - 10 -1-.jpg"
       ],
       "techstack": [
         "reactjs",
@@ -249,22 +249,22 @@
         {
           "title": "Customer-Centric Approach:",
           "description": "As a customer-centric organization, our journey revolves around meeting the dynamic needs of our clients. We continually evolve our offerings to align with the ever-changing landscape of business challenges. Our commitment to innovation drives us to reimagine solutions and delivery models, benefitting not only our customers but also our clients and partners.",
-          "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%207%20(1).jpg?alt=media&token=0e697cd2-d690-4226-ac7f-eb56da7a6800"
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_SeventhFolder_Desktop - 7 -1-.jpg"
         },
         {
           "title": "Innovation and Investment:",
           "description": "A pivotal pillar of our business strategy is our unwavering investment in product/accelerator platforms. This strategic approach not only fosters exceptional value for all stakeholders but also mitigates risks. By constantly refining our platforms, we ensure that our offerings remain at the forefront of technological advancements.",
-          "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%208%20(1).jpg?alt=media&token=8f8f85f0-bd41-4709-ac35-4b2638828792"
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_SeventhFolder_Desktop - 8 -1-.jpg"
         },
         {
           "title": "Our Vision:",
           "description": "At Vashista Dizi Automation Solutions, our vision is crystal clear – to consistently deliver exceptional service and value to our customers. We have positioned ourselves as leaders in the Oracle ecosystem and Data Analytics domain, amplified by our AI-driven services.",
-          "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%209%20(1).jpg?alt=media&token=646138ae-0681-4b14-8838-044e227b43ef"
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_SeventhFolder_Desktop - 9 -1-.jpg"
         },
         {
           "title": "Conclusion:",
           "description": "At Dizi Automation Solutions, our journey is fueled by innovation, expertise, and an unwavering commitment to our customers. We stand ready to help businesses embrace the future, navigate challenges, and seize opportunities in the ever-evolving digital landscape. Join us on this exciting expedition towards excellence, where technology transforms possibilities into realities.",
-          "image": "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSeventhFolder%2FDesktop%20-%2010%20(1).jpg?alt=media&token=8aad3538-28ab-4229-ad0b-c6483746eaf2"
+          "image": "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_SeventhFolder_Desktop - 10 -1-.jpg"
         }
       ],
       "links": {
@@ -285,7 +285,7 @@
     "completed": true,
     "overview": {
       "images": [
-        "https://reaidystorage.blob.core.windows.net/spotmiespublic/08_ (1).png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_FifthFolder_five1.png",
         "https://reaidystorage.blob.core.windows.net/spotmiespublic/312c43169115757.64476fd530cde.png",
         "https://reaidystorage.blob.core.windows.net/spotmiespublic/8c9dd1169115757.64476f00c764c.png",
         "https://reaidystorage.blob.core.windows.net/spotmiespublic/3af8b5169115757.64476f00c681f.png"
@@ -481,7 +481,7 @@
     "completed": true,
     "overview": {
       "images": [
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%201.png?alt=media&token=76a62138-e5ec-4883-a4c6-bce56ff46955",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_FifthFolder_Desktop - 1.png",
         "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%202.png?alt=media&token=637edb53-d53c-470a-9446-b97284ac5cee",
         "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%203.png?alt=media&token=72f5b262-fd24-4fb4-a7fc-fd0366a076f8",
         "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%204.png?alt=media&token=35ae211b-cd48-4793-9ef6-d316b716151c",
