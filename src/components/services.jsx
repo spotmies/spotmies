@@ -115,7 +115,7 @@ export default function Services() {
                   description:
                     "Transform your ideas into reality with our expert product design services",
                   image:
-                    "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FSecondFolder%2FSecond5.png?alt=media&token=78fc21e6-958f-4303-a5ab-168285a4b883",
+                    "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_SecondFolder_Second5.png",
                 })}
               </div>
             </Fade>

@@ -482,10 +482,10 @@
     "overview": {
       "images": [
         "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_FifthFolder_Desktop - 1.png",
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%202.png?alt=media&token=637edb53-d53c-470a-9446-b97284ac5cee",
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%203.png?alt=media&token=72f5b262-fd24-4fb4-a7fc-fd0366a076f8",
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%204.png?alt=media&token=35ae211b-cd48-4793-9ef6-d316b716151c",
-        "https://firebasestorage.googleapis.com/v0/b/web3-spotmies.appspot.com/o/spotmies_site%2FFifthFolder%2FDesktop%20-%205.png?alt=media&token=703aa98c-f780-4cea-9f37-6e232b8b8a83"
+        "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_FifthFolder_Desktop -2.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_FifthFolder_Desktop -3.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_FifthFolder_Desktop -4.png",
+        "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_FifthFolder_Desktop 5.png"
       ],
       "techstack": [
         "figma",
