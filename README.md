@@ -1,4 +1,4 @@
-# Spotmies Website
+# Spotmies Website testing 
 <div style="display:flex" align="center">
 <img src="https://user-images.githubusercontent.com/90003260/237043444-d1fc8ea3-cb9f-42e8-96fe-b87b106e44ce.jpeg" width="400" height="400">
 <img src="https://user-images.githubusercontent.com/90003260/237042909-a77db967-9a27-4de8-9548-d350e0e96a73.jpeg" width="400" height="400">
