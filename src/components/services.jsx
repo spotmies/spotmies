@@ -6,15 +6,20 @@ import {
   AI,
   SAAS,
 } from "@/constants";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { BsArrowRight } from "react-icons/bs";
-import Fade from "react-reveal/Fade";
 
 export default function Services() {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [title, setTitle] = useState(null);
   const [body, setbody] = useState(productDesign);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    setIsVisible(true);
+  }, []);
+
   return (
     <div className="w-[100vw] h-fit md:h-[100vh] bg-bg2" id="services">
       {/* {PopUp(title, body, show, setIsPopupOpen)} */}
@@ -25,100 +30,100 @@ export default function Services() {
         setShow={setIsPopupOpen}
       />
       <div className="flex flex-col justify-center w-[90%] h-full py-[8%] m-auto">
-        <Fade bottom>
-          <p className="gil-bold text-3xl md:text-5xl text-left pb-12 text-text_color2">
-            What We Offer
-          </p>
-        </Fade>
+        <div className={`gil-bold text-3xl md:text-5xl text-left pb-12 text-text_color2 transition-all duration-1000 transform ${
+          isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+        }`}>
+          What We Offer
+        </div>
         <div className="w-full h-full m-auto flex flex-col md:flex-row items-center justify-center ">
           <div className="flex flex-col items-center justify-center h-full w-full md:w-[70%]">
-            <Fade>
-              <div className=" w-full h-[60%] bg-red-300 rounded-xl mb-2 md:mb-6 relative industry-card">
+            <div className={`w-full h-[60%] bg-red-300 rounded-xl mb-2 md:mb-6 relative industry-card transition-all duration-1000 transform delay-300 ${
+              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+            }`}>
+              {dataInsideDiv({
+                onClick: () => {
+                  setIsPopupOpen(true);
+                  setTitle("AI & ML");
+                  setbody(AI);
+                },
+                title: "AI & ML",
+                description:
+                  "Realize your vision with our expert AI & ML product design services.",
+                image:
+                  "https://spotmiesstorage.blob.core.windows.net/old-data/Second1.avif",
+              })}
+            </div>
+
+            <div className="w-full h-[40%] mb-2 md:mb-0 flex flex-row items-center justify-center">
+              <div className={`flex flex-col items-center justify-center w-[50%] h-full bg-blue-100 rounded-xl mr-2 md:mr-6 industry-card relative transition-all duration-1000 transform delay-500 ${
+                isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+              }`}>
                 {dataInsideDiv({
                   onClick: () => {
                     setIsPopupOpen(true);
-                    setTitle("AI & ML");
-                    setbody(AI);
+                    setTitle(" Android & iOS");
+                    setbody(Datascience);
                   },
-                  title: "AI & ML",
+                  title: " Android & iOS",
                   description:
-                    "Realize your vision with our expert AI & ML product design services.",
+                    "Experience the future with our advanced neural network solutions.",
                   image:
-                    "https://spotmiesstorage.blob.core.windows.net/old-data/Second1.avif",
+                    "https://spotmiesstorage.blob.core.windows.net/old-data/Second3.avif",
                 })}
               </div>
-            </Fade>
-
-            <div className="w-full h-[40%] mb-2 md:mb-0 flex flex-row items-center justify-center">
-              <Fade>
-                <div className="flex flex-col items-center justify-center w-[50%] h-full bg-blue-100 rounded-xl mr-2 md:mr-6 industry-card relative">
-                  {dataInsideDiv({
-                    onClick: () => {
-                      setIsPopupOpen(true);
-                      setTitle(" Android & iOS");
-                      setbody(Datascience);
-                    },
-                    title: " Android & iOS",
-                    description:
-                      "Experience the future with our advanced neural network solutions.",
-                    image:
-                      "https://spotmiesstorage.blob.core.windows.net/old-data/Second3.avif",
-                  })}
-                </div>
-              </Fade>
-              <Fade>
-                <div className="flex flex-col items-center justify-center w-[50%] h-full bg-green-100 rounded-xl industry-card relative">
-                  {dataInsideDiv({
-                    onClick: () => {
-                      setIsPopupOpen(true);
-                      setTitle("SaaS");
-                      setbody(SAAS);
-                    },
-                    title: "SaaS",
-                    description:
-                      "Elevate your business with our cutting-edge SaaS solutions for seamless scalability and efficiency.",
-                    image:
-                      "https://spotmiesstorage.blob.core.windows.net/old-data/Second4.avif",
-                  })}
-                </div>
-              </Fade>
+              <div className={`flex flex-col items-center justify-center w-[50%] h-full bg-green-100 rounded-xl industry-card relative transition-all duration-1000 transform delay-700 ${
+                isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+              }`}>
+                {dataInsideDiv({
+                  onClick: () => {
+                    setIsPopupOpen(true);
+                    setTitle("SaaS");
+                    setbody(SAAS);
+                  },
+                  title: "SaaS",
+                  description:
+                    "Elevate your business with our cutting-edge SaaS solutions for seamless scalability and efficiency.",
+                  image:
+                    "https://spotmiesstorage.blob.core.windows.net/old-data/Second4.avif",
+                })}
+              </div>
             </div>
           </div>
           <div className="flex flex-col items-center justify-center h-full ml-0 md:ml-6 w-full md:w-[30%]">
             {/* this div contains 2 div, 1st one is 40% 2nd one is 60% heights respectively */}
-            <Fade>
-              <div className="flex flex-col items-center justify-center w-full h-[40%] bg-yellow-100 rounded-xl mb-2 md:mb-6 industry-card relative">
-                {dataInsideDiv({
-                  onClick: () => {
-                    setIsPopupOpen(true);
-                    setTitle("Blockchain & Web3");
-                    setbody(blockchainDevelopment);
-                  },
-                  //this is changed
-                  title: "Blockchain & Web3",
-                  description:
-                    "Empower your business with the transformative potential of blockchain technology",
-                  image:
-                    "https://spotmiesstorage.blob.core.windows.net/old-data/Second2.avif",
-                })}
-              </div>
-            </Fade>
-            <Fade>
-              <div className="flex flex-col items-center justify-center w-full h-[60%] bg-pink-100 rounded-xl industry-card relative">
-                {dataInsideDiv({
-                  onClick: () => {
-                    setIsPopupOpen(true);
-                    setTitle("Product Design");
-                    setbody(productDesign);
-                  },
-                  title: "Product Design",
-                  description:
-                    "Transform your ideas into reality with our expert product design services",
-                  image:
-                    "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_SecondFolder_Second5.png",
-                })}
-              </div>
-            </Fade>
+            <div className={`flex flex-col items-center justify-center w-full h-[40%] bg-yellow-100 rounded-xl mb-2 md:mb-6 industry-card relative transition-all duration-1000 transform delay-900 ${
+              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+            }`}>
+              {dataInsideDiv({
+                onClick: () => {
+                  setIsPopupOpen(true);
+                  setTitle("Blockchain & Web3");
+                  setbody(blockchainDevelopment);
+                },
+                //this is changed
+                title: "Blockchain & Web3",
+                description:
+                  "Empower your business with the transformative potential of blockchain technology",
+                image:
+                  "https://spotmiesstorage.blob.core.windows.net/old-data/Second2.avif",
+              })}
+            </div>
+            <div className={`flex flex-col items-center justify-center w-full h-[60%] bg-pink-100 rounded-xl industry-card relative transition-all duration-1000 transform delay-1100 ${
+              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+            }`}>
+              {dataInsideDiv({
+                onClick: () => {
+                  setIsPopupOpen(true);
+                  setTitle("Product Design");
+                  setbody(productDesign);
+                },
+                title: "Product Design",
+                description:
+                  "Transform your ideas into reality with our expert product design services",
+                image:
+                  "https://spotmiesstorage.blob.core.windows.net/old-data/spotmies_site_SecondFolder_Second5.png",
+              })}
+            </div>
           </div>
         </div>
       </div>
@@ -133,11 +138,9 @@ export default function Services() {
             onClick={() => {
               onClick && onClick();
             }}>
-          <Fade bottom>
-            <p className="text-white gil-bold text-md md:text-3xl lg:text-4xl" >
-              {title}
-            </p>
-          </Fade>
+          <p className="text-white gil-bold text-md md:text-3xl lg:text-4xl transition-all duration-700 transform hover:scale-105">
+            {title}
+          </p>
           <p className="text-white text-xs md:text-lg lg:text-2xl onHoverShow text-justify pt-0 lg:pt-6 md:pt-4">
             {description}
           </p>
